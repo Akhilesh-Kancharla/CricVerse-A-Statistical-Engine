@@ -1,0 +1,2191 @@
+---
+meta:
+  data_version: 0.92
+  created: '2024-03-22'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Chennai
+  competition: IPL
+  dates:
+  - '2024-03-22'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Chennai Super Kings
+    by:
+      wickets: 6
+  overs: 20
+  player_of_match:
+  - Mustafizur Rahman
+  players:
+    Royal Challengers Bengaluru:
+    - V Kohli
+    - F du Plessis
+    - RM Patidar
+    - GJ Maxwell
+    - C Green
+    - Anuj Rawat
+    - KD Karthik
+    - KV Sharma
+    - AS Joseph
+    - Mayank Dagar
+    - Mohammed Siraj
+    - Yash Dayal
+    Chennai Super Kings:
+    - RD Gaikwad
+    - R Ravindra
+    - AM Rahane
+    - DJ Mitchell
+    - S Dube
+    - RA Jadeja
+    - Sameer Rizvi
+    - MS Dhoni
+    - DL Chahar
+    - M Theekshana
+    - TU Deshpande
+    - Mustafizur Rahman
+  registry:
+    people:
+      AM Rahane: 29e95537
+      AS Joseph: b0946605
+      Anuj Rawat: c8f5f961
+      C Green: eaa76d3c
+      DJ Mitchell: eade4650
+      DL Chahar: 23eeb873
+      F du Plessis: 3355b542
+      GJ Maxwell: b681e71e
+      HAS Khalid: 291ded7c
+      J Srinath: bad31fac
+      KD Karthik: c03f1114
+      KV Sharma: 119678fd
+      M Kuppuraj: aa4063d0
+      M Theekshana: f24c6701
+      MS Dhoni: 4a8a2e3b
+      Mayank Dagar: a457cfb5
+      Mohammed Siraj: 2f49c897
+      Mustafizur Rahman: 0a8fce53
+      Nitin Menon: e1d41d9e
+      R Ravindra: ba5e1069
+      RA Jadeja: fe93fd9d
+      RD Gaikwad: 45a43fe2
+      RM Patidar: c740ea83
+      S Dube: a4e37e47
+      Sameer Rizvi: f89d3b11
+      TU Deshpande: 46a9bea1
+      V Kohli: ba607b88
+      VK Sharma: a7a49df4
+      Yash Dayal: 7210d461
+  teams:
+  - Royal Challengers Bengaluru
+  - Chennai Super Kings
+  toss:
+    winner: Royal Challengers Bengaluru
+    decision: bat
+  umpires:
+  - HAS Khalid
+  - VK Sharma
+  venue: MA Chidambaram Stadium, Chepauk, Chennai
+innings:
+- 1st innings:
+    team: Royal Challengers Bengaluru
+    deliveries:
+    - 0.1:
+        non_striker: F du Plessis
+        bowler: DL Chahar
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: V Kohli
+    - 0.2:
+        non_striker: F du Plessis
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Kohli
+    - 0.3:
+        non_striker: V Kohli
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: F du Plessis
+    - 0.4:
+        non_striker: V Kohli
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: F du Plessis
+    - 0.5:
+        non_striker: V Kohli
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: F du Plessis
+    - 0.6:
+        non_striker: V Kohli
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: F du Plessis
+    - 0.7:
+        non_striker: V Kohli
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: F du Plessis
+    - 1.1:
+        non_striker: V Kohli
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: F du Plessis
+    - 1.2:
+        non_striker: V Kohli
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: F du Plessis
+    - 1.3:
+        non_striker: V Kohli
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: F du Plessis
+    - 1.4:
+        non_striker: V Kohli
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: F du Plessis
+    - 1.5:
+        non_striker: V Kohli
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: F du Plessis
+    - 1.6:
+        non_striker: V Kohli
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: F du Plessis
+    - 2.1:
+        non_striker: V Kohli
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: F du Plessis
+    - 2.2:
+        non_striker: V Kohli
+        bowler: DL Chahar
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: F du Plessis
+    - 2.3:
+        non_striker: V Kohli
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: F du Plessis
+    - 2.4:
+        non_striker: V Kohli
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: F du Plessis
+    - 2.5:
+        non_striker: V Kohli
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: F du Plessis
+    - 2.6:
+        non_striker: V Kohli
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: F du Plessis
+    - 2.7:
+        non_striker: V Kohli
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: F du Plessis
+    - 3.1:
+        non_striker: F du Plessis
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Kohli
+    - 3.2:
+        non_striker: F du Plessis
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Kohli
+    - 3.3:
+        non_striker: V Kohli
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: F du Plessis
+    - 3.4:
+        non_striker: V Kohli
+        bowler: M Theekshana
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          byes: 1
+        batsman: F du Plessis
+    - 3.5:
+        non_striker: F du Plessis
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Kohli
+    - 3.6:
+        non_striker: V Kohli
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: F du Plessis
+    - 4.1:
+        non_striker: V Kohli
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: F du Plessis
+    - 4.2:
+        non_striker: V Kohli
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: F du Plessis
+    - 4.3:
+        non_striker: V Kohli
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: F du Plessis
+        wicket:
+          player_out: F du Plessis
+          fielders:
+          - R Ravindra
+          kind: caught
+    - 4.4:
+        non_striker: V Kohli
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RM Patidar
+    - 4.5:
+        non_striker: V Kohli
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RM Patidar
+    - 4.6:
+        non_striker: V Kohli
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RM Patidar
+        wicket:
+          player_out: RM Patidar
+          fielders:
+          - MS Dhoni
+          kind: caught
+    - 5.1:
+        non_striker: GJ Maxwell
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Kohli
+    - 5.2:
+        non_striker: GJ Maxwell
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Kohli
+    - 5.3:
+        non_striker: V Kohli
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GJ Maxwell
+        wicket:
+          player_out: GJ Maxwell
+          fielders:
+          - MS Dhoni
+          kind: caught
+    - 5.4:
+        non_striker: V Kohli
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C Green
+    - 5.5:
+        non_striker: V Kohli
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C Green
+    - 5.6:
+        non_striker: V Kohli
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C Green
+    - 6.1:
+        non_striker: C Green
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Kohli
+    - 6.2:
+        non_striker: V Kohli
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: C Green
+    - 6.3:
+        non_striker: V Kohli
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C Green
+    - 6.4:
+        non_striker: V Kohli
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Green
+    - 6.5:
+        non_striker: C Green
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Kohli
+    - 6.6:
+        non_striker: V Kohli
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Green
+    - 7.1:
+        non_striker: V Kohli
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C Green
+    - 7.2:
+        non_striker: V Kohli
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Green
+    - 7.3:
+        non_striker: C Green
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: V Kohli
+    - 7.4:
+        non_striker: C Green
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Kohli
+    - 7.5:
+        non_striker: V Kohli
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: C Green
+    - 7.6:
+        non_striker: V Kohli
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Green
+    - 8.1:
+        non_striker: V Kohli
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Green
+    - 8.2:
+        non_striker: C Green
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Kohli
+    - 8.3:
+        non_striker: V Kohli
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C Green
+    - 8.4:
+        non_striker: V Kohli
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: C Green
+    - 8.5:
+        non_striker: V Kohli
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Green
+    - 8.6:
+        non_striker: C Green
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Kohli
+    - 9.1:
+        non_striker: C Green
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: V Kohli
+    - 9.2:
+        non_striker: C Green
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: V Kohli
+    - 9.3:
+        non_striker: C Green
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Kohli
+    - 9.4:
+        non_striker: V Kohli
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Green
+    - 9.5:
+        non_striker: C Green
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Kohli
+    - 9.6:
+        non_striker: V Kohli
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Green
+    - 10.1:
+        non_striker: V Kohli
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C Green
+    - 10.2:
+        non_striker: V Kohli
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C Green
+    - 10.3:
+        non_striker: V Kohli
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Green
+    - 10.4:
+        non_striker: C Green
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Kohli
+    - 10.5:
+        non_striker: C Green
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Kohli
+    - 10.6:
+        non_striker: C Green
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Kohli
+    - 11.1:
+        non_striker: V Kohli
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Green
+    - 11.2:
+        non_striker: C Green
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Kohli
+        wicket:
+          player_out: V Kohli
+          fielders:
+          - R Ravindra
+          kind: caught
+    - 11.3:
+        non_striker: C Green
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anuj Rawat
+    - 11.4:
+        non_striker: Anuj Rawat
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C Green
+        wicket:
+          player_out: C Green
+          kind: bowled
+    - 11.5:
+        non_striker: Anuj Rawat
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KD Karthik
+    - 11.6:
+        non_striker: Anuj Rawat
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 12.1:
+        non_striker: Anuj Rawat
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KD Karthik
+    - 12.2:
+        non_striker: Anuj Rawat
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 12.3:
+        non_striker: KD Karthik
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anuj Rawat
+    - 12.4:
+        non_striker: Anuj Rawat
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KD Karthik
+    - 12.5:
+        non_striker: Anuj Rawat
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 12.6:
+        non_striker: KD Karthik
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anuj Rawat
+    - 13.1:
+        non_striker: KD Karthik
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anuj Rawat
+    - 13.2:
+        non_striker: Anuj Rawat
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 13.3:
+        non_striker: KD Karthik
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Anuj Rawat
+    - 13.4:
+        non_striker: KD Karthik
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anuj Rawat
+    - 13.5:
+        non_striker: Anuj Rawat
+        bowler: RA Jadeja
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: KD Karthik
+    - 13.6:
+        non_striker: KD Karthik
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anuj Rawat
+    - 14.1:
+        non_striker: KD Karthik
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Anuj Rawat
+    - 14.2:
+        non_striker: KD Karthik
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anuj Rawat
+    - 14.3:
+        non_striker: Anuj Rawat
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 14.4:
+        non_striker: KD Karthik
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anuj Rawat
+    - 14.5:
+        non_striker: Anuj Rawat
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 14.6:
+        non_striker: KD Karthik
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Anuj Rawat
+    - 15.1:
+        non_striker: Anuj Rawat
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KD Karthik
+    - 15.2:
+        non_striker: Anuj Rawat
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 15.3:
+        non_striker: KD Karthik
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anuj Rawat
+    - 15.4:
+        non_striker: Anuj Rawat
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 15.5:
+        non_striker: KD Karthik
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anuj Rawat
+    - 15.6:
+        non_striker: Anuj Rawat
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KD Karthik
+    - 16.1:
+        non_striker: KD Karthik
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anuj Rawat
+    - 16.2:
+        non_striker: KD Karthik
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Anuj Rawat
+    - 16.3:
+        non_striker: KD Karthik
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anuj Rawat
+    - 16.4:
+        non_striker: KD Karthik
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anuj Rawat
+    - 16.5:
+        non_striker: Anuj Rawat
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: KD Karthik
+    - 16.6:
+        non_striker: Anuj Rawat
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 16.7:
+        non_striker: KD Karthik
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anuj Rawat
+    - 17.1:
+        non_striker: Anuj Rawat
+        bowler: TU Deshpande
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: KD Karthik
+    - 17.2:
+        non_striker: Anuj Rawat
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KD Karthik
+    - 17.3:
+        non_striker: Anuj Rawat
+        bowler: TU Deshpande
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: KD Karthik
+    - 17.4:
+        non_striker: Anuj Rawat
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 17.5:
+        non_striker: KD Karthik
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Anuj Rawat
+    - 17.6:
+        non_striker: KD Karthik
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anuj Rawat
+    - 17.7:
+        non_striker: KD Karthik
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Anuj Rawat
+    - 17.8:
+        non_striker: KD Karthik
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Anuj Rawat
+    - 18.1:
+        non_striker: Anuj Rawat
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KD Karthik
+    - 18.2:
+        non_striker: Anuj Rawat
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 18.3:
+        non_striker: KD Karthik
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Anuj Rawat
+    - 18.4:
+        non_striker: KD Karthik
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anuj Rawat
+    - 18.5:
+        non_striker: Anuj Rawat
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KD Karthik
+    - 18.6:
+        non_striker: Anuj Rawat
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: KD Karthik
+    - 18.7:
+        non_striker: Anuj Rawat
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: KD Karthik
+    - 19.1:
+        non_striker: Anuj Rawat
+        bowler: TU Deshpande
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: KD Karthik
+    - 19.2:
+        non_striker: Anuj Rawat
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KD Karthik
+    - 19.3:
+        non_striker: Anuj Rawat
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KD Karthik
+    - 19.4:
+        non_striker: Anuj Rawat
+        bowler: TU Deshpande
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: KD Karthik
+    - 19.5:
+        non_striker: Anuj Rawat
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 19.6:
+        non_striker: KD Karthik
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anuj Rawat
+    - 19.7:
+        non_striker: KD Karthik
+        bowler: TU Deshpande
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          wides: 2
+        batsman: Anuj Rawat
+    - 19.8:
+        non_striker: Anuj Rawat
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KD Karthik
+    - 19.9:
+        non_striker: Anuj Rawat
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KD Karthik
+        wicket:
+          player_out: Anuj Rawat
+          fielders:
+          - MS Dhoni
+          kind: run out
+- 2nd innings:
+    team: Chennai Super Kings
+    deliveries:
+    - 0.1:
+        non_striker: R Ravindra
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        replacements:
+          match:
+          - in: Yash Dayal
+            out: KD Karthik
+            team: Royal Challengers Bengaluru
+            reason: impact_player
+        batsman: RD Gaikwad
+    - 0.2:
+        non_striker: R Ravindra
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 0.3:
+        non_striker: R Ravindra
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 0.4:
+        non_striker: R Ravindra
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 0.5:
+        non_striker: R Ravindra
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RD Gaikwad
+    - 0.6:
+        non_striker: R Ravindra
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 1.1:
+        non_striker: RD Gaikwad
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Ravindra
+    - 1.2:
+        non_striker: RD Gaikwad
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Ravindra
+    - 1.3:
+        non_striker: R Ravindra
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 1.4:
+        non_striker: R Ravindra
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 1.5:
+        non_striker: R Ravindra
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 1.6:
+        non_striker: R Ravindra
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 2.1:
+        non_striker: RD Gaikwad
+        bowler: Mohammed Siraj
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: R Ravindra
+    - 2.2:
+        non_striker: RD Gaikwad
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Ravindra
+    - 2.3:
+        non_striker: RD Gaikwad
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Ravindra
+    - 2.4:
+        non_striker: R Ravindra
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 2.5:
+        non_striker: RD Gaikwad
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Ravindra
+    - 2.6:
+        non_striker: R Ravindra
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 2.7:
+        non_striker: RD Gaikwad
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: R Ravindra
+    - 3.1:
+        non_striker: R Ravindra
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 3.2:
+        non_striker: RD Gaikwad
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Ravindra
+    - 3.3:
+        non_striker: RD Gaikwad
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Ravindra
+    - 3.4:
+        non_striker: RD Gaikwad
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Ravindra
+    - 3.5:
+        non_striker: R Ravindra
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RD Gaikwad
+    - 3.6:
+        non_striker: R Ravindra
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+        wicket:
+          player_out: RD Gaikwad
+          fielders:
+          - C Green
+          kind: caught
+    - 4.1:
+        non_striker: AM Rahane
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: R Ravindra
+    - 4.2:
+        non_striker: AM Rahane
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Ravindra
+    - 4.3:
+        non_striker: R Ravindra
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rahane
+    - 4.4:
+        non_striker: R Ravindra
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rahane
+    - 4.5:
+        non_striker: AM Rahane
+        bowler: AS Joseph
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: R Ravindra
+    - 4.6:
+        non_striker: AM Rahane
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: R Ravindra
+    - 4.7:
+        non_striker: AM Rahane
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Ravindra
+    - 5.1:
+        non_striker: R Ravindra
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rahane
+    - 5.2:
+        non_striker: R Ravindra
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rahane
+    - 5.3:
+        non_striker: R Ravindra
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AM Rahane
+    - 5.4:
+        non_striker: R Ravindra
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AM Rahane
+    - 5.5:
+        non_striker: R Ravindra
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AM Rahane
+    - 5.6:
+        non_striker: R Ravindra
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: AM Rahane
+    - 6.1:
+        non_striker: R Ravindra
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rahane
+    - 6.2:
+        non_striker: R Ravindra
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AM Rahane
+    - 6.3:
+        non_striker: R Ravindra
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rahane
+    - 6.4:
+        non_striker: R Ravindra
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rahane
+    - 6.5:
+        non_striker: AM Rahane
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: R Ravindra
+    - 6.6:
+        non_striker: AM Rahane
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Ravindra
+        wicket:
+          player_out: R Ravindra
+          fielders:
+          - RM Patidar
+          kind: caught
+    - 7.1:
+        non_striker: DJ Mitchell
+        bowler: Mayank Dagar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rahane
+    - 7.2:
+        non_striker: AM Rahane
+        bowler: Mayank Dagar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Mitchell
+    - 7.3:
+        non_striker: AM Rahane
+        bowler: Mayank Dagar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Mitchell
+    - 7.4:
+        non_striker: AM Rahane
+        bowler: Mayank Dagar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Mitchell
+    - 7.5:
+        non_striker: AM Rahane
+        bowler: Mayank Dagar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 7.6:
+        non_striker: DJ Mitchell
+        bowler: Mayank Dagar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rahane
+    - 8.1:
+        non_striker: AM Rahane
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Mitchell
+    - 8.2:
+        non_striker: AM Rahane
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DJ Mitchell
+    - 8.3:
+        non_striker: AM Rahane
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DJ Mitchell
+    - 8.4:
+        non_striker: AM Rahane
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 8.5:
+        non_striker: DJ Mitchell
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rahane
+    - 8.6:
+        non_striker: AM Rahane
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 9.1:
+        non_striker: AM Rahane
+        bowler: Mayank Dagar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 9.2:
+        non_striker: DJ Mitchell
+        bowler: Mayank Dagar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rahane
+    - 9.3:
+        non_striker: AM Rahane
+        bowler: Mayank Dagar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Mitchell
+    - 9.4:
+        non_striker: AM Rahane
+        bowler: Mayank Dagar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Mitchell
+    - 9.5:
+        non_striker: AM Rahane
+        bowler: Mayank Dagar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 9.6:
+        non_striker: DJ Mitchell
+        bowler: Mayank Dagar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rahane
+    - 10.1:
+        non_striker: DJ Mitchell
+        bowler: C Green
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: AM Rahane
+    - 10.2:
+        non_striker: DJ Mitchell
+        bowler: C Green
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AM Rahane
+    - 10.3:
+        non_striker: DJ Mitchell
+        bowler: C Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rahane
+        wicket:
+          player_out: AM Rahane
+          fielders:
+          - GJ Maxwell
+          kind: caught
+    - 10.4:
+        non_striker: DJ Mitchell
+        bowler: C Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        replacements:
+          match:
+          - in: S Dube
+            out: Mustafizur Rahman
+            team: Chennai Super Kings
+            reason: impact_player
+        batsman: S Dube
+    - 10.5:
+        non_striker: S Dube
+        bowler: C Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 10.6:
+        non_striker: DJ Mitchell
+        bowler: C Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dube
+    - 10.7:
+        non_striker: DJ Mitchell
+        bowler: C Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dube
+    - 11.1:
+        non_striker: DJ Mitchell
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dube
+    - 11.2:
+        non_striker: S Dube
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 11.3:
+        non_striker: DJ Mitchell
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dube
+    - 11.4:
+        non_striker: S Dube
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 11.5:
+        non_striker: DJ Mitchell
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dube
+    - 11.6:
+        non_striker: S Dube
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DJ Mitchell
+    - 12.1:
+        non_striker: DJ Mitchell
+        bowler: C Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dube
+    - 12.2:
+        non_striker: DJ Mitchell
+        bowler: C Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dube
+    - 12.3:
+        non_striker: S Dube
+        bowler: C Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Mitchell
+        wicket:
+          player_out: DJ Mitchell
+          fielders:
+          - RM Patidar
+          kind: caught
+    - 12.4:
+        non_striker: S Dube
+        bowler: C Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Jadeja
+    - 12.5:
+        non_striker: S Dube
+        bowler: C Green
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: RA Jadeja
+    - 12.6:
+        non_striker: S Dube
+        bowler: C Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RA Jadeja
+    - 12.7:
+        non_striker: S Dube
+        bowler: C Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Jadeja
+    - 13.1:
+        non_striker: S Dube
+        bowler: GJ Maxwell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Jadeja
+    - 13.2:
+        non_striker: S Dube
+        bowler: GJ Maxwell
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RA Jadeja
+    - 13.3:
+        non_striker: S Dube
+        bowler: GJ Maxwell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Jadeja
+    - 13.4:
+        non_striker: RA Jadeja
+        bowler: GJ Maxwell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dube
+    - 13.5:
+        non_striker: RA Jadeja
+        bowler: GJ Maxwell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dube
+    - 13.6:
+        non_striker: RA Jadeja
+        bowler: GJ Maxwell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dube
+    - 14.1:
+        non_striker: S Dube
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RA Jadeja
+    - 14.2:
+        non_striker: S Dube
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RA Jadeja
+    - 14.3:
+        non_striker: S Dube
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Jadeja
+    - 14.4:
+        non_striker: RA Jadeja
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dube
+    - 14.5:
+        non_striker: S Dube
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Jadeja
+    - 14.6:
+        non_striker: RA Jadeja
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dube
+    - 15.1:
+        non_striker: S Dube
+        bowler: C Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Jadeja
+    - 15.2:
+        non_striker: RA Jadeja
+        bowler: C Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: S Dube
+    - 15.3:
+        non_striker: RA Jadeja
+        bowler: C Green
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: S Dube
+    - 15.4:
+        non_striker: RA Jadeja
+        bowler: C Green
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: S Dube
+    - 15.5:
+        non_striker: S Dube
+        bowler: C Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Jadeja
+    - 15.6:
+        non_striker: RA Jadeja
+        bowler: C Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dube
+    - 15.7:
+        non_striker: S Dube
+        bowler: C Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Jadeja
+    - 16.1:
+        non_striker: S Dube
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RA Jadeja
+    - 16.2:
+        non_striker: S Dube
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RA Jadeja
+    - 16.3:
+        non_striker: S Dube
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Jadeja
+    - 16.4:
+        non_striker: RA Jadeja
+        bowler: AS Joseph
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: S Dube
+    - 16.5:
+        non_striker: RA Jadeja
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: S Dube
+    - 16.6:
+        non_striker: RA Jadeja
+        bowler: AS Joseph
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: S Dube
+    - 16.7:
+        non_striker: RA Jadeja
+        bowler: AS Joseph
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        extras:
+          byes: 4
+        batsman: S Dube
+    - 16.8:
+        non_striker: RA Jadeja
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dube
+    - 17.1:
+        non_striker: RA Jadeja
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dube
+    - 17.2:
+        non_striker: RA Jadeja
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: S Dube
+    - 17.3:
+        non_striker: RA Jadeja
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dube
+    - 17.4:
+        non_striker: RA Jadeja
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dube
+    - 17.5:
+        non_striker: RA Jadeja
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: S Dube
+    - 17.6:
+        non_striker: RA Jadeja
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dube
+    - 18.1:
+        non_striker: S Dube
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Jadeja
+    - 18.2:
+        non_striker: RA Jadeja
+        bowler: AS Joseph
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: S Dube
+    - 18.3:
+        non_striker: RA Jadeja
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dube
+    - 18.4:
+        non_striker: RA Jadeja
+        bowler: AS Joseph
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: S Dube
+    - 18.5:
+        non_striker: RA Jadeja
+        bowler: AS Joseph
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        extras:
+          legbyes: 4
+        batsman: S Dube

@@ -1,0 +1,2159 @@
+---
+meta:
+  data_version: 0.92
+  created: '2024-04-26'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Kolkata
+  competition: IPL
+  dates:
+  - '2024-04-26'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Punjab Kings
+    by:
+      wickets: 8
+  overs: 20
+  player_of_match:
+  - JM Bairstow
+  players:
+    Kolkata Knight Riders:
+    - AS Roy
+    - PD Salt
+    - SP Narine
+    - VR Iyer
+    - AD Russell
+    - SS Iyer
+    - RK Singh
+    - Ramandeep Singh
+    - A Raghuvanshi
+    - CV Varun
+    - Harshit Rana
+    - PVD Chameera
+    Punjab Kings:
+    - Arshdeep Singh
+    - P Simran Singh
+    - JM Bairstow
+    - RR Rossouw
+    - Shashank Singh
+    - SM Curran
+    - JM Sharma
+    - Ashutosh Sharma
+    - Harpreet Brar
+    - HV Patel
+    - K Rabada
+    - RD Chahar
+  registry:
+    people:
+      A Raghuvanshi: d7017798
+      AD Russell: bbd41817
+      AK Chaudhary: fdcc6236
+      AS Roy: e4cdf230
+      Arshdeep Singh: 244048f6
+      Ashutosh Sharma: 84d9c311
+      CV Varun: 5b7ab5a9
+      HV Patel: f986ca1a
+      Harpreet Brar: c05edf8e
+      Harshit Rana: 77b1aa15
+      JM Bairstow: abb83e27
+      JM Sharma: 800d2d97
+      K Rabada: e62dd25d
+      P Simran Singh: 9418198b
+      PD Salt: 3d284ca3
+      PVD Chameera: 327b58d3
+      R Pandit: 8a604384
+      R Rajesh Kannan: c9062c3e
+      RD Chahar: 2ed569a0
+      RK Singh: 0a509d6b
+      RR Rossouw: cad00a4d
+      Ramandeep Singh: be24ead0
+      SM Curran: e94915e6
+      SP Narine: 9d430b40
+      SS Iyer: 85ec8e33
+      Sanjay Verma: bc19a37f
+      Shashank Singh: 26989d80
+      VR Iyer: a24be938
+      YC Barde: b90f3346
+  teams:
+  - Kolkata Knight Riders
+  - Punjab Kings
+  toss:
+    winner: Punjab Kings
+    decision: field
+  umpires:
+  - AK Chaudhary
+  - YC Barde
+  venue: Eden Gardens, Kolkata
+innings:
+- 1st innings:
+    team: Kolkata Knight Riders
+    deliveries:
+    - 0.1:
+        non_striker: SP Narine
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PD Salt
+    - 0.2:
+        non_striker: SP Narine
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PD Salt
+    - 0.3:
+        non_striker: PD Salt
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SP Narine
+    - 0.4:
+        non_striker: PD Salt
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Narine
+    - 0.5:
+        non_striker: PD Salt
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Narine
+    - 0.6:
+        non_striker: PD Salt
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SP Narine
+    - 1.1:
+        non_striker: SP Narine
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PD Salt
+    - 1.2:
+        non_striker: SP Narine
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PD Salt
+    - 1.3:
+        non_striker: SP Narine
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PD Salt
+    - 1.4:
+        non_striker: PD Salt
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SP Narine
+    - 1.5:
+        non_striker: PD Salt
+        bowler: Arshdeep Singh
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: SP Narine
+    - 1.6:
+        non_striker: PD Salt
+        bowler: Arshdeep Singh
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: SP Narine
+    - 1.7:
+        non_striker: PD Salt
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SP Narine
+    - 1.8:
+        non_striker: PD Salt
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Narine
+    - 2.1:
+        non_striker: SP Narine
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PD Salt
+    - 2.2:
+        non_striker: PD Salt
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Narine
+    - 2.3:
+        non_striker: SP Narine
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: PD Salt
+    - 2.4:
+        non_striker: SP Narine
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PD Salt
+    - 2.5:
+        non_striker: SP Narine
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: PD Salt
+    - 2.6:
+        non_striker: SP Narine
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PD Salt
+    - 3.1:
+        non_striker: PD Salt
+        bowler: K Rabada
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Narine
+    - 3.2:
+        non_striker: SP Narine
+        bowler: K Rabada
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PD Salt
+    - 3.3:
+        non_striker: SP Narine
+        bowler: K Rabada
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: PD Salt
+    - 3.4:
+        non_striker: SP Narine
+        bowler: K Rabada
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PD Salt
+    - 3.5:
+        non_striker: PD Salt
+        bowler: K Rabada
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SP Narine
+    - 3.6:
+        non_striker: PD Salt
+        bowler: K Rabada
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SP Narine
+    - 3.7:
+        non_striker: PD Salt
+        bowler: K Rabada
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SP Narine
+    - 4.1:
+        non_striker: SP Narine
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PD Salt
+    - 4.2:
+        non_striker: SP Narine
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PD Salt
+    - 4.3:
+        non_striker: SP Narine
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PD Salt
+    - 4.4:
+        non_striker: PD Salt
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Narine
+    - 4.5:
+        non_striker: SP Narine
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PD Salt
+    - 4.6:
+        non_striker: PD Salt
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SP Narine
+    - 5.1:
+        non_striker: SP Narine
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PD Salt
+    - 5.2:
+        non_striker: SP Narine
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PD Salt
+    - 5.3:
+        non_striker: SP Narine
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PD Salt
+    - 5.4:
+        non_striker: SP Narine
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PD Salt
+    - 5.5:
+        non_striker: SP Narine
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PD Salt
+    - 5.6:
+        non_striker: PD Salt
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Narine
+    - 6.1:
+        non_striker: PD Salt
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Narine
+    - 6.2:
+        non_striker: PD Salt
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SP Narine
+    - 6.3:
+        non_striker: PD Salt
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Narine
+    - 6.4:
+        non_striker: PD Salt
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Narine
+    - 6.5:
+        non_striker: SP Narine
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PD Salt
+    - 6.6:
+        non_striker: PD Salt
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Narine
+    - 7.1:
+        non_striker: PD Salt
+        bowler: K Rabada
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: SP Narine
+    - 7.2:
+        non_striker: PD Salt
+        bowler: K Rabada
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: SP Narine
+    - 7.3:
+        non_striker: PD Salt
+        bowler: K Rabada
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Narine
+    - 7.4:
+        non_striker: PD Salt
+        bowler: K Rabada
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SP Narine
+    - 7.5:
+        non_striker: PD Salt
+        bowler: K Rabada
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SP Narine
+    - 7.6:
+        non_striker: PD Salt
+        bowler: K Rabada
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Narine
+    - 7.7:
+        non_striker: SP Narine
+        bowler: K Rabada
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: PD Salt
+    - 7.8:
+        non_striker: SP Narine
+        bowler: K Rabada
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PD Salt
+    - 7.9:
+        non_striker: SP Narine
+        bowler: K Rabada
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: PD Salt
+    - 8.1:
+        non_striker: PD Salt
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SP Narine
+    - 8.2:
+        non_striker: PD Salt
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Narine
+    - 8.3:
+        non_striker: PD Salt
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Narine
+    - 8.4:
+        non_striker: SP Narine
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PD Salt
+    - 8.5:
+        non_striker: SP Narine
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: PD Salt
+    - 8.6:
+        non_striker: SP Narine
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PD Salt
+    - 9.1:
+        non_striker: PD Salt
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SP Narine
+    - 9.2:
+        non_striker: PD Salt
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Narine
+    - 9.3:
+        non_striker: PD Salt
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SP Narine
+    - 9.4:
+        non_striker: PD Salt
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Narine
+    - 9.5:
+        non_striker: SP Narine
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: PD Salt
+    - 9.6:
+        non_striker: SP Narine
+        bowler: HV Patel
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          noballs: 1
+        batsman: PD Salt
+    - 9.7:
+        non_striker: SP Narine
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PD Salt
+    - 10.1:
+        non_striker: SP Narine
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PD Salt
+    - 10.2:
+        non_striker: PD Salt
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Narine
+        wicket:
+          player_out: SP Narine
+          fielders:
+          - JM Bairstow
+          kind: caught
+    - 10.3:
+        non_striker: PD Salt
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Iyer
+    - 10.4:
+        non_striker: PD Salt
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: VR Iyer
+    - 10.5:
+        non_striker: PD Salt
+        bowler: RD Chahar
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: VR Iyer
+    - 10.6:
+        non_striker: VR Iyer
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PD Salt
+    - 11.1:
+        non_striker: VR Iyer
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PD Salt
+    - 11.2:
+        non_striker: PD Salt
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: VR Iyer
+    - 11.3:
+        non_striker: PD Salt
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: VR Iyer
+    - 11.4:
+        non_striker: PD Salt
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 11.5:
+        non_striker: VR Iyer
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PD Salt
+    - 11.6:
+        non_striker: PD Salt
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Iyer
+    - 12.1:
+        non_striker: VR Iyer
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: PD Salt
+    - 12.2:
+        non_striker: VR Iyer
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: PD Salt
+    - 12.3:
+        non_striker: VR Iyer
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PD Salt
+        wicket:
+          player_out: PD Salt
+          kind: bowled
+    - 12.4:
+        non_striker: VR Iyer
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Russell
+    - 12.5:
+        non_striker: VR Iyer
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AD Russell
+    - 12.6:
+        non_striker: VR Iyer
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AD Russell
+    - 13.1:
+        non_striker: AD Russell
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Iyer
+    - 13.2:
+        non_striker: AD Russell
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: VR Iyer
+    - 13.3:
+        non_striker: AD Russell
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 13.4:
+        non_striker: VR Iyer
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Russell
+    - 13.5:
+        non_striker: AD Russell
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 13.6:
+        non_striker: VR Iyer
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Russell
+    - 14.1:
+        non_striker: AD Russell
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 14.2:
+        non_striker: VR Iyer
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Russell
+    - 14.3:
+        non_striker: VR Iyer
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AD Russell
+    - 14.4:
+        non_striker: VR Iyer
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Russell
+    - 14.5:
+        non_striker: VR Iyer
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Russell
+    - 14.6:
+        non_striker: AD Russell
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: VR Iyer
+    - 15.1:
+        non_striker: VR Iyer
+        bowler: Arshdeep Singh
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: AD Russell
+    - 15.2:
+        non_striker: VR Iyer
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AD Russell
+    - 15.3:
+        non_striker: VR Iyer
+        bowler: Arshdeep Singh
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: AD Russell
+    - 15.4:
+        non_striker: VR Iyer
+        bowler: Arshdeep Singh
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: AD Russell
+    - 15.5:
+        non_striker: VR Iyer
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AD Russell
+    - 15.6:
+        non_striker: VR Iyer
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Russell
+        wicket:
+          player_out: AD Russell
+          fielders:
+          - HV Patel
+          kind: caught
+    - 15.7:
+        non_striker: VR Iyer
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SS Iyer
+    - 15.8:
+        non_striker: VR Iyer
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Iyer
+    - 15.9:
+        non_striker: SS Iyer
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Iyer
+    - 16.1:
+        non_striker: VR Iyer
+        bowler: K Rabada
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Iyer
+    - 16.2:
+        non_striker: SS Iyer
+        bowler: K Rabada
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: VR Iyer
+    - 16.3:
+        non_striker: SS Iyer
+        bowler: K Rabada
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: VR Iyer
+    - 16.4:
+        non_striker: SS Iyer
+        bowler: K Rabada
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Iyer
+    - 16.5:
+        non_striker: SS Iyer
+        bowler: K Rabada
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 16.6:
+        non_striker: VR Iyer
+        bowler: K Rabada
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Iyer
+    - 17.1:
+        non_striker: VR Iyer
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Iyer
+    - 17.2:
+        non_striker: SS Iyer
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 17.3:
+        non_striker: VR Iyer
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SS Iyer
+    - 17.4:
+        non_striker: VR Iyer
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SS Iyer
+    - 17.5:
+        non_striker: VR Iyer
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SS Iyer
+    - 17.6:
+        non_striker: VR Iyer
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SS Iyer
+    - 18.1:
+        non_striker: SS Iyer
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: VR Iyer
+    - 18.2:
+        non_striker: SS Iyer
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 18.3:
+        non_striker: VR Iyer
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Iyer
+        wicket:
+          player_out: SS Iyer
+          fielders:
+          - K Rabada
+          kind: caught
+    - 18.4:
+        non_striker: VR Iyer
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Singh
+    - 18.5:
+        non_striker: VR Iyer
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Singh
+    - 18.6:
+        non_striker: RK Singh
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: VR Iyer
+    - 19.1:
+        non_striker: VR Iyer
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RK Singh
+    - 19.2:
+        non_striker: VR Iyer
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Singh
+        wicket:
+          player_out: RK Singh
+          fielders:
+          - Ashutosh Sharma
+          kind: caught
+    - 19.3:
+        non_striker: VR Iyer
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Ramandeep Singh
+    - 19.4:
+        non_striker: VR Iyer
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ramandeep Singh
+    - 19.5:
+        non_striker: VR Iyer
+        bowler: HV Patel
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          byes: 1
+        batsman: Ramandeep Singh
+    - 19.6:
+        non_striker: Ramandeep Singh
+        bowler: HV Patel
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: VR Iyer
+    - 19.7:
+        non_striker: Ramandeep Singh
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Iyer
+        wicket:
+          player_out: VR Iyer
+          fielders:
+          - JM Sharma
+          kind: run out
+- 2nd innings:
+    team: Punjab Kings
+    deliveries:
+    - 0.1:
+        non_striker: JM Bairstow
+        bowler: PVD Chameera
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        replacements:
+          match:
+          - in: P Simran Singh
+            out: Arshdeep Singh
+            team: Punjab Kings
+            reason: impact_player
+        batsman: P Simran Singh
+    - 0.2:
+        non_striker: P Simran Singh
+        bowler: PVD Chameera
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Bairstow
+    - 0.3:
+        non_striker: JM Bairstow
+        bowler: PVD Chameera
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Simran Singh
+    - 0.4:
+        non_striker: P Simran Singh
+        bowler: PVD Chameera
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Bairstow
+    - 0.5:
+        non_striker: P Simran Singh
+        bowler: PVD Chameera
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Bairstow
+    - 0.6:
+        non_striker: JM Bairstow
+        bowler: PVD Chameera
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Simran Singh
+    - 1.1:
+        non_striker: P Simran Singh
+        bowler: Harshit Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Bairstow
+    - 1.2:
+        non_striker: P Simran Singh
+        bowler: Harshit Rana
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: JM Bairstow
+    - 1.3:
+        non_striker: JM Bairstow
+        bowler: Harshit Rana
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: P Simran Singh
+    - 1.4:
+        non_striker: JM Bairstow
+        bowler: Harshit Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Simran Singh
+    - 1.5:
+        non_striker: JM Bairstow
+        bowler: Harshit Rana
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: P Simran Singh
+    - 1.6:
+        non_striker: JM Bairstow
+        bowler: Harshit Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Simran Singh
+    - 2.1:
+        non_striker: JM Bairstow
+        bowler: PVD Chameera
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: P Simran Singh
+    - 2.2:
+        non_striker: JM Bairstow
+        bowler: PVD Chameera
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Simran Singh
+    - 2.3:
+        non_striker: JM Bairstow
+        bowler: PVD Chameera
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: P Simran Singh
+    - 2.4:
+        non_striker: JM Bairstow
+        bowler: PVD Chameera
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: P Simran Singh
+    - 2.5:
+        non_striker: JM Bairstow
+        bowler: PVD Chameera
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: P Simran Singh
+    - 2.6:
+        non_striker: JM Bairstow
+        bowler: PVD Chameera
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: P Simran Singh
+    - 2.7:
+        non_striker: JM Bairstow
+        bowler: PVD Chameera
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: P Simran Singh
+    - 3.1:
+        non_striker: P Simran Singh
+        bowler: AS Roy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        replacements:
+          match:
+          - in: AS Roy
+            out: VR Iyer
+            team: Kolkata Knight Riders
+            reason: impact_player
+        batsman: JM Bairstow
+    - 3.2:
+        non_striker: P Simran Singh
+        bowler: AS Roy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Bairstow
+    - 3.3:
+        non_striker: P Simran Singh
+        bowler: AS Roy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Bairstow
+    - 3.4:
+        non_striker: JM Bairstow
+        bowler: AS Roy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: P Simran Singh
+    - 3.5:
+        non_striker: JM Bairstow
+        bowler: AS Roy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: P Simran Singh
+    - 3.6:
+        non_striker: JM Bairstow
+        bowler: AS Roy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Simran Singh
+    - 4.1:
+        non_striker: JM Bairstow
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: P Simran Singh
+    - 4.2:
+        non_striker: JM Bairstow
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: P Simran Singh
+    - 4.3:
+        non_striker: JM Bairstow
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Simran Singh
+    - 4.4:
+        non_striker: JM Bairstow
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Simran Singh
+    - 4.5:
+        non_striker: P Simran Singh
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Bairstow
+    - 4.6:
+        non_striker: P Simran Singh
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Bairstow
+    - 5.1:
+        non_striker: P Simran Singh
+        bowler: AS Roy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Bairstow
+    - 5.2:
+        non_striker: P Simran Singh
+        bowler: AS Roy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Bairstow
+    - 5.3:
+        non_striker: P Simran Singh
+        bowler: AS Roy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Bairstow
+    - 5.4:
+        non_striker: P Simran Singh
+        bowler: AS Roy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Bairstow
+    - 5.5:
+        non_striker: P Simran Singh
+        bowler: AS Roy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Bairstow
+    - 5.6:
+        non_striker: P Simran Singh
+        bowler: AS Roy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Bairstow
+        wicket:
+          player_out: P Simran Singh
+          fielders:
+          - SP Narine
+          kind: run out
+    - 6.1:
+        non_striker: RR Rossouw
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Bairstow
+    - 6.2:
+        non_striker: RR Rossouw
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Bairstow
+    - 6.3:
+        non_striker: JM Bairstow
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rossouw
+    - 6.4:
+        non_striker: JM Bairstow
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rossouw
+    - 6.5:
+        non_striker: JM Bairstow
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rossouw
+    - 6.6:
+        non_striker: JM Bairstow
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rossouw
+    - 7.1:
+        non_striker: RR Rossouw
+        bowler: Harshit Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Bairstow
+    - 7.2:
+        non_striker: RR Rossouw
+        bowler: Harshit Rana
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Bairstow
+    - 7.3:
+        non_striker: RR Rossouw
+        bowler: Harshit Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Bairstow
+    - 7.4:
+        non_striker: JM Bairstow
+        bowler: Harshit Rana
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RR Rossouw
+    - 7.5:
+        non_striker: JM Bairstow
+        bowler: Harshit Rana
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RR Rossouw
+    - 7.6:
+        non_striker: JM Bairstow
+        bowler: Harshit Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rossouw
+    - 8.1:
+        non_striker: JM Bairstow
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RR Rossouw
+    - 8.2:
+        non_striker: JM Bairstow
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rossouw
+    - 8.3:
+        non_striker: RR Rossouw
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Bairstow
+    - 8.4:
+        non_striker: JM Bairstow
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rossouw
+    - 8.5:
+        non_striker: RR Rossouw
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Bairstow
+    - 8.6:
+        non_striker: RR Rossouw
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Bairstow
+    - 9.1:
+        non_striker: RR Rossouw
+        bowler: AD Russell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Bairstow
+    - 9.2:
+        non_striker: RR Rossouw
+        bowler: AD Russell
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Bairstow
+    - 9.3:
+        non_striker: RR Rossouw
+        bowler: AD Russell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Bairstow
+    - 9.4:
+        non_striker: JM Bairstow
+        bowler: AD Russell
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RR Rossouw
+    - 9.5:
+        non_striker: JM Bairstow
+        bowler: AD Russell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rossouw
+    - 9.6:
+        non_striker: RR Rossouw
+        bowler: AD Russell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Bairstow
+    - 10.1:
+        non_striker: JM Bairstow
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rossouw
+    - 10.2:
+        non_striker: RR Rossouw
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Bairstow
+    - 10.3:
+        non_striker: RR Rossouw
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Bairstow
+    - 10.4:
+        non_striker: RR Rossouw
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Bairstow
+    - 10.5:
+        non_striker: RR Rossouw
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Bairstow
+    - 10.6:
+        non_striker: RR Rossouw
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Bairstow
+    - 11.1:
+        non_striker: JM Bairstow
+        bowler: AD Russell
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: RR Rossouw
+    - 11.2:
+        non_striker: JM Bairstow
+        bowler: AD Russell
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RR Rossouw
+    - 11.3:
+        non_striker: JM Bairstow
+        bowler: AD Russell
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: RR Rossouw
+    - 11.4:
+        non_striker: JM Bairstow
+        bowler: AD Russell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rossouw
+    - 11.5:
+        non_striker: RR Rossouw
+        bowler: AD Russell
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Bairstow
+    - 11.6:
+        non_striker: RR Rossouw
+        bowler: AD Russell
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Bairstow
+    - 11.7:
+        non_striker: RR Rossouw
+        bowler: AD Russell
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JM Bairstow
+    - 11.8:
+        non_striker: RR Rossouw
+        bowler: AD Russell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Bairstow
+    - 12.1:
+        non_striker: RR Rossouw
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Bairstow
+    - 12.2:
+        non_striker: RR Rossouw
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Bairstow
+    - 12.3:
+        non_striker: JM Bairstow
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rossouw
+        wicket:
+          player_out: RR Rossouw
+          fielders:
+          - SS Iyer
+          kind: caught
+    - 12.4:
+        non_striker: JM Bairstow
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shashank Singh
+    - 12.5:
+        non_striker: JM Bairstow
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shashank Singh
+    - 12.6:
+        non_striker: JM Bairstow
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Singh
+    - 13.1:
+        non_striker: JM Bairstow
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shashank Singh
+    - 13.2:
+        non_striker: JM Bairstow
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shashank Singh
+    - 13.3:
+        non_striker: JM Bairstow
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shashank Singh
+    - 13.4:
+        non_striker: JM Bairstow
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Singh
+    - 13.5:
+        non_striker: Shashank Singh
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Bairstow
+    - 13.6:
+        non_striker: JM Bairstow
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Singh
+    - 14.1:
+        non_striker: JM Bairstow
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Singh
+    - 14.2:
+        non_striker: Shashank Singh
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Bairstow
+    - 14.3:
+        non_striker: JM Bairstow
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shashank Singh
+    - 14.4:
+        non_striker: JM Bairstow
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shashank Singh
+    - 14.5:
+        non_striker: JM Bairstow
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Singh
+    - 14.6:
+        non_striker: Shashank Singh
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JM Bairstow
+    - 15.1:
+        non_striker: JM Bairstow
+        bowler: Harshit Rana
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shashank Singh
+    - 15.2:
+        non_striker: JM Bairstow
+        bowler: Harshit Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Singh
+    - 15.3:
+        non_striker: Shashank Singh
+        bowler: Harshit Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Bairstow
+    - 15.4:
+        non_striker: Shashank Singh
+        bowler: Harshit Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Bairstow
+    - 15.5:
+        non_striker: JM Bairstow
+        bowler: Harshit Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Singh
+    - 15.6:
+        non_striker: Shashank Singh
+        bowler: Harshit Rana
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JM Bairstow
+    - 16.1:
+        non_striker: JM Bairstow
+        bowler: PVD Chameera
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shashank Singh
+    - 16.2:
+        non_striker: JM Bairstow
+        bowler: PVD Chameera
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shashank Singh
+    - 16.3:
+        non_striker: JM Bairstow
+        bowler: PVD Chameera
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shashank Singh
+    - 16.4:
+        non_striker: JM Bairstow
+        bowler: PVD Chameera
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shashank Singh
+    - 16.5:
+        non_striker: JM Bairstow
+        bowler: PVD Chameera
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shashank Singh
+    - 16.6:
+        non_striker: JM Bairstow
+        bowler: PVD Chameera
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shashank Singh
+    - 17.1:
+        non_striker: Shashank Singh
+        bowler: Harshit Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Bairstow
+    - 17.2:
+        non_striker: JM Bairstow
+        bowler: Harshit Rana
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Shashank Singh
+    - 17.3:
+        non_striker: JM Bairstow
+        bowler: Harshit Rana
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shashank Singh
+    - 17.4:
+        non_striker: JM Bairstow
+        bowler: Harshit Rana
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shashank Singh
+    - 17.5:
+        non_striker: JM Bairstow
+        bowler: Harshit Rana
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shashank Singh
+    - 17.6:
+        non_striker: JM Bairstow
+        bowler: Harshit Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Singh
+    - 17.7:
+        non_striker: Shashank Singh
+        bowler: Harshit Rana
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Bairstow
+    - 18.1:
+        non_striker: JM Bairstow
+        bowler: Ramandeep Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shashank Singh
+    - 18.2:
+        non_striker: JM Bairstow
+        bowler: Ramandeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Singh
+    - 18.3:
+        non_striker: Shashank Singh
+        bowler: Ramandeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Bairstow
+    - 18.4:
+        non_striker: JM Bairstow
+        bowler: Ramandeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Singh

@@ -1,0 +1,2081 @@
+---
+meta:
+  data_version: 0.92
+  created: '2024-04-08'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Chennai
+  competition: IPL
+  dates:
+  - '2024-04-08'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Chennai Super Kings
+    by:
+      wickets: 7
+  overs: 20
+  player_of_match:
+  - RA Jadeja
+  players:
+    Kolkata Knight Riders:
+    - PD Salt
+    - SP Narine
+    - A Raghuvanshi
+    - SS Iyer
+    - VR Iyer
+    - Ramandeep Singh
+    - RK Singh
+    - AD Russell
+    - AS Roy
+    - MA Starc
+    - VG Arora
+    - CV Varun
+    Chennai Super Kings:
+    - Mustafizur Rahman
+    - R Ravindra
+    - RD Gaikwad
+    - DJ Mitchell
+    - S Dube
+    - MS Dhoni
+    - AM Rahane
+    - Sameer Rizvi
+    - RA Jadeja
+    - SN Thakur
+    - TU Deshpande
+    - M Theekshana
+  registry:
+    people:
+      A Raghuvanshi: d7017798
+      AD Russell: bbd41817
+      AK Chaudhary: fdcc6236
+      AM Rahane: 29e95537
+      AS Roy: e4cdf230
+      BNJ Oxenford: c1add349
+      CV Varun: 5b7ab5a9
+      DJ Mitchell: eade4650
+      M Krishnadas: e298c588
+      M Nayyar: b7bccddb
+      M Theekshana: f24c6701
+      MA Starc: 3fb19989
+      MS Dhoni: 4a8a2e3b
+      MV Saidharshan Kumar: 54b6007b
+      Mustafizur Rahman: 0a8fce53
+      PD Salt: 3d284ca3
+      R Ravindra: ba5e1069
+      RA Jadeja: fe93fd9d
+      RD Gaikwad: 45a43fe2
+      RK Singh: 0a509d6b
+      Ramandeep Singh: be24ead0
+      S Dube: a4e37e47
+      SN Thakur: 1abb78f8
+      SP Narine: 9d430b40
+      SS Iyer: 85ec8e33
+      Sameer Rizvi: f89d3b11
+      TU Deshpande: 46a9bea1
+      VG Arora: 7c3b3b78
+      VR Iyer: a24be938
+  teams:
+  - Kolkata Knight Riders
+  - Chennai Super Kings
+  toss:
+    winner: Chennai Super Kings
+    decision: field
+  umpires:
+  - AK Chaudhary
+  - MV Saidharshan Kumar
+  venue: MA Chidambaram Stadium, Chepauk, Chennai
+innings:
+- 1st innings:
+    team: Kolkata Knight Riders
+    deliveries:
+    - 0.1:
+        non_striker: SP Narine
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PD Salt
+        wicket:
+          player_out: PD Salt
+          fielders:
+          - RA Jadeja
+          kind: caught
+    - 0.2:
+        non_striker: SP Narine
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Raghuvanshi
+    - 0.3:
+        non_striker: SP Narine
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Raghuvanshi
+    - 0.4:
+        non_striker: A Raghuvanshi
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Narine
+    - 0.5:
+        non_striker: A Raghuvanshi
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Narine
+    - 0.6:
+        non_striker: A Raghuvanshi
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Narine
+    - 1.1:
+        non_striker: SP Narine
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Raghuvanshi
+    - 1.2:
+        non_striker: A Raghuvanshi
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Narine
+    - 1.3:
+        non_striker: SP Narine
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Raghuvanshi
+    - 1.4:
+        non_striker: SP Narine
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: A Raghuvanshi
+    - 1.5:
+        non_striker: SP Narine
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Raghuvanshi
+    - 1.6:
+        non_striker: SP Narine
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Raghuvanshi
+    - 2.1:
+        non_striker: A Raghuvanshi
+        bowler: TU Deshpande
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        extras:
+          legbyes: 4
+        batsman: SP Narine
+    - 2.2:
+        non_striker: A Raghuvanshi
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SP Narine
+    - 2.3:
+        non_striker: A Raghuvanshi
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Narine
+    - 2.4:
+        non_striker: A Raghuvanshi
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SP Narine
+    - 2.5:
+        non_striker: A Raghuvanshi
+        bowler: TU Deshpande
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: SP Narine
+    - 2.6:
+        non_striker: A Raghuvanshi
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SP Narine
+    - 2.7:
+        non_striker: A Raghuvanshi
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Narine
+    - 3.1:
+        non_striker: SP Narine
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: A Raghuvanshi
+    - 3.2:
+        non_striker: SP Narine
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Raghuvanshi
+    - 3.3:
+        non_striker: SP Narine
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Raghuvanshi
+    - 3.4:
+        non_striker: A Raghuvanshi
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SP Narine
+    - 3.5:
+        non_striker: A Raghuvanshi
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Narine
+    - 3.6:
+        non_striker: SP Narine
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Raghuvanshi
+    - 4.1:
+        non_striker: SP Narine
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Raghuvanshi
+    - 4.2:
+        non_striker: SP Narine
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: A Raghuvanshi
+    - 4.3:
+        non_striker: SP Narine
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Raghuvanshi
+    - 4.4:
+        non_striker: A Raghuvanshi
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Narine
+    - 4.5:
+        non_striker: A Raghuvanshi
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Narine
+    - 4.6:
+        non_striker: A Raghuvanshi
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SP Narine
+    - 5.1:
+        non_striker: SP Narine
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: A Raghuvanshi
+    - 5.2:
+        non_striker: SP Narine
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Raghuvanshi
+    - 5.3:
+        non_striker: SP Narine
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Raghuvanshi
+    - 5.4:
+        non_striker: A Raghuvanshi
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Narine
+    - 5.5:
+        non_striker: A Raghuvanshi
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Narine
+    - 5.6:
+        non_striker: A Raghuvanshi
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: SP Narine
+    - 5.7:
+        non_striker: A Raghuvanshi
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Narine
+    - 6.1:
+        non_striker: SP Narine
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Raghuvanshi
+        wicket:
+          player_out: A Raghuvanshi
+          kind: lbw
+    - 6.2:
+        non_striker: SP Narine
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Iyer
+    - 6.3:
+        non_striker: SS Iyer
+        bowler: RA Jadeja
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: SP Narine
+    - 6.4:
+        non_striker: SS Iyer
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Narine
+    - 6.5:
+        non_striker: SP Narine
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Iyer
+    - 6.6:
+        non_striker: SS Iyer
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Narine
+        wicket:
+          player_out: SP Narine
+          fielders:
+          - M Theekshana
+          kind: caught
+    - 6.7:
+        non_striker: SS Iyer
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 7.1:
+        non_striker: SS Iyer
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Iyer
+    - 7.2:
+        non_striker: SS Iyer
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Iyer
+    - 7.3:
+        non_striker: SS Iyer
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Iyer
+    - 7.4:
+        non_striker: SS Iyer
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Iyer
+    - 7.5:
+        non_striker: SS Iyer
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Iyer
+    - 7.6:
+        non_striker: SS Iyer
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: VR Iyer
+    - 8.1:
+        non_striker: VR Iyer
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Iyer
+    - 8.2:
+        non_striker: SS Iyer
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Iyer
+        wicket:
+          player_out: VR Iyer
+          fielders:
+          - DJ Mitchell
+          kind: caught
+    - 8.3:
+        non_striker: SS Iyer
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ramandeep Singh
+    - 8.4:
+        non_striker: SS Iyer
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ramandeep Singh
+    - 8.5:
+        non_striker: SS Iyer
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ramandeep Singh
+    - 8.6:
+        non_striker: SS Iyer
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ramandeep Singh
+    - 9.1:
+        non_striker: Ramandeep Singh
+        bowler: R Ravindra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Iyer
+    - 9.2:
+        non_striker: Ramandeep Singh
+        bowler: R Ravindra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Iyer
+    - 9.3:
+        non_striker: Ramandeep Singh
+        bowler: R Ravindra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Iyer
+    - 9.4:
+        non_striker: SS Iyer
+        bowler: R Ravindra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ramandeep Singh
+    - 9.5:
+        non_striker: Ramandeep Singh
+        bowler: R Ravindra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Iyer
+    - 9.6:
+        non_striker: SS Iyer
+        bowler: R Ravindra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ramandeep Singh
+    - 10.1:
+        non_striker: SS Iyer
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ramandeep Singh
+    - 10.2:
+        non_striker: Ramandeep Singh
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Iyer
+    - 10.3:
+        non_striker: Ramandeep Singh
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Iyer
+    - 10.4:
+        non_striker: Ramandeep Singh
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Iyer
+    - 10.5:
+        non_striker: SS Iyer
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ramandeep Singh
+    - 10.6:
+        non_striker: Ramandeep Singh
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SS Iyer
+    - 11.1:
+        non_striker: SS Iyer
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ramandeep Singh
+    - 11.2:
+        non_striker: SS Iyer
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ramandeep Singh
+    - 11.3:
+        non_striker: Ramandeep Singh
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Iyer
+    - 11.4:
+        non_striker: SS Iyer
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Ramandeep Singh
+    - 11.5:
+        non_striker: SS Iyer
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ramandeep Singh
+        wicket:
+          player_out: Ramandeep Singh
+          kind: bowled
+    - 11.6:
+        non_striker: SS Iyer
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Singh
+    - 12.1:
+        non_striker: RK Singh
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Iyer
+    - 12.2:
+        non_striker: SS Iyer
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Singh
+    - 12.3:
+        non_striker: RK Singh
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Iyer
+    - 12.4:
+        non_striker: RK Singh
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Iyer
+    - 12.5:
+        non_striker: SS Iyer
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Singh
+    - 12.6:
+        non_striker: SS Iyer
+        bowler: RA Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Singh
+    - 13.1:
+        non_striker: RK Singh
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Iyer
+    - 13.2:
+        non_striker: SS Iyer
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Singh
+    - 13.3:
+        non_striker: RK Singh
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Iyer
+    - 13.4:
+        non_striker: SS Iyer
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Singh
+    - 13.5:
+        non_striker: RK Singh
+        bowler: SN Thakur
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: SS Iyer
+    - 13.6:
+        non_striker: RK Singh
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Iyer
+    - 13.7:
+        non_striker: RK Singh
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Iyer
+    - 14.1:
+        non_striker: RK Singh
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SS Iyer
+    - 14.2:
+        non_striker: RK Singh
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Iyer
+    - 14.3:
+        non_striker: RK Singh
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Iyer
+    - 14.4:
+        non_striker: SS Iyer
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Singh
+    - 14.5:
+        non_striker: SS Iyer
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Singh
+    - 14.6:
+        non_striker: RK Singh
+        bowler: M Theekshana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Iyer
+    - 15.1:
+        non_striker: RK Singh
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Iyer
+    - 15.2:
+        non_striker: RK Singh
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Iyer
+    - 15.3:
+        non_striker: SS Iyer
+        bowler: SN Thakur
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          noballs: 1
+        batsman: RK Singh
+    - 15.4:
+        non_striker: SS Iyer
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RK Singh
+    - 15.5:
+        non_striker: SS Iyer
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Singh
+    - 15.6:
+        non_striker: RK Singh
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SS Iyer
+    - 15.7:
+        non_striker: RK Singh
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Iyer
+    - 16.1:
+        non_striker: RK Singh
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Iyer
+    - 16.2:
+        non_striker: SS Iyer
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RK Singh
+    - 16.3:
+        non_striker: SS Iyer
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Singh
+    - 16.4:
+        non_striker: SS Iyer
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Singh
+        wicket:
+          player_out: RK Singh
+          kind: bowled
+    - 16.5:
+        non_striker: SS Iyer
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Russell
+    - 16.6:
+        non_striker: SS Iyer
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Russell
+    - 17.1:
+        non_striker: SS Iyer
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Russell
+    - 17.2:
+        non_striker: SS Iyer
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Russell
+    - 17.3:
+        non_striker: SS Iyer
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 1
+          total: 5
+          batsman: 4
+        extras:
+          noballs: 1
+        batsman: AD Russell
+    - 17.4:
+        non_striker: SS Iyer
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Russell
+    - 17.5:
+        non_striker: SS Iyer
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Russell
+    - 17.6:
+        non_striker: SS Iyer
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: AD Russell
+    - 17.7:
+        non_striker: SS Iyer
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Russell
+    - 17.8:
+        non_striker: AD Russell
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SS Iyer
+    - 18.1:
+        non_striker: SS Iyer
+        bowler: TU Deshpande
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: AD Russell
+    - 18.2:
+        non_striker: SS Iyer
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AD Russell
+    - 18.3:
+        non_striker: SS Iyer
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Russell
+        wicket:
+          player_out: AD Russell
+          fielders:
+          - DJ Mitchell
+          kind: caught
+    - 18.4:
+        non_striker: SS Iyer
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        replacements:
+          match:
+          - in: AS Roy
+            out: RK Singh
+            team: Kolkata Knight Riders
+            reason: impact_player
+        batsman: AS Roy
+    - 18.5:
+        non_striker: AS Roy
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SS Iyer
+    - 18.6:
+        non_striker: AS Roy
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Iyer
+    - 18.7:
+        non_striker: SS Iyer
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AS Roy
+    - 19.1:
+        non_striker: AS Roy
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Iyer
+        wicket:
+          player_out: SS Iyer
+          fielders:
+          - RA Jadeja
+          kind: caught
+    - 19.2:
+        non_striker: AS Roy
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Starc
+    - 19.3:
+        non_striker: AS Roy
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Starc
+    - 19.4:
+        non_striker: AS Roy
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Starc
+        wicket:
+          player_out: MA Starc
+          fielders:
+          - R Ravindra
+          kind: caught
+    - 19.5:
+        non_striker: AS Roy
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VG Arora
+    - 19.6:
+        non_striker: VG Arora
+        bowler: Mustafizur Rahman
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          byes: 1
+        batsman: AS Roy
+- 2nd innings:
+    team: Chennai Super Kings
+    deliveries:
+    - 0.1:
+        non_striker: RD Gaikwad
+        bowler: MA Starc
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Ravindra
+    - 0.2:
+        non_striker: R Ravindra
+        bowler: MA Starc
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RD Gaikwad
+    - 0.3:
+        non_striker: R Ravindra
+        bowler: MA Starc
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 0.4:
+        non_striker: R Ravindra
+        bowler: MA Starc
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 0.5:
+        non_striker: R Ravindra
+        bowler: MA Starc
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 0.6:
+        non_striker: R Ravindra
+        bowler: MA Starc
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: RD Gaikwad
+    - 0.7:
+        non_striker: R Ravindra
+        bowler: MA Starc
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 1.1:
+        non_striker: RD Gaikwad
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Ravindra
+    - 1.2:
+        non_striker: R Ravindra
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RD Gaikwad
+    - 1.3:
+        non_striker: R Ravindra
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 1.4:
+        non_striker: R Ravindra
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 1.5:
+        non_striker: R Ravindra
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 1.6:
+        non_striker: R Ravindra
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RD Gaikwad
+    - 2.1:
+        non_striker: RD Gaikwad
+        bowler: MA Starc
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: R Ravindra
+    - 2.2:
+        non_striker: RD Gaikwad
+        bowler: MA Starc
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Ravindra
+    - 2.3:
+        non_striker: RD Gaikwad
+        bowler: MA Starc
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Ravindra
+    - 2.4:
+        non_striker: RD Gaikwad
+        bowler: MA Starc
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Ravindra
+    - 2.5:
+        non_striker: RD Gaikwad
+        bowler: MA Starc
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Ravindra
+    - 2.6:
+        non_striker: R Ravindra
+        bowler: MA Starc
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 2.7:
+        non_striker: RD Gaikwad
+        bowler: MA Starc
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Ravindra
+    - 3.1:
+        non_striker: R Ravindra
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 3.2:
+        non_striker: RD Gaikwad
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Ravindra
+        wicket:
+          player_out: R Ravindra
+          fielders:
+          - CV Varun
+          kind: caught
+    - 3.3:
+        non_striker: RD Gaikwad
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 3.4:
+        non_striker: DJ Mitchell
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 3.5:
+        non_striker: RD Gaikwad
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Mitchell
+    - 3.6:
+        non_striker: RD Gaikwad
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Mitchell
+    - 4.1:
+        non_striker: DJ Mitchell
+        bowler: AS Roy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RD Gaikwad
+    - 4.2:
+        non_striker: DJ Mitchell
+        bowler: AS Roy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 4.3:
+        non_striker: DJ Mitchell
+        bowler: AS Roy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 4.4:
+        non_striker: DJ Mitchell
+        bowler: AS Roy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RD Gaikwad
+    - 4.5:
+        non_striker: DJ Mitchell
+        bowler: AS Roy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RD Gaikwad
+    - 4.6:
+        non_striker: DJ Mitchell
+        bowler: AS Roy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 5.1:
+        non_striker: RD Gaikwad
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 5.2:
+        non_striker: DJ Mitchell
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 5.3:
+        non_striker: RD Gaikwad
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 5.4:
+        non_striker: DJ Mitchell
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RD Gaikwad
+    - 5.5:
+        non_striker: DJ Mitchell
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RD Gaikwad
+    - 5.6:
+        non_striker: DJ Mitchell
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 6.1:
+        non_striker: RD Gaikwad
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 6.2:
+        non_striker: DJ Mitchell
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 6.3:
+        non_striker: DJ Mitchell
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 6.4:
+        non_striker: RD Gaikwad
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DJ Mitchell
+    - 6.5:
+        non_striker: RD Gaikwad
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DJ Mitchell
+    - 6.6:
+        non_striker: RD Gaikwad
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Mitchell
+    - 7.1:
+        non_striker: DJ Mitchell
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 7.2:
+        non_striker: DJ Mitchell
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 7.3:
+        non_striker: DJ Mitchell
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 7.4:
+        non_striker: DJ Mitchell
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 7.5:
+        non_striker: DJ Mitchell
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 7.6:
+        non_striker: RD Gaikwad
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Mitchell
+    - 8.1:
+        non_striker: DJ Mitchell
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 8.2:
+        non_striker: RD Gaikwad
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DJ Mitchell
+    - 8.3:
+        non_striker: RD Gaikwad
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 8.4:
+        non_striker: DJ Mitchell
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 8.5:
+        non_striker: RD Gaikwad
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 8.6:
+        non_striker: DJ Mitchell
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 9.1:
+        non_striker: DJ Mitchell
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 9.2:
+        non_striker: RD Gaikwad
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 9.3:
+        non_striker: DJ Mitchell
+        bowler: CV Varun
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          legbyes: 2
+        batsman: RD Gaikwad
+    - 9.4:
+        non_striker: DJ Mitchell
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RD Gaikwad
+    - 9.5:
+        non_striker: DJ Mitchell
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 9.6:
+        non_striker: RD Gaikwad
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Mitchell
+    - 10.1:
+        non_striker: DJ Mitchell
+        bowler: AD Russell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 10.2:
+        non_striker: DJ Mitchell
+        bowler: AD Russell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 10.3:
+        non_striker: RD Gaikwad
+        bowler: AD Russell
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: DJ Mitchell
+    - 10.4:
+        non_striker: RD Gaikwad
+        bowler: AD Russell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 10.5:
+        non_striker: DJ Mitchell
+        bowler: AD Russell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 10.6:
+        non_striker: DJ Mitchell
+        bowler: AD Russell
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RD Gaikwad
+    - 10.7:
+        non_striker: DJ Mitchell
+        bowler: AD Russell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 11.1:
+        non_striker: DJ Mitchell
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 11.2:
+        non_striker: DJ Mitchell
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 11.3:
+        non_striker: RD Gaikwad
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Mitchell
+    - 11.4:
+        non_striker: DJ Mitchell
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RD Gaikwad
+    - 11.5:
+        non_striker: DJ Mitchell
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 11.6:
+        non_striker: RD Gaikwad
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DJ Mitchell
+    - 12.1:
+        non_striker: DJ Mitchell
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 12.2:
+        non_striker: DJ Mitchell
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 12.3:
+        non_striker: RD Gaikwad
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Mitchell
+        wicket:
+          player_out: DJ Mitchell
+          kind: bowled
+    - 12.4:
+        non_striker: RD Gaikwad
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        replacements:
+          match:
+          - in: S Dube
+            out: Mustafizur Rahman
+            team: Chennai Super Kings
+            reason: impact_player
+        batsman: S Dube
+    - 12.5:
+        non_striker: RD Gaikwad
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dube
+    - 12.6:
+        non_striker: S Dube
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 13.1:
+        non_striker: S Dube
+        bowler: MA Starc
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 13.2:
+        non_striker: RD Gaikwad
+        bowler: MA Starc
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dube
+    - 13.3:
+        non_striker: RD Gaikwad
+        bowler: MA Starc
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: S Dube
+    - 13.4:
+        non_striker: RD Gaikwad
+        bowler: MA Starc
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dube
+    - 13.5:
+        non_striker: S Dube
+        bowler: MA Starc
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 13.6:
+        non_striker: S Dube
+        bowler: MA Starc
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RD Gaikwad
+    - 14.1:
+        non_striker: RD Gaikwad
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dube
+    - 14.2:
+        non_striker: RD Gaikwad
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: S Dube
+    - 14.3:
+        non_striker: RD Gaikwad
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dube
+    - 14.4:
+        non_striker: S Dube
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 14.5:
+        non_striker: RD Gaikwad
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dube
+    - 14.6:
+        non_striker: S Dube
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 15.1:
+        non_striker: S Dube
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 15.2:
+        non_striker: RD Gaikwad
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dube
+    - 15.3:
+        non_striker: RD Gaikwad
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: S Dube
+    - 15.4:
+        non_striker: RD Gaikwad
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: S Dube
+    - 15.5:
+        non_striker: RD Gaikwad
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dube
+    - 15.6:
+        non_striker: RD Gaikwad
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dube
+    - 16.1:
+        non_striker: S Dube
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 16.2:
+        non_striker: RD Gaikwad
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dube
+    - 16.3:
+        non_striker: RD Gaikwad
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dube
+    - 16.4:
+        non_striker: RD Gaikwad
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: S Dube
+    - 16.5:
+        non_striker: RD Gaikwad
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dube
+        wicket:
+          player_out: S Dube
+          kind: bowled
+    - 16.6:
+        non_striker: RD Gaikwad
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Dhoni
+    - 17.1:
+        non_striker: MS Dhoni
+        bowler: AS Roy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 17.2:
+        non_striker: RD Gaikwad
+        bowler: AS Roy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Dhoni
+    - 17.3:
+        non_striker: RD Gaikwad
+        bowler: AS Roy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Dhoni
+    - 17.4:
+        non_striker: MS Dhoni
+        bowler: AS Roy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RD Gaikwad

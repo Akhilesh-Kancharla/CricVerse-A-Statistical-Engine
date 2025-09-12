@@ -1,0 +1,2171 @@
+---
+meta:
+  data_version: 0.92
+  created: '2024-04-20'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Delhi
+  competition: IPL
+  dates:
+  - '2024-04-20'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Sunrisers Hyderabad
+    by:
+      runs: 67
+  overs: 20
+  player_of_match:
+  - TM Head
+  players:
+    Sunrisers Hyderabad:
+    - TM Head
+    - Abhishek Sharma
+    - AK Markram
+    - H Klaasen
+    - Nithish Kumar Reddy
+    - Shahbaz Ahmed
+    - Abdul Samad
+    - PJ Cummins
+    - Washington Sundar
+    - B Kumar
+    - T Natarajan
+    - M Markande
+    Delhi Capitals:
+    - KK Ahmed
+    - PP Shaw
+    - DA Warner
+    - J Fraser-McGurk
+    - Abishek Porel
+    - T Stubbs
+    - RR Pant
+    - Lalit Yadav
+    - AR Patel
+    - A Nortje
+    - Kuldeep Yadav
+    - Mukesh Kumar
+  registry:
+    people:
+      A Nortje: acdc62f5
+      AK Markram: 6a26221c
+      AR Patel: 2e171977
+      Abdul Samad: 8e514b4c
+      Abhishek Sharma: f29185a1
+      Abishek Porel: ad3b6e95
+      B Kumar: 2e81a32d
+      DA Warner: dcce6f09
+      H Klaasen: 235c2bb6
+      J Fraser-McGurk: 9b6e1b3f
+      J Madanagopal: 8275b04a
+      K Swaroopanand: aa2a4962
+      KK Ahmed: a2f46292
+      Kuldeep Yadav: 8d2c70ad
+      Lalit Yadav: ad427b5c
+      M Markande: a9fd84fb
+      Mukesh Kumar: 2cffab74
+      Navdeep Singh: a3e3d8a4
+      Nithish Kumar Reddy: aad0c365
+      PJ Cummins: ded9240e
+      PP Shaw: 8b3e9c7c
+      RR Pant: 919a3be2
+      Sanjay Verma: bc19a37f
+      Shahbaz Ahmed: f9e6e7ef
+      T Natarajan: ce794613
+      T Stubbs: 85b3fab2
+      TM Head: 12b610c2
+      Tapan Sharma: b9aa2b6e
+      Washington Sundar: f19ccfad
+  teams:
+  - Sunrisers Hyderabad
+  - Delhi Capitals
+  toss:
+    winner: Delhi Capitals
+    decision: field
+  umpires:
+  - J Madanagopal
+  - Navdeep Singh
+  venue: Arun Jaitley Stadium, Delhi
+innings:
+- 1st innings:
+    team: Sunrisers Hyderabad
+    deliveries:
+    - 0.1:
+        non_striker: Abhishek Sharma
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TM Head
+    - 0.2:
+        non_striker: Abhishek Sharma
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TM Head
+    - 0.3:
+        non_striker: Abhishek Sharma
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TM Head
+    - 0.4:
+        non_striker: Abhishek Sharma
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TM Head
+    - 0.5:
+        non_striker: Abhishek Sharma
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TM Head
+    - 0.6:
+        non_striker: TM Head
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abhishek Sharma
+    - 1.1:
+        non_striker: Abhishek Sharma
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TM Head
+    - 1.2:
+        non_striker: Abhishek Sharma
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TM Head
+    - 1.3:
+        non_striker: Abhishek Sharma
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TM Head
+    - 1.4:
+        non_striker: Abhishek Sharma
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TM Head
+    - 1.5:
+        non_striker: Abhishek Sharma
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TM Head
+    - 1.6:
+        non_striker: TM Head
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abhishek Sharma
+    - 2.1:
+        non_striker: Abhishek Sharma
+        bowler: A Nortje
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TM Head
+    - 2.2:
+        non_striker: Abhishek Sharma
+        bowler: A Nortje
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TM Head
+    - 2.3:
+        non_striker: Abhishek Sharma
+        bowler: A Nortje
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TM Head
+    - 2.4:
+        non_striker: Abhishek Sharma
+        bowler: A Nortje
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TM Head
+    - 2.5:
+        non_striker: Abhishek Sharma
+        bowler: A Nortje
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TM Head
+    - 2.6:
+        non_striker: Abhishek Sharma
+        bowler: A Nortje
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TM Head
+    - 3.1:
+        non_striker: TM Head
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Abhishek Sharma
+    - 3.2:
+        non_striker: TM Head
+        bowler: Lalit Yadav
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: Abhishek Sharma
+    - 3.3:
+        non_striker: Abhishek Sharma
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TM Head
+    - 3.4:
+        non_striker: TM Head
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Abhishek Sharma
+    - 3.5:
+        non_striker: TM Head
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhishek Sharma
+    - 3.6:
+        non_striker: Abhishek Sharma
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TM Head
+    - 4.1:
+        non_striker: TM Head
+        bowler: Kuldeep Yadav
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Abhishek Sharma
+    - 4.2:
+        non_striker: TM Head
+        bowler: Kuldeep Yadav
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Abhishek Sharma
+    - 4.3:
+        non_striker: TM Head
+        bowler: Kuldeep Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhishek Sharma
+    - 4.4:
+        non_striker: Abhishek Sharma
+        bowler: Kuldeep Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TM Head
+    - 4.5:
+        non_striker: Abhishek Sharma
+        bowler: Kuldeep Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TM Head
+    - 4.6:
+        non_striker: TM Head
+        bowler: Kuldeep Yadav
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Abhishek Sharma
+    - 5.1:
+        non_striker: Abhishek Sharma
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TM Head
+    - 5.2:
+        non_striker: Abhishek Sharma
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TM Head
+    - 5.3:
+        non_striker: Abhishek Sharma
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TM Head
+    - 5.4:
+        non_striker: Abhishek Sharma
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TM Head
+    - 5.5:
+        non_striker: Abhishek Sharma
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TM Head
+    - 5.6:
+        non_striker: Abhishek Sharma
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TM Head
+    - 6.1:
+        non_striker: TM Head
+        bowler: Kuldeep Yadav
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Abhishek Sharma
+    - 6.2:
+        non_striker: TM Head
+        bowler: Kuldeep Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abhishek Sharma
+        wicket:
+          player_out: Abhishek Sharma
+          fielders:
+          - AR Patel
+          kind: caught
+    - 6.3:
+        non_striker: TM Head
+        bowler: Kuldeep Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AK Markram
+    - 6.4:
+        non_striker: AK Markram
+        bowler: Kuldeep Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TM Head
+    - 6.5:
+        non_striker: TM Head
+        bowler: Kuldeep Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AK Markram
+    - 6.6:
+        non_striker: TM Head
+        bowler: Kuldeep Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AK Markram
+        wicket:
+          player_out: AK Markram
+          fielders:
+          - AR Patel
+          kind: caught
+    - 7.1:
+        non_striker: H Klaasen
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TM Head
+    - 7.2:
+        non_striker: TM Head
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: H Klaasen
+    - 7.3:
+        non_striker: H Klaasen
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TM Head
+    - 7.4:
+        non_striker: TM Head
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: H Klaasen
+    - 7.5:
+        non_striker: H Klaasen
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TM Head
+    - 7.6:
+        non_striker: TM Head
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: H Klaasen
+    - 8.1:
+        non_striker: H Klaasen
+        bowler: Kuldeep Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TM Head
+    - 8.2:
+        non_striker: TM Head
+        bowler: Kuldeep Yadav
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: H Klaasen
+    - 8.3:
+        non_striker: TM Head
+        bowler: Kuldeep Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: H Klaasen
+    - 8.4:
+        non_striker: TM Head
+        bowler: Kuldeep Yadav
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: H Klaasen
+    - 8.5:
+        non_striker: TM Head
+        bowler: Kuldeep Yadav
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: H Klaasen
+    - 8.6:
+        non_striker: TM Head
+        bowler: Kuldeep Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: H Klaasen
+    - 8.7:
+        non_striker: H Klaasen
+        bowler: Kuldeep Yadav
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: TM Head
+    - 8.8:
+        non_striker: H Klaasen
+        bowler: Kuldeep Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TM Head
+        wicket:
+          player_out: TM Head
+          fielders:
+          - T Stubbs
+          kind: caught
+    - 9.1:
+        non_striker: Nithish Kumar Reddy
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: H Klaasen
+        wicket:
+          player_out: H Klaasen
+          kind: bowled
+    - 9.2:
+        non_striker: Nithish Kumar Reddy
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shahbaz Ahmed
+    - 9.3:
+        non_striker: Nithish Kumar Reddy
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shahbaz Ahmed
+    - 9.4:
+        non_striker: Nithish Kumar Reddy
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shahbaz Ahmed
+    - 9.5:
+        non_striker: Shahbaz Ahmed
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nithish Kumar Reddy
+    - 9.6:
+        non_striker: Shahbaz Ahmed
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nithish Kumar Reddy
+    - 10.1:
+        non_striker: Shahbaz Ahmed
+        bowler: A Nortje
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nithish Kumar Reddy
+    - 10.2:
+        non_striker: Shahbaz Ahmed
+        bowler: A Nortje
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nithish Kumar Reddy
+    - 10.3:
+        non_striker: Shahbaz Ahmed
+        bowler: A Nortje
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Nithish Kumar Reddy
+    - 10.4:
+        non_striker: Shahbaz Ahmed
+        bowler: A Nortje
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nithish Kumar Reddy
+    - 10.5:
+        non_striker: Nithish Kumar Reddy
+        bowler: A Nortje
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shahbaz Ahmed
+    - 10.6:
+        non_striker: Shahbaz Ahmed
+        bowler: A Nortje
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nithish Kumar Reddy
+    - 10.7:
+        non_striker: Nithish Kumar Reddy
+        bowler: A Nortje
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shahbaz Ahmed
+    - 11.1:
+        non_striker: Shahbaz Ahmed
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Nithish Kumar Reddy
+    - 11.2:
+        non_striker: Shahbaz Ahmed
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nithish Kumar Reddy
+    - 11.3:
+        non_striker: Nithish Kumar Reddy
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shahbaz Ahmed
+    - 11.4:
+        non_striker: Nithish Kumar Reddy
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shahbaz Ahmed
+    - 11.5:
+        non_striker: Shahbaz Ahmed
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nithish Kumar Reddy
+    - 11.6:
+        non_striker: Shahbaz Ahmed
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nithish Kumar Reddy
+    - 12.1:
+        non_striker: Shahbaz Ahmed
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nithish Kumar Reddy
+    - 12.2:
+        non_striker: Nithish Kumar Reddy
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shahbaz Ahmed
+    - 12.3:
+        non_striker: Shahbaz Ahmed
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nithish Kumar Reddy
+    - 12.4:
+        non_striker: Nithish Kumar Reddy
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shahbaz Ahmed
+    - 12.5:
+        non_striker: Shahbaz Ahmed
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Nithish Kumar Reddy
+    - 12.6:
+        non_striker: Shahbaz Ahmed
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nithish Kumar Reddy
+    - 13.1:
+        non_striker: Shahbaz Ahmed
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nithish Kumar Reddy
+    - 13.2:
+        non_striker: Nithish Kumar Reddy
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shahbaz Ahmed
+    - 13.3:
+        non_striker: Shahbaz Ahmed
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Nithish Kumar Reddy
+    - 13.4:
+        non_striker: Shahbaz Ahmed
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nithish Kumar Reddy
+    - 13.5:
+        non_striker: Nithish Kumar Reddy
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shahbaz Ahmed
+    - 13.6:
+        non_striker: Shahbaz Ahmed
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nithish Kumar Reddy
+    - 14.1:
+        non_striker: Nithish Kumar Reddy
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shahbaz Ahmed
+    - 14.2:
+        non_striker: Shahbaz Ahmed
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nithish Kumar Reddy
+    - 14.3:
+        non_striker: Nithish Kumar Reddy
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shahbaz Ahmed
+    - 14.4:
+        non_striker: Shahbaz Ahmed
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nithish Kumar Reddy
+    - 14.5:
+        non_striker: Nithish Kumar Reddy
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shahbaz Ahmed
+    - 14.6:
+        non_striker: Nithish Kumar Reddy
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shahbaz Ahmed
+    - 15.1:
+        non_striker: Nithish Kumar Reddy
+        bowler: A Nortje
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shahbaz Ahmed
+    - 15.2:
+        non_striker: Shahbaz Ahmed
+        bowler: A Nortje
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nithish Kumar Reddy
+    - 15.3:
+        non_striker: Shahbaz Ahmed
+        bowler: A Nortje
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nithish Kumar Reddy
+    - 15.4:
+        non_striker: Nithish Kumar Reddy
+        bowler: A Nortje
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shahbaz Ahmed
+    - 15.5:
+        non_striker: Nithish Kumar Reddy
+        bowler: A Nortje
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shahbaz Ahmed
+    - 15.6:
+        non_striker: Nithish Kumar Reddy
+        bowler: A Nortje
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shahbaz Ahmed
+    - 16.1:
+        non_striker: Nithish Kumar Reddy
+        bowler: Kuldeep Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shahbaz Ahmed
+    - 16.2:
+        non_striker: Shahbaz Ahmed
+        bowler: Kuldeep Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nithish Kumar Reddy
+    - 16.3:
+        non_striker: Shahbaz Ahmed
+        bowler: Kuldeep Yadav
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Nithish Kumar Reddy
+    - 16.4:
+        non_striker: Shahbaz Ahmed
+        bowler: Kuldeep Yadav
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Nithish Kumar Reddy
+    - 16.5:
+        non_striker: Shahbaz Ahmed
+        bowler: Kuldeep Yadav
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Nithish Kumar Reddy
+    - 16.6:
+        non_striker: Shahbaz Ahmed
+        bowler: Kuldeep Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nithish Kumar Reddy
+        wicket:
+          player_out: Nithish Kumar Reddy
+          fielders:
+          - DA Warner
+          kind: caught
+    - 17.1:
+        non_striker: Abdul Samad
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shahbaz Ahmed
+    - 17.2:
+        non_striker: Shahbaz Ahmed
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abdul Samad
+    - 17.3:
+        non_striker: Shahbaz Ahmed
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Abdul Samad
+    - 17.4:
+        non_striker: Shahbaz Ahmed
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abdul Samad
+    - 17.5:
+        non_striker: Abdul Samad
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shahbaz Ahmed
+    - 17.6:
+        non_striker: Shahbaz Ahmed
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abdul Samad
+    - 18.1:
+        non_striker: Abdul Samad
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shahbaz Ahmed
+    - 18.2:
+        non_striker: Shahbaz Ahmed
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abdul Samad
+    - 18.3:
+        non_striker: Shahbaz Ahmed
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Abdul Samad
+    - 18.4:
+        non_striker: Shahbaz Ahmed
+        bowler: KK Ahmed
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          byes: 1
+        batsman: Abdul Samad
+    - 18.5:
+        non_striker: Abdul Samad
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shahbaz Ahmed
+    - 18.6:
+        non_striker: Abdul Samad
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shahbaz Ahmed
+    - 19.1:
+        non_striker: Shahbaz Ahmed
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abdul Samad
+        wicket:
+          player_out: Abdul Samad
+          fielders:
+          - A Nortje
+          kind: caught
+    - 19.2:
+        non_striker: Shahbaz Ahmed
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PJ Cummins
+    - 19.3:
+        non_striker: PJ Cummins
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shahbaz Ahmed
+    - 19.4:
+        non_striker: PJ Cummins
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shahbaz Ahmed
+        wicket:
+          player_out: PJ Cummins
+          fielders:
+          - T Stubbs
+          - Mukesh Kumar
+          kind: run out
+    - 19.5:
+        non_striker: Washington Sundar
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        replacements:
+          match:
+          - in: Washington Sundar
+            out: TM Head
+            team: Sunrisers Hyderabad
+            reason: impact_player
+        batsman: Shahbaz Ahmed
+    - 19.6:
+        non_striker: Washington Sundar
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shahbaz Ahmed
+- 2nd innings:
+    team: Delhi Capitals
+    deliveries:
+    - 0.1:
+        non_striker: DA Warner
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        replacements:
+          match:
+          - in: PP Shaw
+            out: KK Ahmed
+            team: Delhi Capitals
+            reason: impact_player
+        batsman: PP Shaw
+    - 0.2:
+        non_striker: DA Warner
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PP Shaw
+    - 0.3:
+        non_striker: DA Warner
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PP Shaw
+    - 0.4:
+        non_striker: DA Warner
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PP Shaw
+    - 0.5:
+        non_striker: DA Warner
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PP Shaw
+        wicket:
+          player_out: PP Shaw
+          fielders:
+          - Abdul Samad
+          kind: caught
+    - 0.6:
+        non_striker: DA Warner
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: J Fraser-McGurk
+    - 1.1:
+        non_striker: J Fraser-McGurk
+        bowler: B Kumar
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: DA Warner
+    - 1.2:
+        non_striker: J Fraser-McGurk
+        bowler: B Kumar
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: DA Warner
+    - 1.3:
+        non_striker: J Fraser-McGurk
+        bowler: B Kumar
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: DA Warner
+    - 1.4:
+        non_striker: J Fraser-McGurk
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Warner
+    - 1.5:
+        non_striker: DA Warner
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: J Fraser-McGurk
+    - 1.6:
+        non_striker: DA Warner
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: J Fraser-McGurk
+    - 1.7:
+        non_striker: DA Warner
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Fraser-McGurk
+    - 1.8:
+        non_striker: J Fraser-McGurk
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Warner
+    - 1.9:
+        non_striker: J Fraser-McGurk
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Warner
+        wicket:
+          player_out: DA Warner
+          fielders:
+          - PJ Cummins
+          kind: caught
+    - 2.1:
+        non_striker: Abishek Porel
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: J Fraser-McGurk
+    - 2.2:
+        non_striker: Abishek Porel
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: J Fraser-McGurk
+    - 2.3:
+        non_striker: Abishek Porel
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: J Fraser-McGurk
+    - 2.4:
+        non_striker: Abishek Porel
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: J Fraser-McGurk
+    - 2.5:
+        non_striker: Abishek Porel
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: J Fraser-McGurk
+    - 2.6:
+        non_striker: Abishek Porel
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: J Fraser-McGurk
+    - 3.1:
+        non_striker: J Fraser-McGurk
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abishek Porel
+    - 3.2:
+        non_striker: J Fraser-McGurk
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Abishek Porel
+    - 3.3:
+        non_striker: J Fraser-McGurk
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abishek Porel
+    - 3.4:
+        non_striker: J Fraser-McGurk
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abishek Porel
+    - 3.5:
+        non_striker: J Fraser-McGurk
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abishek Porel
+    - 3.6:
+        non_striker: J Fraser-McGurk
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abishek Porel
+    - 4.1:
+        non_striker: Abishek Porel
+        bowler: PJ Cummins
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Fraser-McGurk
+    - 4.2:
+        non_striker: J Fraser-McGurk
+        bowler: PJ Cummins
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abishek Porel
+    - 4.3:
+        non_striker: J Fraser-McGurk
+        bowler: PJ Cummins
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abishek Porel
+    - 4.4:
+        non_striker: J Fraser-McGurk
+        bowler: PJ Cummins
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abishek Porel
+    - 4.5:
+        non_striker: Abishek Porel
+        bowler: PJ Cummins
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: J Fraser-McGurk
+    - 4.6:
+        non_striker: Abishek Porel
+        bowler: PJ Cummins
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: J Fraser-McGurk
+    - 5.1:
+        non_striker: J Fraser-McGurk
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abishek Porel
+    - 5.2:
+        non_striker: J Fraser-McGurk
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abishek Porel
+    - 5.3:
+        non_striker: J Fraser-McGurk
+        bowler: T Natarajan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Abishek Porel
+    - 5.4:
+        non_striker: J Fraser-McGurk
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abishek Porel
+    - 5.5:
+        non_striker: J Fraser-McGurk
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abishek Porel
+    - 5.6:
+        non_striker: J Fraser-McGurk
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abishek Porel
+    - 5.7:
+        non_striker: J Fraser-McGurk
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Abishek Porel
+    - 6.1:
+        non_striker: Abishek Porel
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Fraser-McGurk
+    - 6.2:
+        non_striker: J Fraser-McGurk
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abishek Porel
+    - 6.3:
+        non_striker: Abishek Porel
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: J Fraser-McGurk
+    - 6.4:
+        non_striker: Abishek Porel
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: J Fraser-McGurk
+    - 6.5:
+        non_striker: Abishek Porel
+        bowler: M Markande
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: J Fraser-McGurk
+    - 6.6:
+        non_striker: Abishek Porel
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: J Fraser-McGurk
+    - 6.7:
+        non_striker: Abishek Porel
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: J Fraser-McGurk
+        wicket:
+          player_out: J Fraser-McGurk
+          fielders:
+          - H Klaasen
+          kind: caught
+    - 7.1:
+        non_striker: T Stubbs
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abishek Porel
+    - 7.2:
+        non_striker: T Stubbs
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abishek Porel
+    - 7.3:
+        non_striker: T Stubbs
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Abishek Porel
+    - 7.4:
+        non_striker: T Stubbs
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abishek Porel
+    - 7.5:
+        non_striker: Abishek Porel
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: T Stubbs
+    - 7.6:
+        non_striker: T Stubbs
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abishek Porel
+    - 8.1:
+        non_striker: Abishek Porel
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Stubbs
+    - 8.2:
+        non_striker: Abishek Porel
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Stubbs
+    - 8.3:
+        non_striker: T Stubbs
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abishek Porel
+    - 8.4:
+        non_striker: Abishek Porel
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Stubbs
+    - 8.5:
+        non_striker: T Stubbs
+        bowler: M Markande
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Abishek Porel
+        wicket:
+          player_out: Abishek Porel
+          fielders:
+          - H Klaasen
+          kind: stumped
+    - 8.6:
+        non_striker: T Stubbs
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Pant
+    - 8.7:
+        non_striker: T Stubbs
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Pant
+    - 9.1:
+        non_striker: T Stubbs
+        bowler: PJ Cummins
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Pant
+    - 9.2:
+        non_striker: T Stubbs
+        bowler: PJ Cummins
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Pant
+    - 9.3:
+        non_striker: T Stubbs
+        bowler: PJ Cummins
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Pant
+    - 9.4:
+        non_striker: RR Pant
+        bowler: PJ Cummins
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Stubbs
+    - 9.5:
+        non_striker: RR Pant
+        bowler: PJ Cummins
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Stubbs
+    - 9.6:
+        non_striker: T Stubbs
+        bowler: PJ Cummins
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Pant
+    - 10.1:
+        non_striker: RR Pant
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Stubbs
+    - 10.2:
+        non_striker: T Stubbs
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Pant
+    - 10.3:
+        non_striker: T Stubbs
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Pant
+    - 10.4:
+        non_striker: RR Pant
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Stubbs
+    - 10.5:
+        non_striker: T Stubbs
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Pant
+    - 10.6:
+        non_striker: RR Pant
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Stubbs
+    - 11.1:
+        non_striker: RR Pant
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Stubbs
+    - 11.2:
+        non_striker: T Stubbs
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RR Pant
+    - 11.3:
+        non_striker: T Stubbs
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Pant
+    - 11.4:
+        non_striker: T Stubbs
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Pant
+    - 11.5:
+        non_striker: T Stubbs
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RR Pant
+    - 11.6:
+        non_striker: T Stubbs
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Pant
+    - 12.1:
+        non_striker: T Stubbs
+        bowler: Nithish Kumar Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Pant
+    - 12.2:
+        non_striker: RR Pant
+        bowler: Nithish Kumar Reddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Stubbs
+        wicket:
+          player_out: T Stubbs
+          fielders:
+          - Shahbaz Ahmed
+          kind: caught
+    - 12.3:
+        non_striker: RR Pant
+        bowler: Nithish Kumar Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Lalit Yadav
+    - 12.4:
+        non_striker: Lalit Yadav
+        bowler: Nithish Kumar Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Pant
+    - 12.5:
+        non_striker: RR Pant
+        bowler: Nithish Kumar Reddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Lalit Yadav
+    - 12.6:
+        non_striker: RR Pant
+        bowler: Nithish Kumar Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Lalit Yadav
+    - 13.1:
+        non_striker: RR Pant
+        bowler: PJ Cummins
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Lalit Yadav
+    - 13.2:
+        non_striker: Lalit Yadav
+        bowler: PJ Cummins
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Pant
+    - 13.3:
+        non_striker: Lalit Yadav
+        bowler: PJ Cummins
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Pant
+    - 13.4:
+        non_striker: Lalit Yadav
+        bowler: PJ Cummins
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Pant
+    - 13.5:
+        non_striker: Lalit Yadav
+        bowler: PJ Cummins
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Pant
+    - 13.6:
+        non_striker: RR Pant
+        bowler: PJ Cummins
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Lalit Yadav
+    - 14.1:
+        non_striker: Lalit Yadav
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Pant
+    - 14.2:
+        non_striker: Lalit Yadav
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RR Pant
+    - 14.3:
+        non_striker: Lalit Yadav
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Pant
+    - 14.4:
+        non_striker: RR Pant
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Lalit Yadav
+    - 14.5:
+        non_striker: RR Pant
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Lalit Yadav
+    - 14.6:
+        non_striker: RR Pant
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Lalit Yadav
+        wicket:
+          player_out: Lalit Yadav
+          kind: bowled
+    - 15.1:
+        non_striker: AR Patel
+        bowler: Nithish Kumar Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Pant
+    - 15.2:
+        non_striker: RR Pant
+        bowler: Nithish Kumar Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Patel
+    - 15.3:
+        non_striker: AR Patel
+        bowler: Nithish Kumar Reddy
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: RR Pant
+    - 15.4:
+        non_striker: AR Patel
+        bowler: Nithish Kumar Reddy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RR Pant
+    - 15.5:
+        non_striker: AR Patel
+        bowler: Nithish Kumar Reddy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RR Pant
+    - 15.6:
+        non_striker: AR Patel
+        bowler: Nithish Kumar Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Pant
+    - 15.7:
+        non_striker: RR Pant
+        bowler: Nithish Kumar Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Patel
+    - 16.1:
+        non_striker: RR Pant
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Patel
+    - 16.2:
+        non_striker: AR Patel
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RR Pant
+    - 16.3:
+        non_striker: AR Patel
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Pant
+    - 16.4:
+        non_striker: RR Pant
+        bowler: B Kumar
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: AR Patel
+    - 16.5:
+        non_striker: AR Patel
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Pant
+    - 16.6:
+        non_striker: RR Pant
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Patel
+    - 17.1:
+        non_striker: RR Pant
+        bowler: PJ Cummins
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Patel
+    - 17.2:
+        non_striker: AR Patel
+        bowler: PJ Cummins
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Pant
+    - 17.3:
+        non_striker: AR Patel
+        bowler: PJ Cummins
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Pant
+    - 17.4:
+        non_striker: RR Pant
+        bowler: PJ Cummins
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Patel
+    - 17.5:
+        non_striker: AR Patel
+        bowler: PJ Cummins
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RR Pant
+    - 17.6:
+        non_striker: AR Patel
+        bowler: PJ Cummins
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RR Pant
+    - 18.1:
+        non_striker: RR Pant
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AR Patel
+        wicket:
+          player_out: AR Patel
+          fielders:
+          - PJ Cummins
+          kind: caught
+    - 18.2:
+        non_striker: RR Pant
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Nortje
+    - 18.3:
+        non_striker: RR Pant
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Nortje
+        wicket:
+          player_out: A Nortje
+          kind: bowled
+    - 18.4:
+        non_striker: RR Pant
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kuldeep Yadav
+        wicket:
+          player_out: Kuldeep Yadav
+          kind: lbw
+    - 18.5:
+        non_striker: RR Pant
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mukesh Kumar
+    - 18.6:
+        non_striker: RR Pant
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mukesh Kumar
+    - 19.1:
+        non_striker: Mukesh Kumar
+        bowler: Nithish Kumar Reddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Pant
+        wicket:
+          player_out: RR Pant
+          fielders:
+          - T Natarajan
+          kind: caught

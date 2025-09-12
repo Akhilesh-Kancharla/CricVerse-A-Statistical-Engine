@@ -1,0 +1,1783 @@
+---
+meta:
+  data_version: 0.92
+  created: '2023-05-14'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Kolkata
+  competition: IPL
+  dates:
+  - '2023-05-11'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Rajasthan Royals
+    by:
+      wickets: 9
+  overs: 20
+  player_of_match:
+  - YBK Jaiswal
+  players:
+    Kolkata Knight Riders:
+    - Suyash Sharma
+    - JJ Roy
+    - Rahmanullah Gurbaz
+    - VR Iyer
+    - N Rana
+    - AD Russell
+    - RK Singh
+    - SN Thakur
+    - AS Roy
+    - SP Narine
+    - Harshit Rana
+    - CV Varun
+    Rajasthan Royals:
+    - YBK Jaiswal
+    - JC Buttler
+    - SV Samson
+    - JE Root
+    - Dhruv Jurel
+    - SO Hetmyer
+    - R Ashwin
+    - Sandeep Sharma
+    - KM Asif
+    - TA Boult
+    - YS Chahal
+  registry:
+    people:
+      AD Russell: bbd41817
+      AS Roy: e4cdf230
+      CV Varun: 5b7ab5a9
+      Dhruv Jurel: bcf325d2
+      Harshit Rana: 77b1aa15
+      JC Buttler: 99b75528
+      JE Root: a343262c
+      JJ Roy: d1c36f5c
+      KM Asif: 798cc28e
+      MV Saidharshan Kumar: 54b6007b
+      N Rana: fb2d1dda
+      P Dharmani: eaa90ab4
+      P Joshi: ffc0e370
+      R Ashwin: 495d42a5
+      R Pandit: 8a604384
+      RJ Tucker: 38810cfc
+      RK Singh: 0a509d6b
+      Rahmanullah Gurbaz: 0bacade8
+      SN Thakur: 1abb78f8
+      SO Hetmyer: 48a1d7b7
+      SP Narine: 9d430b40
+      SV Samson: a4cc73aa
+      Sandeep Sharma: ce820073
+      Suyash Sharma: 9440ef41
+      TA Boult: a818c1be
+      VR Iyer: a24be938
+      YBK Jaiswal: 6c19c6e5
+      YS Chahal: 57ee1fde
+  teams:
+  - Kolkata Knight Riders
+  - Rajasthan Royals
+  toss:
+    winner: Rajasthan Royals
+    decision: field
+  umpires:
+  - RJ Tucker
+  - MV Saidharshan Kumar
+  venue: Eden Gardens, Kolkata
+innings:
+- 1st innings:
+    team: Kolkata Knight Riders
+    deliveries:
+    - 0.1:
+        non_striker: Rahmanullah Gurbaz
+        bowler: TA Boult
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JJ Roy
+    - 0.2:
+        non_striker: Rahmanullah Gurbaz
+        bowler: TA Boult
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Roy
+    - 0.3:
+        non_striker: Rahmanullah Gurbaz
+        bowler: TA Boult
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Roy
+    - 0.4:
+        non_striker: Rahmanullah Gurbaz
+        bowler: TA Boult
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JJ Roy
+    - 0.5:
+        non_striker: Rahmanullah Gurbaz
+        bowler: TA Boult
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Roy
+    - 0.6:
+        non_striker: Rahmanullah Gurbaz
+        bowler: TA Boult
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Roy
+    - 1.1:
+        non_striker: JJ Roy
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahmanullah Gurbaz
+    - 1.2:
+        non_striker: JJ Roy
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahmanullah Gurbaz
+    - 1.3:
+        non_striker: JJ Roy
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahmanullah Gurbaz
+    - 1.4:
+        non_striker: JJ Roy
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rahmanullah Gurbaz
+    - 1.5:
+        non_striker: JJ Roy
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahmanullah Gurbaz
+    - 1.6:
+        non_striker: JJ Roy
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahmanullah Gurbaz
+    - 2.1:
+        non_striker: Rahmanullah Gurbaz
+        bowler: TA Boult
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JJ Roy
+    - 2.2:
+        non_striker: Rahmanullah Gurbaz
+        bowler: TA Boult
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Roy
+        wicket:
+          player_out: JJ Roy
+          fielders:
+          - SO Hetmyer
+          kind: caught
+    - 2.3:
+        non_striker: Rahmanullah Gurbaz
+        bowler: TA Boult
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Iyer
+    - 2.4:
+        non_striker: Rahmanullah Gurbaz
+        bowler: TA Boult
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Iyer
+    - 2.5:
+        non_striker: Rahmanullah Gurbaz
+        bowler: TA Boult
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Iyer
+    - 2.6:
+        non_striker: Rahmanullah Gurbaz
+        bowler: TA Boult
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Iyer
+    - 3.1:
+        non_striker: VR Iyer
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Rahmanullah Gurbaz
+    - 3.2:
+        non_striker: VR Iyer
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Rahmanullah Gurbaz
+    - 3.3:
+        non_striker: VR Iyer
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahmanullah Gurbaz
+    - 3.4:
+        non_striker: VR Iyer
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahmanullah Gurbaz
+    - 3.5:
+        non_striker: Rahmanullah Gurbaz
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 3.6:
+        non_striker: VR Iyer
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahmanullah Gurbaz
+    - 4.1:
+        non_striker: VR Iyer
+        bowler: TA Boult
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahmanullah Gurbaz
+        wicket:
+          player_out: Rahmanullah Gurbaz
+          fielders:
+          - Sandeep Sharma
+          kind: caught
+    - 4.2:
+        non_striker: VR Iyer
+        bowler: TA Boult
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+    - 4.3:
+        non_striker: VR Iyer
+        bowler: TA Boult
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: N Rana
+    - 4.4:
+        non_striker: VR Iyer
+        bowler: TA Boult
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: N Rana
+    - 4.5:
+        non_striker: N Rana
+        bowler: TA Boult
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Iyer
+    - 4.6:
+        non_striker: N Rana
+        bowler: TA Boult
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: VR Iyer
+    - 5.1:
+        non_striker: N Rana
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Iyer
+    - 5.2:
+        non_striker: N Rana
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 5.3:
+        non_striker: VR Iyer
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 5.4:
+        non_striker: N Rana
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Iyer
+    - 5.5:
+        non_striker: N Rana
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Iyer
+    - 5.6:
+        non_striker: N Rana
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Iyer
+    - 6.1:
+        non_striker: VR Iyer
+        bowler: JE Root
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 6.2:
+        non_striker: N Rana
+        bowler: JE Root
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: VR Iyer
+    - 6.3:
+        non_striker: N Rana
+        bowler: JE Root
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 6.4:
+        non_striker: VR Iyer
+        bowler: JE Root
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: N Rana
+    - 6.5:
+        non_striker: N Rana
+        bowler: JE Root
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 6.6:
+        non_striker: VR Iyer
+        bowler: JE Root
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 7.1:
+        non_striker: VR Iyer
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 7.2:
+        non_striker: N Rana
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 7.3:
+        non_striker: VR Iyer
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 7.4:
+        non_striker: N Rana
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 7.5:
+        non_striker: VR Iyer
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 7.6:
+        non_striker: N Rana
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 8.1:
+        non_striker: N Rana
+        bowler: JE Root
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 8.2:
+        non_striker: VR Iyer
+        bowler: JE Root
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: N Rana
+    - 8.3:
+        non_striker: VR Iyer
+        bowler: JE Root
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+    - 8.4:
+        non_striker: VR Iyer
+        bowler: JE Root
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 8.5:
+        non_striker: N Rana
+        bowler: JE Root
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 8.6:
+        non_striker: VR Iyer
+        bowler: JE Root
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 9.1:
+        non_striker: VR Iyer
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 9.2:
+        non_striker: N Rana
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: VR Iyer
+    - 9.3:
+        non_striker: N Rana
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: VR Iyer
+    - 9.4:
+        non_striker: N Rana
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Iyer
+    - 9.5:
+        non_striker: N Rana
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 9.6:
+        non_striker: VR Iyer
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: N Rana
+    - 10.1:
+        non_striker: N Rana
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 10.2:
+        non_striker: VR Iyer
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+        wicket:
+          player_out: N Rana
+          fielders:
+          - SO Hetmyer
+          kind: caught
+    - 10.3:
+        non_striker: VR Iyer
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Russell
+    - 10.4:
+        non_striker: VR Iyer
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Russell
+    - 10.5:
+        non_striker: VR Iyer
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Russell
+    - 10.6:
+        non_striker: AD Russell
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 11.1:
+        non_striker: AD Russell
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 11.2:
+        non_striker: VR Iyer
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AD Russell
+    - 11.3:
+        non_striker: VR Iyer
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Russell
+    - 11.4:
+        non_striker: AD Russell
+        bowler: KM Asif
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: VR Iyer
+    - 11.5:
+        non_striker: AD Russell
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 11.6:
+        non_striker: VR Iyer
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Russell
+    - 11.7:
+        non_striker: VR Iyer
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Russell
+    - 12.1:
+        non_striker: AD Russell
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: VR Iyer
+    - 12.2:
+        non_striker: AD Russell
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: VR Iyer
+    - 12.3:
+        non_striker: AD Russell
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Iyer
+    - 12.4:
+        non_striker: AD Russell
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: VR Iyer
+    - 12.5:
+        non_striker: AD Russell
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 12.6:
+        non_striker: VR Iyer
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Russell
+    - 13.1:
+        non_striker: AD Russell
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 13.2:
+        non_striker: VR Iyer
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AD Russell
+    - 13.3:
+        non_striker: VR Iyer
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Russell
+        wicket:
+          player_out: AD Russell
+          fielders:
+          - R Ashwin
+          kind: caught
+    - 13.4:
+        non_striker: VR Iyer
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Singh
+    - 13.5:
+        non_striker: RK Singh
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 13.6:
+        non_striker: VR Iyer
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Singh
+    - 14.1:
+        non_striker: VR Iyer
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Singh
+    - 14.2:
+        non_striker: RK Singh
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 14.3:
+        non_striker: VR Iyer
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Singh
+    - 14.4:
+        non_striker: VR Iyer
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Singh
+    - 14.5:
+        non_striker: RK Singh
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: VR Iyer
+    - 14.6:
+        non_striker: RK Singh
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 15.1:
+        non_striker: RK Singh
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 15.2:
+        non_striker: VR Iyer
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Singh
+    - 15.3:
+        non_striker: RK Singh
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: VR Iyer
+    - 15.4:
+        non_striker: RK Singh
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 15.5:
+        non_striker: VR Iyer
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Singh
+    - 15.6:
+        non_striker: VR Iyer
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RK Singh
+    - 16.1:
+        non_striker: RK Singh
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Iyer
+        wicket:
+          player_out: VR Iyer
+          fielders:
+          - TA Boult
+          kind: caught
+    - 16.2:
+        non_striker: RK Singh
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SN Thakur
+    - 16.3:
+        non_striker: SN Thakur
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Singh
+    - 16.4:
+        non_striker: RK Singh
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SN Thakur
+        wicket:
+          player_out: SN Thakur
+          kind: lbw
+    - 16.5:
+        non_striker: RK Singh
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AS Roy
+    - 16.6:
+        non_striker: RK Singh
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AS Roy
+    - 17.1:
+        non_striker: AS Roy
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Singh
+    - 17.2:
+        non_striker: AS Roy
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Singh
+    - 17.3:
+        non_striker: AS Roy
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Singh
+    - 17.4:
+        non_striker: AS Roy
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Singh
+    - 17.5:
+        non_striker: AS Roy
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RK Singh
+    - 17.6:
+        non_striker: AS Roy
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RK Singh
+    - 18.1:
+        non_striker: RK Singh
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AS Roy
+    - 18.2:
+        non_striker: AS Roy
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Singh
+    - 18.3:
+        non_striker: AS Roy
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Singh
+    - 18.4:
+        non_striker: AS Roy
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Singh
+        wicket:
+          player_out: RK Singh
+          fielders:
+          - JE Root
+          kind: caught
+    - 18.5:
+        non_striker: AS Roy
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Narine
+    - 18.6:
+        non_striker: SP Narine
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AS Roy
+    - 19.1:
+        non_striker: SP Narine
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AS Roy
+    - 19.2:
+        non_striker: AS Roy
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SP Narine
+    - 19.3:
+        non_striker: AS Roy
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Narine
+    - 19.4:
+        non_striker: AS Roy
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Narine
+    - 19.5:
+        non_striker: SP Narine
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AS Roy
+    - 19.6:
+        non_striker: AS Roy
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Narine
+        wicket:
+          player_out: SP Narine
+          fielders:
+          - JE Root
+          kind: caught
+- 2nd innings:
+    team: Rajasthan Royals
+    deliveries:
+    - 0.1:
+        non_striker: JC Buttler
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        replacements:
+          match:
+          - in: Suyash Sharma
+            out: VR Iyer
+            team: Kolkata Knight Riders
+            reason: impact_player
+        batsman: YBK Jaiswal
+    - 0.2:
+        non_striker: JC Buttler
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: YBK Jaiswal
+    - 0.3:
+        non_striker: JC Buttler
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: YBK Jaiswal
+    - 0.4:
+        non_striker: JC Buttler
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: YBK Jaiswal
+    - 0.5:
+        non_striker: JC Buttler
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: YBK Jaiswal
+    - 0.6:
+        non_striker: JC Buttler
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: YBK Jaiswal
+    - 1.1:
+        non_striker: YBK Jaiswal
+        bowler: Harshit Rana
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JC Buttler
+    - 1.2:
+        non_striker: YBK Jaiswal
+        bowler: Harshit Rana
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: JC Buttler
+    - 1.3:
+        non_striker: JC Buttler
+        bowler: Harshit Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YBK Jaiswal
+    - 1.4:
+        non_striker: YBK Jaiswal
+        bowler: Harshit Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JC Buttler
+    - 1.5:
+        non_striker: YBK Jaiswal
+        bowler: Harshit Rana
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JC Buttler
+    - 1.6:
+        non_striker: YBK Jaiswal
+        bowler: Harshit Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JC Buttler
+        wicket:
+          player_out: JC Buttler
+          fielders:
+          - AD Russell
+          kind: run out
+    - 1.7:
+        non_striker: SV Samson
+        bowler: Harshit Rana
+        runs:
+          extras: 0
+          non_boundary: 1
+          total: 4
+          batsman: 4
+        batsman: YBK Jaiswal
+    - 1.8:
+        non_striker: SV Samson
+        bowler: Harshit Rana
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: YBK Jaiswal
+    - 2.1:
+        non_striker: YBK Jaiswal
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 2.2:
+        non_striker: SV Samson
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: YBK Jaiswal
+    - 2.3:
+        non_striker: SV Samson
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: YBK Jaiswal
+    - 2.4:
+        non_striker: SV Samson
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: YBK Jaiswal
+    - 2.5:
+        non_striker: SV Samson
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YBK Jaiswal
+    - 2.6:
+        non_striker: YBK Jaiswal
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 3.1:
+        non_striker: SV Samson
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YBK Jaiswal
+    - 3.2:
+        non_striker: SV Samson
+        bowler: CV Varun
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: YBK Jaiswal
+    - 3.3:
+        non_striker: SV Samson
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YBK Jaiswal
+    - 3.4:
+        non_striker: SV Samson
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YBK Jaiswal
+    - 3.5:
+        non_striker: SV Samson
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YBK Jaiswal
+    - 3.6:
+        non_striker: SV Samson
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: YBK Jaiswal
+    - 3.7:
+        non_striker: SV Samson
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YBK Jaiswal
+    - 4.1:
+        non_striker: YBK Jaiswal
+        bowler: Harshit Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 4.2:
+        non_striker: YBK Jaiswal
+        bowler: Harshit Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 4.3:
+        non_striker: SV Samson
+        bowler: Harshit Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YBK Jaiswal
+    - 4.4:
+        non_striker: SV Samson
+        bowler: Harshit Rana
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: YBK Jaiswal
+    - 4.5:
+        non_striker: SV Samson
+        bowler: Harshit Rana
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: YBK Jaiswal
+    - 4.6:
+        non_striker: SV Samson
+        bowler: Harshit Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YBK Jaiswal
+    - 5.1:
+        non_striker: YBK Jaiswal
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 5.2:
+        non_striker: YBK Jaiswal
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 5.3:
+        non_striker: YBK Jaiswal
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 5.4:
+        non_striker: YBK Jaiswal
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SV Samson
+    - 5.5:
+        non_striker: YBK Jaiswal
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 5.6:
+        non_striker: YBK Jaiswal
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SV Samson
+    - 6.1:
+        non_striker: SV Samson
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YBK Jaiswal
+    - 6.2:
+        non_striker: YBK Jaiswal
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 6.3:
+        non_striker: SV Samson
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: YBK Jaiswal
+    - 6.4:
+        non_striker: SV Samson
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YBK Jaiswal
+    - 6.5:
+        non_striker: YBK Jaiswal
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 6.6:
+        non_striker: SV Samson
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YBK Jaiswal
+    - 7.1:
+        non_striker: YBK Jaiswal
+        bowler: Suyash Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 7.2:
+        non_striker: SV Samson
+        bowler: Suyash Sharma
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: YBK Jaiswal
+    - 7.3:
+        non_striker: SV Samson
+        bowler: Suyash Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YBK Jaiswal
+    - 7.4:
+        non_striker: YBK Jaiswal
+        bowler: Suyash Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 7.5:
+        non_striker: SV Samson
+        bowler: Suyash Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YBK Jaiswal
+    - 7.6:
+        non_striker: YBK Jaiswal
+        bowler: Suyash Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 8.1:
+        non_striker: SV Samson
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: YBK Jaiswal
+    - 8.2:
+        non_striker: SV Samson
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YBK Jaiswal
+    - 8.3:
+        non_striker: SV Samson
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YBK Jaiswal
+    - 8.4:
+        non_striker: SV Samson
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YBK Jaiswal
+    - 8.5:
+        non_striker: YBK Jaiswal
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 8.6:
+        non_striker: YBK Jaiswal
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 9.1:
+        non_striker: SV Samson
+        bowler: Suyash Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YBK Jaiswal
+    - 9.2:
+        non_striker: SV Samson
+        bowler: Suyash Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YBK Jaiswal
+    - 9.3:
+        non_striker: YBK Jaiswal
+        bowler: Suyash Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 9.4:
+        non_striker: YBK Jaiswal
+        bowler: Suyash Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SV Samson
+    - 9.5:
+        non_striker: YBK Jaiswal
+        bowler: Suyash Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 9.6:
+        non_striker: YBK Jaiswal
+        bowler: Suyash Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 10.1:
+        non_striker: YBK Jaiswal
+        bowler: AS Roy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SV Samson
+    - 10.2:
+        non_striker: YBK Jaiswal
+        bowler: AS Roy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 10.3:
+        non_striker: SV Samson
+        bowler: AS Roy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YBK Jaiswal
+    - 10.4:
+        non_striker: SV Samson
+        bowler: AS Roy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YBK Jaiswal
+    - 10.5:
+        non_striker: YBK Jaiswal
+        bowler: AS Roy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SV Samson
+    - 10.6:
+        non_striker: YBK Jaiswal
+        bowler: AS Roy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SV Samson
+    - 11.1:
+        non_striker: SV Samson
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: YBK Jaiswal
+    - 11.2:
+        non_striker: SV Samson
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YBK Jaiswal
+    - 11.3:
+        non_striker: YBK Jaiswal
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SV Samson
+    - 11.4:
+        non_striker: YBK Jaiswal
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 11.5:
+        non_striker: SV Samson
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YBK Jaiswal
+    - 11.6:
+        non_striker: SV Samson
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YBK Jaiswal
+    - 12.1:
+        non_striker: SV Samson
+        bowler: Suyash Sharma
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          byes: 1
+        batsman: YBK Jaiswal
+    - 12.2:
+        non_striker: YBK Jaiswal
+        bowler: Suyash Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 12.3:
+        non_striker: SV Samson
+        bowler: Suyash Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: YBK Jaiswal
+    - 12.4:
+        non_striker: SV Samson
+        bowler: Suyash Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YBK Jaiswal
+    - 12.5:
+        non_striker: SV Samson
+        bowler: Suyash Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YBK Jaiswal
+    - 12.6:
+        non_striker: YBK Jaiswal
+        bowler: Suyash Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 13.1:
+        non_striker: SV Samson
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: YBK Jaiswal

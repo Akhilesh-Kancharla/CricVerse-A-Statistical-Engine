@@ -1,0 +1,2169 @@
+---
+meta:
+  data_version: 0.92
+  created: '2023-05-14'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Jaipur
+  competition: IPL
+  dates:
+  - '2023-05-07'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Sunrisers Hyderabad
+    by:
+      wickets: 4
+  overs: 20
+  player_of_match:
+  - GD Phillips
+  players:
+    Rajasthan Royals:
+    - OC McCoy
+    - YBK Jaiswal
+    - JC Buttler
+    - SV Samson
+    - SO Hetmyer
+    - JE Root
+    - Dhruv Jurel
+    - R Ashwin
+    - Sandeep Sharma
+    - M Ashwin
+    - K Yadav
+    - YS Chahal
+    Sunrisers Hyderabad:
+    - T Natarajan
+    - Anmolpreet Singh
+    - Abhishek Sharma
+    - RA Tripathi
+    - H Klaasen
+    - AK Markram
+    - GD Phillips
+    - Abdul Samad
+    - M Jansen
+    - Vivrant Sharma
+    - M Markande
+    - B Kumar
+  registry:
+    people:
+      AK Markram: 6a26221c
+      Abdul Samad: 8e514b4c
+      Abhishek Sharma: f29185a1
+      Anmolpreet Singh: 1399b39c
+      B Kumar: 2e81a32d
+      Dhruv Jurel: bcf325d2
+      GD Phillips: 9a46c4e5
+      H Klaasen: 235c2bb6
+      J Srinath: bad31fac
+      JC Buttler: 99b75528
+      JE Root: a343262c
+      K Yadav: 030f3089
+      M Ashwin: e2db2409
+      M Jansen: 81c36ee9
+      M Markande: a9fd84fb
+      Nitin Menon: e1d41d9e
+      OC McCoy: 529eb9e0
+      R Ashwin: 495d42a5
+      RA Tripathi: 77255a9e
+      SO Hetmyer: 48a1d7b7
+      SV Samson: a4cc73aa
+      Sandeep Sharma: ce820073
+      T Natarajan: ce794613
+      VK Sharma: a7a49df4
+      VM Dhokre: 67df71c9
+      Vinod Seshan: a3357a27
+      Vivrant Sharma: 1b7b0fa7
+      YBK Jaiswal: 6c19c6e5
+      YS Chahal: 57ee1fde
+  teams:
+  - Rajasthan Royals
+  - Sunrisers Hyderabad
+  toss:
+    winner: Rajasthan Royals
+    decision: bat
+  umpires:
+  - Nitin Menon
+  - Vinod Seshan
+  venue: Sawai Mansingh Stadium, Jaipur
+innings:
+- 1st innings:
+    team: Rajasthan Royals
+    deliveries:
+    - 0.1:
+        non_striker: JC Buttler
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: YBK Jaiswal
+    - 0.2:
+        non_striker: JC Buttler
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YBK Jaiswal
+    - 0.3:
+        non_striker: JC Buttler
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YBK Jaiswal
+    - 0.4:
+        non_striker: JC Buttler
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: YBK Jaiswal
+    - 0.5:
+        non_striker: JC Buttler
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YBK Jaiswal
+    - 0.6:
+        non_striker: YBK Jaiswal
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JC Buttler
+    - 1.1:
+        non_striker: JC Buttler
+        bowler: M Jansen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YBK Jaiswal
+    - 1.2:
+        non_striker: YBK Jaiswal
+        bowler: M Jansen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JC Buttler
+    - 1.3:
+        non_striker: YBK Jaiswal
+        bowler: M Jansen
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        extras:
+          legbyes: 4
+        batsman: JC Buttler
+    - 1.4:
+        non_striker: YBK Jaiswal
+        bowler: M Jansen
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JC Buttler
+    - 1.5:
+        non_striker: YBK Jaiswal
+        bowler: M Jansen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JC Buttler
+    - 1.6:
+        non_striker: JC Buttler
+        bowler: M Jansen
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: YBK Jaiswal
+    - 1.7:
+        non_striker: JC Buttler
+        bowler: M Jansen
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: YBK Jaiswal
+    - 2.1:
+        non_striker: YBK Jaiswal
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JC Buttler
+    - 2.2:
+        non_striker: YBK Jaiswal
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JC Buttler
+    - 2.3:
+        non_striker: YBK Jaiswal
+        bowler: T Natarajan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JC Buttler
+    - 2.4:
+        non_striker: YBK Jaiswal
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JC Buttler
+    - 2.5:
+        non_striker: JC Buttler
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YBK Jaiswal
+    - 2.6:
+        non_striker: YBK Jaiswal
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JC Buttler
+    - 2.7:
+        non_striker: YBK Jaiswal
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JC Buttler
+    - 3.1:
+        non_striker: YBK Jaiswal
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JC Buttler
+    - 3.2:
+        non_striker: JC Buttler
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: YBK Jaiswal
+    - 3.3:
+        non_striker: JC Buttler
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: YBK Jaiswal
+    - 3.4:
+        non_striker: JC Buttler
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YBK Jaiswal
+    - 3.5:
+        non_striker: JC Buttler
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YBK Jaiswal
+    - 3.6:
+        non_striker: JC Buttler
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YBK Jaiswal
+    - 4.1:
+        non_striker: YBK Jaiswal
+        bowler: M Jansen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JC Buttler
+    - 4.2:
+        non_striker: JC Buttler
+        bowler: M Jansen
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: YBK Jaiswal
+    - 4.3:
+        non_striker: JC Buttler
+        bowler: M Jansen
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: YBK Jaiswal
+    - 4.4:
+        non_striker: JC Buttler
+        bowler: M Jansen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YBK Jaiswal
+    - 4.5:
+        non_striker: JC Buttler
+        bowler: M Jansen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YBK Jaiswal
+    - 4.6:
+        non_striker: JC Buttler
+        bowler: M Jansen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YBK Jaiswal
+        wicket:
+          player_out: YBK Jaiswal
+          fielders:
+          - T Natarajan
+          kind: caught
+    - 5.1:
+        non_striker: SV Samson
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JC Buttler
+    - 5.2:
+        non_striker: JC Buttler
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 5.3:
+        non_striker: JC Buttler
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 5.4:
+        non_striker: JC Buttler
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 5.5:
+        non_striker: JC Buttler
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SV Samson
+    - 5.6:
+        non_striker: JC Buttler
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SV Samson
+    - 6.1:
+        non_striker: SV Samson
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JC Buttler
+    - 6.2:
+        non_striker: SV Samson
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JC Buttler
+    - 6.3:
+        non_striker: SV Samson
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JC Buttler
+    - 6.4:
+        non_striker: JC Buttler
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 6.5:
+        non_striker: SV Samson
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JC Buttler
+    - 6.6:
+        non_striker: JC Buttler
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SV Samson
+    - 7.1:
+        non_striker: SV Samson
+        bowler: Abhishek Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JC Buttler
+    - 7.2:
+        non_striker: SV Samson
+        bowler: Abhishek Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JC Buttler
+    - 7.3:
+        non_striker: JC Buttler
+        bowler: Abhishek Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 7.4:
+        non_striker: JC Buttler
+        bowler: Abhishek Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 7.5:
+        non_striker: SV Samson
+        bowler: Abhishek Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JC Buttler
+    - 7.6:
+        non_striker: JC Buttler
+        bowler: Abhishek Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 8.1:
+        non_striker: JC Buttler
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SV Samson
+    - 8.2:
+        non_striker: JC Buttler
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SV Samson
+    - 8.3:
+        non_striker: JC Buttler
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 8.4:
+        non_striker: SV Samson
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JC Buttler
+    - 8.5:
+        non_striker: JC Buttler
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 8.6:
+        non_striker: SV Samson
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JC Buttler
+    - 9.1:
+        non_striker: JC Buttler
+        bowler: Abhishek Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 9.2:
+        non_striker: JC Buttler
+        bowler: Abhishek Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 9.3:
+        non_striker: SV Samson
+        bowler: Abhishek Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JC Buttler
+    - 9.4:
+        non_striker: SV Samson
+        bowler: Abhishek Sharma
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JC Buttler
+    - 9.5:
+        non_striker: SV Samson
+        bowler: Abhishek Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JC Buttler
+    - 9.6:
+        non_striker: SV Samson
+        bowler: Abhishek Sharma
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: JC Buttler
+    - 10.1:
+        non_striker: SV Samson
+        bowler: Vivrant Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JC Buttler
+    - 10.2:
+        non_striker: JC Buttler
+        bowler: Vivrant Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 10.3:
+        non_striker: SV Samson
+        bowler: Vivrant Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JC Buttler
+    - 10.4:
+        non_striker: JC Buttler
+        bowler: Vivrant Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 10.5:
+        non_striker: JC Buttler
+        bowler: Vivrant Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 10.6:
+        non_striker: SV Samson
+        bowler: Vivrant Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JC Buttler
+    - 11.1:
+        non_striker: JC Buttler
+        bowler: M Jansen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 11.2:
+        non_striker: SV Samson
+        bowler: M Jansen
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JC Buttler
+    - 11.3:
+        non_striker: SV Samson
+        bowler: M Jansen
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JC Buttler
+    - 11.4:
+        non_striker: SV Samson
+        bowler: M Jansen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JC Buttler
+    - 11.5:
+        non_striker: JC Buttler
+        bowler: M Jansen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 11.6:
+        non_striker: SV Samson
+        bowler: M Jansen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JC Buttler
+    - 12.1:
+        non_striker: SV Samson
+        bowler: Vivrant Sharma
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JC Buttler
+    - 12.2:
+        non_striker: SV Samson
+        bowler: Vivrant Sharma
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JC Buttler
+    - 12.3:
+        non_striker: SV Samson
+        bowler: Vivrant Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JC Buttler
+    - 12.4:
+        non_striker: SV Samson
+        bowler: Vivrant Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JC Buttler
+    - 12.5:
+        non_striker: SV Samson
+        bowler: Vivrant Sharma
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JC Buttler
+    - 12.6:
+        non_striker: SV Samson
+        bowler: Vivrant Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JC Buttler
+    - 12.7:
+        non_striker: JC Buttler
+        bowler: Vivrant Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 13.1:
+        non_striker: SV Samson
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JC Buttler
+    - 13.2:
+        non_striker: SV Samson
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JC Buttler
+    - 13.3:
+        non_striker: SV Samson
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JC Buttler
+    - 13.4:
+        non_striker: SV Samson
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JC Buttler
+    - 13.5:
+        non_striker: JC Buttler
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 13.6:
+        non_striker: JC Buttler
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SV Samson
+    - 14.1:
+        non_striker: SV Samson
+        bowler: M Jansen
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JC Buttler
+    - 14.2:
+        non_striker: SV Samson
+        bowler: M Jansen
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JC Buttler
+    - 14.3:
+        non_striker: SV Samson
+        bowler: M Jansen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JC Buttler
+    - 14.4:
+        non_striker: JC Buttler
+        bowler: M Jansen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 14.5:
+        non_striker: SV Samson
+        bowler: M Jansen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JC Buttler
+    - 14.6:
+        non_striker: JC Buttler
+        bowler: M Jansen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 15.1:
+        non_striker: JC Buttler
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 15.2:
+        non_striker: SV Samson
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JC Buttler
+    - 15.3:
+        non_striker: SV Samson
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JC Buttler
+    - 15.4:
+        non_striker: SV Samson
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JC Buttler
+    - 15.5:
+        non_striker: JC Buttler
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SV Samson
+    - 15.6:
+        non_striker: JC Buttler
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 16.1:
+        non_striker: SV Samson
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JC Buttler
+    - 16.2:
+        non_striker: SV Samson
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JC Buttler
+    - 16.3:
+        non_striker: SV Samson
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JC Buttler
+    - 16.4:
+        non_striker: JC Buttler
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 16.5:
+        non_striker: SV Samson
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JC Buttler
+    - 16.6:
+        non_striker: SV Samson
+        bowler: B Kumar
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JC Buttler
+    - 16.7:
+        non_striker: SV Samson
+        bowler: B Kumar
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JC Buttler
+    - 16.8:
+        non_striker: SV Samson
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JC Buttler
+    - 17.1:
+        non_striker: SV Samson
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JC Buttler
+    - 17.2:
+        non_striker: JC Buttler
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 17.3:
+        non_striker: JC Buttler
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 17.4:
+        non_striker: SV Samson
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JC Buttler
+    - 17.5:
+        non_striker: SV Samson
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JC Buttler
+    - 17.6:
+        non_striker: JC Buttler
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SV Samson
+    - 18.1:
+        non_striker: SV Samson
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JC Buttler
+    - 18.2:
+        non_striker: JC Buttler
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 18.3:
+        non_striker: SV Samson
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JC Buttler
+        wicket:
+          player_out: JC Buttler
+          kind: lbw
+    - 18.4:
+        non_striker: SV Samson
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SO Hetmyer
+    - 18.5:
+        non_striker: SV Samson
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SO Hetmyer
+    - 18.6:
+        non_striker: SV Samson
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SO Hetmyer
+    - 19.1:
+        non_striker: SV Samson
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SO Hetmyer
+    - 19.2:
+        non_striker: SO Hetmyer
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SV Samson
+    - 19.3:
+        non_striker: SO Hetmyer
+        bowler: T Natarajan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          byes: 1
+        batsman: SV Samson
+    - 19.4:
+        non_striker: SV Samson
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SO Hetmyer
+    - 19.5:
+        non_striker: SO Hetmyer
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SV Samson
+    - 19.6:
+        non_striker: SO Hetmyer
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SV Samson
+- 2nd innings:
+    team: Sunrisers Hyderabad
+    deliveries:
+    - 0.1:
+        non_striker: Abhishek Sharma
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        replacements:
+          match:
+          - in: Anmolpreet Singh
+            out: T Natarajan
+            team: Sunrisers Hyderabad
+            reason: impact_player
+        batsman: Anmolpreet Singh
+    - 0.2:
+        non_striker: Abhishek Sharma
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anmolpreet Singh
+    - 0.3:
+        non_striker: Abhishek Sharma
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anmolpreet Singh
+    - 0.4:
+        non_striker: Abhishek Sharma
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anmolpreet Singh
+    - 0.5:
+        non_striker: Anmolpreet Singh
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhishek Sharma
+    - 0.6:
+        non_striker: Abhishek Sharma
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Anmolpreet Singh
+    - 1.1:
+        non_striker: Anmolpreet Singh
+        bowler: K Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhishek Sharma
+    - 1.2:
+        non_striker: Abhishek Sharma
+        bowler: K Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anmolpreet Singh
+    - 1.3:
+        non_striker: Abhishek Sharma
+        bowler: K Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anmolpreet Singh
+    - 1.4:
+        non_striker: Abhishek Sharma
+        bowler: K Yadav
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Anmolpreet Singh
+    - 1.5:
+        non_striker: Abhishek Sharma
+        bowler: K Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anmolpreet Singh
+    - 1.6:
+        non_striker: Anmolpreet Singh
+        bowler: K Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abhishek Sharma
+    - 2.1:
+        non_striker: Abhishek Sharma
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anmolpreet Singh
+    - 2.2:
+        non_striker: Abhishek Sharma
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anmolpreet Singh
+    - 2.3:
+        non_striker: Abhishek Sharma
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anmolpreet Singh
+    - 2.4:
+        non_striker: Anmolpreet Singh
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abhishek Sharma
+    - 2.5:
+        non_striker: Anmolpreet Singh
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhishek Sharma
+    - 2.6:
+        non_striker: Abhishek Sharma
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Anmolpreet Singh
+    - 3.1:
+        non_striker: Anmolpreet Singh
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhishek Sharma
+    - 3.2:
+        non_striker: Abhishek Sharma
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anmolpreet Singh
+    - 3.3:
+        non_striker: Abhishek Sharma
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anmolpreet Singh
+    - 3.4:
+        non_striker: Anmolpreet Singh
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhishek Sharma
+    - 3.5:
+        non_striker: Abhishek Sharma
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Anmolpreet Singh
+    - 3.6:
+        non_striker: Abhishek Sharma
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anmolpreet Singh
+    - 4.1:
+        non_striker: Abhishek Sharma
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Anmolpreet Singh
+    - 4.2:
+        non_striker: Abhishek Sharma
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anmolpreet Singh
+    - 4.3:
+        non_striker: Anmolpreet Singh
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abhishek Sharma
+    - 4.4:
+        non_striker: Anmolpreet Singh
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhishek Sharma
+    - 4.5:
+        non_striker: Abhishek Sharma
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anmolpreet Singh
+    - 4.6:
+        non_striker: Anmolpreet Singh
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abhishek Sharma
+    - 5.1:
+        non_striker: Abhishek Sharma
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anmolpreet Singh
+    - 5.2:
+        non_striker: Abhishek Sharma
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anmolpreet Singh
+    - 5.3:
+        non_striker: Abhishek Sharma
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Anmolpreet Singh
+    - 5.4:
+        non_striker: Abhishek Sharma
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Anmolpreet Singh
+    - 5.5:
+        non_striker: Abhishek Sharma
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anmolpreet Singh
+        wicket:
+          player_out: Anmolpreet Singh
+          fielders:
+          - SO Hetmyer
+          kind: caught
+    - 5.6:
+        non_striker: Abhishek Sharma
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Tripathi
+    - 6.1:
+        non_striker: Abhishek Sharma
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Tripathi
+    - 6.2:
+        non_striker: RA Tripathi
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhishek Sharma
+    - 6.3:
+        non_striker: Abhishek Sharma
+        bowler: R Ashwin
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: RA Tripathi
+    - 6.4:
+        non_striker: Abhishek Sharma
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Tripathi
+    - 6.5:
+        non_striker: RA Tripathi
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abhishek Sharma
+    - 6.6:
+        non_striker: RA Tripathi
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhishek Sharma
+    - 6.7:
+        non_striker: Abhishek Sharma
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Tripathi
+    - 7.1:
+        non_striker: Abhishek Sharma
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Tripathi
+    - 7.2:
+        non_striker: RA Tripathi
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhishek Sharma
+    - 7.3:
+        non_striker: Abhishek Sharma
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Tripathi
+    - 7.4:
+        non_striker: Abhishek Sharma
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Tripathi
+    - 7.5:
+        non_striker: RA Tripathi
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abhishek Sharma
+    - 7.6:
+        non_striker: RA Tripathi
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abhishek Sharma
+    - 8.1:
+        non_striker: Abhishek Sharma
+        bowler: K Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Tripathi
+    - 8.2:
+        non_striker: RA Tripathi
+        bowler: K Yadav
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Abhishek Sharma
+    - 8.3:
+        non_striker: RA Tripathi
+        bowler: K Yadav
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Abhishek Sharma
+    - 8.4:
+        non_striker: RA Tripathi
+        bowler: K Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abhishek Sharma
+    - 8.5:
+        non_striker: RA Tripathi
+        bowler: K Yadav
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Abhishek Sharma
+    - 8.6:
+        non_striker: RA Tripathi
+        bowler: K Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhishek Sharma
+    - 9.1:
+        non_striker: RA Tripathi
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhishek Sharma
+    - 9.2:
+        non_striker: Abhishek Sharma
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RA Tripathi
+    - 9.3:
+        non_striker: Abhishek Sharma
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Tripathi
+    - 9.4:
+        non_striker: RA Tripathi
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abhishek Sharma
+    - 9.5:
+        non_striker: RA Tripathi
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhishek Sharma
+    - 9.6:
+        non_striker: Abhishek Sharma
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Tripathi
+    - 10.1:
+        non_striker: Abhishek Sharma
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: RA Tripathi
+    - 10.2:
+        non_striker: RA Tripathi
+        bowler: R Ashwin
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Abhishek Sharma
+    - 10.3:
+        non_striker: RA Tripathi
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhishek Sharma
+    - 10.4:
+        non_striker: Abhishek Sharma
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RA Tripathi
+    - 10.5:
+        non_striker: Abhishek Sharma
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Tripathi
+    - 10.6:
+        non_striker: RA Tripathi
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhishek Sharma
+    - 10.7:
+        non_striker: Abhishek Sharma
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Tripathi
+    - 11.1:
+        non_striker: RA Tripathi
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abhishek Sharma
+    - 11.2:
+        non_striker: RA Tripathi
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhishek Sharma
+    - 11.3:
+        non_striker: Abhishek Sharma
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Tripathi
+    - 11.4:
+        non_striker: RA Tripathi
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abhishek Sharma
+    - 11.5:
+        non_striker: RA Tripathi
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Abhishek Sharma
+    - 11.6:
+        non_striker: RA Tripathi
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhishek Sharma
+    - 12.1:
+        non_striker: RA Tripathi
+        bowler: R Ashwin
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Abhishek Sharma
+    - 12.2:
+        non_striker: RA Tripathi
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhishek Sharma
+    - 12.3:
+        non_striker: Abhishek Sharma
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Tripathi
+    - 12.4:
+        non_striker: RA Tripathi
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Abhishek Sharma
+    - 12.5:
+        non_striker: RA Tripathi
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abhishek Sharma
+        wicket:
+          player_out: Abhishek Sharma
+          fielders:
+          - YS Chahal
+          kind: caught
+    - 12.6:
+        non_striker: RA Tripathi
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: H Klaasen
+    - 12.7:
+        non_striker: RA Tripathi
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: H Klaasen
+    - 13.1:
+        non_striker: RA Tripathi
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        replacements:
+          match:
+          - in: OC McCoy
+            out: R Ashwin
+            team: Rajasthan Royals
+            reason: impact_player
+        batsman: H Klaasen
+    - 13.2:
+        non_striker: RA Tripathi
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: H Klaasen
+    - 13.3:
+        non_striker: H Klaasen
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RA Tripathi
+    - 13.4:
+        non_striker: H Klaasen
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RA Tripathi
+    - 13.5:
+        non_striker: H Klaasen
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RA Tripathi
+    - 13.6:
+        non_striker: H Klaasen
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Tripathi
+    - 14.1:
+        non_striker: RA Tripathi
+        bowler: K Yadav
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: H Klaasen
+    - 14.2:
+        non_striker: RA Tripathi
+        bowler: K Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: H Klaasen
+    - 14.3:
+        non_striker: H Klaasen
+        bowler: K Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Tripathi
+    - 14.4:
+        non_striker: RA Tripathi
+        bowler: K Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: H Klaasen
+    - 14.5:
+        non_striker: H Klaasen
+        bowler: K Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Tripathi
+    - 14.6:
+        non_striker: RA Tripathi
+        bowler: K Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: H Klaasen
+    - 15.1:
+        non_striker: H Klaasen
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Tripathi
+    - 15.2:
+        non_striker: RA Tripathi
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: H Klaasen
+    - 15.3:
+        non_striker: RA Tripathi
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: H Klaasen
+    - 15.4:
+        non_striker: RA Tripathi
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: H Klaasen
+    - 15.5:
+        non_striker: RA Tripathi
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: H Klaasen
+        wicket:
+          player_out: H Klaasen
+          fielders:
+          - JC Buttler
+          kind: caught
+    - 15.6:
+        non_striker: RA Tripathi
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AK Markram
+    - 16.1:
+        non_striker: RA Tripathi
+        bowler: OC McCoy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AK Markram
+    - 16.2:
+        non_striker: AK Markram
+        bowler: OC McCoy
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: RA Tripathi
+    - 16.3:
+        non_striker: AK Markram
+        bowler: OC McCoy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Tripathi
+    - 16.4:
+        non_striker: AK Markram
+        bowler: OC McCoy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RA Tripathi
+    - 16.5:
+        non_striker: AK Markram
+        bowler: OC McCoy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Tripathi
+    - 16.6:
+        non_striker: RA Tripathi
+        bowler: OC McCoy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AK Markram
+    - 16.7:
+        non_striker: RA Tripathi
+        bowler: OC McCoy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AK Markram
+    - 17.1:
+        non_striker: AK Markram
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Tripathi
+    - 17.2:
+        non_striker: AK Markram
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Tripathi
+        wicket:
+          player_out: RA Tripathi
+          fielders:
+          - YBK Jaiswal
+          kind: caught
+    - 17.3:
+        non_striker: AK Markram
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: GD Phillips
+    - 17.4:
+        non_striker: AK Markram
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GD Phillips
+    - 17.5:
+        non_striker: GD Phillips
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AK Markram
+        wicket:
+          player_out: AK Markram
+          kind: lbw
+    - 17.6:
+        non_striker: GD Phillips
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abdul Samad
+    - 18.1:
+        non_striker: Abdul Samad
+        bowler: K Yadav
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: GD Phillips
+    - 18.2:
+        non_striker: Abdul Samad
+        bowler: K Yadav
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: GD Phillips
+    - 18.3:
+        non_striker: Abdul Samad
+        bowler: K Yadav
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: GD Phillips
+    - 18.4:
+        non_striker: Abdul Samad
+        bowler: K Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GD Phillips
+    - 18.5:
+        non_striker: Abdul Samad
+        bowler: K Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GD Phillips
+        wicket:
+          player_out: GD Phillips
+          fielders:
+          - SO Hetmyer
+          kind: caught
+    - 18.6:
+        non_striker: Abdul Samad
+        bowler: K Yadav
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: M Jansen
+    - 19.1:
+        non_striker: M Jansen
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Abdul Samad
+    - 19.2:
+        non_striker: M Jansen
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Abdul Samad
+    - 19.3:
+        non_striker: M Jansen
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Abdul Samad
+    - 19.4:
+        non_striker: M Jansen
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abdul Samad
+    - 19.5:
+        non_striker: Abdul Samad
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Jansen
+    - 19.6:
+        non_striker: M Jansen
+        bowler: Sandeep Sharma
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          noballs: 1
+        batsman: Abdul Samad
+    - 19.7:
+        non_striker: M Jansen
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Abdul Samad

@@ -1,0 +1,2077 @@
+---
+meta:
+  data_version: 0.92
+  created: '2023-04-20'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Chandigarh
+  competition: IPL
+  dates:
+  - '2023-04-20'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Royal Challengers Bangalore
+    by:
+      runs: 24
+  overs: 20
+  player_of_match:
+  - Mohammed Siraj
+  players:
+    Royal Challengers Bangalore:
+    - Vijaykumar Vyshak
+    - V Kohli
+    - F du Plessis
+    - GJ Maxwell
+    - KD Karthik
+    - MK Lomror
+    - Shahbaz Ahmed
+    - SS Prabhudessai
+    - PWH de Silva
+    - HV Patel
+    - WD Parnell
+    - Mohammed Siraj
+    Punjab Kings:
+    - RD Chahar
+    - Atharva Taide
+    - P Simran Singh
+    - MW Short
+    - LS Livingstone
+    - Harpreet Singh
+    - SM Curran
+    - JM Sharma
+    - M Shahrukh Khan
+    - Harpreet Brar
+    - NT Ellis
+    - Arshdeep Singh
+  registry:
+    people:
+      AK Chaudhary: fdcc6236
+      Arshdeep Singh: 244048f6
+      Atharva Taide: 1ac746c8
+      CB Gaffaney: d5ac41d8
+      F du Plessis: 3355b542
+      GJ Maxwell: b681e71e
+      GR Sadashiv Iyer: 0be62e31
+      HV Patel: f986ca1a
+      Harpreet Brar: c05edf8e
+      Harpreet Singh: 28c78fb3
+      JM Sharma: 800d2d97
+      KD Karthik: c03f1114
+      LS Livingstone: 50c6bc2b
+      M Kuppuraj: aa4063d0
+      M Shahrukh Khan: 7dcb9bc9
+      MK Lomror: da934ee8
+      MW Short: a90e53ec
+      Mohammed Siraj: 2f49c897
+      NT Ellis: 9eb1455b
+      P Simran Singh: 9418198b
+      PWH de Silva: a97c8ec2
+      Prakash Bhatt: f848ab0b
+      RD Chahar: 2ed569a0
+      SM Curran: e94915e6
+      SS Prabhudessai: 9385de2e
+      Shahbaz Ahmed: f9e6e7ef
+      V Kohli: ba607b88
+      Vijaykumar Vyshak: 54e52590
+      WD Parnell: 3a60e0b5
+  teams:
+  - Royal Challengers Bangalore
+  - Punjab Kings
+  toss:
+    winner: Punjab Kings
+    decision: field
+  umpires:
+  - AK Chaudhary
+  - GR Sadashiv Iyer
+  venue: Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh
+innings:
+- 1st innings:
+    team: Royal Challengers Bangalore
+    deliveries:
+    - 0.1:
+        non_striker: F du Plessis
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Kohli
+    - 0.2:
+        non_striker: V Kohli
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: F du Plessis
+    - 0.3:
+        non_striker: V Kohli
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: F du Plessis
+    - 0.4:
+        non_striker: V Kohli
+        bowler: Arshdeep Singh
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: F du Plessis
+    - 0.5:
+        non_striker: F du Plessis
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: V Kohli
+    - 0.6:
+        non_striker: F du Plessis
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Kohli
+    - 1.1:
+        non_striker: F du Plessis
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Kohli
+    - 1.2:
+        non_striker: F du Plessis
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Kohli
+    - 1.3:
+        non_striker: V Kohli
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: F du Plessis
+    - 1.4:
+        non_striker: F du Plessis
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: V Kohli
+    - 1.5:
+        non_striker: F du Plessis
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Kohli
+    - 1.6:
+        non_striker: F du Plessis
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Kohli
+    - 2.1:
+        non_striker: V Kohli
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: F du Plessis
+    - 2.2:
+        non_striker: V Kohli
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: F du Plessis
+    - 2.3:
+        non_striker: F du Plessis
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: V Kohli
+    - 2.4:
+        non_striker: F du Plessis
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Kohli
+    - 2.5:
+        non_striker: F du Plessis
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: V Kohli
+    - 2.6:
+        non_striker: F du Plessis
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: V Kohli
+    - 3.1:
+        non_striker: V Kohli
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: F du Plessis
+    - 3.2:
+        non_striker: F du Plessis
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Kohli
+    - 3.3:
+        non_striker: V Kohli
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: F du Plessis
+    - 3.4:
+        non_striker: V Kohli
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: F du Plessis
+    - 3.5:
+        non_striker: V Kohli
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: F du Plessis
+    - 3.6:
+        non_striker: V Kohli
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: F du Plessis
+    - 4.1:
+        non_striker: V Kohli
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: F du Plessis
+    - 4.2:
+        non_striker: F du Plessis
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Kohli
+    - 4.3:
+        non_striker: F du Plessis
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: V Kohli
+    - 4.4:
+        non_striker: F du Plessis
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Kohli
+    - 4.5:
+        non_striker: V Kohli
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: F du Plessis
+    - 4.6:
+        non_striker: V Kohli
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: F du Plessis
+    - 5.1:
+        non_striker: F du Plessis
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Kohli
+    - 5.2:
+        non_striker: V Kohli
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: F du Plessis
+    - 5.3:
+        non_striker: V Kohli
+        bowler: SM Curran
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: F du Plessis
+    - 5.4:
+        non_striker: F du Plessis
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: V Kohli
+    - 5.5:
+        non_striker: F du Plessis
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Kohli
+    - 5.6:
+        non_striker: V Kohli
+        bowler: SM Curran
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: F du Plessis
+    - 6.1:
+        non_striker: V Kohli
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: F du Plessis
+    - 6.2:
+        non_striker: V Kohli
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: F du Plessis
+    - 6.3:
+        non_striker: F du Plessis
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: V Kohli
+    - 6.4:
+        non_striker: F du Plessis
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Kohli
+    - 6.5:
+        non_striker: F du Plessis
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Kohli
+    - 6.6:
+        non_striker: F du Plessis
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Kohli
+    - 7.1:
+        non_striker: F du Plessis
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Kohli
+    - 7.2:
+        non_striker: V Kohli
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: F du Plessis
+    - 7.3:
+        non_striker: F du Plessis
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Kohli
+    - 7.4:
+        non_striker: V Kohli
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: F du Plessis
+    - 7.5:
+        non_striker: V Kohli
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: F du Plessis
+    - 7.6:
+        non_striker: V Kohli
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: F du Plessis
+    - 8.1:
+        non_striker: F du Plessis
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Kohli
+    - 8.2:
+        non_striker: V Kohli
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: F du Plessis
+    - 8.3:
+        non_striker: V Kohli
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: F du Plessis
+    - 8.4:
+        non_striker: V Kohli
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: F du Plessis
+    - 8.5:
+        non_striker: F du Plessis
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Kohli
+    - 8.6:
+        non_striker: V Kohli
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: F du Plessis
+    - 9.1:
+        non_striker: V Kohli
+        bowler: LS Livingstone
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: F du Plessis
+    - 9.2:
+        non_striker: V Kohli
+        bowler: LS Livingstone
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: F du Plessis
+    - 9.3:
+        non_striker: F du Plessis
+        bowler: LS Livingstone
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Kohli
+    - 9.4:
+        non_striker: V Kohli
+        bowler: LS Livingstone
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: F du Plessis
+    - 9.5:
+        non_striker: F du Plessis
+        bowler: LS Livingstone
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Kohli
+    - 9.6:
+        non_striker: V Kohli
+        bowler: LS Livingstone
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: F du Plessis
+    - 10.1:
+        non_striker: V Kohli
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: F du Plessis
+    - 10.2:
+        non_striker: F du Plessis
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Kohli
+    - 10.3:
+        non_striker: F du Plessis
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Kohli
+    - 10.4:
+        non_striker: F du Plessis
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Kohli
+    - 10.5:
+        non_striker: V Kohli
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: F du Plessis
+    - 10.6:
+        non_striker: V Kohli
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: F du Plessis
+    - 11.1:
+        non_striker: V Kohli
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: F du Plessis
+    - 11.2:
+        non_striker: V Kohli
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: F du Plessis
+    - 11.3:
+        non_striker: V Kohli
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: F du Plessis
+    - 11.4:
+        non_striker: F du Plessis
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: V Kohli
+    - 11.5:
+        non_striker: F du Plessis
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Kohli
+    - 11.6:
+        non_striker: V Kohli
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: F du Plessis
+    - 12.1:
+        non_striker: V Kohli
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: F du Plessis
+    - 12.2:
+        non_striker: F du Plessis
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Kohli
+    - 12.3:
+        non_striker: F du Plessis
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Kohli
+    - 12.4:
+        non_striker: V Kohli
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: F du Plessis
+    - 12.5:
+        non_striker: F du Plessis
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Kohli
+    - 12.6:
+        non_striker: V Kohli
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: F du Plessis
+    - 13.1:
+        non_striker: V Kohli
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: F du Plessis
+    - 13.2:
+        non_striker: F du Plessis
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Kohli
+    - 13.3:
+        non_striker: V Kohli
+        bowler: Arshdeep Singh
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: F du Plessis
+    - 13.4:
+        non_striker: V Kohli
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: F du Plessis
+    - 13.5:
+        non_striker: F du Plessis
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Kohli
+    - 13.6:
+        non_striker: V Kohli
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: F du Plessis
+    - 13.7:
+        non_striker: F du Plessis
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: V Kohli
+    - 14.1:
+        non_striker: V Kohli
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: F du Plessis
+    - 14.2:
+        non_striker: F du Plessis
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Kohli
+    - 14.3:
+        non_striker: V Kohli
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: F du Plessis
+    - 14.4:
+        non_striker: F du Plessis
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Kohli
+    - 14.5:
+        non_striker: F du Plessis
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: V Kohli
+    - 14.6:
+        non_striker: F du Plessis
+        bowler: NT Ellis
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          wides: 2
+        batsman: V Kohli
+    - 14.7:
+        non_striker: V Kohli
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: F du Plessis
+    - 15.1:
+        non_striker: V Kohli
+        bowler: SM Curran
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          noballs: 1
+        batsman: F du Plessis
+    - 15.2:
+        non_striker: V Kohli
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: F du Plessis
+    - 15.3:
+        non_striker: F du Plessis
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Kohli
+    - 15.4:
+        non_striker: V Kohli
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: F du Plessis
+    - 15.5:
+        non_striker: F du Plessis
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Kohli
+    - 15.6:
+        non_striker: F du Plessis
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Kohli
+    - 15.7:
+        non_striker: V Kohli
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: F du Plessis
+    - 16.1:
+        non_striker: F du Plessis
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Kohli
+        wicket:
+          player_out: V Kohli
+          fielders:
+          - JM Sharma
+          kind: caught
+    - 16.2:
+        non_striker: F du Plessis
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GJ Maxwell
+        wicket:
+          player_out: GJ Maxwell
+          fielders:
+          - Atharva Taide
+          kind: caught
+    - 16.3:
+        non_striker: F du Plessis
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 16.4:
+        non_striker: KD Karthik
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: F du Plessis
+    - 16.5:
+        non_striker: KD Karthik
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: F du Plessis
+    - 16.6:
+        non_striker: F du Plessis
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KD Karthik
+    - 17.1:
+        non_striker: KD Karthik
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: F du Plessis
+    - 17.2:
+        non_striker: KD Karthik
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: F du Plessis
+    - 17.3:
+        non_striker: KD Karthik
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: F du Plessis
+        wicket:
+          player_out: F du Plessis
+          fielders:
+          - SM Curran
+          kind: caught
+    - 17.4:
+        non_striker: KD Karthik
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MK Lomror
+    - 17.5:
+        non_striker: KD Karthik
+        bowler: NT Ellis
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: MK Lomror
+    - 17.6:
+        non_striker: MK Lomror
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KD Karthik
+    - 18.1:
+        non_striker: KD Karthik
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MK Lomror
+    - 18.2:
+        non_striker: KD Karthik
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MK Lomror
+    - 18.3:
+        non_striker: KD Karthik
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MK Lomror
+    - 18.4:
+        non_striker: KD Karthik
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MK Lomror
+    - 18.5:
+        non_striker: MK Lomror
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KD Karthik
+    - 18.6:
+        non_striker: MK Lomror
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KD Karthik
+        wicket:
+          player_out: KD Karthik
+          fielders:
+          - Atharva Taide
+          kind: caught
+    - 19.1:
+        non_striker: Shahbaz Ahmed
+        bowler: SM Curran
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        extras:
+          legbyes: 4
+        batsman: MK Lomror
+    - 19.2:
+        non_striker: Shahbaz Ahmed
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MK Lomror
+    - 19.3:
+        non_striker: MK Lomror
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shahbaz Ahmed
+    - 19.4:
+        non_striker: MK Lomror
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shahbaz Ahmed
+    - 19.5:
+        non_striker: Shahbaz Ahmed
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MK Lomror
+    - 19.6:
+        non_striker: MK Lomror
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shahbaz Ahmed
+- 2nd innings:
+    team: Punjab Kings
+    deliveries:
+    - 0.1:
+        non_striker: P Simran Singh
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        replacements:
+          match:
+          - in: P Simran Singh
+            out: RD Chahar
+            team: Punjab Kings
+            reason: impact_player
+          - in: Vijaykumar Vyshak
+            out: F du Plessis
+            team: Royal Challengers Bangalore
+            reason: impact_player
+        batsman: Atharva Taide
+    - 0.2:
+        non_striker: P Simran Singh
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+        wicket:
+          player_out: Atharva Taide
+          kind: lbw
+    - 0.3:
+        non_striker: P Simran Singh
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MW Short
+    - 0.4:
+        non_striker: MW Short
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Simran Singh
+    - 0.5:
+        non_striker: MW Short
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: P Simran Singh
+    - 0.6:
+        non_striker: MW Short
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Simran Singh
+    - 1.1:
+        non_striker: P Simran Singh
+        bowler: WD Parnell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MW Short
+    - 1.2:
+        non_striker: P Simran Singh
+        bowler: WD Parnell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MW Short
+    - 1.3:
+        non_striker: P Simran Singh
+        bowler: WD Parnell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MW Short
+    - 1.4:
+        non_striker: P Simran Singh
+        bowler: WD Parnell
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MW Short
+    - 1.5:
+        non_striker: P Simran Singh
+        bowler: WD Parnell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MW Short
+    - 1.6:
+        non_striker: MW Short
+        bowler: WD Parnell
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: P Simran Singh
+    - 2.1:
+        non_striker: P Simran Singh
+        bowler: PWH de Silva
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MW Short
+        wicket:
+          player_out: MW Short
+          kind: bowled
+    - 2.2:
+        non_striker: P Simran Singh
+        bowler: PWH de Silva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LS Livingstone
+    - 2.3:
+        non_striker: LS Livingstone
+        bowler: PWH de Silva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Simran Singh
+    - 2.4:
+        non_striker: P Simran Singh
+        bowler: PWH de Silva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LS Livingstone
+    - 2.5:
+        non_striker: LS Livingstone
+        bowler: PWH de Silva
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Simran Singh
+    - 2.6:
+        non_striker: LS Livingstone
+        bowler: PWH de Silva
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: P Simran Singh
+    - 3.1:
+        non_striker: P Simran Singh
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LS Livingstone
+    - 3.2:
+        non_striker: P Simran Singh
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LS Livingstone
+        wicket:
+          player_out: LS Livingstone
+          kind: lbw
+    - 3.3:
+        non_striker: P Simran Singh
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 3.4:
+        non_striker: P Simran Singh
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Harpreet Singh
+    - 3.5:
+        non_striker: P Simran Singh
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 3.6:
+        non_striker: Harpreet Singh
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Simran Singh
+    - 4.1:
+        non_striker: P Simran Singh
+        bowler: WD Parnell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 4.2:
+        non_striker: P Simran Singh
+        bowler: WD Parnell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 4.3:
+        non_striker: P Simran Singh
+        bowler: WD Parnell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 4.4:
+        non_striker: Harpreet Singh
+        bowler: WD Parnell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Simran Singh
+    - 4.5:
+        non_striker: P Simran Singh
+        bowler: WD Parnell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 4.6:
+        non_striker: P Simran Singh
+        bowler: WD Parnell
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Harpreet Singh
+    - 5.1:
+        non_striker: Harpreet Singh
+        bowler: Vijaykumar Vyshak
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Simran Singh
+    - 5.2:
+        non_striker: P Simran Singh
+        bowler: Vijaykumar Vyshak
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 5.3:
+        non_striker: Harpreet Singh
+        bowler: Vijaykumar Vyshak
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: P Simran Singh
+    - 5.4:
+        non_striker: Harpreet Singh
+        bowler: Vijaykumar Vyshak
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Simran Singh
+        wicket:
+          player_out: Harpreet Singh
+          fielders:
+          - Mohammed Siraj
+          kind: run out
+    - 5.5:
+        non_striker: SM Curran
+        bowler: Vijaykumar Vyshak
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Simran Singh
+    - 5.6:
+        non_striker: SM Curran
+        bowler: Vijaykumar Vyshak
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Simran Singh
+    - 5.7:
+        non_striker: SM Curran
+        bowler: Vijaykumar Vyshak
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: P Simran Singh
+    - 6.1:
+        non_striker: P Simran Singh
+        bowler: GJ Maxwell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 6.2:
+        non_striker: SM Curran
+        bowler: GJ Maxwell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Simran Singh
+    - 6.3:
+        non_striker: SM Curran
+        bowler: GJ Maxwell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Simran Singh
+    - 6.4:
+        non_striker: P Simran Singh
+        bowler: GJ Maxwell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 6.5:
+        non_striker: SM Curran
+        bowler: GJ Maxwell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Simran Singh
+    - 6.6:
+        non_striker: P Simran Singh
+        bowler: GJ Maxwell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 7.1:
+        non_striker: P Simran Singh
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 7.2:
+        non_striker: SM Curran
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Simran Singh
+    - 7.3:
+        non_striker: SM Curran
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Simran Singh
+    - 7.4:
+        non_striker: P Simran Singh
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Curran
+    - 7.5:
+        non_striker: P Simran Singh
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Curran
+    - 7.6:
+        non_striker: P Simran Singh
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Curran
+    - 8.1:
+        non_striker: SM Curran
+        bowler: PWH de Silva
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: P Simran Singh
+    - 8.2:
+        non_striker: SM Curran
+        bowler: PWH de Silva
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Simran Singh
+    - 8.3:
+        non_striker: SM Curran
+        bowler: PWH de Silva
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Simran Singh
+    - 8.4:
+        non_striker: SM Curran
+        bowler: PWH de Silva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Simran Singh
+    - 8.5:
+        non_striker: P Simran Singh
+        bowler: PWH de Silva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 8.6:
+        non_striker: SM Curran
+        bowler: PWH de Silva
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: P Simran Singh
+    - 9.1:
+        non_striker: P Simran Singh
+        bowler: Vijaykumar Vyshak
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Curran
+    - 9.2:
+        non_striker: P Simran Singh
+        bowler: Vijaykumar Vyshak
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 9.3:
+        non_striker: SM Curran
+        bowler: Vijaykumar Vyshak
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Simran Singh
+    - 9.4:
+        non_striker: P Simran Singh
+        bowler: Vijaykumar Vyshak
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SM Curran
+    - 9.5:
+        non_striker: P Simran Singh
+        bowler: Vijaykumar Vyshak
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Curran
+        wicket:
+          player_out: SM Curran
+          fielders:
+          - PWH de Silva
+          kind: run out
+    - 9.6:
+        non_striker: JM Sharma
+        bowler: Vijaykumar Vyshak
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Simran Singh
+    - 10.1:
+        non_striker: JM Sharma
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Simran Singh
+    - 10.2:
+        non_striker: JM Sharma
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Simran Singh
+    - 10.3:
+        non_striker: P Simran Singh
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 10.4:
+        non_striker: P Simran Singh
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Sharma
+    - 10.5:
+        non_striker: P Simran Singh
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 10.6:
+        non_striker: P Simran Singh
+        bowler: HV Patel
+        runs:
+          extras: 1
+          total: 7
+          batsman: 6
+        extras:
+          noballs: 1
+        batsman: JM Sharma
+    - 10.7:
+        non_striker: P Simran Singh
+        bowler: HV Patel
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: JM Sharma
+    - 11.1:
+        non_striker: P Simran Singh
+        bowler: WD Parnell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 11.2:
+        non_striker: JM Sharma
+        bowler: WD Parnell
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: P Simran Singh
+    - 11.3:
+        non_striker: JM Sharma
+        bowler: WD Parnell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Simran Singh
+        wicket:
+          player_out: P Simran Singh
+          kind: bowled
+    - 11.4:
+        non_striker: JM Sharma
+        bowler: WD Parnell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Shahrukh Khan
+    - 11.5:
+        non_striker: JM Sharma
+        bowler: WD Parnell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Shahrukh Khan
+    - 11.6:
+        non_striker: JM Sharma
+        bowler: WD Parnell
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: M Shahrukh Khan
+    - 12.1:
+        non_striker: M Shahrukh Khan
+        bowler: PWH de Silva
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 12.2:
+        non_striker: M Shahrukh Khan
+        bowler: PWH de Silva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 12.3:
+        non_striker: JM Sharma
+        bowler: PWH de Silva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Shahrukh Khan
+    - 12.4:
+        non_striker: M Shahrukh Khan
+        bowler: PWH de Silva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 12.5:
+        non_striker: JM Sharma
+        bowler: PWH de Silva
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Shahrukh Khan
+        wicket:
+          player_out: M Shahrukh Khan
+          fielders:
+          - KD Karthik
+          kind: stumped
+    - 12.6:
+        non_striker: JM Sharma
+        bowler: PWH de Silva
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Harpreet Brar
+    - 13.1:
+        non_striker: Harpreet Brar
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JM Sharma
+    - 13.2:
+        non_striker: Harpreet Brar
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 13.3:
+        non_striker: JM Sharma
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Brar
+    - 13.4:
+        non_striker: JM Sharma
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Brar
+    - 13.5:
+        non_striker: JM Sharma
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Brar
+    - 13.6:
+        non_striker: Harpreet Brar
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 14.1:
+        non_striker: JM Sharma
+        bowler: PWH de Silva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Brar
+    - 14.2:
+        non_striker: Harpreet Brar
+        bowler: PWH de Silva
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Sharma
+    - 14.3:
+        non_striker: Harpreet Brar
+        bowler: PWH de Silva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 14.4:
+        non_striker: JM Sharma
+        bowler: PWH de Silva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Brar
+    - 14.5:
+        non_striker: Harpreet Brar
+        bowler: PWH de Silva
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 14.6:
+        non_striker: Harpreet Brar
+        bowler: PWH de Silva
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JM Sharma
+    - 15.1:
+        non_striker: JM Sharma
+        bowler: Vijaykumar Vyshak
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Brar
+    - 15.2:
+        non_striker: Harpreet Brar
+        bowler: Vijaykumar Vyshak
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Sharma
+    - 15.3:
+        non_striker: Harpreet Brar
+        bowler: Vijaykumar Vyshak
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Sharma
+    - 15.4:
+        non_striker: Harpreet Brar
+        bowler: Vijaykumar Vyshak
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 15.5:
+        non_striker: Harpreet Brar
+        bowler: Vijaykumar Vyshak
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 15.6:
+        non_striker: JM Sharma
+        bowler: Vijaykumar Vyshak
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Brar
+    - 16.1:
+        non_striker: JM Sharma
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Brar
+    - 16.2:
+        non_striker: Harpreet Brar
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 16.3:
+        non_striker: JM Sharma
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Brar
+    - 16.4:
+        non_striker: Harpreet Brar
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 16.5:
+        non_striker: JM Sharma
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Brar
+    - 16.6:
+        non_striker: Harpreet Brar
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JM Sharma
+    - 17.1:
+        non_striker: JM Sharma
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Brar
+    - 17.2:
+        non_striker: Harpreet Brar
+        bowler: Mohammed Siraj
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          byes: 1
+        batsman: JM Sharma
+    - 17.3:
+        non_striker: JM Sharma
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Brar
+        wicket:
+          player_out: Harpreet Brar
+          kind: bowled
+    - 17.4:
+        non_striker: JM Sharma
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NT Ellis
+    - 17.5:
+        non_striker: NT Ellis
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 17.6:
+        non_striker: JM Sharma
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NT Ellis
+        wicket:
+          player_out: NT Ellis
+          kind: bowled
+    - 18.1:
+        non_striker: Arshdeep Singh
+        bowler: HV Patel
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JM Sharma
+    - 18.2:
+        non_striker: Arshdeep Singh
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 18.3:
+        non_striker: Arshdeep Singh
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+        wicket:
+          player_out: JM Sharma
+          fielders:
+          - Shahbaz Ahmed
+          kind: caught

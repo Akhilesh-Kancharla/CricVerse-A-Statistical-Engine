@@ -1,0 +1,2121 @@
+---
+meta:
+  data_version: 0.92
+  created: '2024-05-01'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Lucknow
+  competition: IPL
+  dates:
+  - '2024-04-27'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Rajasthan Royals
+    by:
+      wickets: 7
+  overs: 20
+  player_of_match:
+  - SV Samson
+  players:
+    Lucknow Super Giants:
+    - A Mishra
+    - Q de Kock
+    - KL Rahul
+    - MP Stoinis
+    - DJ Hooda
+    - N Pooran
+    - A Badoni
+    - KH Pandya
+    - MJ Henry
+    - Ravi Bishnoi
+    - Mohsin Khan
+    - Yash Thakur
+    Rajasthan Royals:
+    - YS Chahal
+    - YBK Jaiswal
+    - JC Buttler
+    - SV Samson
+    - R Parag
+    - Dhruv Jurel
+    - R Powell
+    - SO Hetmyer
+    - R Ashwin
+    - TA Boult
+    - Avesh Khan
+    - Sandeep Sharma
+  registry:
+    people:
+      A Badoni: 872b03f7
+      A Bengeri: c109497d
+      A Mishra: 6b19d823
+      Amit Sharma: 7ea3e0cc
+      Avesh Khan: eef2536f
+      DJ Hooda: 73ad96ed
+      Dhruv Jurel: bcf325d2
+      JC Buttler: 99b75528
+      KH Pandya: 5b8c830e
+      KL Rahul: b17e2f24
+      KN Ananthapadmanabhan: 3144063a
+      MA Gough: 76752ac8
+      MJ Henry: e84ac20c
+      MP Stoinis: d9273ee7
+      Mohsin Khan: c33d8116
+      N Pooran: 3241e3fd
+      Q de Kock: 372455c4
+      R Ashwin: 495d42a5
+      R Parag: 04a418e8
+      R Powell: 650d5e49
+      Ravi Bishnoi: df064e1a
+      SO Hetmyer: 48a1d7b7
+      SV Samson: a4cc73aa
+      Sandeep Sharma: ce820073
+      TA Boult: a818c1be
+      Vinod Seshan: a3357a27
+      YBK Jaiswal: 6c19c6e5
+      YS Chahal: 57ee1fde
+      Yash Thakur: 4b31f3a3
+  teams:
+  - Lucknow Super Giants
+  - Rajasthan Royals
+  toss:
+    winner: Rajasthan Royals
+    decision: field
+  umpires:
+  - KN Ananthapadmanabhan
+  - MA Gough
+  venue: Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow
+innings:
+- 1st innings:
+    team: Lucknow Super Giants
+    deliveries:
+    - 0.1:
+        non_striker: KL Rahul
+        bowler: TA Boult
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Q de Kock
+    - 0.2:
+        non_striker: KL Rahul
+        bowler: TA Boult
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Q de Kock
+    - 0.3:
+        non_striker: KL Rahul
+        bowler: TA Boult
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Q de Kock
+        wicket:
+          player_out: Q de Kock
+          kind: bowled
+    - 0.4:
+        non_striker: KL Rahul
+        bowler: TA Boult
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Stoinis
+    - 0.5:
+        non_striker: KL Rahul
+        bowler: TA Boult
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Stoinis
+    - 0.6:
+        non_striker: KL Rahul
+        bowler: TA Boult
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Stoinis
+    - 1.1:
+        non_striker: MP Stoinis
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KL Rahul
+    - 1.2:
+        non_striker: MP Stoinis
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KL Rahul
+    - 1.3:
+        non_striker: MP Stoinis
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KL Rahul
+    - 1.4:
+        non_striker: MP Stoinis
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KL Rahul
+    - 1.5:
+        non_striker: MP Stoinis
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KL Rahul
+    - 1.6:
+        non_striker: KL Rahul
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Stoinis
+        wicket:
+          player_out: MP Stoinis
+          kind: bowled
+    - 2.1:
+        non_striker: DJ Hooda
+        bowler: TA Boult
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KL Rahul
+    - 2.2:
+        non_striker: DJ Hooda
+        bowler: TA Boult
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KL Rahul
+    - 2.3:
+        non_striker: DJ Hooda
+        bowler: TA Boult
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KL Rahul
+    - 2.4:
+        non_striker: KL Rahul
+        bowler: TA Boult
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Hooda
+    - 2.5:
+        non_striker: KL Rahul
+        bowler: TA Boult
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+    - 2.6:
+        non_striker: KL Rahul
+        bowler: TA Boult
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+    - 3.1:
+        non_striker: DJ Hooda
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KL Rahul
+    - 3.2:
+        non_striker: KL Rahul
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+    - 3.3:
+        non_striker: KL Rahul
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 3.4:
+        non_striker: DJ Hooda
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KL Rahul
+    - 3.5:
+        non_striker: KL Rahul
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: DJ Hooda
+    - 3.6:
+        non_striker: DJ Hooda
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KL Rahul
+    - 4.1:
+        non_striker: KL Rahul
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 4.2:
+        non_striker: DJ Hooda
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KL Rahul
+    - 4.3:
+        non_striker: DJ Hooda
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KL Rahul
+    - 4.4:
+        non_striker: DJ Hooda
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KL Rahul
+    - 4.5:
+        non_striker: DJ Hooda
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KL Rahul
+    - 4.6:
+        non_striker: KL Rahul
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Hooda
+    - 5.1:
+        non_striker: DJ Hooda
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KL Rahul
+    - 5.2:
+        non_striker: DJ Hooda
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KL Rahul
+    - 5.3:
+        non_striker: DJ Hooda
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KL Rahul
+    - 5.4:
+        non_striker: KL Rahul
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Hooda
+    - 5.5:
+        non_striker: KL Rahul
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 5.6:
+        non_striker: DJ Hooda
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KL Rahul
+    - 6.1:
+        non_striker: KL Rahul
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+    - 6.2:
+        non_striker: KL Rahul
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 6.3:
+        non_striker: DJ Hooda
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KL Rahul
+    - 6.4:
+        non_striker: DJ Hooda
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KL Rahul
+    - 6.5:
+        non_striker: KL Rahul
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DJ Hooda
+    - 6.6:
+        non_striker: KL Rahul
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+    - 7.1:
+        non_striker: DJ Hooda
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KL Rahul
+    - 7.2:
+        non_striker: DJ Hooda
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KL Rahul
+    - 7.3:
+        non_striker: DJ Hooda
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KL Rahul
+    - 7.4:
+        non_striker: DJ Hooda
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KL Rahul
+    - 7.5:
+        non_striker: DJ Hooda
+        bowler: Avesh Khan
+        runs:
+          extras: 1
+          total: 7
+          batsman: 6
+        extras:
+          noballs: 1
+        batsman: KL Rahul
+    - 7.6:
+        non_striker: DJ Hooda
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KL Rahul
+    - 7.7:
+        non_striker: DJ Hooda
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KL Rahul
+    - 8.1:
+        non_striker: KL Rahul
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 8.2:
+        non_striker: DJ Hooda
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KL Rahul
+    - 8.3:
+        non_striker: KL Rahul
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+    - 8.4:
+        non_striker: KL Rahul
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 8.5:
+        non_striker: DJ Hooda
+        bowler: R Ashwin
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: KL Rahul
+    - 8.6:
+        non_striker: DJ Hooda
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KL Rahul
+    - 8.7:
+        non_striker: KL Rahul
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 9.1:
+        non_striker: KL Rahul
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Hooda
+    - 9.2:
+        non_striker: KL Rahul
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DJ Hooda
+    - 9.3:
+        non_striker: KL Rahul
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 9.4:
+        non_striker: DJ Hooda
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KL Rahul
+    - 9.5:
+        non_striker: DJ Hooda
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KL Rahul
+    - 9.6:
+        non_striker: KL Rahul
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 10.1:
+        non_striker: KL Rahul
+        bowler: TA Boult
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 10.2:
+        non_striker: DJ Hooda
+        bowler: TA Boult
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KL Rahul
+    - 10.3:
+        non_striker: KL Rahul
+        bowler: TA Boult
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        extras:
+          wides: 5
+        batsman: DJ Hooda
+    - 10.4:
+        non_striker: KL Rahul
+        bowler: TA Boult
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DJ Hooda
+    - 10.5:
+        non_striker: KL Rahul
+        bowler: TA Boult
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Hooda
+    - 10.6:
+        non_striker: KL Rahul
+        bowler: TA Boult
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Hooda
+    - 10.7:
+        non_striker: KL Rahul
+        bowler: TA Boult
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 11.1:
+        non_striker: KL Rahul
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Hooda
+    - 11.2:
+        non_striker: KL Rahul
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 11.3:
+        non_striker: DJ Hooda
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KL Rahul
+    - 11.4:
+        non_striker: DJ Hooda
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KL Rahul
+    - 11.5:
+        non_striker: KL Rahul
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 11.6:
+        non_striker: DJ Hooda
+        bowler: YS Chahal
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: KL Rahul
+    - 11.7:
+        non_striker: DJ Hooda
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KL Rahul
+    - 12.1:
+        non_striker: KL Rahul
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+        wicket:
+          player_out: DJ Hooda
+          fielders:
+          - R Powell
+          kind: caught
+    - 12.2:
+        non_striker: KL Rahul
+        bowler: R Ashwin
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: N Pooran
+    - 12.3:
+        non_striker: N Pooran
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KL Rahul
+    - 12.4:
+        non_striker: KL Rahul
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: N Pooran
+    - 12.5:
+        non_striker: KL Rahul
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Pooran
+    - 12.6:
+        non_striker: N Pooran
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KL Rahul
+    - 13.1:
+        non_striker: KL Rahul
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Pooran
+    - 13.2:
+        non_striker: N Pooran
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KL Rahul
+    - 13.3:
+        non_striker: KL Rahul
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Pooran
+    - 13.4:
+        non_striker: KL Rahul
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: N Pooran
+    - 13.5:
+        non_striker: KL Rahul
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Pooran
+    - 13.6:
+        non_striker: N Pooran
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KL Rahul
+    - 14.1:
+        non_striker: N Pooran
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KL Rahul
+    - 14.2:
+        non_striker: KL Rahul
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Pooran
+    - 14.3:
+        non_striker: KL Rahul
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Pooran
+    - 14.4:
+        non_striker: N Pooran
+        bowler: Avesh Khan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: KL Rahul
+    - 14.5:
+        non_striker: N Pooran
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KL Rahul
+    - 14.6:
+        non_striker: KL Rahul
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Pooran
+    - 14.7:
+        non_striker: N Pooran
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KL Rahul
+    - 15.1:
+        non_striker: KL Rahul
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Pooran
+        wicket:
+          player_out: N Pooran
+          fielders:
+          - TA Boult
+          kind: caught
+    - 15.2:
+        non_striker: KL Rahul
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Badoni
+    - 15.3:
+        non_striker: A Badoni
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KL Rahul
+    - 15.4:
+        non_striker: KL Rahul
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Badoni
+    - 15.5:
+        non_striker: A Badoni
+        bowler: Sandeep Sharma
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: KL Rahul
+    - 15.6:
+        non_striker: A Badoni
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KL Rahul
+    - 15.7:
+        non_striker: KL Rahul
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Badoni
+    - 16.1:
+        non_striker: KL Rahul
+        bowler: R Ashwin
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        extras:
+          wides: 5
+        batsman: A Badoni
+    - 16.2:
+        non_striker: KL Rahul
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: A Badoni
+    - 16.3:
+        non_striker: KL Rahul
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: A Badoni
+    - 16.4:
+        non_striker: KL Rahul
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: A Badoni
+    - 16.5:
+        non_striker: KL Rahul
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Badoni
+    - 16.6:
+        non_striker: A Badoni
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KL Rahul
+    - 16.7:
+        non_striker: KL Rahul
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Badoni
+    - 17.1:
+        non_striker: A Badoni
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KL Rahul
+    - 17.2:
+        non_striker: A Badoni
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KL Rahul
+        wicket:
+          player_out: KL Rahul
+          fielders:
+          - TA Boult
+          kind: caught
+    - 17.3:
+        non_striker: A Badoni
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 17.4:
+        non_striker: KH Pandya
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: A Badoni
+    - 17.5:
+        non_striker: KH Pandya
+        bowler: Avesh Khan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: A Badoni
+    - 17.6:
+        non_striker: A Badoni
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 18.1:
+        non_striker: A Badoni
+        bowler: TA Boult
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 18.2:
+        non_striker: A Badoni
+        bowler: TA Boult
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 18.3:
+        non_striker: A Badoni
+        bowler: TA Boult
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 18.4:
+        non_striker: KH Pandya
+        bowler: TA Boult
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: A Badoni
+    - 18.5:
+        non_striker: KH Pandya
+        bowler: TA Boult
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Badoni
+    - 18.6:
+        non_striker: A Badoni
+        bowler: TA Boult
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 18.7:
+        non_striker: KH Pandya
+        bowler: TA Boult
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: A Badoni
+    - 19.1:
+        non_striker: A Badoni
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KH Pandya
+    - 19.2:
+        non_striker: A Badoni
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KH Pandya
+    - 19.3:
+        non_striker: A Badoni
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KH Pandya
+    - 19.4:
+        non_striker: A Badoni
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 19.5:
+        non_striker: KH Pandya
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Badoni
+    - 19.6:
+        non_striker: A Badoni
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KH Pandya
+- 2nd innings:
+    team: Rajasthan Royals
+    deliveries:
+    - 0.1:
+        non_striker: JC Buttler
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YBK Jaiswal
+    - 0.2:
+        non_striker: YBK Jaiswal
+        bowler: MJ Henry
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          byes: 1
+        batsman: JC Buttler
+    - 0.3:
+        non_striker: JC Buttler
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YBK Jaiswal
+    - 0.4:
+        non_striker: JC Buttler
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: YBK Jaiswal
+    - 0.5:
+        non_striker: JC Buttler
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: YBK Jaiswal
+    - 0.6:
+        non_striker: JC Buttler
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YBK Jaiswal
+    - 1.1:
+        non_striker: JC Buttler
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YBK Jaiswal
+    - 1.2:
+        non_striker: JC Buttler
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: YBK Jaiswal
+    - 1.3:
+        non_striker: JC Buttler
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YBK Jaiswal
+    - 1.4:
+        non_striker: YBK Jaiswal
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JC Buttler
+    - 1.5:
+        non_striker: YBK Jaiswal
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JC Buttler
+    - 1.6:
+        non_striker: YBK Jaiswal
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JC Buttler
+    - 2.1:
+        non_striker: JC Buttler
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YBK Jaiswal
+    - 2.2:
+        non_striker: JC Buttler
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YBK Jaiswal
+    - 2.3:
+        non_striker: JC Buttler
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YBK Jaiswal
+    - 2.4:
+        non_striker: YBK Jaiswal
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JC Buttler
+    - 2.5:
+        non_striker: YBK Jaiswal
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JC Buttler
+    - 2.6:
+        non_striker: YBK Jaiswal
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JC Buttler
+    - 3.1:
+        non_striker: YBK Jaiswal
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JC Buttler
+    - 3.2:
+        non_striker: YBK Jaiswal
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JC Buttler
+    - 3.3:
+        non_striker: YBK Jaiswal
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JC Buttler
+    - 3.4:
+        non_striker: JC Buttler
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YBK Jaiswal
+    - 3.5:
+        non_striker: YBK Jaiswal
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JC Buttler
+    - 3.6:
+        non_striker: JC Buttler
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YBK Jaiswal
+    - 4.1:
+        non_striker: YBK Jaiswal
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JC Buttler
+    - 4.2:
+        non_striker: YBK Jaiswal
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: JC Buttler
+    - 4.3:
+        non_striker: JC Buttler
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YBK Jaiswal
+    - 4.4:
+        non_striker: JC Buttler
+        bowler: MJ Henry
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: YBK Jaiswal
+    - 4.5:
+        non_striker: YBK Jaiswal
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JC Buttler
+    - 4.6:
+        non_striker: YBK Jaiswal
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JC Buttler
+    - 5.1:
+        non_striker: YBK Jaiswal
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JC Buttler
+    - 5.2:
+        non_striker: YBK Jaiswal
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JC Buttler
+    - 5.3:
+        non_striker: JC Buttler
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: YBK Jaiswal
+    - 5.4:
+        non_striker: JC Buttler
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YBK Jaiswal
+    - 5.5:
+        non_striker: YBK Jaiswal
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JC Buttler
+        wicket:
+          player_out: JC Buttler
+          kind: bowled
+    - 5.6:
+        non_striker: YBK Jaiswal
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 6.1:
+        non_striker: SV Samson
+        bowler: MP Stoinis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YBK Jaiswal
+        wicket:
+          player_out: YBK Jaiswal
+          fielders:
+          - Ravi Bishnoi
+          kind: caught
+    - 6.2:
+        non_striker: SV Samson
+        bowler: MP Stoinis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        replacements:
+          match:
+          - in: R Parag
+            out: YS Chahal
+            team: Rajasthan Royals
+            reason: impact_player
+        batsman: R Parag
+    - 6.3:
+        non_striker: SV Samson
+        bowler: MP Stoinis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Parag
+    - 6.4:
+        non_striker: R Parag
+        bowler: MP Stoinis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 6.5:
+        non_striker: SV Samson
+        bowler: MP Stoinis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Parag
+    - 6.6:
+        non_striker: SV Samson
+        bowler: MP Stoinis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Parag
+    - 7.1:
+        non_striker: SV Samson
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: R Parag
+    - 7.2:
+        non_striker: SV Samson
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Parag
+    - 7.3:
+        non_striker: R Parag
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 7.4:
+        non_striker: SV Samson
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Parag
+    - 7.5:
+        non_striker: R Parag
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 7.6:
+        non_striker: SV Samson
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Parag
+    - 8.1:
+        non_striker: SV Samson
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        replacements:
+          match:
+          - in: A Mishra
+            out: Q de Kock
+            team: Lucknow Super Giants
+            reason: impact_player
+        batsman: R Parag
+    - 8.2:
+        non_striker: R Parag
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 8.3:
+        non_striker: SV Samson
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: R Parag
+    - 8.4:
+        non_striker: SV Samson
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Parag
+        wicket:
+          player_out: R Parag
+          fielders:
+          - A Badoni
+          kind: caught
+    - 8.5:
+        non_striker: SV Samson
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Jurel
+    - 8.6:
+        non_striker: SV Samson
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Jurel
+    - 9.1:
+        non_striker: Dhruv Jurel
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 9.2:
+        non_striker: SV Samson
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Jurel
+    - 9.3:
+        non_striker: SV Samson
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Jurel
+    - 9.4:
+        non_striker: SV Samson
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Jurel
+    - 9.5:
+        non_striker: SV Samson
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Jurel
+    - 9.6:
+        non_striker: Dhruv Jurel
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 10.1:
+        non_striker: Dhruv Jurel
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 10.2:
+        non_striker: SV Samson
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Dhruv Jurel
+    - 10.3:
+        non_striker: SV Samson
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Jurel
+    - 10.4:
+        non_striker: SV Samson
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Jurel
+    - 10.5:
+        non_striker: Dhruv Jurel
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SV Samson
+    - 10.6:
+        non_striker: Dhruv Jurel
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 11.1:
+        non_striker: SV Samson
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Jurel
+    - 11.2:
+        non_striker: Dhruv Jurel
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 11.3:
+        non_striker: SV Samson
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Dhruv Jurel
+    - 11.4:
+        non_striker: SV Samson
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Jurel
+    - 11.5:
+        non_striker: Dhruv Jurel
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SV Samson
+    - 11.6:
+        non_striker: Dhruv Jurel
+        bowler: Yash Thakur
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: SV Samson
+    - 11.7:
+        non_striker: Dhruv Jurel
+        bowler: Yash Thakur
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: SV Samson
+    - 11.8:
+        non_striker: Dhruv Jurel
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SV Samson
+    - 12.1:
+        non_striker: SV Samson
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Jurel
+    - 12.2:
+        non_striker: Dhruv Jurel
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 12.3:
+        non_striker: SV Samson
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Jurel
+    - 12.4:
+        non_striker: Dhruv Jurel
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 12.5:
+        non_striker: SV Samson
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Jurel
+    - 12.6:
+        non_striker: SV Samson
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Jurel
+    - 13.1:
+        non_striker: SV Samson
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Dhruv Jurel
+    - 13.2:
+        non_striker: SV Samson
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Dhruv Jurel
+    - 13.3:
+        non_striker: SV Samson
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Dhruv Jurel
+    - 13.4:
+        non_striker: SV Samson
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Jurel
+    - 13.5:
+        non_striker: Dhruv Jurel
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 13.6:
+        non_striker: SV Samson
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Dhruv Jurel
+    - 14.1:
+        non_striker: Dhruv Jurel
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 14.2:
+        non_striker: SV Samson
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Jurel
+    - 14.3:
+        non_striker: Dhruv Jurel
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SV Samson
+    - 14.4:
+        non_striker: Dhruv Jurel
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 14.5:
+        non_striker: SV Samson
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Jurel
+    - 14.6:
+        non_striker: SV Samson
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Dhruv Jurel
+    - 15.1:
+        non_striker: Dhruv Jurel
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 15.2:
+        non_striker: SV Samson
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Jurel
+    - 15.3:
+        non_striker: Dhruv Jurel
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SV Samson
+    - 15.4:
+        non_striker: Dhruv Jurel
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SV Samson
+    - 15.5:
+        non_striker: Dhruv Jurel
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 15.6:
+        non_striker: Dhruv Jurel
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SV Samson
+    - 16.1:
+        non_striker: SV Samson
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Dhruv Jurel
+    - 16.2:
+        non_striker: SV Samson
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Jurel
+    - 16.3:
+        non_striker: SV Samson
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Dhruv Jurel
+    - 16.4:
+        non_striker: SV Samson
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Dhruv Jurel
+    - 16.5:
+        non_striker: SV Samson
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Jurel
+    - 16.6:
+        non_striker: Dhruv Jurel
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 17.1:
+        non_striker: Dhruv Jurel
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SV Samson
+    - 17.2:
+        non_striker: Dhruv Jurel
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 17.3:
+        non_striker: Dhruv Jurel
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SV Samson
+    - 17.4:
+        non_striker: Dhruv Jurel
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 17.5:
+        non_striker: SV Samson
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Jurel
+    - 17.6:
+        non_striker: Dhruv Jurel
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SV Samson
+    - 18.1:
+        non_striker: SV Samson
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Jurel
+    - 18.2:
+        non_striker: Dhruv Jurel
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 18.3:
+        non_striker: SV Samson
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Jurel
+    - 18.4:
+        non_striker: SV Samson
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Jurel
+    - 18.5:
+        non_striker: Dhruv Jurel
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SV Samson
+    - 18.6:
+        non_striker: Dhruv Jurel
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SV Samson

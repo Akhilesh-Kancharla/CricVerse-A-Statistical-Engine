@@ -1,0 +1,1976 @@
+---
+meta:
+  data_version: 0.92
+  created: '2023-04-12'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Hyderabad
+  competition: IPL
+  dates:
+  - '2023-04-09'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Sunrisers Hyderabad
+    by:
+      wickets: 8
+  overs: 20
+  player_of_match:
+  - S Dhawan
+  players:
+    Punjab Kings:
+    - P Simran Singh
+    - S Dhawan
+    - MW Short
+    - JM Sharma
+    - SM Curran
+    - Sikandar Raza
+    - M Shahrukh Khan
+    - Harpreet Brar
+    - RD Chahar
+    - NT Ellis
+    - Mohit Rathee
+    - Arshdeep Singh
+    Sunrisers Hyderabad:
+    - HC Brook
+    - MA Agarwal
+    - RA Tripathi
+    - AK Markram
+    - H Klaasen
+    - Washington Sundar
+    - M Jansen
+    - M Markande
+    - B Kumar
+    - Umran Malik
+    - T Natarajan
+  registry:
+    people:
+      AK Markram: 6a26221c
+      Arshdeep Singh: 244048f6
+      B Kumar: 2e81a32d
+      BNJ Oxenford: c1add349
+      H Klaasen: 235c2bb6
+      HC Brook: 4ae1755b
+      Harpreet Brar: c05edf8e
+      J Madanagopal: 8275b04a
+      JM Sharma: 800d2d97
+      M Jansen: 81c36ee9
+      M Markande: a9fd84fb
+      M Nayyar: b7bccddb
+      M Shahrukh Khan: 7dcb9bc9
+      MA Agarwal: 00ea847a
+      MW Short: a90e53ec
+      Mohit Rathee: 9a5f2863
+      NT Ellis: 9eb1455b
+      P Simran Singh: 9418198b
+      PM Joshi: 0dcc9a8c
+      RA Tripathi: 77255a9e
+      RD Chahar: 2ed569a0
+      S Dhawan: 0a476045
+      SM Curran: e94915e6
+      Sikandar Raza: 26d041c4
+      T Natarajan: ce794613
+      UV Gandhe: 43dd4011
+      Umran Malik: 81c08fa3
+      Washington Sundar: f19ccfad
+  teams:
+  - Punjab Kings
+  - Sunrisers Hyderabad
+  toss:
+    winner: Sunrisers Hyderabad
+    decision: field
+  umpires:
+  - BNJ Oxenford
+  - UV Gandhe
+  venue: Rajiv Gandhi International Stadium, Uppal, Hyderabad
+innings:
+- 1st innings:
+    team: Punjab Kings
+    deliveries:
+    - 0.1:
+        non_striker: S Dhawan
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Simran Singh
+        wicket:
+          player_out: P Simran Singh
+          kind: lbw
+    - 0.2:
+        non_striker: S Dhawan
+        bowler: B Kumar
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: MW Short
+    - 0.3:
+        non_striker: S Dhawan
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MW Short
+    - 0.4:
+        non_striker: MW Short
+        bowler: B Kumar
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: S Dhawan
+    - 0.5:
+        non_striker: MW Short
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 0.6:
+        non_striker: MW Short
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: S Dhawan
+    - 0.7:
+        non_striker: MW Short
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: S Dhawan
+    - 0.8:
+        non_striker: MW Short
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 1.1:
+        non_striker: S Dhawan
+        bowler: M Jansen
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: MW Short
+    - 1.2:
+        non_striker: S Dhawan
+        bowler: M Jansen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MW Short
+    - 1.3:
+        non_striker: S Dhawan
+        bowler: M Jansen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MW Short
+        wicket:
+          player_out: MW Short
+          kind: lbw
+    - 1.4:
+        non_striker: S Dhawan
+        bowler: M Jansen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 1.5:
+        non_striker: S Dhawan
+        bowler: M Jansen
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Sharma
+    - 1.6:
+        non_striker: S Dhawan
+        bowler: M Jansen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 1.7:
+        non_striker: S Dhawan
+        bowler: M Jansen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 2.1:
+        non_striker: JM Sharma
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 2.2:
+        non_striker: JM Sharma
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 2.3:
+        non_striker: JM Sharma
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 2.4:
+        non_striker: JM Sharma
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: S Dhawan
+    - 2.5:
+        non_striker: JM Sharma
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 2.6:
+        non_striker: JM Sharma
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: S Dhawan
+    - 3.1:
+        non_striker: S Dhawan
+        bowler: M Jansen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 3.2:
+        non_striker: S Dhawan
+        bowler: M Jansen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 3.3:
+        non_striker: S Dhawan
+        bowler: M Jansen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 3.4:
+        non_striker: S Dhawan
+        bowler: M Jansen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 3.5:
+        non_striker: S Dhawan
+        bowler: M Jansen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+        wicket:
+          player_out: JM Sharma
+          fielders:
+          - AK Markram
+          kind: caught
+    - 3.6:
+        non_striker: S Dhawan
+        bowler: M Jansen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Curran
+    - 4.1:
+        non_striker: SM Curran
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dhawan
+    - 4.2:
+        non_striker: S Dhawan
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Curran
+    - 4.3:
+        non_striker: S Dhawan
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 4.4:
+        non_striker: SM Curran
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: S Dhawan
+    - 4.5:
+        non_striker: SM Curran
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: S Dhawan
+    - 4.6:
+        non_striker: SM Curran
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 5.1:
+        non_striker: S Dhawan
+        bowler: M Jansen
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SM Curran
+    - 5.2:
+        non_striker: S Dhawan
+        bowler: M Jansen
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SM Curran
+    - 5.3:
+        non_striker: S Dhawan
+        bowler: M Jansen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Curran
+    - 5.4:
+        non_striker: S Dhawan
+        bowler: M Jansen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 5.5:
+        non_striker: SM Curran
+        bowler: M Jansen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 5.6:
+        non_striker: SM Curran
+        bowler: M Jansen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 6.1:
+        non_striker: S Dhawan
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SM Curran
+    - 6.2:
+        non_striker: S Dhawan
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 6.3:
+        non_striker: SM Curran
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 6.4:
+        non_striker: SM Curran
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 6.5:
+        non_striker: SM Curran
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dhawan
+    - 6.6:
+        non_striker: S Dhawan
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Curran
+    - 7.1:
+        non_striker: SM Curran
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: S Dhawan
+    - 7.2:
+        non_striker: SM Curran
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dhawan
+    - 7.3:
+        non_striker: S Dhawan
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 7.4:
+        non_striker: SM Curran
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 7.5:
+        non_striker: SM Curran
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: S Dhawan
+    - 7.6:
+        non_striker: SM Curran
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dhawan
+    - 8.1:
+        non_striker: SM Curran
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dhawan
+    - 8.2:
+        non_striker: S Dhawan
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Curran
+    - 8.3:
+        non_striker: S Dhawan
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SM Curran
+    - 8.4:
+        non_striker: S Dhawan
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Curran
+    - 8.5:
+        non_striker: S Dhawan
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Curran
+        wicket:
+          player_out: SM Curran
+          fielders:
+          - B Kumar
+          kind: caught
+    - 8.6:
+        non_striker: S Dhawan
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        replacements:
+          match:
+          - in: Sikandar Raza
+            out: P Simran Singh
+            team: Punjab Kings
+            reason: impact_player
+        batsman: Sikandar Raza
+    - 9.1:
+        non_striker: S Dhawan
+        bowler: Umran Malik
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Sikandar Raza
+    - 9.2:
+        non_striker: S Dhawan
+        bowler: Umran Malik
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sikandar Raza
+    - 9.3:
+        non_striker: S Dhawan
+        bowler: Umran Malik
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sikandar Raza
+    - 9.4:
+        non_striker: S Dhawan
+        bowler: Umran Malik
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sikandar Raza
+    - 9.5:
+        non_striker: S Dhawan
+        bowler: Umran Malik
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sikandar Raza
+    - 9.6:
+        non_striker: S Dhawan
+        bowler: Umran Malik
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sikandar Raza
+        wicket:
+          player_out: Sikandar Raza
+          fielders:
+          - MA Agarwal
+          kind: caught
+    - 9.7:
+        non_striker: S Dhawan
+        bowler: Umran Malik
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Shahrukh Khan
+    - 10.1:
+        non_striker: M Shahrukh Khan
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 10.2:
+        non_striker: M Shahrukh Khan
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dhawan
+    - 10.3:
+        non_striker: S Dhawan
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Shahrukh Khan
+    - 10.4:
+        non_striker: S Dhawan
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Shahrukh Khan
+        wicket:
+          player_out: M Shahrukh Khan
+          kind: lbw
+    - 10.5:
+        non_striker: S Dhawan
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Brar
+    - 10.6:
+        non_striker: Harpreet Brar
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dhawan
+    - 11.1:
+        non_striker: Harpreet Brar
+        bowler: Umran Malik
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dhawan
+    - 11.2:
+        non_striker: S Dhawan
+        bowler: Umran Malik
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Brar
+        wicket:
+          player_out: Harpreet Brar
+          kind: bowled
+    - 11.3:
+        non_striker: S Dhawan
+        bowler: Umran Malik
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Chahar
+    - 11.4:
+        non_striker: S Dhawan
+        bowler: Umran Malik
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Chahar
+    - 11.5:
+        non_striker: S Dhawan
+        bowler: Umran Malik
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Chahar
+    - 11.6:
+        non_striker: S Dhawan
+        bowler: Umran Malik
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Chahar
+    - 12.1:
+        non_striker: RD Chahar
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dhawan
+    - 12.2:
+        non_striker: S Dhawan
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Chahar
+    - 12.3:
+        non_striker: S Dhawan
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Chahar
+    - 12.4:
+        non_striker: S Dhawan
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Chahar
+    - 12.5:
+        non_striker: S Dhawan
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Chahar
+        wicket:
+          player_out: RD Chahar
+          kind: lbw
+    - 12.6:
+        non_striker: S Dhawan
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NT Ellis
+    - 13.1:
+        non_striker: NT Ellis
+        bowler: Umran Malik
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: S Dhawan
+    - 13.2:
+        non_striker: NT Ellis
+        bowler: Umran Malik
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 13.3:
+        non_striker: NT Ellis
+        bowler: Umran Malik
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dhawan
+    - 13.4:
+        non_striker: S Dhawan
+        bowler: Umran Malik
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NT Ellis
+    - 13.5:
+        non_striker: S Dhawan
+        bowler: Umran Malik
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NT Ellis
+    - 13.6:
+        non_striker: S Dhawan
+        bowler: Umran Malik
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NT Ellis
+    - 14.1:
+        non_striker: NT Ellis
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 14.2:
+        non_striker: NT Ellis
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 14.3:
+        non_striker: NT Ellis
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 14.4:
+        non_striker: NT Ellis
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: S Dhawan
+    - 14.5:
+        non_striker: NT Ellis
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dhawan
+    - 14.6:
+        non_striker: S Dhawan
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NT Ellis
+        wicket:
+          player_out: NT Ellis
+          kind: bowled
+    - 15.1:
+        non_striker: Mohit Rathee
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 15.2:
+        non_striker: Mohit Rathee
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 15.3:
+        non_striker: Mohit Rathee
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 15.4:
+        non_striker: Mohit Rathee
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: S Dhawan
+    - 15.5:
+        non_striker: Mohit Rathee
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: S Dhawan
+    - 15.6:
+        non_striker: Mohit Rathee
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dhawan
+    - 16.1:
+        non_striker: Mohit Rathee
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 16.2:
+        non_striker: Mohit Rathee
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: S Dhawan
+    - 16.3:
+        non_striker: Mohit Rathee
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 16.4:
+        non_striker: Mohit Rathee
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dhawan
+    - 16.5:
+        non_striker: S Dhawan
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohit Rathee
+    - 16.6:
+        non_striker: Mohit Rathee
+        bowler: B Kumar
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: S Dhawan
+    - 16.7:
+        non_striker: Mohit Rathee
+        bowler: B Kumar
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: S Dhawan
+    - 17.1:
+        non_striker: Mohit Rathee
+        bowler: Umran Malik
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 17.2:
+        non_striker: Mohit Rathee
+        bowler: Umran Malik
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: S Dhawan
+    - 17.3:
+        non_striker: Mohit Rathee
+        bowler: Umran Malik
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: S Dhawan
+    - 17.4:
+        non_striker: Mohit Rathee
+        bowler: Umran Malik
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 17.5:
+        non_striker: Mohit Rathee
+        bowler: Umran Malik
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: S Dhawan
+    - 17.6:
+        non_striker: Mohit Rathee
+        bowler: Umran Malik
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dhawan
+    - 18.1:
+        non_striker: Mohit Rathee
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 18.2:
+        non_striker: Mohit Rathee
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 18.3:
+        non_striker: Mohit Rathee
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: S Dhawan
+    - 18.4:
+        non_striker: Mohit Rathee
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: S Dhawan
+    - 18.5:
+        non_striker: Mohit Rathee
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dhawan
+    - 18.6:
+        non_striker: S Dhawan
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohit Rathee
+    - 19.1:
+        non_striker: Mohit Rathee
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 19.2:
+        non_striker: Mohit Rathee
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: S Dhawan
+    - 19.3:
+        non_striker: Mohit Rathee
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 19.4:
+        non_striker: Mohit Rathee
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 19.5:
+        non_striker: Mohit Rathee
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 19.6:
+        non_striker: Mohit Rathee
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: S Dhawan
+- 2nd innings:
+    team: Sunrisers Hyderabad
+    deliveries:
+    - 0.1:
+        non_striker: MA Agarwal
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HC Brook
+    - 0.2:
+        non_striker: MA Agarwal
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HC Brook
+    - 0.3:
+        non_striker: MA Agarwal
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HC Brook
+    - 0.4:
+        non_striker: MA Agarwal
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HC Brook
+    - 0.5:
+        non_striker: MA Agarwal
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HC Brook
+    - 0.6:
+        non_striker: MA Agarwal
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HC Brook
+    - 1.1:
+        non_striker: HC Brook
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Agarwal
+    - 1.2:
+        non_striker: HC Brook
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MA Agarwal
+    - 1.3:
+        non_striker: HC Brook
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Agarwal
+    - 1.4:
+        non_striker: HC Brook
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Agarwal
+    - 1.5:
+        non_striker: HC Brook
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MA Agarwal
+    - 1.6:
+        non_striker: HC Brook
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Agarwal
+    - 2.1:
+        non_striker: HC Brook
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Agarwal
+    - 2.2:
+        non_striker: HC Brook
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MA Agarwal
+    - 2.3:
+        non_striker: HC Brook
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Agarwal
+    - 2.4:
+        non_striker: MA Agarwal
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HC Brook
+    - 2.5:
+        non_striker: MA Agarwal
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HC Brook
+    - 2.6:
+        non_striker: MA Agarwal
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HC Brook
+    - 3.1:
+        non_striker: MA Agarwal
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HC Brook
+    - 3.2:
+        non_striker: MA Agarwal
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HC Brook
+    - 3.3:
+        non_striker: MA Agarwal
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HC Brook
+    - 3.4:
+        non_striker: MA Agarwal
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HC Brook
+    - 3.5:
+        non_striker: MA Agarwal
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HC Brook
+        wicket:
+          player_out: HC Brook
+          kind: bowled
+    - 3.6:
+        non_striker: MA Agarwal
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Tripathi
+    - 4.1:
+        non_striker: RA Tripathi
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Agarwal
+    - 4.2:
+        non_striker: RA Tripathi
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Agarwal
+    - 4.3:
+        non_striker: RA Tripathi
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Agarwal
+    - 4.4:
+        non_striker: MA Agarwal
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Tripathi
+    - 4.5:
+        non_striker: RA Tripathi
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Agarwal
+    - 4.6:
+        non_striker: MA Agarwal
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Tripathi
+    - 5.1:
+        non_striker: RA Tripathi
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Agarwal
+    - 5.2:
+        non_striker: RA Tripathi
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Agarwal
+    - 5.3:
+        non_striker: MA Agarwal
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Tripathi
+    - 5.4:
+        non_striker: RA Tripathi
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Agarwal
+    - 5.5:
+        non_striker: MA Agarwal
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Tripathi
+    - 5.6:
+        non_striker: MA Agarwal
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Tripathi
+    - 6.1:
+        non_striker: MA Agarwal
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Tripathi
+    - 6.2:
+        non_striker: MA Agarwal
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Tripathi
+    - 6.3:
+        non_striker: MA Agarwal
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Tripathi
+    - 6.4:
+        non_striker: MA Agarwal
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RA Tripathi
+    - 6.5:
+        non_striker: MA Agarwal
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Tripathi
+    - 6.6:
+        non_striker: MA Agarwal
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Tripathi
+    - 7.1:
+        non_striker: RA Tripathi
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Agarwal
+    - 7.2:
+        non_striker: MA Agarwal
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Tripathi
+    - 7.3:
+        non_striker: MA Agarwal
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Tripathi
+    - 7.4:
+        non_striker: MA Agarwal
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Tripathi
+    - 7.5:
+        non_striker: MA Agarwal
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Tripathi
+    - 7.6:
+        non_striker: RA Tripathi
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Agarwal
+    - 8.1:
+        non_striker: RA Tripathi
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Agarwal
+    - 8.2:
+        non_striker: MA Agarwal
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Tripathi
+    - 8.3:
+        non_striker: RA Tripathi
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Agarwal
+        wicket:
+          player_out: MA Agarwal
+          fielders:
+          - SM Curran
+          kind: caught
+    - 8.4:
+        non_striker: RA Tripathi
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AK Markram
+    - 8.5:
+        non_striker: AK Markram
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RA Tripathi
+    - 8.6:
+        non_striker: AK Markram
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RA Tripathi
+    - 9.1:
+        non_striker: RA Tripathi
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AK Markram
+    - 9.2:
+        non_striker: AK Markram
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Tripathi
+    - 9.3:
+        non_striker: AK Markram
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RA Tripathi
+    - 9.4:
+        non_striker: AK Markram
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RA Tripathi
+    - 9.5:
+        non_striker: AK Markram
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RA Tripathi
+    - 9.6:
+        non_striker: AK Markram
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Tripathi
+    - 10.1:
+        non_striker: RA Tripathi
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AK Markram
+    - 10.2:
+        non_striker: AK Markram
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Tripathi
+    - 10.3:
+        non_striker: AK Markram
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RA Tripathi
+    - 10.4:
+        non_striker: AK Markram
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Tripathi
+    - 10.5:
+        non_striker: AK Markram
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RA Tripathi
+    - 10.6:
+        non_striker: AK Markram
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RA Tripathi
+    - 11.1:
+        non_striker: RA Tripathi
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AK Markram
+    - 11.2:
+        non_striker: AK Markram
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Tripathi
+    - 11.3:
+        non_striker: RA Tripathi
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AK Markram
+    - 11.4:
+        non_striker: RA Tripathi
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AK Markram
+    - 11.5:
+        non_striker: AK Markram
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Tripathi
+    - 11.6:
+        non_striker: RA Tripathi
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AK Markram
+    - 12.1:
+        non_striker: AK Markram
+        bowler: Mohit Rathee
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Tripathi
+    - 12.2:
+        non_striker: RA Tripathi
+        bowler: Mohit Rathee
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AK Markram
+    - 12.3:
+        non_striker: AK Markram
+        bowler: Mohit Rathee
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Tripathi
+    - 12.4:
+        non_striker: AK Markram
+        bowler: Mohit Rathee
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Tripathi
+    - 12.5:
+        non_striker: AK Markram
+        bowler: Mohit Rathee
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RA Tripathi
+    - 12.6:
+        non_striker: AK Markram
+        bowler: Mohit Rathee
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Tripathi
+    - 13.1:
+        non_striker: RA Tripathi
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AK Markram
+    - 13.2:
+        non_striker: AK Markram
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Tripathi
+    - 13.3:
+        non_striker: AK Markram
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Tripathi
+    - 13.4:
+        non_striker: AK Markram
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Tripathi
+    - 13.5:
+        non_striker: RA Tripathi
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AK Markram
+    - 13.6:
+        non_striker: AK Markram
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Tripathi
+    - 14.1:
+        non_striker: RA Tripathi
+        bowler: Mohit Rathee
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AK Markram
+    - 14.2:
+        non_striker: RA Tripathi
+        bowler: Mohit Rathee
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AK Markram
+    - 14.3:
+        non_striker: RA Tripathi
+        bowler: Mohit Rathee
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AK Markram
+    - 14.4:
+        non_striker: AK Markram
+        bowler: Mohit Rathee
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RA Tripathi
+    - 14.5:
+        non_striker: AK Markram
+        bowler: Mohit Rathee
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RA Tripathi
+    - 14.6:
+        non_striker: AK Markram
+        bowler: Mohit Rathee
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RA Tripathi
+    - 15.1:
+        non_striker: RA Tripathi
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AK Markram
+    - 15.2:
+        non_striker: AK Markram
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Tripathi
+    - 15.3:
+        non_striker: RA Tripathi
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AK Markram
+    - 15.4:
+        non_striker: RA Tripathi
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AK Markram
+    - 15.5:
+        non_striker: AK Markram
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RA Tripathi
+    - 15.6:
+        non_striker: AK Markram
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Tripathi
+    - 16.1:
+        non_striker: AK Markram
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Tripathi
+    - 16.2:
+        non_striker: RA Tripathi
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AK Markram
+    - 16.3:
+        non_striker: RA Tripathi
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AK Markram
+    - 16.4:
+        non_striker: RA Tripathi
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AK Markram
+    - 16.5:
+        non_striker: RA Tripathi
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AK Markram
+    - 16.6:
+        non_striker: RA Tripathi
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AK Markram
+    - 17.1:
+        non_striker: AK Markram
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RA Tripathi

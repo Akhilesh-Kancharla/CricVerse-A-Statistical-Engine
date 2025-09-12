@@ -1,0 +1,2232 @@
+---
+meta:
+  data_version: 0.92
+  created: '2023-05-16'
+  revision: 2
+info:
+  balls_per_over: 6
+  city: Lucknow
+  competition: IPL
+  dates:
+  - '2023-05-16'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Lucknow Super Giants
+    by:
+      runs: 5
+  overs: 20
+  player_of_match:
+  - MP Stoinis
+  players:
+    Lucknow Super Giants:
+    - Yash Thakur
+    - DJ Hooda
+    - Q de Kock
+    - PN Mankad
+    - KH Pandya
+    - MP Stoinis
+    - N Pooran
+    - A Badoni
+    - Naveen-ul-Haq
+    - Ravi Bishnoi
+    - Swapnil Singh
+    - Mohsin Khan
+    Mumbai Indians:
+    - Akash Madhwal
+    - Ishan Kishan
+    - RG Sharma
+    - SA Yadav
+    - N Wadhera
+    - TH David
+    - Vishnu Vinod
+    - C Green
+    - CJ Jordan
+    - HR Shokeen
+    - PP Chawla
+    - JP Behrendorff
+  registry:
+    people:
+      A Badoni: 872b03f7
+      A Nand Kishore: 84424f4f
+      AK Chaudhary: fdcc6236
+      Akash Madhwal: 4bd09374
+      C Green: eaa76d3c
+      CB Gaffaney: d5ac41d8
+      CJ Jordan: ffe699c0
+      DJ Hooda: 73ad96ed
+      HR Shokeen: 0c9652b0
+      Ishan Kishan: 752f7486
+      JP Behrendorff: 4933f499
+      K Gowtham: 90de905a
+      KH Pandya: 5b8c830e
+      M Krishnadas: e298c588
+      MP Stoinis: d9273ee7
+      Mohsin Khan: c33d8116
+      N Pooran: 3241e3fd
+      N Wadhera: d1a60072
+      Naveen-ul-Haq: c0c411cb
+      PN Mankad: 663b5e34
+      PP Chawla: 98ae73b1
+      Q de Kock: 372455c4
+      RG Sharma: 740742ef
+      Ravi Bishnoi: df064e1a
+      SA Yadav: 271f83cd
+      Sanjay Verma: bc19a37f
+      Swapnil Singh: 983f2f61
+      TH David: f1f99156
+      Vishnu Vinod: '0494fa6e'
+      Yash Thakur: 4b31f3a3
+  teams:
+  - Lucknow Super Giants
+  - Mumbai Indians
+  toss:
+    winner: Mumbai Indians
+    decision: field
+  umpires:
+  - AK Chaudhary
+  - A Nand Kishore
+  venue: Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow
+innings:
+- 1st innings:
+    team: Lucknow Super Giants
+    deliveries:
+    - 0.1:
+        non_striker: Q de Kock
+        bowler: JP Behrendorff
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+    - 0.2:
+        non_striker: Q de Kock
+        bowler: JP Behrendorff
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 0.3:
+        non_striker: DJ Hooda
+        bowler: JP Behrendorff
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Q de Kock
+    - 0.4:
+        non_striker: DJ Hooda
+        bowler: JP Behrendorff
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Q de Kock
+    - 0.5:
+        non_striker: Q de Kock
+        bowler: JP Behrendorff
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 0.6:
+        non_striker: DJ Hooda
+        bowler: JP Behrendorff
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Q de Kock
+    - 1.1:
+        non_striker: Q de Kock
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DJ Hooda
+    - 1.2:
+        non_striker: Q de Kock
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+    - 1.3:
+        non_striker: Q de Kock
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 1.4:
+        non_striker: DJ Hooda
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Q de Kock
+    - 1.5:
+        non_striker: DJ Hooda
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Q de Kock
+    - 1.6:
+        non_striker: DJ Hooda
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Q de Kock
+    - 2.1:
+        non_striker: Q de Kock
+        bowler: JP Behrendorff
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+        wicket:
+          player_out: DJ Hooda
+          fielders:
+          - TH David
+          kind: caught
+    - 2.2:
+        non_striker: Q de Kock
+        bowler: JP Behrendorff
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PN Mankad
+        wicket:
+          player_out: PN Mankad
+          fielders:
+          - Ishan Kishan
+          kind: caught
+    - 2.3:
+        non_striker: Q de Kock
+        bowler: JP Behrendorff
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: KH Pandya
+    - 2.4:
+        non_striker: KH Pandya
+        bowler: JP Behrendorff
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Q de Kock
+    - 2.5:
+        non_striker: KH Pandya
+        bowler: JP Behrendorff
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: Q de Kock
+    - 2.6:
+        non_striker: Q de Kock
+        bowler: JP Behrendorff
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 3.1:
+        non_striker: Q de Kock
+        bowler: HR Shokeen
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KH Pandya
+    - 3.2:
+        non_striker: Q de Kock
+        bowler: HR Shokeen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 3.3:
+        non_striker: Q de Kock
+        bowler: HR Shokeen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 3.4:
+        non_striker: Q de Kock
+        bowler: HR Shokeen
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KH Pandya
+    - 3.5:
+        non_striker: Q de Kock
+        bowler: HR Shokeen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 3.6:
+        non_striker: Q de Kock
+        bowler: HR Shokeen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 4.1:
+        non_striker: KH Pandya
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Q de Kock
+    - 4.2:
+        non_striker: KH Pandya
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Q de Kock
+    - 4.3:
+        non_striker: KH Pandya
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Q de Kock
+    - 4.4:
+        non_striker: Q de Kock
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 4.5:
+        non_striker: KH Pandya
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Q de Kock
+    - 4.6:
+        non_striker: KH Pandya
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Q de Kock
+    - 5.1:
+        non_striker: KH Pandya
+        bowler: HR Shokeen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Q de Kock
+    - 5.2:
+        non_striker: Q de Kock
+        bowler: HR Shokeen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 5.3:
+        non_striker: Q de Kock
+        bowler: HR Shokeen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 5.4:
+        non_striker: Q de Kock
+        bowler: HR Shokeen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 5.5:
+        non_striker: Q de Kock
+        bowler: HR Shokeen
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KH Pandya
+    - 5.6:
+        non_striker: Q de Kock
+        bowler: HR Shokeen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 6.1:
+        non_striker: KH Pandya
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Q de Kock
+        wicket:
+          player_out: Q de Kock
+          fielders:
+          - Ishan Kishan
+          kind: caught
+    - 6.2:
+        non_striker: KH Pandya
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Stoinis
+    - 6.3:
+        non_striker: KH Pandya
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Stoinis
+    - 6.4:
+        non_striker: MP Stoinis
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 6.5:
+        non_striker: KH Pandya
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Stoinis
+    - 6.6:
+        non_striker: KH Pandya
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Stoinis
+    - 7.1:
+        non_striker: KH Pandya
+        bowler: HR Shokeen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Stoinis
+    - 7.2:
+        non_striker: MP Stoinis
+        bowler: HR Shokeen
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: KH Pandya
+    - 7.3:
+        non_striker: KH Pandya
+        bowler: HR Shokeen
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MP Stoinis
+    - 7.4:
+        non_striker: KH Pandya
+        bowler: HR Shokeen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Stoinis
+    - 7.5:
+        non_striker: MP Stoinis
+        bowler: HR Shokeen
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KH Pandya
+    - 7.6:
+        non_striker: MP Stoinis
+        bowler: HR Shokeen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 8.1:
+        non_striker: MP Stoinis
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KH Pandya
+    - 8.2:
+        non_striker: MP Stoinis
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KH Pandya
+    - 8.3:
+        non_striker: MP Stoinis
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 8.4:
+        non_striker: KH Pandya
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MP Stoinis
+    - 8.5:
+        non_striker: KH Pandya
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Stoinis
+    - 8.6:
+        non_striker: MP Stoinis
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 9.1:
+        non_striker: MP Stoinis
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 9.2:
+        non_striker: MP Stoinis
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 9.3:
+        non_striker: KH Pandya
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Stoinis
+    - 9.4:
+        non_striker: MP Stoinis
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KH Pandya
+    - 9.5:
+        non_striker: MP Stoinis
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 9.6:
+        non_striker: MP Stoinis
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 10.1:
+        non_striker: MP Stoinis
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KH Pandya
+    - 10.2:
+        non_striker: MP Stoinis
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KH Pandya
+    - 10.3:
+        non_striker: MP Stoinis
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 10.4:
+        non_striker: KH Pandya
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Stoinis
+    - 10.5:
+        non_striker: KH Pandya
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Stoinis
+    - 10.6:
+        non_striker: KH Pandya
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Stoinis
+    - 11.1:
+        non_striker: KH Pandya
+        bowler: C Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Stoinis
+    - 11.2:
+        non_striker: KH Pandya
+        bowler: C Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MP Stoinis
+    - 11.3:
+        non_striker: KH Pandya
+        bowler: C Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MP Stoinis
+    - 11.4:
+        non_striker: KH Pandya
+        bowler: C Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Stoinis
+    - 11.5:
+        non_striker: KH Pandya
+        bowler: C Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Stoinis
+    - 11.6:
+        non_striker: MP Stoinis
+        bowler: C Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 12.1:
+        non_striker: MP Stoinis
+        bowler: JP Behrendorff
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KH Pandya
+    - 12.2:
+        non_striker: MP Stoinis
+        bowler: JP Behrendorff
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 12.3:
+        non_striker: KH Pandya
+        bowler: JP Behrendorff
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Stoinis
+    - 12.4:
+        non_striker: MP Stoinis
+        bowler: JP Behrendorff
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 12.5:
+        non_striker: KH Pandya
+        bowler: JP Behrendorff
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: MP Stoinis
+    - 12.6:
+        non_striker: KH Pandya
+        bowler: JP Behrendorff
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Stoinis
+    - 12.7:
+        non_striker: MP Stoinis
+        bowler: JP Behrendorff
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KH Pandya
+    - 13.1:
+        non_striker: KH Pandya
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Stoinis
+    - 13.2:
+        non_striker: KH Pandya
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MP Stoinis
+    - 13.3:
+        non_striker: KH Pandya
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Stoinis
+    - 13.4:
+        non_striker: MP Stoinis
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 13.5:
+        non_striker: MP Stoinis
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 13.6:
+        non_striker: KH Pandya
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Stoinis
+    - 14.1:
+        non_striker: KH Pandya
+        bowler: CJ Jordan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: MP Stoinis
+    - 14.2:
+        non_striker: KH Pandya
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Stoinis
+    - 14.3:
+        non_striker: MP Stoinis
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KH Pandya
+    - 14.4:
+        non_striker: MP Stoinis
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 14.5:
+        non_striker: KH Pandya
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Stoinis
+    - 14.6:
+        non_striker: KH Pandya
+        bowler: CJ Jordan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: MP Stoinis
+    - 14.7:
+        non_striker: KH Pandya
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Stoinis
+    - 14.8:
+        non_striker: MP Stoinis
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 15.1:
+        non_striker: MP Stoinis
+        bowler: C Green
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: KH Pandya
+    - 15.2:
+        non_striker: KH Pandya
+        bowler: C Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Stoinis
+    - 15.3:
+        non_striker: KH Pandya
+        bowler: C Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Stoinis
+    - 15.4:
+        non_striker: MP Stoinis
+        bowler: C Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 15.5:
+        non_striker: KH Pandya
+        bowler: C Green
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MP Stoinis
+    - 15.6:
+        non_striker: KH Pandya
+        bowler: C Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Stoinis
+        wicket:
+          player_out: KH Pandya
+          kind: retired hurt
+    - 16.1:
+        non_striker: MP Stoinis
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Pooran
+    - 16.2:
+        non_striker: N Pooran
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Stoinis
+    - 16.3:
+        non_striker: MP Stoinis
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Pooran
+    - 16.4:
+        non_striker: N Pooran
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Stoinis
+    - 16.5:
+        non_striker: N Pooran
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MP Stoinis
+    - 16.6:
+        non_striker: N Pooran
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Stoinis
+    - 17.1:
+        non_striker: N Pooran
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MP Stoinis
+    - 17.2:
+        non_striker: N Pooran
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Stoinis
+    - 17.3:
+        non_striker: N Pooran
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MP Stoinis
+    - 17.4:
+        non_striker: N Pooran
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MP Stoinis
+    - 17.5:
+        non_striker: N Pooran
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MP Stoinis
+    - 17.6:
+        non_striker: N Pooran
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MP Stoinis
+    - 18.1:
+        non_striker: MP Stoinis
+        bowler: JP Behrendorff
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Pooran
+    - 18.2:
+        non_striker: N Pooran
+        bowler: JP Behrendorff
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Stoinis
+    - 18.3:
+        non_striker: MP Stoinis
+        bowler: JP Behrendorff
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: N Pooran
+    - 18.4:
+        non_striker: N Pooran
+        bowler: JP Behrendorff
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MP Stoinis
+    - 18.5:
+        non_striker: N Pooran
+        bowler: JP Behrendorff
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MP Stoinis
+    - 18.6:
+        non_striker: N Pooran
+        bowler: JP Behrendorff
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Stoinis
+    - 19.1:
+        non_striker: MP Stoinis
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Pooran
+    - 19.2:
+        non_striker: MP Stoinis
+        bowler: Akash Madhwal
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: N Pooran
+    - 19.3:
+        non_striker: MP Stoinis
+        bowler: Akash Madhwal
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: N Pooran
+    - 19.4:
+        non_striker: N Pooran
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Stoinis
+    - 19.5:
+        non_striker: MP Stoinis
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: N Pooran
+    - 19.6:
+        non_striker: MP Stoinis
+        bowler: Akash Madhwal
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: N Pooran
+    - 19.7:
+        non_striker: MP Stoinis
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Pooran
+    - 19.8:
+        non_striker: N Pooran
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MP Stoinis
+- 2nd innings:
+    team: Mumbai Indians
+    deliveries:
+    - 0.1:
+        non_striker: RG Sharma
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ishan Kishan
+    - 0.2:
+        non_striker: RG Sharma
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ishan Kishan
+    - 0.3:
+        non_striker: RG Sharma
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ishan Kishan
+    - 0.4:
+        non_striker: RG Sharma
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ishan Kishan
+    - 0.5:
+        non_striker: Ishan Kishan
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RG Sharma
+    - 0.6:
+        non_striker: RG Sharma
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ishan Kishan
+    - 1.1:
+        non_striker: RG Sharma
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        replacements:
+          match:
+          - in: Yash Thakur
+            out: PN Mankad
+            team: Lucknow Super Giants
+            reason: impact_player
+        batsman: Ishan Kishan
+    - 1.2:
+        non_striker: RG Sharma
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Ishan Kishan
+    - 1.3:
+        non_striker: RG Sharma
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ishan Kishan
+    - 1.4:
+        non_striker: Ishan Kishan
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RG Sharma
+    - 1.5:
+        non_striker: RG Sharma
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ishan Kishan
+    - 1.6:
+        non_striker: RG Sharma
+        bowler: Mohsin Khan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Ishan Kishan
+    - 1.7:
+        non_striker: RG Sharma
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ishan Kishan
+    - 2.1:
+        non_striker: Ishan Kishan
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RG Sharma
+    - 2.2:
+        non_striker: RG Sharma
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ishan Kishan
+    - 2.3:
+        non_striker: Ishan Kishan
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RG Sharma
+    - 2.4:
+        non_striker: RG Sharma
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ishan Kishan
+    - 2.5:
+        non_striker: RG Sharma
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ishan Kishan
+    - 2.6:
+        non_striker: RG Sharma
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ishan Kishan
+    - 3.1:
+        non_striker: Ishan Kishan
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RG Sharma
+    - 3.2:
+        non_striker: Ishan Kishan
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RG Sharma
+    - 3.3:
+        non_striker: Ishan Kishan
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RG Sharma
+    - 3.4:
+        non_striker: Ishan Kishan
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RG Sharma
+    - 3.5:
+        non_striker: RG Sharma
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ishan Kishan
+    - 3.6:
+        non_striker: RG Sharma
+        bowler: Yash Thakur
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Ishan Kishan
+    - 3.7:
+        non_striker: RG Sharma
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ishan Kishan
+    - 4.1:
+        non_striker: RG Sharma
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ishan Kishan
+    - 4.2:
+        non_striker: RG Sharma
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ishan Kishan
+    - 4.3:
+        non_striker: Ishan Kishan
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RG Sharma
+    - 4.4:
+        non_striker: Ishan Kishan
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RG Sharma
+    - 4.5:
+        non_striker: Ishan Kishan
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RG Sharma
+    - 4.6:
+        non_striker: RG Sharma
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ishan Kishan
+    - 5.1:
+        non_striker: RG Sharma
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ishan Kishan
+    - 5.2:
+        non_striker: Ishan Kishan
+        bowler: Yash Thakur
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: RG Sharma
+    - 5.3:
+        non_striker: Ishan Kishan
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RG Sharma
+    - 5.4:
+        non_striker: RG Sharma
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ishan Kishan
+    - 5.5:
+        non_striker: RG Sharma
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ishan Kishan
+    - 5.6:
+        non_striker: Ishan Kishan
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RG Sharma
+    - 5.7:
+        non_striker: Ishan Kishan
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RG Sharma
+    - 6.1:
+        non_striker: Ishan Kishan
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RG Sharma
+    - 6.2:
+        non_striker: RG Sharma
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ishan Kishan
+    - 6.3:
+        non_striker: RG Sharma
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ishan Kishan
+    - 6.4:
+        non_striker: Ishan Kishan
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RG Sharma
+    - 6.5:
+        non_striker: RG Sharma
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ishan Kishan
+    - 6.6:
+        non_striker: RG Sharma
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ishan Kishan
+    - 7.1:
+        non_striker: Ishan Kishan
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RG Sharma
+    - 7.2:
+        non_striker: Ishan Kishan
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RG Sharma
+    - 7.3:
+        non_striker: RG Sharma
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ishan Kishan
+    - 7.4:
+        non_striker: RG Sharma
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ishan Kishan
+    - 7.5:
+        non_striker: Ishan Kishan
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RG Sharma
+    - 7.6:
+        non_striker: RG Sharma
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ishan Kishan
+    - 8.1:
+        non_striker: Ishan Kishan
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RG Sharma
+    - 8.2:
+        non_striker: Ishan Kishan
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RG Sharma
+    - 8.3:
+        non_striker: Ishan Kishan
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RG Sharma
+    - 8.4:
+        non_striker: RG Sharma
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ishan Kishan
+    - 8.5:
+        non_striker: RG Sharma
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ishan Kishan
+    - 8.6:
+        non_striker: Ishan Kishan
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RG Sharma
+    - 9.1:
+        non_striker: RG Sharma
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ishan Kishan
+    - 9.2:
+        non_striker: RG Sharma
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ishan Kishan
+    - 9.3:
+        non_striker: Ishan Kishan
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RG Sharma
+    - 9.4:
+        non_striker: Ishan Kishan
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: RG Sharma
+    - 9.5:
+        non_striker: Ishan Kishan
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RG Sharma
+        wicket:
+          player_out: RG Sharma
+          fielders:
+          - DJ Hooda
+          kind: caught
+    - 9.6:
+        non_striker: Ishan Kishan
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SA Yadav
+    - 9.7:
+        non_striker: Ishan Kishan
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Yadav
+    - 10.1:
+        non_striker: SA Yadav
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ishan Kishan
+    - 10.2:
+        non_striker: SA Yadav
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ishan Kishan
+    - 10.3:
+        non_striker: SA Yadav
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ishan Kishan
+    - 10.4:
+        non_striker: SA Yadav
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ishan Kishan
+    - 10.5:
+        non_striker: Ishan Kishan
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Yadav
+    - 10.6:
+        non_striker: SA Yadav
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ishan Kishan
+    - 11.1:
+        non_striker: SA Yadav
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ishan Kishan
+        wicket:
+          player_out: Ishan Kishan
+          fielders:
+          - Naveen-ul-Haq
+          kind: caught
+    - 11.2:
+        non_striker: SA Yadav
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Wadhera
+    - 11.3:
+        non_striker: N Wadhera
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Yadav
+    - 11.4:
+        non_striker: SA Yadav
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Wadhera
+    - 11.5:
+        non_striker: SA Yadav
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Wadhera
+    - 11.6:
+        non_striker: SA Yadav
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Wadhera
+    - 12.1:
+        non_striker: SA Yadav
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Wadhera
+    - 12.2:
+        non_striker: SA Yadav
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Wadhera
+    - 12.3:
+        non_striker: SA Yadav
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Wadhera
+    - 12.4:
+        non_striker: SA Yadav
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Wadhera
+    - 12.5:
+        non_striker: N Wadhera
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Yadav
+    - 12.6:
+        non_striker: N Wadhera
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Yadav
+    - 13.1:
+        non_striker: SA Yadav
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Wadhera
+    - 13.2:
+        non_striker: SA Yadav
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: N Wadhera
+    - 13.3:
+        non_striker: SA Yadav
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Wadhera
+    - 13.4:
+        non_striker: SA Yadav
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Wadhera
+    - 13.5:
+        non_striker: N Wadhera
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SA Yadav
+    - 13.6:
+        non_striker: N Wadhera
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Yadav
+    - 14.1:
+        non_striker: N Wadhera
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Yadav
+        wicket:
+          player_out: SA Yadav
+          kind: bowled
+    - 14.2:
+        non_striker: N Wadhera
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TH David
+    - 14.3:
+        non_striker: N Wadhera
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TH David
+    - 14.4:
+        non_striker: TH David
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Wadhera
+    - 14.5:
+        non_striker: TH David
+        bowler: Yash Thakur
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: N Wadhera
+    - 14.6:
+        non_striker: TH David
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Wadhera
+    - 14.7:
+        non_striker: TH David
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: N Wadhera
+    - 15.1:
+        non_striker: N Wadhera
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TH David
+    - 15.2:
+        non_striker: TH David
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Wadhera
+    - 15.3:
+        non_striker: TH David
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Wadhera
+    - 15.4:
+        non_striker: N Wadhera
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TH David
+    - 15.5:
+        non_striker: TH David
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: N Wadhera
+    - 15.6:
+        non_striker: TH David
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Wadhera
+    - 16.1:
+        non_striker: TH David
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Wadhera
+        wicket:
+          player_out: N Wadhera
+          fielders:
+          - K Gowtham (sub)
+          kind: caught
+    - 16.2:
+        non_striker: TH David
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        replacements:
+          match:
+          - in: Vishnu Vinod
+            out: Akash Madhwal
+            team: Mumbai Indians
+            reason: impact_player
+        batsman: Vishnu Vinod
+    - 16.3:
+        non_striker: Vishnu Vinod
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TH David
+    - 16.4:
+        non_striker: Vishnu Vinod
+        bowler: Mohsin Khan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: TH David
+    - 16.5:
+        non_striker: Vishnu Vinod
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TH David
+    - 16.6:
+        non_striker: Vishnu Vinod
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TH David
+    - 16.7:
+        non_striker: Vishnu Vinod
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TH David
+    - 17.1:
+        non_striker: TH David
+        bowler: Yash Thakur
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: Vishnu Vinod
+    - 17.2:
+        non_striker: Vishnu Vinod
+        bowler: Yash Thakur
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: TH David
+    - 17.3:
+        non_striker: Vishnu Vinod
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TH David
+    - 17.4:
+        non_striker: TH David
+        bowler: Yash Thakur
+        runs:
+          extras: 1
+          total: 2
+          batsman: 1
+        extras:
+          noballs: 1
+        batsman: Vishnu Vinod
+    - 17.5:
+        non_striker: Vishnu Vinod
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TH David
+    - 17.6:
+        non_striker: TH David
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Vinod
+        wicket:
+          player_out: Vishnu Vinod
+          fielders:
+          - N Pooran
+          kind: caught
+    - 17.7:
+        non_striker: TH David
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C Green
+    - 17.8:
+        non_striker: TH David
+        bowler: Yash Thakur
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: C Green
+    - 17.9:
+        non_striker: TH David
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: C Green
+    - 18.1:
+        non_striker: C Green
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TH David
+    - 18.2:
+        non_striker: C Green
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TH David
+    - 18.3:
+        non_striker: C Green
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TH David
+    - 18.4:
+        non_striker: C Green
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        extras:
+          byes: 4
+          noballs: 1
+        batsman: TH David
+    - 18.5:
+        non_striker: C Green
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TH David
+    - 18.6:
+        non_striker: C Green
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TH David
+    - 18.7:
+        non_striker: C Green
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TH David
+    - 19.1:
+        non_striker: TH David
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C Green
+    - 19.2:
+        non_striker: TH David
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Green
+    - 19.3:
+        non_striker: C Green
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TH David
+    - 19.4:
+        non_striker: TH David
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C Green
+    - 19.5:
+        non_striker: TH David
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Green
+    - 19.6:
+        non_striker: C Green
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TH David

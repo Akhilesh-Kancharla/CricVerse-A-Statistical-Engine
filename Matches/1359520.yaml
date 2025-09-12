@@ -1,0 +1,2120 @@
+---
+meta:
+  data_version: 0.92
+  created: '2023-05-03'
+  revision: 2
+info:
+  balls_per_over: 6
+  city: Chandigarh
+  competition: IPL
+  dates:
+  - '2023-05-03'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Mumbai Indians
+    by:
+      wickets: 6
+  overs: 20
+  player_of_match:
+  - Ishan Kishan
+  players:
+    Punjab Kings:
+    - NT Ellis
+    - P Simran Singh
+    - S Dhawan
+    - MW Short
+    - LS Livingstone
+    - JM Sharma
+    - SM Curran
+    - M Shahrukh Khan
+    - Harpreet Brar
+    - R Dhawan
+    - RD Chahar
+    - Arshdeep Singh
+    Mumbai Indians:
+    - Akash Madhwal
+    - RG Sharma
+    - Ishan Kishan
+    - C Green
+    - SA Yadav
+    - TH David
+    - Tilak Varma
+    - N Wadhera
+    - PP Chawla
+    - JC Archer
+    - K Kartikeya
+    - Arshad Khan
+  registry:
+    people:
+      A Totre: b1d7d7bc
+      Akash Madhwal: 4bd09374
+      Arshad Khan: '12314277'
+      Arshdeep Singh: 244048f6
+      C Green: eaa76d3c
+      Harpreet Brar: c05edf8e
+      Ishan Kishan: 752f7486
+      J Madanagopal: 8275b04a
+      JC Archer: 5574750c
+      JM Sharma: 800d2d97
+      K Kartikeya: f6d8a7ab
+      LS Livingstone: 50c6bc2b
+      M Shahrukh Khan: 7dcb9bc9
+      MW Short: a90e53ec
+      Mohamad Rafi: '0479de6b'
+      N Wadhera: d1a60072
+      NT Ellis: 9eb1455b
+      P Simran Singh: 9418198b
+      PP Chawla: 98ae73b1
+      R Dhawan: 26a85969
+      RD Chahar: 2ed569a0
+      RG Sharma: 740742ef
+      RJ Tucker: 38810cfc
+      S Dhawan: 0a476045
+      SA Yadav: 271f83cd
+      SM Curran: e94915e6
+      SS Raul: 4cfdf1d0
+      TH David: f1f99156
+      Tilak Varma: b0482a1d
+  teams:
+  - Punjab Kings
+  - Mumbai Indians
+  toss:
+    winner: Mumbai Indians
+    decision: field
+  umpires:
+  - J Madanagopal
+  - RJ Tucker
+  venue: Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh
+innings:
+- 1st innings:
+    team: Punjab Kings
+    deliveries:
+    - 0.1:
+        non_striker: S Dhawan
+        bowler: C Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Simran Singh
+    - 0.2:
+        non_striker: S Dhawan
+        bowler: C Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Simran Singh
+    - 0.3:
+        non_striker: S Dhawan
+        bowler: C Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: P Simran Singh
+    - 0.4:
+        non_striker: S Dhawan
+        bowler: C Green
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: P Simran Singh
+    - 0.5:
+        non_striker: P Simran Singh
+        bowler: C Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 0.6:
+        non_striker: P Simran Singh
+        bowler: C Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: S Dhawan
+    - 1.1:
+        non_striker: S Dhawan
+        bowler: Arshad Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: P Simran Singh
+    - 1.2:
+        non_striker: S Dhawan
+        bowler: Arshad Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Simran Singh
+    - 1.3:
+        non_striker: S Dhawan
+        bowler: Arshad Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Simran Singh
+        wicket:
+          player_out: P Simran Singh
+          fielders:
+          - Ishan Kishan
+          kind: caught
+    - 1.4:
+        non_striker: S Dhawan
+        bowler: Arshad Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MW Short
+    - 1.5:
+        non_striker: S Dhawan
+        bowler: Arshad Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MW Short
+    - 1.6:
+        non_striker: S Dhawan
+        bowler: Arshad Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MW Short
+    - 2.1:
+        non_striker: MW Short
+        bowler: C Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 2.2:
+        non_striker: MW Short
+        bowler: C Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 2.3:
+        non_striker: MW Short
+        bowler: C Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: S Dhawan
+    - 2.4:
+        non_striker: MW Short
+        bowler: C Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 2.5:
+        non_striker: MW Short
+        bowler: C Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: S Dhawan
+    - 2.6:
+        non_striker: MW Short
+        bowler: C Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 3.1:
+        non_striker: S Dhawan
+        bowler: Arshad Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MW Short
+    - 3.2:
+        non_striker: MW Short
+        bowler: Arshad Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dhawan
+    - 3.3:
+        non_striker: S Dhawan
+        bowler: Arshad Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MW Short
+    - 3.4:
+        non_striker: S Dhawan
+        bowler: Arshad Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MW Short
+    - 3.5:
+        non_striker: S Dhawan
+        bowler: Arshad Khan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MW Short
+    - 3.6:
+        non_striker: S Dhawan
+        bowler: Arshad Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MW Short
+    - 4.1:
+        non_striker: MW Short
+        bowler: JC Archer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dhawan
+    - 4.2:
+        non_striker: S Dhawan
+        bowler: JC Archer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MW Short
+    - 4.3:
+        non_striker: MW Short
+        bowler: JC Archer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dhawan
+    - 4.4:
+        non_striker: S Dhawan
+        bowler: JC Archer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MW Short
+    - 4.5:
+        non_striker: S Dhawan
+        bowler: JC Archer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MW Short
+    - 4.6:
+        non_striker: MW Short
+        bowler: JC Archer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dhawan
+    - 5.1:
+        non_striker: MW Short
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: S Dhawan
+    - 5.2:
+        non_striker: MW Short
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: S Dhawan
+    - 5.3:
+        non_striker: MW Short
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dhawan
+    - 5.4:
+        non_striker: S Dhawan
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MW Short
+    - 5.5:
+        non_striker: S Dhawan
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MW Short
+    - 5.6:
+        non_striker: S Dhawan
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MW Short
+    - 6.1:
+        non_striker: S Dhawan
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MW Short
+    - 6.2:
+        non_striker: MW Short
+        bowler: K Kartikeya
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: S Dhawan
+    - 6.3:
+        non_striker: MW Short
+        bowler: K Kartikeya
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: S Dhawan
+    - 6.4:
+        non_striker: S Dhawan
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MW Short
+    - 6.5:
+        non_striker: S Dhawan
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MW Short
+    - 6.6:
+        non_striker: MW Short
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: S Dhawan
+    - 6.7:
+        non_striker: MW Short
+        bowler: K Kartikeya
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: S Dhawan
+    - 6.8:
+        non_striker: MW Short
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dhawan
+    - 7.1:
+        non_striker: MW Short
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: S Dhawan
+    - 7.2:
+        non_striker: MW Short
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+        wicket:
+          player_out: S Dhawan
+          fielders:
+          - Ishan Kishan
+          kind: stumped
+    - 7.3:
+        non_striker: MW Short
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LS Livingstone
+    - 7.4:
+        non_striker: LS Livingstone
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MW Short
+    - 7.5:
+        non_striker: MW Short
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LS Livingstone
+    - 7.6:
+        non_striker: LS Livingstone
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MW Short
+    - 8.1:
+        non_striker: MW Short
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LS Livingstone
+    - 8.2:
+        non_striker: LS Livingstone
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MW Short
+    - 8.3:
+        non_striker: MW Short
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LS Livingstone
+    - 8.4:
+        non_striker: LS Livingstone
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MW Short
+    - 8.5:
+        non_striker: MW Short
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LS Livingstone
+    - 8.6:
+        non_striker: LS Livingstone
+        bowler: K Kartikeya
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: MW Short
+    - 8.7:
+        non_striker: LS Livingstone
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MW Short
+    - 9.1:
+        non_striker: MW Short
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LS Livingstone
+    - 9.2:
+        non_striker: LS Livingstone
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MW Short
+    - 9.3:
+        non_striker: MW Short
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LS Livingstone
+    - 9.4:
+        non_striker: MW Short
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LS Livingstone
+    - 9.5:
+        non_striker: MW Short
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LS Livingstone
+    - 9.6:
+        non_striker: MW Short
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LS Livingstone
+    - 10.1:
+        non_striker: MW Short
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LS Livingstone
+    - 10.2:
+        non_striker: MW Short
+        bowler: Akash Madhwal
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          noballs: 1
+        batsman: LS Livingstone
+    - 10.3:
+        non_striker: MW Short
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LS Livingstone
+    - 10.4:
+        non_striker: LS Livingstone
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MW Short
+    - 10.5:
+        non_striker: MW Short
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: LS Livingstone
+    - 10.6:
+        non_striker: MW Short
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LS Livingstone
+    - 10.7:
+        non_striker: LS Livingstone
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MW Short
+    - 11.1:
+        non_striker: MW Short
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LS Livingstone
+    - 11.2:
+        non_striker: LS Livingstone
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MW Short
+        wicket:
+          player_out: MW Short
+          kind: bowled
+    - 11.3:
+        non_striker: LS Livingstone
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 11.4:
+        non_striker: JM Sharma
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LS Livingstone
+    - 11.5:
+        non_striker: LS Livingstone
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 11.6:
+        non_striker: JM Sharma
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LS Livingstone
+    - 12.1:
+        non_striker: JM Sharma
+        bowler: JC Archer
+        runs:
+          extras: 1
+          total: 2
+          batsman: 1
+        extras:
+          noballs: 1
+        batsman: LS Livingstone
+    - 12.2:
+        non_striker: LS Livingstone
+        bowler: JC Archer
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Sharma
+    - 12.3:
+        non_striker: LS Livingstone
+        bowler: JC Archer
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Sharma
+    - 12.4:
+        non_striker: LS Livingstone
+        bowler: JC Archer
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JM Sharma
+    - 12.5:
+        non_striker: LS Livingstone
+        bowler: JC Archer
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Sharma
+    - 12.6:
+        non_striker: LS Livingstone
+        bowler: JC Archer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 12.7:
+        non_striker: JM Sharma
+        bowler: JC Archer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LS Livingstone
+    - 12.8:
+        non_striker: LS Livingstone
+        bowler: JC Archer
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        extras:
+          legbyes: 4
+        batsman: JM Sharma
+    - 13.1:
+        non_striker: JM Sharma
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LS Livingstone
+    - 13.2:
+        non_striker: LS Livingstone
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 13.3:
+        non_striker: JM Sharma
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LS Livingstone
+    - 13.4:
+        non_striker: LS Livingstone
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Sharma
+    - 13.5:
+        non_striker: LS Livingstone
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 13.6:
+        non_striker: JM Sharma
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LS Livingstone
+    - 14.1:
+        non_striker: JM Sharma
+        bowler: Arshad Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LS Livingstone
+    - 14.2:
+        non_striker: JM Sharma
+        bowler: Arshad Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LS Livingstone
+    - 14.3:
+        non_striker: JM Sharma
+        bowler: Arshad Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LS Livingstone
+    - 14.4:
+        non_striker: LS Livingstone
+        bowler: Arshad Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 14.5:
+        non_striker: JM Sharma
+        bowler: Arshad Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LS Livingstone
+    - 14.6:
+        non_striker: JM Sharma
+        bowler: Arshad Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LS Livingstone
+    - 15.1:
+        non_striker: LS Livingstone
+        bowler: JC Archer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 15.2:
+        non_striker: JM Sharma
+        bowler: JC Archer
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LS Livingstone
+    - 15.3:
+        non_striker: JM Sharma
+        bowler: JC Archer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LS Livingstone
+    - 15.4:
+        non_striker: LS Livingstone
+        bowler: JC Archer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 15.5:
+        non_striker: LS Livingstone
+        bowler: JC Archer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 15.6:
+        non_striker: JM Sharma
+        bowler: JC Archer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LS Livingstone
+    - 16.1:
+        non_striker: LS Livingstone
+        bowler: Arshad Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 16.2:
+        non_striker: LS Livingstone
+        bowler: Arshad Khan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Sharma
+    - 16.3:
+        non_striker: LS Livingstone
+        bowler: Arshad Khan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JM Sharma
+    - 16.4:
+        non_striker: LS Livingstone
+        bowler: Arshad Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Sharma
+    - 16.5:
+        non_striker: LS Livingstone
+        bowler: Arshad Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 16.6:
+        non_striker: LS Livingstone
+        bowler: Arshad Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JM Sharma
+    - 16.7:
+        non_striker: LS Livingstone
+        bowler: Arshad Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 17.1:
+        non_striker: LS Livingstone
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 17.2:
+        non_striker: JM Sharma
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LS Livingstone
+    - 17.3:
+        non_striker: JM Sharma
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LS Livingstone
+    - 17.4:
+        non_striker: LS Livingstone
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Sharma
+    - 17.5:
+        non_striker: LS Livingstone
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JM Sharma
+    - 17.6:
+        non_striker: LS Livingstone
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 18.1:
+        non_striker: JM Sharma
+        bowler: JC Archer
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: LS Livingstone
+    - 18.2:
+        non_striker: JM Sharma
+        bowler: JC Archer
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: LS Livingstone
+    - 18.3:
+        non_striker: JM Sharma
+        bowler: JC Archer
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: LS Livingstone
+    - 18.4:
+        non_striker: JM Sharma
+        bowler: JC Archer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LS Livingstone
+    - 18.5:
+        non_striker: LS Livingstone
+        bowler: JC Archer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 18.6:
+        non_striker: JM Sharma
+        bowler: JC Archer
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        extras:
+          wides: 5
+        batsman: LS Livingstone
+    - 18.7:
+        non_striker: JM Sharma
+        bowler: JC Archer
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LS Livingstone
+    - 19.1:
+        non_striker: LS Livingstone
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 19.2:
+        non_striker: JM Sharma
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LS Livingstone
+    - 19.3:
+        non_striker: JM Sharma
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LS Livingstone
+    - 19.4:
+        non_striker: LS Livingstone
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 19.5:
+        non_striker: JM Sharma
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LS Livingstone
+    - 19.6:
+        non_striker: JM Sharma
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LS Livingstone
+- 2nd innings:
+    team: Mumbai Indians
+    deliveries:
+    - 0.1:
+        non_striker: Ishan Kishan
+        bowler: R Dhawan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        replacements:
+          match:
+          - in: NT Ellis
+            out: P Simran Singh
+            team: Punjab Kings
+            reason: impact_player
+        batsman: RG Sharma
+    - 0.2:
+        non_striker: Ishan Kishan
+        bowler: R Dhawan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RG Sharma
+    - 0.3:
+        non_striker: Ishan Kishan
+        bowler: R Dhawan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RG Sharma
+        wicket:
+          player_out: RG Sharma
+          fielders:
+          - MW Short
+          kind: caught
+    - 0.4:
+        non_striker: Ishan Kishan
+        bowler: R Dhawan
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        extras:
+          byes: 4
+        batsman: C Green
+    - 0.5:
+        non_striker: Ishan Kishan
+        bowler: R Dhawan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Green
+    - 0.6:
+        non_striker: C Green
+        bowler: R Dhawan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ishan Kishan
+    - 1.1:
+        non_striker: Ishan Kishan
+        bowler: Arshdeep Singh
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: C Green
+    - 1.2:
+        non_striker: Ishan Kishan
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: C Green
+    - 1.3:
+        non_striker: Ishan Kishan
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Green
+    - 1.4:
+        non_striker: C Green
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ishan Kishan
+    - 1.5:
+        non_striker: Ishan Kishan
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Green
+    - 1.6:
+        non_striker: C Green
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ishan Kishan
+    - 1.7:
+        non_striker: C Green
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ishan Kishan
+    - 2.1:
+        non_striker: Ishan Kishan
+        bowler: R Dhawan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C Green
+    - 2.2:
+        non_striker: Ishan Kishan
+        bowler: R Dhawan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C Green
+    - 2.3:
+        non_striker: Ishan Kishan
+        bowler: R Dhawan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C Green
+    - 2.4:
+        non_striker: Ishan Kishan
+        bowler: R Dhawan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Green
+    - 2.5:
+        non_striker: C Green
+        bowler: R Dhawan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ishan Kishan
+    - 2.6:
+        non_striker: Ishan Kishan
+        bowler: R Dhawan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C Green
+    - 3.1:
+        non_striker: C Green
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ishan Kishan
+    - 3.2:
+        non_striker: C Green
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ishan Kishan
+    - 3.3:
+        non_striker: C Green
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ishan Kishan
+    - 3.4:
+        non_striker: Ishan Kishan
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: C Green
+    - 3.5:
+        non_striker: Ishan Kishan
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C Green
+    - 3.6:
+        non_striker: Ishan Kishan
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: C Green
+    - 4.1:
+        non_striker: C Green
+        bowler: R Dhawan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Ishan Kishan
+    - 4.2:
+        non_striker: C Green
+        bowler: R Dhawan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ishan Kishan
+    - 4.3:
+        non_striker: C Green
+        bowler: R Dhawan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Ishan Kishan
+    - 4.4:
+        non_striker: C Green
+        bowler: R Dhawan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ishan Kishan
+    - 4.5:
+        non_striker: Ishan Kishan
+        bowler: R Dhawan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C Green
+    - 4.6:
+        non_striker: Ishan Kishan
+        bowler: R Dhawan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: C Green
+    - 5.1:
+        non_striker: C Green
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ishan Kishan
+    - 5.2:
+        non_striker: C Green
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ishan Kishan
+    - 5.3:
+        non_striker: Ishan Kishan
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Green
+    - 5.4:
+        non_striker: C Green
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ishan Kishan
+    - 5.5:
+        non_striker: Ishan Kishan
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: C Green
+    - 5.6:
+        non_striker: Ishan Kishan
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C Green
+        wicket:
+          player_out: C Green
+          fielders:
+          - RD Chahar
+          kind: caught
+    - 6.1:
+        non_striker: SA Yadav
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        replacements:
+          match:
+          - in: SA Yadav
+            out: Akash Madhwal
+            team: Mumbai Indians
+            reason: impact_player
+        batsman: Ishan Kishan
+    - 6.2:
+        non_striker: Ishan Kishan
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Yadav
+    - 6.3:
+        non_striker: Ishan Kishan
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Yadav
+    - 6.4:
+        non_striker: Ishan Kishan
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Yadav
+    - 6.5:
+        non_striker: Ishan Kishan
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Yadav
+    - 6.6:
+        non_striker: SA Yadav
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ishan Kishan
+    - 7.1:
+        non_striker: Ishan Kishan
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Yadav
+    - 7.2:
+        non_striker: SA Yadav
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ishan Kishan
+    - 7.3:
+        non_striker: Ishan Kishan
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SA Yadav
+    - 7.4:
+        non_striker: Ishan Kishan
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SA Yadav
+    - 7.5:
+        non_striker: Ishan Kishan
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Yadav
+    - 7.6:
+        non_striker: SA Yadav
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ishan Kishan
+    - 8.1:
+        non_striker: Ishan Kishan
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SA Yadav
+    - 8.2:
+        non_striker: Ishan Kishan
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Yadav
+    - 8.3:
+        non_striker: Ishan Kishan
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Yadav
+    - 8.4:
+        non_striker: SA Yadav
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ishan Kishan
+    - 8.5:
+        non_striker: SA Yadav
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ishan Kishan
+    - 8.6:
+        non_striker: SA Yadav
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ishan Kishan
+    - 9.1:
+        non_striker: SA Yadav
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ishan Kishan
+    - 9.2:
+        non_striker: Ishan Kishan
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Yadav
+    - 9.3:
+        non_striker: SA Yadav
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ishan Kishan
+    - 9.4:
+        non_striker: SA Yadav
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ishan Kishan
+    - 9.5:
+        non_striker: Ishan Kishan
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Yadav
+    - 9.6:
+        non_striker: SA Yadav
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Ishan Kishan
+    - 10.1:
+        non_striker: Ishan Kishan
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Yadav
+    - 10.2:
+        non_striker: Ishan Kishan
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Yadav
+    - 10.3:
+        non_striker: Ishan Kishan
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Yadav
+    - 10.4:
+        non_striker: Ishan Kishan
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Yadav
+    - 10.5:
+        non_striker: SA Yadav
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ishan Kishan
+    - 10.6:
+        non_striker: SA Yadav
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ishan Kishan
+    - 11.1:
+        non_striker: SA Yadav
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ishan Kishan
+    - 11.2:
+        non_striker: SA Yadav
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ishan Kishan
+    - 11.3:
+        non_striker: Ishan Kishan
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Yadav
+    - 11.4:
+        non_striker: SA Yadav
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ishan Kishan
+    - 11.5:
+        non_striker: Ishan Kishan
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Yadav
+    - 11.6:
+        non_striker: SA Yadav
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ishan Kishan
+    - 12.1:
+        non_striker: Ishan Kishan
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SA Yadav
+    - 12.2:
+        non_striker: Ishan Kishan
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SA Yadav
+    - 12.3:
+        non_striker: Ishan Kishan
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Yadav
+    - 12.4:
+        non_striker: Ishan Kishan
+        bowler: SM Curran
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: SA Yadav
+    - 12.5:
+        non_striker: Ishan Kishan
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Yadav
+    - 12.6:
+        non_striker: Ishan Kishan
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Yadav
+    - 12.7:
+        non_striker: SA Yadav
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ishan Kishan
+    - 13.1:
+        non_striker: SA Yadav
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ishan Kishan
+    - 13.2:
+        non_striker: Ishan Kishan
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SA Yadav
+    - 13.3:
+        non_striker: Ishan Kishan
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Yadav
+    - 13.4:
+        non_striker: Ishan Kishan
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SA Yadav
+    - 13.5:
+        non_striker: Ishan Kishan
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Yadav
+    - 13.6:
+        non_striker: SA Yadav
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ishan Kishan
+    - 14.1:
+        non_striker: SA Yadav
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ishan Kishan
+    - 14.2:
+        non_striker: Ishan Kishan
+        bowler: Arshdeep Singh
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: SA Yadav
+    - 14.3:
+        non_striker: Ishan Kishan
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Yadav
+    - 14.4:
+        non_striker: Ishan Kishan
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Yadav
+    - 14.5:
+        non_striker: SA Yadav
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Ishan Kishan
+    - 14.6:
+        non_striker: SA Yadav
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ishan Kishan
+    - 14.7:
+        non_striker: SA Yadav
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ishan Kishan
+    - 15.1:
+        non_striker: Ishan Kishan
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Yadav
+        wicket:
+          player_out: SA Yadav
+          fielders:
+          - Arshdeep Singh
+          kind: caught
+    - 15.2:
+        non_striker: Ishan Kishan
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TH David
+    - 15.3:
+        non_striker: Ishan Kishan
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TH David
+    - 15.4:
+        non_striker: Ishan Kishan
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TH David
+    - 15.5:
+        non_striker: TH David
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ishan Kishan
+    - 15.6:
+        non_striker: Ishan Kishan
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TH David
+    - 16.1:
+        non_striker: TH David
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ishan Kishan
+        wicket:
+          player_out: Ishan Kishan
+          fielders:
+          - R Dhawan
+          kind: caught
+    - 16.2:
+        non_striker: TH David
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tilak Varma
+    - 16.3:
+        non_striker: TH David
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tilak Varma
+    - 16.4:
+        non_striker: TH David
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Tilak Varma
+    - 16.5:
+        non_striker: TH David
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Tilak Varma
+    - 16.6:
+        non_striker: TH David
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Tilak Varma
+    - 17.1:
+        non_striker: Tilak Varma
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TH David
+    - 17.2:
+        non_striker: Tilak Varma
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TH David
+    - 17.3:
+        non_striker: TH David
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tilak Varma
+    - 17.4:
+        non_striker: Tilak Varma
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TH David
+    - 17.5:
+        non_striker: TH David
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tilak Varma
+    - 17.6:
+        non_striker: Tilak Varma
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TH David
+    - 18.1:
+        non_striker: Tilak Varma
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TH David
+    - 18.2:
+        non_striker: Tilak Varma
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TH David
+    - 18.3:
+        non_striker: TH David
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tilak Varma
+    - 18.4:
+        non_striker: TH David
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Tilak Varma
+    - 18.5:
+        non_striker: TH David
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Tilak Varma

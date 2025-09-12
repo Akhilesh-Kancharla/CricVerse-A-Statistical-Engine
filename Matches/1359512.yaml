@@ -1,0 +1,2286 @@
+---
+meta:
+  data_version: 0.92
+  created: '2023-05-01'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Chandigarh
+  competition: IPL
+  dates:
+  - '2023-04-28'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Lucknow Super Giants
+    by:
+      runs: 56
+  overs: 20
+  player_of_match:
+  - MP Stoinis
+  players:
+    Lucknow Super Giants:
+    - A Mishra
+    - KL Rahul
+    - KR Mayers
+    - A Badoni
+    - MP Stoinis
+    - N Pooran
+    - DJ Hooda
+    - KH Pandya
+    - Naveen-ul-Haq
+    - Ravi Bishnoi
+    - Avesh Khan
+    - Yash Thakur
+    Punjab Kings:
+    - Gurnoor Brar
+    - P Simran Singh
+    - S Dhawan
+    - Atharva Taide
+    - Sikandar Raza
+    - LS Livingstone
+    - SM Curran
+    - JM Sharma
+    - M Shahrukh Khan
+    - RD Chahar
+    - K Rabada
+    - Arshdeep Singh
+  registry:
+    people:
+      A Badoni: 872b03f7
+      A Mishra: 6b19d823
+      Arshdeep Singh: 244048f6
+      Atharva Taide: 1ac746c8
+      Avesh Khan: eef2536f
+      DJ Hooda: 73ad96ed
+      DR Sams: caf69bf7
+      Gurnoor Brar: '99258814'
+      HAS Khalid: 291ded7c
+      JM Sharma: 800d2d97
+      K Rabada: e62dd25d
+      KH Pandya: 5b8c830e
+      KL Rahul: b17e2f24
+      KR Mayers: 73c18486
+      LS Livingstone: 50c6bc2b
+      M Shahrukh Khan: 7dcb9bc9
+      MP Stoinis: d9273ee7
+      N Pooran: 3241e3fd
+      Naveen-ul-Haq: c0c411cb
+      Nitin Menon: e1d41d9e
+      P Simran Singh: 9418198b
+      RD Chahar: 2ed569a0
+      Ravi Bishnoi: df064e1a
+      S Dhawan: 0a476045
+      SM Curran: e94915e6
+      Shakti Singh: eb90d319
+      Sikandar Raza: 26d041c4
+      VM Dhokre: 67df71c9
+      Vinod Seshan: a3357a27
+      Yash Thakur: 4b31f3a3
+  teams:
+  - Lucknow Super Giants
+  - Punjab Kings
+  toss:
+    winner: Punjab Kings
+    decision: field
+  umpires:
+  - Nitin Menon
+  - Vinod Seshan
+  venue: Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh
+innings:
+- 1st innings:
+    team: Lucknow Super Giants
+    deliveries:
+    - 0.1:
+        non_striker: KR Mayers
+        bowler: Gurnoor Brar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KL Rahul
+    - 0.2:
+        non_striker: KL Rahul
+        bowler: Gurnoor Brar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KR Mayers
+    - 0.3:
+        non_striker: KR Mayers
+        bowler: Gurnoor Brar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KL Rahul
+    - 0.4:
+        non_striker: KR Mayers
+        bowler: Gurnoor Brar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KL Rahul
+    - 0.5:
+        non_striker: KR Mayers
+        bowler: Gurnoor Brar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KL Rahul
+    - 0.6:
+        non_striker: KR Mayers
+        bowler: Gurnoor Brar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KL Rahul
+    - 1.1:
+        non_striker: KL Rahul
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KR Mayers
+    - 1.2:
+        non_striker: KL Rahul
+        bowler: Arshdeep Singh
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: KR Mayers
+    - 1.3:
+        non_striker: KL Rahul
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KR Mayers
+    - 1.4:
+        non_striker: KL Rahul
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KR Mayers
+    - 1.5:
+        non_striker: KL Rahul
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KR Mayers
+    - 1.6:
+        non_striker: KL Rahul
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KR Mayers
+    - 1.7:
+        non_striker: KL Rahul
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KR Mayers
+    - 2.1:
+        non_striker: KR Mayers
+        bowler: Gurnoor Brar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KL Rahul
+    - 2.2:
+        non_striker: KR Mayers
+        bowler: Gurnoor Brar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KL Rahul
+    - 2.3:
+        non_striker: KL Rahul
+        bowler: Gurnoor Brar
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          noballs: 1
+        batsman: KR Mayers
+    - 2.4:
+        non_striker: KL Rahul
+        bowler: Gurnoor Brar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KR Mayers
+    - 2.5:
+        non_striker: KL Rahul
+        bowler: Gurnoor Brar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KR Mayers
+    - 2.6:
+        non_striker: KL Rahul
+        bowler: Gurnoor Brar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KR Mayers
+    - 2.7:
+        non_striker: KL Rahul
+        bowler: Gurnoor Brar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KR Mayers
+    - 3.1:
+        non_striker: KR Mayers
+        bowler: K Rabada
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KL Rahul
+    - 3.2:
+        non_striker: KR Mayers
+        bowler: K Rabada
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KL Rahul
+        wicket:
+          player_out: KL Rahul
+          fielders:
+          - M Shahrukh Khan
+          kind: caught
+    - 3.3:
+        non_striker: KR Mayers
+        bowler: K Rabada
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Badoni
+    - 3.4:
+        non_striker: KR Mayers
+        bowler: K Rabada
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Badoni
+    - 3.5:
+        non_striker: KR Mayers
+        bowler: K Rabada
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: A Badoni
+    - 3.6:
+        non_striker: KR Mayers
+        bowler: K Rabada
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Badoni
+    - 4.1:
+        non_striker: A Badoni
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KR Mayers
+    - 4.2:
+        non_striker: A Badoni
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KR Mayers
+    - 4.3:
+        non_striker: A Badoni
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KR Mayers
+    - 4.4:
+        non_striker: A Badoni
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KR Mayers
+    - 4.5:
+        non_striker: A Badoni
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KR Mayers
+    - 4.6:
+        non_striker: A Badoni
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KR Mayers
+    - 5.1:
+        non_striker: A Badoni
+        bowler: K Rabada
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KR Mayers
+    - 5.2:
+        non_striker: A Badoni
+        bowler: K Rabada
+        runs:
+          extras: 1
+          total: 7
+          batsman: 6
+        extras:
+          noballs: 1
+        batsman: KR Mayers
+    - 5.3:
+        non_striker: A Badoni
+        bowler: K Rabada
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KR Mayers
+    - 5.4:
+        non_striker: A Badoni
+        bowler: K Rabada
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KR Mayers
+    - 5.5:
+        non_striker: A Badoni
+        bowler: K Rabada
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KR Mayers
+    - 5.6:
+        non_striker: A Badoni
+        bowler: K Rabada
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: KR Mayers
+    - 5.7:
+        non_striker: A Badoni
+        bowler: K Rabada
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KR Mayers
+        wicket:
+          player_out: KR Mayers
+          fielders:
+          - S Dhawan
+          kind: caught
+    - 5.8:
+        non_striker: A Badoni
+        bowler: K Rabada
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Stoinis
+    - 6.1:
+        non_striker: MP Stoinis
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: A Badoni
+    - 6.2:
+        non_striker: MP Stoinis
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Badoni
+    - 6.3:
+        non_striker: A Badoni
+        bowler: RD Chahar
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: MP Stoinis
+    - 6.4:
+        non_striker: MP Stoinis
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Badoni
+    - 6.5:
+        non_striker: A Badoni
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MP Stoinis
+    - 6.6:
+        non_striker: A Badoni
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Stoinis
+    - 7.1:
+        non_striker: MP Stoinis
+        bowler: Gurnoor Brar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: A Badoni
+    - 7.2:
+        non_striker: MP Stoinis
+        bowler: Gurnoor Brar
+        runs:
+          extras: 1
+          total: 2
+          batsman: 1
+        extras:
+          noballs: 1
+        batsman: A Badoni
+    - 7.3:
+        non_striker: A Badoni
+        bowler: Gurnoor Brar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MP Stoinis
+    - 7.4:
+        non_striker: A Badoni
+        bowler: Gurnoor Brar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MP Stoinis
+    - 7.5:
+        non_striker: A Badoni
+        bowler: Gurnoor Brar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Stoinis
+    - 7.6:
+        non_striker: MP Stoinis
+        bowler: Gurnoor Brar
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: A Badoni
+    - 7.7:
+        non_striker: MP Stoinis
+        bowler: Gurnoor Brar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Badoni
+    - 7.8:
+        non_striker: MP Stoinis
+        bowler: Gurnoor Brar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: A Badoni
+    - 8.1:
+        non_striker: A Badoni
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Stoinis
+    - 8.2:
+        non_striker: MP Stoinis
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Badoni
+    - 8.3:
+        non_striker: A Badoni
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Stoinis
+    - 8.4:
+        non_striker: A Badoni
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Stoinis
+    - 8.5:
+        non_striker: A Badoni
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Stoinis
+    - 8.6:
+        non_striker: MP Stoinis
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Badoni
+    - 9.1:
+        non_striker: MP Stoinis
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        replacements:
+          match:
+          - in: P Simran Singh
+            out: Gurnoor Brar
+            team: Punjab Kings
+            reason: impact_player
+        batsman: A Badoni
+    - 9.2:
+        non_striker: A Badoni
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MP Stoinis
+    - 9.3:
+        non_striker: A Badoni
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Stoinis
+    - 9.4:
+        non_striker: MP Stoinis
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: A Badoni
+    - 9.5:
+        non_striker: MP Stoinis
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Badoni
+    - 9.6:
+        non_striker: A Badoni
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MP Stoinis
+    - 10.1:
+        non_striker: MP Stoinis
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Badoni
+    - 10.2:
+        non_striker: A Badoni
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Stoinis
+    - 10.3:
+        non_striker: A Badoni
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Stoinis
+    - 10.4:
+        non_striker: A Badoni
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MP Stoinis
+    - 10.5:
+        non_striker: A Badoni
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Stoinis
+    - 10.6:
+        non_striker: MP Stoinis
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: A Badoni
+    - 11.1:
+        non_striker: A Badoni
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Stoinis
+    - 11.2:
+        non_striker: A Badoni
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MP Stoinis
+    - 11.3:
+        non_striker: A Badoni
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MP Stoinis
+    - 11.4:
+        non_striker: A Badoni
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Stoinis
+    - 11.5:
+        non_striker: MP Stoinis
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: A Badoni
+    - 11.6:
+        non_striker: MP Stoinis
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Badoni
+    - 12.1:
+        non_striker: A Badoni
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Stoinis
+    - 12.2:
+        non_striker: A Badoni
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MP Stoinis
+    - 12.3:
+        non_striker: A Badoni
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Stoinis
+    - 12.4:
+        non_striker: MP Stoinis
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Badoni
+    - 12.5:
+        non_striker: A Badoni
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Stoinis
+    - 12.6:
+        non_striker: MP Stoinis
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Badoni
+    - 13.1:
+        non_striker: A Badoni
+        bowler: LS Livingstone
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Stoinis
+    - 13.2:
+        non_striker: MP Stoinis
+        bowler: LS Livingstone
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: A Badoni
+    - 13.3:
+        non_striker: MP Stoinis
+        bowler: LS Livingstone
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Badoni
+        wicket:
+          player_out: A Badoni
+          fielders:
+          - RD Chahar
+          kind: caught
+    - 13.4:
+        non_striker: MP Stoinis
+        bowler: LS Livingstone
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: N Pooran
+    - 13.5:
+        non_striker: MP Stoinis
+        bowler: LS Livingstone
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: N Pooran
+    - 13.6:
+        non_striker: MP Stoinis
+        bowler: LS Livingstone
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: N Pooran
+    - 14.1:
+        non_striker: N Pooran
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Stoinis
+    - 14.2:
+        non_striker: MP Stoinis
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Pooran
+    - 14.3:
+        non_striker: N Pooran
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Stoinis
+    - 14.4:
+        non_striker: MP Stoinis
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: N Pooran
+    - 14.5:
+        non_striker: MP Stoinis
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: N Pooran
+    - 14.6:
+        non_striker: MP Stoinis
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Pooran
+    - 15.1:
+        non_striker: N Pooran
+        bowler: K Rabada
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        extras:
+          legbyes: 4
+        batsman: MP Stoinis
+    - 15.2:
+        non_striker: N Pooran
+        bowler: K Rabada
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Stoinis
+    - 15.3:
+        non_striker: MP Stoinis
+        bowler: K Rabada
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Pooran
+    - 15.4:
+        non_striker: N Pooran
+        bowler: K Rabada
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MP Stoinis
+    - 15.5:
+        non_striker: N Pooran
+        bowler: K Rabada
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          legbyes: 1
+          noballs: 1
+        batsman: MP Stoinis
+    - 15.6:
+        non_striker: MP Stoinis
+        bowler: K Rabada
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: N Pooran
+    - 15.7:
+        non_striker: MP Stoinis
+        bowler: K Rabada
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Pooran
+    - 15.8:
+        non_striker: N Pooran
+        bowler: K Rabada
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Stoinis
+    - 16.1:
+        non_striker: MP Stoinis
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Pooran
+    - 16.2:
+        non_striker: N Pooran
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MP Stoinis
+    - 16.3:
+        non_striker: N Pooran
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Stoinis
+    - 16.4:
+        non_striker: MP Stoinis
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: N Pooran
+    - 16.5:
+        non_striker: MP Stoinis
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: N Pooran
+    - 16.6:
+        non_striker: MP Stoinis
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: N Pooran
+    - 17.1:
+        non_striker: N Pooran
+        bowler: K Rabada
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MP Stoinis
+    - 17.2:
+        non_striker: N Pooran
+        bowler: K Rabada
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Stoinis
+    - 17.3:
+        non_striker: MP Stoinis
+        bowler: K Rabada
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: N Pooran
+    - 17.4:
+        non_striker: MP Stoinis
+        bowler: K Rabada
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: N Pooran
+    - 17.5:
+        non_striker: MP Stoinis
+        bowler: K Rabada
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Pooran
+    - 17.6:
+        non_striker: MP Stoinis
+        bowler: K Rabada
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: N Pooran
+    - 18.1:
+        non_striker: N Pooran
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MP Stoinis
+    - 18.2:
+        non_striker: N Pooran
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Stoinis
+        wicket:
+          player_out: MP Stoinis
+          fielders:
+          - JM Sharma
+          kind: caught
+    - 18.3:
+        non_striker: N Pooran
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DJ Hooda
+    - 18.4:
+        non_striker: N Pooran
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+    - 18.5:
+        non_striker: N Pooran
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Hooda
+    - 18.6:
+        non_striker: N Pooran
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+    - 19.1:
+        non_striker: DJ Hooda
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Pooran
+    - 19.2:
+        non_striker: N Pooran
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Hooda
+    - 19.3:
+        non_striker: N Pooran
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 19.4:
+        non_striker: DJ Hooda
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Pooran
+        wicket:
+          player_out: N Pooran
+          kind: lbw
+    - 19.5:
+        non_striker: DJ Hooda
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KH Pandya
+    - 19.6:
+        non_striker: DJ Hooda
+        bowler: Arshdeep Singh
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: KH Pandya
+    - 19.7:
+        non_striker: DJ Hooda
+        bowler: Arshdeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+- 2nd innings:
+    team: Punjab Kings
+    deliveries:
+    - 0.1:
+        non_striker: S Dhawan
+        bowler: MP Stoinis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Simran Singh
+    - 0.2:
+        non_striker: S Dhawan
+        bowler: MP Stoinis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Simran Singh
+    - 0.3:
+        non_striker: P Simran Singh
+        bowler: MP Stoinis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dhawan
+    - 0.4:
+        non_striker: S Dhawan
+        bowler: MP Stoinis
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: P Simran Singh
+    - 0.5:
+        non_striker: P Simran Singh
+        bowler: MP Stoinis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+        wicket:
+          player_out: S Dhawan
+          fielders:
+          - KH Pandya
+          kind: caught
+    - 0.6:
+        non_striker: P Simran Singh
+        bowler: MP Stoinis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 1.1:
+        non_striker: Atharva Taide
+        bowler: KR Mayers
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Simran Singh
+    - 1.2:
+        non_striker: Atharva Taide
+        bowler: KR Mayers
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: P Simran Singh
+    - 1.3:
+        non_striker: Atharva Taide
+        bowler: KR Mayers
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Simran Singh
+    - 1.4:
+        non_striker: Atharva Taide
+        bowler: KR Mayers
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Simran Singh
+    - 1.5:
+        non_striker: Atharva Taide
+        bowler: KR Mayers
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Simran Singh
+    - 1.6:
+        non_striker: Atharva Taide
+        bowler: KR Mayers
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Simran Singh
+    - 2.1:
+        non_striker: P Simran Singh
+        bowler: MP Stoinis
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Atharva Taide
+    - 2.2:
+        non_striker: P Simran Singh
+        bowler: MP Stoinis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 2.3:
+        non_striker: P Simran Singh
+        bowler: MP Stoinis
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Atharva Taide
+    - 2.4:
+        non_striker: P Simran Singh
+        bowler: MP Stoinis
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Atharva Taide
+    - 2.5:
+        non_striker: P Simran Singh
+        bowler: MP Stoinis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Atharva Taide
+    - 2.6:
+        non_striker: P Simran Singh
+        bowler: MP Stoinis
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Atharva Taide
+    - 2.7:
+        non_striker: P Simran Singh
+        bowler: MP Stoinis
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Atharva Taide
+    - 2.8:
+        non_striker: P Simran Singh
+        bowler: MP Stoinis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Atharva Taide
+    - 2.9:
+        non_striker: P Simran Singh
+        bowler: MP Stoinis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 2.10:
+        non_striker: Atharva Taide
+        bowler: A Badoni
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        replacements:
+          role:
+          - in: A Badoni
+            out: MP Stoinis
+            reason: injury
+            role: bowler
+        batsman: P Simran Singh
+    - 3.1:
+        non_striker: P Simran Singh
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 3.2:
+        non_striker: Atharva Taide
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: P Simran Singh
+    - 3.3:
+        non_striker: Atharva Taide
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Simran Singh
+    - 3.4:
+        non_striker: Atharva Taide
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Simran Singh
+        wicket:
+          player_out: P Simran Singh
+          fielders:
+          - DR Sams (sub)
+          kind: caught
+    - 3.5:
+        non_striker: Atharva Taide
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sikandar Raza
+    - 3.6:
+        non_striker: Atharva Taide
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sikandar Raza
+    - 4.1:
+        non_striker: Sikandar Raza
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Atharva Taide
+    - 4.2:
+        non_striker: Sikandar Raza
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Atharva Taide
+    - 4.3:
+        non_striker: Sikandar Raza
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 4.4:
+        non_striker: Atharva Taide
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sikandar Raza
+    - 4.5:
+        non_striker: Sikandar Raza
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Atharva Taide
+    - 4.6:
+        non_striker: Sikandar Raza
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Atharva Taide
+    - 5.1:
+        non_striker: Atharva Taide
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sikandar Raza
+    - 5.2:
+        non_striker: Atharva Taide
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sikandar Raza
+    - 5.3:
+        non_striker: Sikandar Raza
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 5.4:
+        non_striker: Sikandar Raza
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 5.5:
+        non_striker: Atharva Taide
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sikandar Raza
+    - 5.6:
+        non_striker: Atharva Taide
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sikandar Raza
+    - 6.1:
+        non_striker: Sikandar Raza
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        replacements:
+          match:
+          - in: A Mishra
+            out: KR Mayers
+            team: Lucknow Super Giants
+            reason: impact_player
+        batsman: Atharva Taide
+    - 6.2:
+        non_striker: Sikandar Raza
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 6.3:
+        non_striker: Atharva Taide
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sikandar Raza
+    - 6.4:
+        non_striker: Sikandar Raza
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Atharva Taide
+    - 6.5:
+        non_striker: Sikandar Raza
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 6.6:
+        non_striker: Atharva Taide
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sikandar Raza
+    - 7.1:
+        non_striker: Sikandar Raza
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 7.2:
+        non_striker: Sikandar Raza
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 7.3:
+        non_striker: Sikandar Raza
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 7.4:
+        non_striker: Atharva Taide
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sikandar Raza
+    - 7.5:
+        non_striker: Atharva Taide
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sikandar Raza
+    - 7.6:
+        non_striker: Atharva Taide
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sikandar Raza
+    - 8.1:
+        non_striker: Atharva Taide
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sikandar Raza
+    - 8.2:
+        non_striker: Sikandar Raza
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 8.3:
+        non_striker: Sikandar Raza
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Atharva Taide
+    - 8.4:
+        non_striker: Sikandar Raza
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 8.5:
+        non_striker: Atharva Taide
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sikandar Raza
+    - 8.6:
+        non_striker: Sikandar Raza
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 9.1:
+        non_striker: Sikandar Raza
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 9.2:
+        non_striker: Atharva Taide
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sikandar Raza
+    - 9.3:
+        non_striker: Atharva Taide
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sikandar Raza
+    - 9.4:
+        non_striker: Atharva Taide
+        bowler: Yash Thakur
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: Sikandar Raza
+    - 9.5:
+        non_striker: Sikandar Raza
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Atharva Taide
+    - 9.6:
+        non_striker: Sikandar Raza
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 10.1:
+        non_striker: Sikandar Raza
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 10.2:
+        non_striker: Sikandar Raza
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 10.3:
+        non_striker: Atharva Taide
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sikandar Raza
+    - 10.4:
+        non_striker: Atharva Taide
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sikandar Raza
+    - 10.5:
+        non_striker: Atharva Taide
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sikandar Raza
+    - 10.6:
+        non_striker: Atharva Taide
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Sikandar Raza
+    - 11.1:
+        non_striker: Sikandar Raza
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Atharva Taide
+    - 11.2:
+        non_striker: Sikandar Raza
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 11.3:
+        non_striker: Atharva Taide
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sikandar Raza
+        wicket:
+          player_out: Sikandar Raza
+          fielders:
+          - KH Pandya
+          kind: caught
+    - 11.4:
+        non_striker: Atharva Taide
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LS Livingstone
+    - 11.5:
+        non_striker: LS Livingstone
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Atharva Taide
+    - 11.6:
+        non_striker: LS Livingstone
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Atharva Taide
+    - 12.1:
+        non_striker: Atharva Taide
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LS Livingstone
+    - 12.2:
+        non_striker: Atharva Taide
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LS Livingstone
+    - 12.3:
+        non_striker: LS Livingstone
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 12.4:
+        non_striker: Atharva Taide
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LS Livingstone
+    - 12.5:
+        non_striker: Atharva Taide
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LS Livingstone
+    - 12.6:
+        non_striker: LS Livingstone
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+        wicket:
+          player_out: Atharva Taide
+          kind: caught and bowled
+    - 13.1:
+        non_striker: SM Curran
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LS Livingstone
+    - 13.2:
+        non_striker: SM Curran
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LS Livingstone
+    - 13.3:
+        non_striker: SM Curran
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LS Livingstone
+    - 13.4:
+        non_striker: LS Livingstone
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SM Curran
+    - 13.5:
+        non_striker: LS Livingstone
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Curran
+    - 13.6:
+        non_striker: LS Livingstone
+        bowler: KH Pandya
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: SM Curran
+    - 13.7:
+        non_striker: LS Livingstone
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 14.1:
+        non_striker: LS Livingstone
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SM Curran
+    - 14.2:
+        non_striker: LS Livingstone
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 14.3:
+        non_striker: SM Curran
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LS Livingstone
+    - 14.4:
+        non_striker: SM Curran
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: LS Livingstone
+    - 14.5:
+        non_striker: SM Curran
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LS Livingstone
+    - 14.6:
+        non_striker: SM Curran
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LS Livingstone
+    - 15.1:
+        non_striker: SM Curran
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LS Livingstone
+    - 15.2:
+        non_striker: SM Curran
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LS Livingstone
+        wicket:
+          player_out: LS Livingstone
+          kind: lbw
+    - 15.3:
+        non_striker: SM Curran
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Sharma
+    - 15.4:
+        non_striker: SM Curran
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: JM Sharma
+    - 15.5:
+        non_striker: JM Sharma
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 15.6:
+        non_striker: SM Curran
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 1
+          total: 2
+          batsman: 1
+        extras:
+          noballs: 1
+        batsman: JM Sharma
+    - 15.7:
+        non_striker: JM Sharma
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SM Curran
+    - 16.1:
+        non_striker: SM Curran
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JM Sharma
+    - 16.2:
+        non_striker: SM Curran
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JM Sharma
+    - 16.3:
+        non_striker: SM Curran
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: JM Sharma
+    - 16.4:
+        non_striker: JM Sharma
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SM Curran
+    - 16.5:
+        non_striker: JM Sharma
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 1
+          total: 5
+          batsman: 4
+        extras:
+          noballs: 1
+        batsman: SM Curran
+    - 16.6:
+        non_striker: JM Sharma
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Curran
+    - 16.7:
+        non_striker: JM Sharma
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Curran
+        wicket:
+          player_out: SM Curran
+          fielders:
+          - A Badoni
+          kind: caught
+    - 17.1:
+        non_striker: M Shahrukh Khan
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Sharma
+    - 17.2:
+        non_striker: M Shahrukh Khan
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Sharma
+    - 17.3:
+        non_striker: M Shahrukh Khan
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 17.4:
+        non_striker: JM Sharma
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Shahrukh Khan
+    - 17.5:
+        non_striker: M Shahrukh Khan
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+        wicket:
+          player_out: JM Sharma
+          fielders:
+          - KL Rahul
+          kind: caught
+    - 17.6:
+        non_striker: M Shahrukh Khan
+        bowler: Yash Thakur
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: RD Chahar
+    - 17.7:
+        non_striker: M Shahrukh Khan
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Chahar
+        wicket:
+          player_out: RD Chahar
+          fielders:
+          - DJ Hooda
+          kind: caught
+    - 18.1:
+        non_striker: K Rabada
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Shahrukh Khan
+    - 18.2:
+        non_striker: K Rabada
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: M Shahrukh Khan
+    - 18.3:
+        non_striker: K Rabada
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: M Shahrukh Khan
+    - 18.4:
+        non_striker: K Rabada
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Shahrukh Khan
+    - 18.5:
+        non_striker: M Shahrukh Khan
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: K Rabada
+        wicket:
+          player_out: K Rabada
+          kind: bowled
+    - 18.6:
+        non_striker: M Shahrukh Khan
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Arshdeep Singh
+    - 18.7:
+        non_striker: M Shahrukh Khan
+        bowler: Naveen-ul-Haq
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Arshdeep Singh
+    - 19.1:
+        non_striker: Arshdeep Singh
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Shahrukh Khan
+    - 19.2:
+        non_striker: Arshdeep Singh
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Shahrukh Khan
+    - 19.3:
+        non_striker: Arshdeep Singh
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: M Shahrukh Khan
+    - 19.4:
+        non_striker: Arshdeep Singh
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Shahrukh Khan
+    - 19.5:
+        non_striker: Arshdeep Singh
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Shahrukh Khan
+        wicket:
+          player_out: M Shahrukh Khan
+          fielders:
+          - Ravi Bishnoi
+          kind: caught
