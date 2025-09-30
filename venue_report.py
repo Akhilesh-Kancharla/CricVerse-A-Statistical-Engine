@@ -1,0 +1,142 @@
+import sqlite3
+import webbrowser
+import threading
+from flask import Flask, request, render_template, redirect, url_for
+
+app = Flask(__name__)
+
+def get_db_connection():
+    """Establishes a connection to the SQLite database."""
+    conn = sqlite3.connect("database.db")
+    conn.row_factory = sqlite3.Row
+    return conn
+
+def get_venue_dashboard_data(venue_query):
+    """
+    Fetches and processes all data for a given venue to populate the dashboard.
+    """
+    conn = get_db_connection()
+    
+    # Find the exact venue name from a partial query
+    cursor = conn.cursor()
+    cursor.execute("SELECT DISTINCT venue FROM master_match WHERE venue LIKE ?", (f"%{venue_query}%",))
+    result = cursor.fetchone()
+    
+    if not result:
+        conn.close()
+        return None # Return None if no venue is found
+
+    venue_name = result['venue']
+
+    # Fetch all master_match for the identified venue
+    master_match = conn.execute("SELECT * FROM master_match WHERE venue = ?", (venue_name,)).fetchall()
+    conn.close()
+
+    if not master_match:
+        return None
+
+    total_master_match = len(master_match)
+    
+    # 1. Calculate KPIs
+    avg_first_innings = round(sum(m['team_1_score'] for m in master_match) / total_master_match)
+    avg_second_innings = round(sum(m['team_2_score'] for m in master_match) / total_master_match)
+    highest_score = max(max(m['team_1_score'], m['team_2_score']) for m in master_match)
+
+    # 2. Calculate Team Wins
+    team_wins = {}
+    for match in master_match:
+        winner = match['winner']
+        if winner and 'tie' not in winner:
+            team_wins[winner] = team_wins.get(winner, 0) + 1
+
+    # 3. Calculate Toss Decision Outcomes
+    bat_first_wins = 0
+    field_first_wins = 0
+    for m in master_match:
+        # A team wins by batting first if their toss decision was 'bat' and they won,
+        # OR if their opponent's toss decision was 'field' and the opponent lost.
+        is_bat_first_win = (m['toss_desicion'] == 'bat' and m['toss_winner'] == m['winner']) or \
+                           (m['toss_desicion'] == 'field' and m['toss_winner'] != m['winner'])
+        if m['winner'] and 'tie' not in m['winner']:
+            if is_bat_first_win:
+                bat_first_wins += 1
+            else:
+                field_first_wins += 1
+
+    # 4. Calculate Average Scores by Season
+    scores_by_season = {}
+    for m in master_match:
+        # Assuming date format is like '1-May-2023'
+        try:
+            year = m['date'].split('-')[-1]
+            if year not in scores_by_season:
+                scores_by_season[year] = {'first_innings': [], 'second_innings': []}
+            scores_by_season[year]['first_innings'].append(m['team_1_score'])
+            scores_by_season[year]['second_innings'].append(m['team_2_score'])
+        except:
+            continue # Skip if date format is unexpected
+
+    avg_1st_innings_season = {
+        year: round(sum(data['first_innings']) / len(data['first_innings']))
+        for year, data in sorted(scores_by_season.items())
+    }
+    avg_2nd_innings_season = {
+        year: round(sum(data['second_innings']) / len(data['second_innings']))
+        for year, data in sorted(scores_by_season.items())
+    }
+
+    # Assemble final data structure for the frontend
+    dashboard_data = {
+        "name": venue_name,
+        "kpis": {
+            "avgFirstInnings": avg_first_innings,
+            "avgSecondInnings": avg_second_innings,
+            "highestScore": highest_score,
+            "master_matchPlayed": total_master_match
+        },
+        "teamWins": dict(sorted(team_wins.items(), key=lambda item: item[1], reverse=True)),
+        "tossDecision": {
+            "Bat First Wins": bat_first_wins,
+            "Field First Wins": field_first_wins
+        },
+        # NOTE: Bowling analysis data is mocked as it's not available in the provided DB schema.
+        "bowlingAnalysis": {
+            "Pace Wickets": 68,
+            "Spin Wickets": 32
+        },
+        "avgScoreBySeason": avg_1st_innings_season,
+        "avgSecondInningsScoreBySeason": avg_2nd_innings_season
+    }
+    
+    return dashboard_data
+
+
+@app.route("/")
+def index():
+    """Renders the main search page."""
+    return render_template("venue_before.html")
+
+
+@app.route("/report")
+def venue_report():
+    """
+    Renders the dashboard with data for the requested venue.
+    """
+    venue_query = request.args.get("venue")
+    if not venue_query:
+        return redirect(url_for("index")) # If no venue, go back to search
+
+    # Fetch all data needed for the dashboard
+    venue_data = get_venue_dashboard_data(venue_query)
+    
+    # The template will handle the case where venue_data is None (not found)
+    return render_template("venue_dashboard.html", venue_data=venue_data)
+
+
+if __name__ == "__main__":
+    # Open the browser automatically to the web app's URL
+    url = "http://127.0.0.1:5000"
+    threading.Timer(1.25, lambda: webbrowser.open(url)).start()
+    
+    # Run the Flask app
+    app.run(debug=True, use_reloader=False)

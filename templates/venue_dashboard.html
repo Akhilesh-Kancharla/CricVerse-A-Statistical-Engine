@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CricVerse: Venue Analysis</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #000; color: #f9fafb; }
+        #bg-container { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -2; background-image: url('https://img.freepik.com/premium-photo/cricket-batting-pads-fielding-helmet-resting-beside_1247965-29138.jpg?semt=ais_hybrid&w=740'); background-size: cover; background-position: center; filter: grayscale(100%) brightness(0.6); }
+        .bg-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.7); z-index: -1; }
+        .glass-nav { background-color: rgba(10, 10, 10, 0.5); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+        .glass-container { background-color: rgba(25, 25, 25, 0.25); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 1rem; padding: 1.5rem; box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); }
+        .animate-on-load { opacity: 0; transform: translateY(40px); filter: blur(5px); transition: opacity 0.8s ease-out, transform 0.8s ease-out, filter 0.8s ease-out; }
+        .animate-on-load.is-visible { opacity: 1; transform: translateY(0); filter: blur(0); }
+        .chart-container { position: relative; height: 300px; width: 100%; }
+        .kpi-value { font-size: 2.2rem; font-weight: 900; line-height: 1; }
+        .kpi-label { font-size: 0.8rem; color: #a0aec0; text-transform: uppercase; }
+    </style>
+</head>
+<body class="antialiased">
+
+    <div id="bg-container"></div>
+    <div class="bg-overlay"></div>
+
+    <header id="header" class="fixed top-0 left-0 right-0 z-50 glass-nav">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="/" class="text-2xl font-bold tracking-tighter text-white">CricVerse</a>
+            <a href="/" class="text-gray-300 hover:text-white transition-colors">&larr; New Search</a>
+        </div>
+    </header>
+
+    <main class="pt-28 pb-20">
+        <section id="venue-hub" class="py-12">
+            <div class="container mx-auto px-6 max-w-6xl">
+                
+                {% if venue_data %}
+                <div id="dashboard-view" data-venue='{{ venue_data|tojson|forceescape }}'>
+                    <div id="dashboard-content">
+                        <div class="glass-container animate-on-load mb-8">
+                            <h1 id="venue-name" class="text-4xl md:text-5xl font-black tracking-tighter text-white"></h1>
+                        </div>
+                        <div class="grid grid-cols-1 lg:grid-cols-6 gap-6">
+                            <div class="lg:col-span-6 grid grid-cols-2 md:grid-cols-4 gap-6">
+                                <div class="glass-container animate-on-load text-center">
+                                    <p class="kpi-label">Avg 1st Innings</p>
+                                    <p id="avg-first-innings" class="kpi-value text-white">-</p>
+                                </div>
+                                <div class="glass-container animate-on-load text-center" style="transition-delay: 50ms;">
+                                    <p class="kpi-label">Avg 2nd Innings</p>
+                                    <p id="avg-second-innings" class="kpi-value text-white">-</p>
+                                </div>
+                                <div class="glass-container animate-on-load text-center" style="transition-delay: 100ms;">
+                                    <p class="kpi-label">Highest Score</p>
+                                    <p id="highest-score" class="kpi-value text-white">-</p>
+                                </div>
+                                <div class="glass-container animate-on-load text-center" style="transition-delay: 150ms;">
+                                    <p class="kpi-label">Matches Played</p>
+                                    <p id="matches-played" class="kpi-value text-white">-</p>
+                                </div>
+                            </div>
+                            <div class="lg:col-span-4 glass-container animate-on-load" style="transition-delay: 200ms;">
+                                <h3 class="text-xl font-bold text-white mb-4">Team Wins at Venue</h3>
+                                <div class="chart-container" style="height: 350px;"><canvas id="team-wins-chart"></canvas></div>
+                            </div>
+                            <div class="lg:col-span-2 grid grid-cols-1 gap-6">
+                                <div class="glass-container animate-on-load" style="transition-delay: 250ms;">
+                                    <h3 class="text-xl font-bold text-white mb-4">Toss Decision Outcomes</h3>
+                                    <div class="chart-container" style="height: 135px;"><canvas id="toss-decision-chart"></canvas></div>
+                                </div>
+                                <div class="glass-container animate-on-load" style="transition-delay: 300ms;">
+                                    <h3 class="text-xl font-bold text-white mb-4">Pace vs Spin Wickets (%)</h3>
+                                     <div class="chart-container" style="height: 135px;"><canvas id="pace-spin-chart"></canvas></div>
+                                </div>
+                            </div>
+                            <div class="lg:col-span-6 glass-container animate-on-load" style="transition-delay: 350ms;">
+                                <h3 class="text-xl font-bold text-white mb-4">Average 1st Innings Score by Season</h3>
+                                <div class="chart-container" style="height: 250px;"><canvas id="avg-score-season-chart"></canvas></div>
+                            </div>
+                            <div class="lg:col-span-6 glass-container animate-on-load" style="transition-delay: 400ms;">
+                                <h3 class="text-xl font-bold text-white mb-4">Average 2nd Innings Score by Season</h3>
+                                <div class="chart-container" style="height: 250px;"><canvas id="avg-second-innings-score-season-chart"></canvas></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {% else %}
+                <div id="no-results" class="text-center mt-12 animate-on-load">
+                    <div class="glass-container">
+                        <h2 class="text-2xl font-bold text-white mb-4">Venue Not Found</h2>
+                        <p class="text-white text-lg">The venue you searched for could not be found or has no data available. Please try another name.</p>
+                        <a href="/" class="mt-6 inline-block bg-white/10 text-white font-bold py-2 px-6 rounded-lg transition-all duration-300 hover:bg-white/20">Try Again</a>
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+        </section>
+    </main>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // **CHANGE 3**: Safely parse data from the data attribute
+            const dashboardElement = document.getElementById('dashboard-view');
+            if (dashboardElement) {
+                const venueData = JSON.parse(dashboardElement.dataset.venue);
+                initializeDashboard(venueData);
+            }
+
+            // Animate all elements with the class, including the 'no-results' block
+            const animatedElements = document.querySelectorAll('.animate-on-load');
+            setTimeout(() => {
+                animatedElements.forEach((el) => el.classList.add('is-visible'));
+            }, 100);
+        });
+
+        function initializeDashboard(data) {
+            if (!data) return;
+
+            // **CHANGE 4**: Centralized DOM updates
+            updateKPIs(data);
+            
+            // **CHANGE 5**: Refactored chart creation to be modular and less repetitive
+            setupCharts(data);
+        }
+
+        function updateKPIs(data) {
+            document.getElementById('venue-name').textContent = data.name || 'N/A';
+            if (data.kpis) {
+                document.getElementById('avg-first-innings').textContent = data.kpis.avgFirstInnings || '-';
+                document.getElementById('avg-second-innings').textContent = data.kpis.avgSecondInnings || '-';
+                document.getElementById('highest-score').textContent = data.kpis.highestScore || '-';
+                document.getElementById('matches-played').textContent = data.kpis.matchesPlayed || '-';
+            }
+        }
+
+        function setupCharts(data) {
+            Chart.defaults.color = 'rgba(255, 255, 255, 0.7)';
+            Chart.defaults.borderColor = 'rgba(255, 255, 255, 0.2)';
+
+            // Base configurations to avoid repetition (DRY Principle)
+            const baseLineOptions = { maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { grid: { color: 'rgba(255, 255, 255, 0.1)' } }, x: { grid: { display: false } } } };
+            const baseDoughnutOptions = { maintainAspectRatio: false, plugins: { legend: { position: 'right', labels: { boxWidth: 12 } } } };
+
+            if (data.teamWins) {
+                new Chart(document.getElementById('team-wins-chart'), { type: 'bar', data: { labels: Object.keys(data.teamWins), datasets: [{ label: 'Wins', data: Object.values(data.teamWins), backgroundColor: 'rgba(255, 255, 255, 0.8)', borderRadius: 4 }] }, options: { indexAxis: 'y', maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { x: { grid: { color: 'rgba(255, 255, 255, 0.1)' } }, y: { grid: { display: false } } } } });
+            }
+
+            if (data.tossDecision) {
+                new Chart(document.getElementById('toss-decision-chart'), { type: 'doughnut', data: { labels: Object.keys(data.tossDecision), datasets: [{ data: Object.values(data.tossDecision), backgroundColor: ['rgba(255, 255, 255, 0.9)', 'rgba(255, 255, 255, 0.4)'], borderColor: 'rgba(0,0,0,0.5)', borderWidth: 2 }] }, options: baseDoughnutOptions });
+            }
+            
+            if (data.bowlingAnalysis) {
+                new Chart(document.getElementById('pace-spin-chart'), { type: 'doughnut', data: { labels: Object.keys(data.bowlingAnalysis), datasets: [{ data: Object.values(data.bowlingAnalysis), backgroundColor: ['rgba(255, 255, 255, 0.9)', 'rgba(255, 255, 255, 0.4)'], borderColor: 'rgba(0,0,0,0.5)', borderWidth: 2 }] }, options: baseDoughnutOptions });
+            }
+
+            if (data.avgScoreBySeason) {
+                new Chart(document.getElementById('avg-score-season-chart'), { type: 'line', data: { labels: Object.keys(data.avgScoreBySeason), datasets: [{ label: 'Avg 1st Innings Score', data: Object.values(data.avgScoreBySeason), fill: true, backgroundColor: 'rgba(255, 255, 255, 0.1)', borderColor: 'rgba(255, 255, 255, 0.8)', tension: 0.4 }] }, options: baseLineOptions });
+            }
+            
+            if (data.avgSecondInningsScoreBySeason) {
+                new Chart(document.getElementById('avg-second-innings-score-season-chart'), { type: 'line', data: { labels: Object.keys(data.avgSecondInningsScoreBySeason), datasets: [{ label: 'Avg 2nd Innings Score', data: Object.values(data.avgSecondInningsScoreBySeason), fill: true, backgroundColor: 'rgba(255, 255, 255, 0.1)', borderColor: 'rgba(255, 255, 255, 0.8)', tension: 0.4 }] }, options: baseLineOptions });
+            }
+        }
+    </script>
+</body>
+</html>
