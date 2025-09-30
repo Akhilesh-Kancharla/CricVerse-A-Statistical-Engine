@@ -3,68 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CricVerse: Player Insight Hub</title>
+    <title>CricVerse: Player Search</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
     <style>
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #000;
-            color: #f9fafb;
-        }
-        #bg-container {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: -2;
-            background-image: url('https://img.freepik.com/premium-photo/cricket-batting-pads-fielding-helmet-resting-beside_1247965-29138.jpg?semt=ais_hybrid&w=740');
-            background-size: cover;
-            background-position: center;
-            filter: grayscale(100%) brightness(0.6);
-        }
-        .bg-overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.7);
-            z-index: -1;
-        }
-        .glass-nav {
-            background-color: rgba(10, 10, 10, 0.5);
-            backdrop-filter: blur(12px);
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-        }
-        .glass-container {
-            background-color: rgba(25, 25, 25, 0.25);
-            backdrop-filter: blur(12px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            border-radius: 1rem;
-            padding: 2rem;
-            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-        }
-        .animate-on-load {
-            opacity: 0;
-            transform: translateY(40px);
-            filter: blur(5px);
-            transition: opacity 0.8s ease-out, transform 0.8s ease-out, filter 0.8s ease-out;
-        }
-        .animate-on-load.is-visible {
-            opacity: 1;
-            transform: translateY(0);
-            filter: blur(0);
-        }
-        .chart-container {
-            position: relative;
-            height: 300px;
-            width: 100%;
-        }
+        body { font-family: 'Inter', sans-serif; background-color: #000; color: #f9fafb; }
+        #bg-container { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -2; background-image: url('https://img.freepik.com/premium-photo/cricket-batting-pads-fielding-helmet-resting-beside_1247965-29138.jpg?semt=ais_hybrid&w=740'); background-size: cover; background-position: center; filter: grayscale(100%) brightness(0.6); }
+        .bg-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.7); z-index: -1; }
+        .glass-nav { background-color: rgba(10, 10, 10, 0.5); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+        .glass-container { background-color: rgba(25, 25, 25, 0.25); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 1rem; padding: 2rem; box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); }
+        .animate-on-load { opacity: 0; transform: translateY(40px); filter: blur(5px); transition: opacity 0.8s ease-out, transform 0.8s ease-out, filter 0.8s ease-out; }
+        .animate-on-load.is-visible { opacity: 1; transform: translateY(0); filter: blur(0); }
     </style>
 </head>
 <body class="antialiased">
@@ -74,8 +25,7 @@
 
     <header id="header" class="fixed top-0 left-0 right-0 z-50 glass-nav">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="index.html" class="text-2xl font-bold tracking-tighter text-white">CricVerse</a>
-            <a href="index.html" class="text-gray-300 hover:text-white transition-colors">&larr; Back to Home</a>
+            <a href="/" class="text-2xl font-bold tracking-tighter text-white">CricVerse</a>
         </div>
     </header>
 
@@ -86,50 +36,15 @@
                     <div class="text-center mb-12 animate-on-load">
                         <h1 class="text-4xl md:text-5xl font-black tracking-tighter text-white">Player Insight Hub</h1>
                         <p class="text-lg text-gray-400 max-w-3xl mx-auto mt-4">
-                            Search for any player to generate a comprehensive dashboard of their performance statistics, from career runs to bowling economy.
+                            Search for any player to generate a comprehensive dashboard of their performance statistics.
                         </p>
                     </div>
 
                     <div class="glass-container animate-on-load" style="transition-delay: 150ms;">
                         <div class="flex flex-col md:flex-row gap-4">
-                            <input type="text" id="player-search-input" class="w-full bg-gray-900/50 border border-gray-700 text-white text-sm rounded-lg focus:ring-white focus:border-white block p-3 placeholder-gray-400" placeholder="e.g., V Kohli, JJ Bumrah...">
+                            <input type="text" id="player-search-input" class="w-full bg-gray-900/50 border border-gray-700 text-white text-sm rounded-lg focus:ring-white focus:border-white block p-3 placeholder-gray-400" placeholder="e.g., V Kohli, SK Raina...">
                             <button id="search-btn" class="bg-white text-black font-bold py-3 px-8 rounded-lg transition-all duration-300 hover:bg-gray-200 w-full md:w-auto">Search</button>
                         </div>
-                    </div>
-
-                    <div id="dashboard-container" class="mt-12 hidden">
-                        <!-- Player Name and Basic Info -->
-                        <div class="glass-container animate-on-load" id="player-header">
-                            <h2 id="player-name" class="text-3xl font-bold text-white"></h2>
-                        </div>
-
-                        <!-- Batting Stats -->
-                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
-                            <div class="glass-container animate-on-load">
-                                <h3 class="text-xl font-bold text-white mb-4">Batting Overview</h3>
-                                <div class="chart-container">
-                                    <canvas id="batting-chart"></canvas>
-                                </div>
-                            </div>
-                            <div class="glass-container animate-on-load">
-                                <h3 class="text-xl font-bold text-white mb-4">Runs per Season</h3>
-                                <div class="chart-container">
-                                    <canvas id="runs-season-chart"></canvas>
-                                </div>
-                            </div>
-                             <div class="glass-container animate-on-load">
-                                <h3 class="text-xl font-bold text-white mb-4">Performance Snapshot</h3>
-                                <div class="chart-container">
-                                    <canvas id="performance-radar-chart"></canvas>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                     <div id="loading-indicator" class="text-center mt-8 hidden">
-                        <p class="text-white text-lg">Loading Player Data...</p>
-                    </div>
-                    <div id="no-results" class="text-center mt-8 hidden">
-                        <p class="text-white text-lg">Player not found. Please try another name.</p>
                     </div>
                 </div>
             </div>
@@ -138,6 +53,7 @@
     
     <script>
         document.addEventListener('DOMContentLoaded', () => {
+            // Initial animation for elements
             const animatedElements = document.querySelectorAll('.animate-on-load');
             setTimeout(() => {
                 animatedElements.forEach(el => el.classList.add('is-visible'));
@@ -145,130 +61,20 @@
 
             const searchBtn = document.getElementById('search-btn');
             const searchInput = document.getElementById('player-search-input');
-            const dashboardContainer = document.getElementById('dashboard-container');
-            const playerHeader = document.getElementById('player-header');
-            const playerNameEl = document.getElementById('player-name');
-            const loadingIndicator = document.getElementById('loading-indicator');
-            const noResults = document.getElementById('no-results');
 
-            let battingChart, runsSeasonChart, performanceRadarChart;
-
-            const mockApi = {
-                'V Kohli': {
-                    name: 'Virat Kohli',
-                    batting: { totalRuns: 7263, highScore: 113, average: 37.25, strikeRate: 130.02, hundreds: 7, fifties: 50 },
-                    runsPerSeason: { '2016': 973, '2017': 308, '2018': 530, '2019': 464, '2020': 466, '2021': 405, '2022': 341, '2023': 639 },
-                    performance: { consistency: 85, powerHitting: 78, running: 90, pressurePlay: 92, form: 88 }
-                },
-                 'JJ Bumrah': {
-                    name: 'Jasprit Bumrah',
-                    bowling: { wickets: 145, best: '5/10', economy: 7.39, average: 23.31, fourWickets: 2, fiveWickets: 1 },
-                    wicketsPerSeason: { '2018': 17, '2019': 19, '2020': 27, '2021': 21, '2022': 15, '2023': 20 },
-                    performance: { economy: 90, wicketTaking: 95, deathBowling: 98, pressurePlay: 96, form: 92 }
+            const performSearch = () => {
+                const query = searchInput.value.trim();
+                if (query) {
+                    // Redirect to the dashboard page with the player's name as a URL parameter
+                    window.location.href = `/player_dashboard?name=${encodeURIComponent(query)}`;
                 }
             };
-            
-            const fetchData = async (playerName) => {
-                loadingIndicator.classList.remove('hidden');
-                dashboardContainer.classList.add('hidden');
-                noResults.classList.add('hidden');
 
-                return new Promise(resolve => {
-                    setTimeout(() => {
-                        loadingIndicator.classList.add('hidden');
-                         const playerData = mockApi[playerName.trim()];
-                        if(playerData){
-                            resolve(playerData);
-                        } else {
-                            resolve(null);
-                        }
-                    }, 1000);
-                });
-            };
-
-            const displayDashboard = (data) => {
-                if (!data) {
-                    noResults.classList.remove('hidden');
-                    return;
-                }
-                
-                dashboardContainer.classList.remove('hidden');
-                playerNameEl.textContent = data.name;
-
-                // Clear previous charts
-                if (battingChart) battingChart.destroy();
-                if (runsSeasonChart) runsSeasonChart.destroy();
-                if (performanceRadarChart) performanceRadarChart.destroy();
-
-                if (data.batting) {
-                    const battingCtx = document.getElementById('batting-chart').getContext('2d');
-                    battingChart = new Chart(battingCtx, {
-                        type: 'bar',
-                        data: {
-                            labels: ['Total Runs', 'High Score', 'Average', 'Strike Rate'],
-                            datasets: [{
-                                label: 'Batting Stats',
-                                data: [data.batting.totalRuns, data.batting.highScore, data.batting.average, data.batting.strikeRate],
-                                backgroundColor: 'rgba(255, 255, 255, 0.8)',
-                                borderColor: 'rgba(255, 255, 255, 1)',
-                                borderWidth: 1
-                            }]
-                        },
-                        options: { maintainAspectRatio: false, scales: { y: { beginAtZero: true } } }
-                    });
-                }
-                
-                if (data.runsPerSeason) {
-                    const runsSeasonCtx = document.getElementById('runs-season-chart').getContext('2d');
-                    runsSeasonChart = new Chart(runsSeasonCtx, {
-                        type: 'line',
-                        data: {
-                            labels: Object.keys(data.runsPerSeason),
-                            datasets: [{
-                                label: 'Runs per Season',
-                                data: Object.values(data.runsPerSeason),
-                                fill: false,
-                                borderColor: 'rgba(255, 255, 255, 0.8)',
-                                tension: 0.1
-                            }]
-                        },
-                         options: { maintainAspectRatio: false }
-                    });
-                }
-                
-                 if (data.performance) {
-                    const radarCtx = document.getElementById('performance-radar-chart').getContext('2d');
-                    performanceRadarChart = new Chart(radarCtx, {
-                        type: 'radar',
-                        data: {
-                            labels: Object.keys(data.performance),
-                            datasets: [{
-                                label: 'Player Skills',
-                                data: Object.values(data.performance),
-                                backgroundColor: 'rgba(255, 255, 255, 0.2)',
-                                borderColor: 'rgba(255, 255, 255, 1)',
-                                borderWidth: 1
-                            }]
-                        },
-                        options: { maintainAspectRatio: false, scales: { r: { suggestedMin: 0, suggestedMax: 100 } } }
-                    });
-                }
-            };
-            
-            searchBtn.addEventListener('click', async () => {
-                const query = searchInput.value;
-                if(query) {
-                    const data = await fetchData(query);
-                    displayDashboard(data);
-                }
-            });
-             searchInput.addEventListener('keyup', async (event) => {
+            // Add event listeners for button click and 'Enter' key
+            searchBtn.addEventListener('click', performSearch);
+            searchInput.addEventListener('keyup', (event) => {
                 if (event.key === 'Enter') {
-                    const query = searchInput.value;
-                    if(query) {
-                        const data = await fetchData(query);
-                        displayDashboard(data);
-                    }
+                    performSearch();
                 }
             });
         });

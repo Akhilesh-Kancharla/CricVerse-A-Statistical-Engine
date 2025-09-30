@@ -10,71 +10,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
     <style>
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #000;
-            color: #f9fafb;
-        }
-        #bg-container {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: -2;
-            background-image: url('https://img.freepik.com/premium-photo/cricket-batting-pads-fielding-helmet-resting-beside_1247965-29138.jpg?semt=ais_hybrid&w=740');
-            background-size: cover;
-            background-position: center;
-            filter: grayscale(100%) brightness(0.6);
-        }
-        .bg-overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.7);
-            z-index: -1;
-        }
-        .glass-nav {
-            background-color: rgba(10, 10, 10, 0.5);
-            backdrop-filter: blur(12px);
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-        }
-        .glass-container {
-            background-color: rgba(25, 25, 25, 0.25);
-            backdrop-filter: blur(12px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            border-radius: 1rem;
-            padding: 1.5rem;
-            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-        }
-        .animate-on-load {
-            opacity: 0;
-            transform: translateY(40px);
-            filter: blur(5px);
-            transition: opacity 0.8s ease-out, transform 0.8s ease-out, filter 0.8s ease-out;
-        }
-        .animate-on-load.is-visible {
-            opacity: 1;
-            transform: translateY(0);
-            filter: blur(0);
-        }
-        .chart-container {
-            position: relative;
-            height: 300px;
-            width: 100%;
-        }
-        .kpi-value {
-            font-size: 2.2rem;
-            font-weight: 900;
-            line-height: 1;
-        }
-        .kpi-label {
-            font-size: 0.8rem;
-            color: #a0aec0;
-            text-transform: uppercase;
-        }
+        body { font-family: 'Inter', sans-serif; background-color: #000; color: #f9fafb; }
+        #bg-container { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -2; background-image: url('https://img.freepik.com/premium-photo/cricket-batting-pads-fielding-helmet-resting-beside_1247965-29138.jpg?semt=ais_hybrid&w=740'); background-size: cover; background-position: center; filter: grayscale(100%) brightness(0.6); }
+        .bg-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.7); z-index: -1; }
+        .glass-nav { background-color: rgba(10, 10, 10, 0.5); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+        .glass-container { background-color: rgba(25, 25, 25, 0.25); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 1rem; padding: 1.5rem; box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); }
+        .animate-on-load { opacity: 0; transform: translateY(40px); filter: blur(5px); transition: opacity 0.8s ease-out, transform 0.8s ease-out, filter 0.8s ease-out; }
+        .animate-on-load.is-visible { opacity: 1; transform: translateY(0); filter: blur(0); }
+        .chart-container { position: relative; height: 300px; width: 100%; }
+        .kpi-value { font-size: 2.2rem; font-weight: 900; line-height: 1; }
+        .kpi-label { font-size: 0.8rem; color: #a0aec0; text-transform: uppercase; }
+        .error-message { text-align: center; color: #f87171; font-size: 1.5rem; }
     </style>
 </head>
 <body class="antialiased">
@@ -84,85 +30,47 @@
 
     <header id="header" class="fixed top-0 left-0 right-0 z-50 glass-nav">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="index.html" class="text-2xl font-bold tracking-tighter text-white">CricVerse</a>
-            <a href="index.html" class="text-gray-300 hover:text-white transition-colors">&larr; Back to Home</a>
+            <a href="/" class="text-2xl font-bold tracking-tighter text-white">CricVerse</a>
+            <a href="/" class="text-gray-300 hover:text-white transition-colors">&larr; Back to Search</a>
         </div>
     </header>
 
     <main class="pt-28 pb-20">
         <section id="player-hub" class="py-12">
             <div class="container mx-auto px-6">
-                <!-- Dashboard View -->
-                <div id="dashboard-view">
-                    <div id="dashboard-content">
-                         <!-- Player Name and Basic Info -->
-                        <div class="glass-container animate-on-load mb-8">
-                            <h1 id="player-name" class="text-4xl md:text-5xl font-black tracking-tighter text-white"></h1>
+                <div id="dashboard-content">
+                    <div class="glass-container mb-8">
+                        <h1 id="player-name" class="text-4xl md:text-5xl font-black tracking-tighter text-white">Loading...</h1>
+                    </div>
+
+                    <div id="stats-grid" class="hidden grid grid-cols-1 lg:grid-cols-6 gap-6">
+                        <div class="lg:col-span-6 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+                            <div class="glass-container text-center"> <p class="kpi-label">Total Runs</p> <p id="total-runs" class="kpi-value text-white">-</p> </div>
+                            <div class="glass-container text-center"> <p class="kpi-label">High Score</p> <p id="high-score" class="kpi-value text-white">-</p> </div>
+                            <div class="glass-container text-center"> <p class="kpi-label">Batting Avg</p> <p id="bat-avg" class="kpi-value text-white">-</p> </div>
+                            <div class="glass-container text-center"> <p class="kpi-label">Strike Rate</p> <p id="strike-rate" class="kpi-value text-white">-</p> </div>
+                            <div class="glass-container text-center"> <p class="kpi-label">100s</p> <p id="hundreds" class="kpi-value text-white">-</p> </div>
+                            <div class="glass-container text-center"> <p class="kpi-label">50s</p> <p id="fifties" class="kpi-value text-white">-</p> </div>
                         </div>
 
-                        <!-- Main Dashboard Grid -->
-                        <div class="grid grid-cols-1 lg:grid-cols-6 gap-6">
-                            
-                            <!-- KPI Cards -->
-                            <div class="lg:col-span-6 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
-                                <div class="glass-container animate-on-load text-center">
-                                    <p class="kpi-label">Total Runs</p>
-                                    <p id="total-runs" class="kpi-value text-white"></p>
-                                </div>
-                                <div class="glass-container animate-on-load text-center" style="transition-delay: 50ms;">
-                                    <p class="kpi-label">High Score</p>
-                                    <p id="high-score" class="kpi-value text-white"></p>
-                                </div>
-                                <div class="glass-container animate-on-load text-center" style="transition-delay: 100ms;">
-                                    <p class="kpi-label">Batting Avg</p>
-                                    <p id="bat-avg" class="kpi-value text-white"></p>
-                                </div>
-                                <div class="glass-container animate-on-load text-center" style="transition-delay: 150ms;">
-                                    <p class="kpi-label">Strike Rate</p>
-                                    <p id="strike-rate" class="kpi-value text-white"></p>
-                                </div>
-                                <div class="glass-container animate-on-load text-center" style="transition-delay: 200ms;">
-                                    <p class="kpi-label">100s</p>
-                                    <p id="hundreds" class="kpi-value text-white"></p>
-                                </div>
-                                <div class="glass-container animate-on-load text-center" style="transition-delay: 250ms;">
-                                    <p class="kpi-label">50s</p>
-                                    <p id="fifties" class="kpi-value text-white"></p>
-                                </div>
-                            </div>
+                        <div class="lg:col-span-4 glass-container">
+                            <h3 class="text-xl font-bold text-white mb-4">Runs Per Season</h3>
+                            <div class="chart-container"> <canvas id="runs-season-chart"></canvas> </div>
+                        </div>
+                        
+                        <div class="lg:col-span-2 glass-container">
+                            <h3 class="text-xl font-bold text-white mb-4">Dismissal Types (Sample)</h3>
+                            <div class="chart-container"> <canvas id="dismissal-chart"></canvas> </div>
+                        </div>
 
-                            <!-- Runs per Season Chart -->
-                            <div class="lg:col-span-4 glass-container animate-on-load" style="transition-delay: 300ms;">
-                                <h3 class="text-xl font-bold text-white mb-4">Runs Per Season</h3>
-                                <div class="chart-container">
-                                    <canvas id="runs-season-chart"></canvas>
-                                </div>
-                            </div>
-                            
-                             <!-- Dismissal Types Chart -->
-                            <div class="lg:col-span-2 glass-container animate-on-load" style="transition-delay: 350ms;">
-                                <h3 class="text-xl font-bold text-white mb-4">Dismissal Types</h3>
-                                <div class="chart-container" style="height: 300px;">
-                                    <canvas id="dismissal-chart"></canvas>
-                                </div>
-                            </div>
+                        <div class="lg:col-span-4 glass-container">
+                            <h3 class="text-xl font-bold text-white mb-4">Strike Rate Progression</h3>
+                            <div class="chart-container" style="height: 250px;"> <canvas id="strike-rate-chart"></canvas> </div>
+                        </div>
 
-                             <!-- Strike Rate Progression Chart -->
-                            <div class="lg:col-span-4 glass-container animate-on-load" style="transition-delay: 400ms;">
-                                <h3 class="text-xl font-bold text-white mb-4">Strike Rate Progression</h3>
-                                <div class="chart-container" style="height: 250px;">
-                                    <canvas id="strike-rate-chart"></canvas>
-                                </div>
-                            </div>
-
-                            <!-- Performance Snapshot Chart -->
-                             <div class="lg:col-span-2 glass-container animate-on-load" style="transition-delay: 450ms;">
-                                <h3 class="text-xl font-bold text-white mb-4">Performance Snapshot</h3>
-                                <div class="chart-container" style="height: 250px;">
-                                    <canvas id="performance-radar-chart"></canvas>
-                                </div>
-                            </div>
-
+                        <div class="lg:col-span-2 glass-container">
+                            <h3 class="text-xl font-bold text-white mb-4">Performance Snapshot (Sample)</h3>
+                            <div class="chart-container" style="height: 250px;"> <canvas id="performance-radar-chart"></canvas> </div>
                         </div>
                     </div>
                 </div>
@@ -172,165 +80,77 @@
     
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            const animatedElements = document.querySelectorAll('.animate-on-load');
-            setTimeout(() => {
-                animatedElements.forEach((el) => {
-                    el.classList.add('is-visible');
-                });
-            }, 100);
-
-            // Mock data for a default player (Virat Kohli)
-            const playerData = {
-                name: 'Virat Kohli',
-                batting: { 
-                    totalRuns: 7263, 
-                    highScore: 113, 
-                    average: 37.25, 
-                    strikeRate: 130.02, 
-                    hundreds: 7, 
-                    fifties: 50,
-                    dismissalTypes: { 'Caught': 65, 'Bowled': 15, 'LBW': 10, 'Run Out': 5, 'Stumped': 5 }
-                },
-                runsPerSeason: { '2016': 973, '2017': 308, '2018': 530, '2019': 464, '2020': 466, '2021': 405, '2022': 341, '2023': 639 },
-                strikeRatePerSeason: { '2016': 152.03, '2017': 122.22, '2018': 139.10, '2019': 141.46, '2020': 121.35, '2021': 119.46, '2022': 115.98, '2023': 139.82 },
-                performance: { Consistency: 85, 'Power Hitting': 78, 'Finishing': 90, 'Pressure Play': 92, 'Form': 88 }
-            };
-
+            
             const displayDashboard = (data) => {
-                // Set Player Name
                 document.getElementById('player-name').textContent = data.name;
 
-                // Set KPI Cards
                 if (data.batting) {
-                    document.getElementById('total-runs').textContent = data.batting.totalRuns.toLocaleString();
-                    document.getElementById('high-score').textContent = data.batting.highScore;
-                    document.getElementById('bat-avg').textContent = data.batting.average;
-                    document.getElementById('strike-rate').textContent = data.batting.strikeRate;
-                    document.getElementById('hundreds').textContent = data.batting.hundreds;
-                    document.getElementById('fifties').textContent = data.batting.fifties;
+                    document.getElementById('total-runs').textContent = data.batting.totalRuns?.toLocaleString() || '-';
+                    document.getElementById('high-score').textContent = data.batting.highScore || '-';
+                    document.getElementById('bat-avg').textContent = data.batting.average || '-';
+                    document.getElementById('strike-rate').textContent = data.batting.strikeRate || '-';
+                    document.getElementById('hundreds').textContent = data.batting.hundreds || '-';
+                    document.getElementById('fifties').textContent = data.batting.fifties || '-';
                 }
                 
-                // Chart.js Global Config
+                document.getElementById('stats-grid').classList.remove('hidden');
+                const animatedElements = document.querySelectorAll('#stats-grid .glass-container');
+                animatedElements.forEach((el, index) => {
+                    el.classList.add('animate-on-load');
+                    setTimeout(() => el.classList.add('is-visible'), 50 * (index + 1));
+                });
+
                 Chart.defaults.color = 'rgba(255, 255, 255, 0.7)';
                 Chart.defaults.borderColor = 'rgba(255, 255, 255, 0.2)';
 
                 // Runs per Season Chart (Bar Chart)
-                if (data.runsPerSeason) {
-                    const runsSeasonCtx = document.getElementById('runs-season-chart').getContext('2d');
-                    new Chart(runsSeasonCtx, {
-                        type: 'bar',
-                        data: {
-                            labels: Object.keys(data.runsPerSeason),
-                            datasets: [{
-                                label: 'Total Runs',
-                                data: Object.values(data.runsPerSeason),
-                                backgroundColor: 'rgba(255, 255, 255, 0.8)',
-                                borderColor: 'rgba(255, 255, 255, 1)',
-                                borderWidth: 1,
-                                borderRadius: 4,
-                            }]
-                        },
-                        options: { 
-                            maintainAspectRatio: false, 
-                            plugins: { legend: { display: false } },
-                            scales: { 
-                                y: { beginAtZero: true, grid: { color: 'rgba(255, 255, 255, 0.1)' } },
-                                x: { grid: { display: false } }
-                            }
-                        }
-                    });
+                if (data.runsPerSeason && Object.keys(data.runsPerSeason).length > 0) {
+                    const ctx = document.getElementById('runs-season-chart').getContext('2d');
+                    new Chart(ctx, { type: 'bar', data: { labels: Object.keys(data.runsPerSeason), datasets: [{ label: 'Total Runs', data: Object.values(data.runsPerSeason), backgroundColor: 'rgba(255, 255, 255, 0.8)', borderRadius: 4, }] }, options: { maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true, grid: { color: 'rgba(255, 255, 255, 0.1)' } }, x: { grid: { display: false } } } } });
                 }
 
                 // Dismissal Types Chart (Pie Chart)
-                if (data.batting && data.batting.dismissalTypes) {
-                    const dismissalCtx = document.getElementById('dismissal-chart').getContext('2d');
-                    new Chart(dismissalCtx, {
-                        type: 'pie',
-                        data: {
-                            labels: Object.keys(data.batting.dismissalTypes),
-                            datasets: [{
-                                data: Object.values(data.batting.dismissalTypes),
-                                backgroundColor: [
-                                    'rgba(255, 255, 255, 0.9)', 'rgba(255, 255, 255, 0.7)',
-                                    'rgba(255, 255, 255, 0.5)', 'rgba(255, 255, 255, 0.3)',
-                                    'rgba(255, 255, 255, 0.2)'
-                                ],
-                                borderColor: 'rgba(0, 0, 0, 0.5)',
-                                borderWidth: 2,
-                            }]
-                        },
-                        options: {
-                            maintainAspectRatio: false,
-                            plugins: { legend: { position: 'bottom', labels: { boxWidth: 12 } } }
-                        }
-                    });
+                if (data.batting && data.batting.dismissalTypes && Object.keys(data.batting.dismissalTypes).length > 0) {
+                    const ctx = document.getElementById('dismissal-chart').getContext('2d');
+                    new Chart(ctx, { type: 'pie', data: { labels: Object.keys(data.batting.dismissalTypes), datasets: [{ data: Object.values(data.batting.dismissalTypes), backgroundColor: ['rgba(255, 255, 255, 0.9)', 'rgba(255, 255, 255, 0.7)', 'rgba(255, 255, 255, 0.5)', 'rgba(255, 255, 255, 0.3)', 'rgba(255, 255, 255, 0.2)'], borderColor: 'rgba(0, 0, 0, 0.5)', borderWidth: 2, }] }, options: { maintainAspectRatio: false, plugins: { legend: { position: 'bottom', labels: { boxWidth: 12 } } } } });
                 }
                 
                 // Strike Rate Progression (Line Chart)
-                if(data.strikeRatePerSeason) {
-                    const strikeRateCtx = document.getElementById('strike-rate-chart').getContext('2d');
-                    new Chart(strikeRateCtx, {
-                        type: 'line',
-                        data: {
-                            labels: Object.keys(data.strikeRatePerSeason),
-                            datasets: [{
-                                label: 'Strike Rate',
-                                data: Object.values(data.strikeRatePerSeason),
-                                fill: true,
-                                backgroundColor: 'rgba(255, 255, 255, 0.1)',
-                                borderColor: 'rgba(255, 255, 255, 0.8)',
-                                tension: 0.4,
-                                pointBackgroundColor: 'rgba(255, 255, 255, 1)'
-                            }]
-                        },
-                        options: {
-                            maintainAspectRatio: false,
-                            plugins: { legend: { display: false } },
-                            scales: { 
-                                y: { grid: { color: 'rgba(255, 255, 255, 0.1)' } },
-                                x: { grid: { display: false } }
-                            }
-                        }
-                    });
+                if(data.strikeRatePerSeason && Object.keys(data.strikeRatePerSeason).length > 0) {
+                    const ctx = document.getElementById('strike-rate-chart').getContext('2d');
+                    new Chart(ctx, { type: 'line', data: { labels: Object.keys(data.strikeRatePerSeason), datasets: [{ label: 'Strike Rate', data: Object.values(data.strikeRatePerSeason), fill: true, backgroundColor: 'rgba(255, 255, 255, 0.1)', borderColor: 'rgba(255, 255, 255, 0.8)', tension: 0.4, pointBackgroundColor: 'rgba(255, 255, 255, 1)' }] }, options: { maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { grid: { color: 'rgba(255, 255, 255, 0.1)' } }, x: { grid: { display: false } } } } });
                 }
 
                 // Performance Snapshot Chart (Radar Chart)
-                if (data.performance) {
-                    const radarCtx = document.getElementById('performance-radar-chart').getContext('2d');
-                    new Chart(radarCtx, {
-                        type: 'radar',
-                        data: {
-                            labels: Object.keys(data.performance),
-                            datasets: [{
-                                label: 'Player Skills',
-                                data: Object.values(data.performance),
-                                backgroundColor: 'rgba(255, 255, 255, 0.2)',
-                                borderColor: 'rgba(255, 255, 255, 1)',
-                                borderWidth: 1,
-                                pointBackgroundColor: 'rgba(255, 255, 255, 1)'
-                            }]
-                        },
-                        options: { 
-                            maintainAspectRatio: false, 
-                            plugins: { legend: { display: false } },
-                            scales: { 
-                                r: { 
-                                    suggestedMin: 40, 
-                                    suggestedMax: 100,
-                                    grid: { color: 'rgba(255, 255, 255, 0.2)' },
-                                    angleLines: { color: 'rgba(255, 255, 255, 0.2)' },
-                                    pointLabels: { font: { size: 12 } }
-                                } 
-                            } 
-                        }
-                    });
+                if (data.performance && Object.keys(data.performance).length > 0) {
+                    const ctx = document.getElementById('performance-radar-chart').getContext('2d');
+                    new Chart(ctx, { type: 'radar', data: { labels: Object.keys(data.performance), datasets: [{ label: 'Player Skills', data: Object.values(data.performance), backgroundColor: 'rgba(255, 255, 255, 0.2)', borderColor: 'rgba(255, 255, 255, 1)', borderWidth: 1, pointBackgroundColor: 'rgba(255, 255, 255, 1)' }] }, options: { maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { r: { suggestedMin: 40, suggestedMax: 100, grid: { color: 'rgba(255, 255, 255, 0.2)' }, angleLines: { color: 'rgba(255, 255, 255, 0.2)' }, pointLabels: { font: { size: 12 } } } } } });
+                }
+            };
+
+            const displayError = (message) => {
+                 document.getElementById('player-name').textContent = 'Error';
+                 const contentDiv = document.getElementById('dashboard-content');
+                 contentDiv.innerHTML += `<div class="glass-container error-message mt-8">${message}</div>`;
+            }
+            
+            const fetchAndDisplayPlayerData = async (playerName) => {
+                if (!playerName) { displayError("No player specified. Please go back and search for a player."); return; }
+                try {
+                    const response = await fetch(`/api/player_data/${playerName}`);
+                    const data = await response.json();
+                    if (!response.ok) { throw new Error(data.error || 'Could not fetch player data.'); }
+                    displayDashboard(data);
+                } catch (error) {
+                    console.error('Fetch error:', error);
+                    displayError(error.message);
                 }
             };
             
-            // Immediately display the dashboard for the default player on load
-            displayDashboard(playerData);
+            const urlParams = new URLSearchParams(window.location.search);
+            const playerName = urlParams.get('name');
+            fetchAndDisplayPlayerData(playerName);
         });
     </script>
 </body>
 </html>
-
