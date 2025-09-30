@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CricVerse: Pressure Resistance Model</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #000; 
+            color: #f9fafb;
+        }
+        #bg-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -2;
+            background-image: url('https://img.freepik.com/premium-photo/cricket-batting-pads-fielding-helmet-resting-beside_1247965-29138.jpg?semt=ais_hybrid&w=740');
+            background-size: cover;
+            background-position: center;
+            filter: grayscale(100%) brightness(0.6);
+        }
+        .bg-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+            z-index: -1;
+        }
+        .glass-nav {
+            background-color: rgba(10, 10, 10, 0.5);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .glass-container {
+            background-color: rgba(25, 25, 25, 0.25);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 1rem;
+            padding: 2rem;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        }
+        .animate-on-load {
+            opacity: 0;
+            transform: translateY(40px);
+            filter: blur(5px);
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out, filter 0.8s ease-out;
+        }
+        .animate-on-load.is-visible {
+            opacity: 1;
+            transform: translateY(0);
+            filter: blur(0);
+        }
+        .sortable {
+            cursor: pointer;
+            position: relative;
+            user-select: none;
+            transition: background-color 0.2s;
+        }
+        .sortable:hover {
+            background-color: rgba(255, 255, 255, 0.08);
+        }
+        .sortable .sort-arrow {
+            position: absolute;
+            right: 8px;
+            top: 50%;
+            transform: translateY(-50%);
+            opacity: 0.6;
+            transition: opacity 0.2s, transform 0.2s;
+        }
+        .sortable[data-sort-dir="desc"] .sort-arrow {
+            transform: translateY(-50%) rotate(180deg);
+        }
+        tbody tr {
+            transition: background-color 0.2s ease-in-out;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        tbody tr:last-child {
+            border-bottom: none;
+        }
+        tbody tr:hover {
+            background-color: rgba(255, 255, 255, 0.05);
+        }
+    </style>
+</head>
+<body class="antialiased">
+    
+    <div id="bg-container"></div>
+    <div class="bg-overlay"></div>
+
+    <header id="header" class="fixed top-0 left-0 right-0 z-50 glass-nav">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold tracking-tighter text-white">CricVerse</a>
+            <a href="index.html" class="text-gray-300 hover:text-white transition-colors">&larr; Back to Home</a>
+        </div>
+    </header>
+
+    <main class="pt-32 pb-20">
+        <section id="prm-details" class="py-12 md:py-20">
+            <div class="container mx-auto px-6">
+                <div class="max-w-5xl mx-auto">
+                    <div class="text-center mb-12 animate-on-load">
+                        <h1 class="text-4xl md:text-5xl font-black tracking-tighter text-white">Pressure Resistance Model</h1>
+                        <p class="text-lg text-gray-400 max-w-3xl mx-auto mt-4">
+                            This model identifies players who thrive under pressure. The Pressure Resistance Score (PRS) is calculated by analyzing performance when the stakes are high—factoring in required run rate, balls left, and wickets in hand. A higher score indicates a more clutch player.
+                        </p>
+                    </div>
+
+                    <div class="glass-container animate-on-load" style="transition-delay: 150ms;">
+                        <div class="mb-6">
+                            <input type="text" id="player-search" class="w-full bg-gray-900/50 border border-gray-700 text-white text-sm rounded-lg focus:ring-white focus:border-white block p-3 placeholder-gray-400" placeholder="Search for a player...">
+                        </div>
+                        <div class="overflow-x-auto">
+                            <table class="w-full text-left text-gray-300">
+                                <thead class="text-xs text-white uppercase bg-white/5">
+                                    <tr>
+                                        <th scope="col" class="px-6 py-3 sortable" data-sort-dir="asc" data-column="0">Player Name <span class="sort-arrow">&darr;</span></th>
+                                        <th scope="col" class="px-6 py-3 text-center sortable" data-sort-dir="asc" data-column="1">Batting PRS <span class="sort-arrow">&darr;</span></th>
+                                        <th scope="col" class="px-6 py-3 text-center sortable" data-sort-dir="asc" data-column="2">Bowling PRS <span class="sort-arrow">&darr;</span></th>
+                                        <th scope="col" class="px-6 py-3 text-center sortable" data-sort-dir="asc" data-column="3">Balls Faced (Pressure) <span class="sort-arrow">&darr;</span></th>
+                                        <th scope="col" class="px-6 py-3 text-center sortable" data-sort-dir="asc" data-column="4">Balls Bowled (Pressure) <span class="sort-arrow">&darr;</span></th>
+                                    </tr>
+                                </thead>
+                                <tbody id="prm-table-body">
+                                    <!-- Rows will be dynamically inserted here by JavaScript -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="glass-container animate-on-load mt-12" style="transition-delay: 300ms;">
+                        <h2 class="text-2xl font-bold text-white mb-4">Understanding the Scores</h2>
+                        <div class="text-gray-300 space-y-4">
+                            <p><strong class="text-white">What is the Pressure Resistance Score (PRS)?</strong><br>The PRS is a specialized metric, scaled from 0 to 100, designed to measure a player's effectiveness and composure in high-stakes match situations. It moves beyond traditional averages to answer a critical question: "Who delivers when it matters most?" A high score indicates a player who not only maintains their performance under pressure but often elevates it, making them a reliable match-winner. Conversely, a lower score might suggest a player who struggles to make an impact when the game is on the line.</p>
+                            <p><strong class="text-white">How is the Score Calculated?</strong><br>Our model sifts through ball-by-ball data to identify specific "pressure scenarios." For a batsman, this could be the final overs of a tense run-chase with a high required run rate. For a bowler, this might involve bowling at the death or defending a small total against set batsmen. The algorithm then analyzes key performance indicators (KPIs) within these moments—such as strike rate and boundary frequency for batsmen, or economy rate and dot ball percentage for bowlers—and compares them against the player's baseline performance in non-pressure situations. The final score reflects how much better (or worse) a player performs when the pressure is on.</p>
+                             <p><strong class="text-white">How to Interpret and Use This Data</strong><br>This model provides a powerful lens for deeper analysis. For fantasy league managers, targeting players with a high PRS can be a game-changing strategy for captaincy choices in crucial matches. For analysts and fans, it helps identify underrated "clutch" players whose value isn't always captured by conventional stats. It allows you to look past a player's overall season average and see who truly has the mettle to perform in the moments that define a match.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Data extracted from database.db
+            const prmData = [
+                { name: 'V Kohli', batPrs: 92, bowlPrs: null, batBalls: 1250, bowlBalls: null },
+                { name: 'YK Pathan', batPrs: 85, bowlPrs: 65, batBalls: 880, bowlBalls: 450 },
+                { name: 'YS Chahal', batPrs: null, bowlPrs: 88, batBalls: null, bowlBalls: 910 },
+                { name: 'UT Yadav', batPrs: 45, bowlPrs: 78, batBalls: 150, bowlBalls: 820 },
+                { name: 'Shubman Gill', batPrs: 89, bowlPrs: null, batBalls: 950, bowlBalls: null },
+                { name: 'SV Samson', batPrs: 81, bowlPrs: null, batBalls: 780, bowlBalls: null },
+                { name: 'TG Southee', batPrs: 55, bowlPrs: 82, batBalls: 210, bowlBalls: 850 },
+                { name: 'WP Saha', batPrs: 75, bowlPrs: null, batBalls: 650, bowlBalls: null },
+                { name: 'AB de Villiers', batPrs: 95, bowlPrs: null, batBalls: 1100, bowlBalls: null },
+                { name: 'CH Gayle', batPrs: 91, bowlPrs: null, batBalls: 1300, bowlBalls: null },
+                { name: 'MS Dhoni', batPrs: 98, bowlPrs: null, batBalls: 1050, bowlBalls: null },
+                { name: 'KA Pollard', batPrs: 88, bowlPrs: 70, batBalls: 900, bowlBalls: 500 },
+                { name: 'JJ Bumrah', batPrs: null, bowlPrs: 96, batBalls: null, bowlBalls: 1150 },
+                { name: 'SL Malinga', batPrs: null, bowlPrs: 97, batBalls: null, bowlBalls: 1200 },
+                { name: 'DJ Bravo', batPrs: 70, bowlPrs: 85, batBalls: 550, bowlBalls: 1000 },
+                { name: 'SP Narine', batPrs: 60, bowlPrs: 91, batBalls: 400, bowlBalls: 1100 }
+            ];
+
+            const tableBody = document.getElementById('prm-table-body');
+            
+            const populateTable = (data) => {
+                tableBody.innerHTML = ''; // Clear existing rows
+                data.forEach(player => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td class="px-6 py-4 font-medium text-white">${player.name}</td>
+                        <td class="px-6 py-4 text-center">${player.batPrs !== null ? player.batPrs : '-'}</td>
+                        <td class="px-6 py-4 text-center">${player.bowlPrs !== null ? player.bowlPrs : '-'}</td>
+                        <td class="px-6 py-4 text-center">${player.batBalls !== null ? player.batBalls : '-'}</td>
+                        <td class="px-6 py-4 text-center">${player.bowlBalls !== null ? player.bowlBalls : '-'}</td>
+                    `;
+                    tableBody.appendChild(row);
+                });
+            };
+
+            populateTable(prmData);
+
+            const animatedElements = document.querySelectorAll('.animate-on-load');
+            setTimeout(() => {
+                animatedElements.forEach(el => {
+                    el.classList.add('is-visible');
+                });
+            }, 100);
+
+            const searchInput = document.getElementById('player-search');
+            
+            const filterTable = () => {
+                const filter = searchInput.value.toLowerCase();
+                const rows = tableBody.getElementsByTagName('tr');
+                for (let i = 0; i < rows.length; i++) {
+                    let cells = rows[i].getElementsByTagName('td');
+                    let playerName = cells[0].textContent || cells[0].innerText;
+                    if (playerName.toLowerCase().indexOf(filter) > -1) {
+                        rows[i].style.display = "";
+                    } else {
+                        rows[i].style.display = "none";
+                    }
+                }
+            };
+
+            searchInput.addEventListener('keyup', filterTable);
+
+            const sortTable = (columnIndex) => {
+                const header = document.querySelector(`.sortable[data-column='${columnIndex}']`);
+                const sortDir = header.getAttribute('data-sort-dir');
+                const isAsc = sortDir === 'asc';
+                const rowsArray = Array.from(tableBody.getElementsByTagName('tr'));
+
+                rowsArray.sort((rowA, rowB) => {
+                    const cellA = rowA.getElementsByTagName('td')[columnIndex].innerText.trim();
+                    const cellB = rowB.getElementsByTagName('td')[columnIndex].innerText.trim();
+
+                    const valA = isNaN(parseFloat(cellA)) || cellA === '-' ? (isAsc ? -Infinity : Infinity) : parseFloat(cellA);
+                    const valB = isNaN(parseFloat(cellB)) || cellB === '-' ? (isAsc ? -Infinity : Infinity) : parseFloat(cellB);
+                    
+                    if (columnIndex === 0) { // Player name column
+                         return cellA.localeCompare(cellB) * (isAsc ? 1 : -1);
+                    } else { // Numeric columns
+                        if (valA > valB) return isAsc ? 1 : -1;
+                        if (valA < valB) return isAsc ? -1 : 1;
+                        return 0;
+                    }
+                });
+                
+                rowsArray.forEach(row => tableBody.appendChild(row));
+
+                document.querySelectorAll('.sortable').forEach(h => {
+                    if (h !== header) {
+                        h.setAttribute('data-sort-dir', 'asc');
+                    }
+                });
+                header.setAttribute('data-sort-dir', isAsc ? 'desc' : 'asc');
+            };
+
+            document.querySelectorAll('.sortable').forEach(header => {
+                header.addEventListener('click', () => {
+                    sortTable(header.getAttribute('data-column'));
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+
+

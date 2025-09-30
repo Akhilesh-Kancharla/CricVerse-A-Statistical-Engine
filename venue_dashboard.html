@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CricVerse: Venue & Pitch Analysis</title>
+    <!-- Chosen Palette: Monochromatic (bg-black), Text (text-white/gray), White Accent (#FFFFFF) -->
+    <!-- Application Structure Plan: A static, multi-chart dashboard for an in-depth look at a single venue's characteristics. The layout uses a sophisticated grid to display various chart sizes, including KPI cards, bar charts, and pie charts, providing a comprehensive and visually engaging overview of pitch behavior and team performance. -->
+    <!-- Visualization & Content Choices: Report Info -> Detailed venue stats. Goal -> Create a rich, interactive dashboard. Viz/Presentation Method -> A mix of Chart.js charts: horizontal bar for team wins, pie for toss outcomes and bowler types, line for score trends, complemented by large KPI cards. Interaction -> Interactive tooltips on all charts on hover. Library/Method -> Vanilla JS and Chart.js for visualizations; Tailwind CSS for a responsive grid layout. -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https
+://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #000;
+            color: #f9fafb;
+        }
+        #bg-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -2;
+            background-image: url('https://img.freepik.com/premium-photo/cricket-batting-pads-fielding-helmet-resting-beside_1247965-29138.jpg?semt=ais_hybrid&w=740');
+            background-size: cover;
+            background-position: center;
+            filter: grayscale(100%) brightness(0.6);
+        }
+        .bg-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            z-index: -1;
+        }
+        .glass-nav {
+            background-color: rgba(10, 10, 10, 0.5);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .glass-container {
+            background-color: rgba(25, 25, 25, 0.25);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 1rem;
+            padding: 1.5rem;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        }
+        .animate-on-load {
+            opacity: 0;
+            transform: translateY(40px);
+            filter: blur(5px);
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out, filter 0.8s ease-out;
+        }
+        .animate-on-load.is-visible {
+            opacity: 1;
+            transform: translateY(0);
+            filter: blur(0);
+        }
+        .chart-container {
+            position: relative;
+            height: 300px;
+            width: 100%;
+        }
+        .kpi-value {
+            font-size: 2.2rem;
+            font-weight: 900;
+            line-height: 1;
+        }
+        .kpi-label {
+            font-size: 0.8rem;
+            color: #a0aec0;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <div id="bg-container"></div>
+    <div class="bg-overlay"></div>
+
+    <header id="header" class="fixed top-0 left-0 right-0 z-50 glass-nav">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold tracking-tighter text-white">CricVerse</a>
+            <a href="index.html" class="text-gray-300 hover:text-white transition-colors">&larr; Back to Home</a>
+        </div>
+    </header>
+
+    <main class="pt-28 pb-20">
+        <section id="venue-hub" class="py-12">
+            <div class="container mx-auto px-6">
+                <div id="dashboard-view">
+                    <div id="dashboard-content">
+                        <div class="glass-container animate-on-load mb-8">
+                            <h1 id="venue-name" class="text-4xl md:text-5xl font-black tracking-tighter text-white"></h1>
+                        </div>
+
+                        <div class="grid grid-cols-1 lg:grid-cols-6 gap-6">
+                            
+                            <div class="lg:col-span-6 grid grid-cols-2 md:grid-cols-4 gap-6">
+                                <div class="glass-container animate-on-load text-center">
+                                    <p class="kpi-label">Avg 1st Innings</p>
+                                    <p id="avg-first-innings" class="kpi-value text-white"></p>
+                                </div>
+                                <div class="glass-container animate-on-load text-center" style="transition-delay: 50ms;">
+                                    <p class="kpi-label">Avg 2nd Innings</p>
+                                    <p id="avg-second-innings" class="kpi-value text-white"></p>
+                                </div>
+                                <div class="glass-container animate-on-load text-center" style="transition-delay: 100ms;">
+                                    <p class="kpi-label">Highest Score</p>
+                                    <p id="highest-score" class="kpi-value text-white"></p>
+                                </div>
+                                <div class="glass-container animate-on-load text-center" style="transition-delay: 150ms;">
+                                    <p class="kpi-label">Matches Played</p>
+                                    <p id="matches-played" class="kpi-value text-white"></p>
+                                </div>
+                            </div>
+
+                            <div class="lg:col-span-4 glass-container animate-on-load" style="transition-delay: 200ms;">
+                                <h3 class="text-xl font-bold text-white mb-4">Team Wins at Venue</h3>
+                                <div class="chart-container" style="height: 350px;">
+                                    <canvas id="team-wins-chart"></canvas>
+                                </div>
+                            </div>
+                            
+                            <div class="lg:col-span-2 grid grid-cols-1 gap-6">
+                                <div class="glass-container animate-on-load" style="transition-delay: 250ms;">
+                                    <h3 class="text-xl font-bold text-white mb-4">Toss Decision Outcomes</h3>
+                                    <div class="chart-container" style="height: 135px;">
+                                        <canvas id="toss-decision-chart"></canvas>
+                                    </div>
+                                </div>
+                                <div class="glass-container animate-on-load" style="transition-delay: 300ms;">
+                                    <h3 class="text-xl font-bold text-white mb-4">Pace vs Spin Wickets (%)</h3>
+                                     <div class="chart-container" style="height: 135px;">
+                                        <canvas id="pace-spin-chart"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="lg:col-span-6 glass-container animate-on-load" style="transition-delay: 350ms;">
+                                <h3 class="text-xl font-bold text-white mb-4">Average 1st Innings Score by Season</h3>
+                                <div class="chart-container" style="height: 250px;">
+                                    <canvas id="avg-score-season-chart"></canvas>
+                                </div>
+                            </div>
+
+                            <div class="lg:col-span-6 glass-container animate-on-load" style="transition-delay: 400ms;">
+                                <h3 class="text-xl font-bold text-white mb-4">Average 2nd Innings Score by Season</h3>
+                                <div class="chart-container" style="height: 250px;">
+                                    <canvas id="avg-second-innings-score-season-chart"></canvas>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const animatedElements = document.querySelectorAll('.animate-on-load');
+            setTimeout(() => {
+                animatedElements.forEach((el) => {
+                    el.classList.add('is-visible');
+                });
+            }, 100);
+
+            const venueData = {
+                name: 'Wankhede Stadium, Mumbai',
+                kpis: {
+                    avgFirstInnings: 185,
+                    avgSecondInnings: 180,
+                    highestScore: 235,
+                    matchesPlayed: 102
+                },
+                teamWins: {
+                    'Mumbai Indians': 50,
+                    'Chennai Super Kings': 12,
+                    'Royal Challengers Bengaluru': 10,
+                    'Delhi Capitals': 8,
+                    'Rajasthan Royals': 7,
+                    'Punjab Kings': 6,
+                },
+                tossDecision: { 'Field First Wins': 60, 'Bat First Wins': 40 }, // percentage
+                bowlingAnalysis: { 'Pace Wickets': 70, 'Spin Wickets': 30 }, // percentage
+                avgScoreBySeason: {
+                    '2018': 188,
+                    '2019': 176,
+                    '2020': 192,
+                    '2021': 180,
+                    '2022': 175,
+                    '2023': 195
+                },
+                avgSecondInningsScoreBySeason: {
+                    '2018': 182,
+                    '2019': 173,
+                    '2020': 188,
+                    '2021': 175,
+                    '2022': 172,
+                    '2023': 190
+                }
+            };
+
+            const displayDashboard = (data) => {
+                document.getElementById('venue-name').textContent = data.name;
+
+                if (data.kpis) {
+                    document.getElementById('avg-first-innings').textContent = data.kpis.avgFirstInnings;
+                    document.getElementById('avg-second-innings').textContent = data.kpis.avgSecondInnings;
+                    document.getElementById('highest-score').textContent = data.kpis.highestScore;
+                    document.getElementById('matches-played').textContent = data.kpis.matchesPlayed;
+                }
+                
+                Chart.defaults.color = 'rgba(255, 255, 255, 0.7)';
+                Chart.defaults.borderColor = 'rgba(255, 255, 255, 0.2)';
+
+                if (data.teamWins) {
+                    const teamWinsCtx = document.getElementById('team-wins-chart').getContext('2d');
+                    new Chart(teamWinsCtx, {
+                        type: 'bar',
+                        data: {
+                            labels: Object.keys(data.teamWins),
+                            datasets: [{
+                                label: 'Wins',
+                                data: Object.values(data.teamWins),
+                                backgroundColor: 'rgba(255, 255, 255, 0.8)',
+                                borderColor: 'rgba(255, 255, 255, 1)',
+                                borderWidth: 1,
+                                borderRadius: 4,
+                            }]
+                        },
+                        options: { 
+                            indexAxis: 'y',
+                            maintainAspectRatio: false, 
+                            plugins: { legend: { display: false } },
+                            scales: { 
+                                x: { beginAtZero: true, grid: { color: 'rgba(255, 255, 255, 0.1)' } },
+                                y: { grid: { display: false } }
+                            }
+                        }
+                    });
+                }
+
+                if (data.tossDecision) {
+                    const tossCtx = document.getElementById('toss-decision-chart').getContext('2d');
+                    new Chart(tossCtx, {
+                        type: 'doughnut',
+                        data: {
+                            labels: Object.keys(data.tossDecision),
+                            datasets: [{
+                                data: Object.values(data.tossDecision),
+                                backgroundColor: ['rgba(255, 255, 255, 0.9)', 'rgba(255, 255, 255, 0.4)'],
+                                borderColor: 'rgba(0, 0, 0, 0.5)',
+                                borderWidth: 2,
+                            }]
+                        },
+                        options: {
+                            maintainAspectRatio: false,
+                            plugins: { legend: { position: 'right', labels: { boxWidth: 12 } } }
+                        }
+                    });
+                }
+
+                if (data.bowlingAnalysis) {
+                    const bowlingCtx = document.getElementById('pace-spin-chart').getContext('2d');
+                    new Chart(bowlingCtx, {
+                        type: 'doughnut',
+                        data: {
+                            labels: Object.keys(data.bowlingAnalysis),
+                            datasets: [{
+                                data: Object.values(data.bowlingAnalysis),
+                                backgroundColor: ['rgba(255, 255, 255, 0.9)', 'rgba(255, 255, 255, 0.4)'],
+                                borderColor: 'rgba(0, 0, 0, 0.5)',
+                                borderWidth: 2,
+                            }]
+                        },
+                        options: {
+                            maintainAspectRatio: false,
+                            plugins: { legend: { position: 'right', labels: { boxWidth: 12 } } }
+                        }
+                    });
+                }
+
+                if(data.avgScoreBySeason) {
+                    const avgScoreCtx = document.getElementById('avg-score-season-chart').getContext('2d');
+                    new Chart(avgScoreCtx, {
+                        type: 'line',
+                        data: {
+                            labels: Object.keys(data.avgScoreBySeason),
+                            datasets: [{
+                                label: 'Average 1st Innings Score',
+                                data: Object.values(data.avgScoreBySeason),
+                                fill: true,
+                                backgroundColor: 'rgba(255, 255, 255, 0.1)',
+                                borderColor: 'rgba(255, 255, 255, 0.8)',
+                                tension: 0.4,
+                                pointBackgroundColor: 'rgba(255, 255, 255, 1)'
+                            }]
+                        },
+                        options: {
+                            maintainAspectRatio: false,
+                            plugins: { legend: { display: false } },
+                            scales: { 
+                                y: { grid: { color: 'rgba(255, 255, 255, 0.1)' } },
+                                x: { grid: { display: false } }
+                            }
+                        }
+                    });
+                }
+
+                if(data.avgSecondInningsScoreBySeason) {
+                    const avgScoreCtx2 = document.getElementById('avg-second-innings-score-season-chart').getContext('2d');
+                    new Chart(avgScoreCtx2, {
+                        type: 'line',
+                        data: {
+                            labels: Object.keys(data.avgSecondInningsScoreBySeason),
+                            datasets: [{
+                                label: 'Average 2nd Innings Score',
+                                data: Object.values(data.avgSecondInningsScoreBySeason),
+                                fill: true,
+                                backgroundColor: 'rgba(255, 255, 255, 0.1)',
+                                borderColor: 'rgba(255, 255, 255, 0.8)',
+                                tension: 0.4,
+                                pointBackgroundColor: 'rgba(255, 255, 255, 1)'
+                            }]
+                        },
+                        options: {
+                            maintainAspectRatio: false,
+                            plugins: { legend: { display: false } },
+                            scales: { 
+                                y: { grid: { color: 'rgba(255, 255, 255, 0.1)' } },
+                                x: { grid: { display: false } }
+                            }
+                        }
+                    });
+                }
+            };
+            
+            displayDashboard(venueData);
+        });
+    </script>
+</body>
+</html>
+
