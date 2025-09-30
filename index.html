@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CricVerse: Beyond the Scorecard</title>
+    <!-- Chosen Palette: Monochromatic (bg-black), Text (text-white/gray), White Accent (#FFFFFF) -->
+    <!-- Application Structure Plan: A single-page, top-down narrative structure designed for marketing a digital product. The user flow begins with a high-impact Hero section to grab attention, followed by a "What is it?" section for context, a detailed "Features" section to showcase value, and a "Roadmap" to build excitement. This linear, scroll-driven journey is intuitive and effectively guides the user from initial interest to a comprehensive understanding of the platform's capabilities. -->
+    <!-- Visualization & Content Choices: Report Info -> Promote a data analytics platform. Goal -> Create a visually immersive, modern landing page with a static image background. Viz/Presentation Method -> A monochromatic theme with high-contrast text over a background image. Icons are Unicode characters (e.g., 📈, 🎯). Interaction -> The primary interaction is scrolling, which triggers enhanced fade-in/slide-up animations via the Intersection Observer API. Library/Method -> Vanilla JS for animations; Tailwind CSS for styling. -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #000; 
+            color: #f9fafb;
+        }
+        #bg-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -2;
+            background-image: url('https://img.freepik.com/premium-photo/cricket-batting-pads-fielding-helmet-resting-beside_1247965-29138.jpg?semt=ais_hybrid&w=740');
+            background-size: cover;
+            background-position: center;
+            filter: grayscale(100%) brightness(0.6);
+        }
+        .bg-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+            z-index: -1;
+        }
+        .glass-nav {
+            background-color: rgba(10, 10, 10, 0.5);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateY(40px);
+            filter: blur(5px);
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out, filter 0.8s ease-out;
+        }
+        .animate-on-scroll.is-visible {
+            opacity: 1;
+            transform: translateY(0);
+            filter: blur(0);
+        }
+        .feature-card {
+            background-color: rgba(25, 25, 25, 0.2);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 1rem;
+            padding: 2rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+        }
+        .feature-card:hover {
+            transform: translateY(-8px);
+            background-color: rgba(45, 45, 45, 0.4);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.2), 0 0 20px rgba(255, 255, 255, 0.08);
+        }
+        .roadmap-item {
+            position: relative;
+            background-color: rgba(25, 25, 25, 0.2);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 1rem;
+            padding: 2rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+        }
+        .roadmap-item:hover {
+            transform: translateY(-8px);
+            background-color: rgba(45, 45, 45, 0.4);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.2), 0 0 20px rgba(255, 255, 255, 0.08);
+        }
+        .roadmap-item::before {
+            content: '';
+            position: absolute;
+            left: -52px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: #ffffff;
+            border: 3px solid #000;
+        }
+    </style>
+</head>
+<body class="antialiased">
+    
+    <div id="bg-container"></div>
+    <div class="bg-overlay"></div>
+
+    <header id="header" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold tracking-tighter text-white">CricVerse</a>
+            <nav class="hidden md:flex items-center space-x-8">
+                <a href="#features" class="text-gray-300 hover:text-white transition-colors">Features</a>
+                <a href="#how-it-works" class="text-gray-300 hover:text-white transition-colors">How It Works</a>
+                <a href="#roadmap" class="text-gray-300 hover:text-white transition-colors">Roadmap</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="min-h-screen flex items-center">
+            <div class="container mx-auto px-6 text-center">
+                <div class="animate-on-scroll">
+                    <h1 class="text-5xl md:text-7xl font-black tracking-tighter mb-4 text-white">
+                        CricVerse: <span class="text-gray-200">Beyond the Scorecard</span>
+                    </h1>
+                    <p class="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto mb-8">
+                        Transforming over 1100 raw IPL match files into actionable, strategic cricket intelligence for fans, fantasy players, and analysts.
+                    </p>
+                    <a href="#features" class="bg-white text-black font-bold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105 inline-block">
+                        Explore the Analytics
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-it-works" class="py-20 md:py-32">
+            <div class="container mx-auto px-6">
+                <div class="max-w-3xl mx-auto text-center animate-on-scroll">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4 text-white">From Raw Data to Tactical Genius</h2>
+                    <p class="text-gray-400 text-lg">
+                        The Indian Premier League is a goldmine of data, trapped in unstructured files. CricVerse processes this raw information, turning chaotic commentary into a powerful analytics platform, bridging the gap between data and match-winning insights.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="py-20 md:py-32 bg-black/30">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-black tracking-tighter animate-on-scroll">The Ultimate Cricketing Edge</h2>
+                    <p class="text-lg text-gray-400 max-w-2xl mx-auto mt-4 animate-on-scroll" style="transition-delay: 100ms;">
+                        Our platform offers features you won't find anywhere else, designed to give you a deeper understanding of the game.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="feature-card animate-on-scroll" style="transition-delay: 200ms;">
+                        <span class="text-4xl">📈</span>
+                        <h3 class="text-2xl font-bold mt-4 mb-2">Pressure Resistance Model</h3>
+                        <p class="text-gray-400">Identify players who thrive under pressure by analyzing performance based on Required Run Rate, balls left, and wickets in hand.</p>
+                    </div>
+                    <div class="feature-card animate-on-scroll" style="transition-delay: 300ms;">
+                        <span class="text-4xl">🎯</span>
+                        <h3 class="text-2xl font-bold mt-4 mb-2">Match Fixture Intelligence</h3>
+                        <p class="text-gray-400">Get data-backed team suggestions. We analyze opposition strength, venue behavior, and historical context.</p>
+                    </div>
+                    <div class="feature-card animate-on-scroll" style="transition-delay: 400ms;">
+                        <span class="text-4xl">🏟️</span>
+                        <h3 class="text-2xl font-bold mt-4 mb-2">Venue & Pitch Analysis</h3>
+                        <p class="text-gray-400">Decode the pitch with detailed profiles of every stadium, from average scores to pace vs. spin effectiveness.</p>
+                    </div>
+                    <div class="feature-card animate-on-scroll" style="transition-delay: 200ms;">
+                        <span class="text-4xl">📊</span>
+                        <h3 class="text-2xl font-bold mt-4 mb-2">Player Insight Hub</h3>
+                        <p class="text-gray-400">Go beyond career stats. Track recent form, clutch performance, and overall match impact with our player profiles.</p>
+                    </div>
+                    <div class="feature-card animate-on-scroll" style="transition-delay: 300ms;">
+                        <span class="text-4xl">🔬</span>
+                        <h3 class="text-2xl font-bold mt-4 mb-2">Claim Testing Engine</h3>
+                        <p class="text-gray-400">Validate cricket myths with data. Our engine proves or refutes common beliefs, adding a new layer of analysis.</p>
+                    </div>
+                    <div class="feature-card animate-on-scroll" style="transition-delay: 400ms;">
+                        <span class="text-4xl">💡</span>
+                        <h3 class="text-2xl font-bold mt-4 mb-2">Fantasy & Strategy Assist</h3>
+                        <p class="text-gray-400">Build your winning team. Get fantasy recommendations based on matchups, player form, and pressure-handling.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="roadmap" class="py-20 md:py-32 bg-black/30">
+            <div class="container mx-auto px-6">
+                 <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-black tracking-tighter animate-on-scroll">The Future of Cricket Analytics</h2>
+                    <p class="text-lg text-gray-400 max-w-2xl mx-auto mt-4 animate-on-scroll" style="transition-delay: 100ms;">
+                        CricVerse is constantly evolving. Here's a glimpse of what's coming next.
+                    </p>
+                </div>
+                <div class="max-w-2xl mx-auto">
+                    <div class="relative border-l-2 border-gray-700 pl-12">
+                        <div class="mb-12 animate-on-scroll">
+                             <div class="roadmap-item">
+                                <h3 class="text-2xl font-bold text-white">Advanced Data Visualizations</h3>
+                                <p class="text-gray-400 mt-2">Interactive graphs for visualizing strike rates, venue comparisons, and player performance trends.</p>
+                             </div>
+                        </div>
+                        <div class="mb-12 animate-on-scroll">
+                             <div class="roadmap-item">
+                                <h3 class="text-2xl font-bold text-white">Live Match Integration</h3>
+                                <p class="text-gray-400 mt-2">Pull live scores and overlay our predictive analytics in real-time to see how scenarios impact win probability.</p>
+                             </div>
+                        </div>
+                        <div class="mb-12 animate-on-scroll">
+                            <div class="roadmap-item">
+                                <h3 class="text-2xl font-bold text-white">AI-Powered Projections</h3>
+                                <p class="text-gray-400 mt-2">Leverage machine learning to predict player form, match winners, and ideal fantasy XIs with greater accuracy.</p>
+                            </div>
+                        </div>
+                         <div class="animate-on-scroll">
+                             <div class="roadmap-item">
+                                <h3 class="text-2xl font-bold text-white">Interactive Filters & Reports</h3>
+                                <p class="text-gray-400 mt-2">Empower users with dynamic filtering to create and download custom strategic match previews.</p>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-black/50 border-t border-gray-800">
+        <div class="container mx-auto px-6 py-8 flex justify-between items-center">
+            <p class="text-xl font-bold">CricVerse</p>
+            <a href="#hero" class="text-gray-400 hover:text-white transition-colors">Back to Top &uarr;</a>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const animatedElements = document.querySelectorAll('.animate-on-scroll');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('is-visible');
+                    }
+                });
+            }, {
+                threshold: 0.1
+            });
+            animatedElements.forEach(el => {
+                observer.observe(el);
+            });
+            
+            const navLinks = document.querySelectorAll('a[href^="#"]');
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        targetElement.scrollIntoView({
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+            
+            const header = document.getElementById('header');
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 50) {
+                    header.classList.add('glass-nav');
+                } else {
+                    header.classList.remove('glass-nav');
+                }
+            });
+            
+            const heroContent = document.querySelector('#hero .animate-on-scroll');
+            if(heroContent) {
+                setTimeout(() => {
+                    heroContent.classList.add('is-visible');
+                }, 100);
+            }
+        });
+    </script>
+</body>
+</html>
+
