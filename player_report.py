@@ -6,7 +6,7 @@ import webbrowser
 import threading
 import random
 
-app = Flask(__name__, template_folder='.')
+app = Flask(__name__,)
 
 def generate_mock_data(player_name):
     """Generates realistic mock data for charts where DB data is not available."""
