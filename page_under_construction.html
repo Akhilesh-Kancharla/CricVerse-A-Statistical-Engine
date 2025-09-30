@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CricVerse: Under Construction</title>
+    <!-- Chosen Palette: Monochromatic (bg-black), Text (text-white/gray), White Accent (#FFFFFF) -->
+    <!-- Application Structure Plan: A creative 'Under Construction' page that maintains brand consistency. The structure is simple: a full-screen background with a central, focused "glass" container delivering the message in a theme-appropriate, cricket-centric way, providing a clear path back to the homepage. -->
+    <!-- Visualization & Content Choices: Report Info -> N/A (Placeholder Page). Goal -> Inform the user that a feature is coming soon. Viz/Presentation Method -> Large typography and a clear call-to-action button within a glassmorphism container. The messaging uses cricket terminology ("Strategy Break") to be on-brand. Interaction -> A single button to navigate home. Library/Method -> Vanilla JS for animations; Tailwind CSS for styling. -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #000;
+            color: #f9fafb;
+        }
+        #bg-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -2;
+            background-image: url('https://img.freepik.com/premium-photo/cricket-batting-pads-fielding-helmet-resting-beside_1247965-29138.jpg?semt=ais_hybrid&w=740');
+            background-size: cover;
+            background-position: center;
+            filter: grayscale(100%) brightness(0.5);
+        }
+        .bg-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+            z-index: -1;
+        }
+        .glass-nav {
+            background-color: rgba(10, 10, 10, 0.5);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .glass-container {
+            background-color: rgba(30, 30, 30, 0.4);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 1rem;
+            padding: 3rem;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        }
+        .animate-on-load {
+            opacity: 0;
+            transform: translateY(40px);
+            filter: blur(5px);
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out, filter 0.8s ease-out;
+        }
+        .animate-on-load.is-visible {
+            opacity: 1;
+            transform: translateY(0);
+            filter: blur(0);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <div id="bg-container"></div>
+    <div class="bg-overlay"></div>
+
+    <header id="header" class="fixed top-0 left-0 right-0 z-50 glass-nav">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold tracking-tighter text-white">CricVerse</a>
+            <a href="index.html" class="text-gray-300 hover:text-white transition-colors">&larr; Back to Home</a>
+        </div>
+    </header>
+
+    <main class="min-h-screen flex items-center justify-center">
+        <section id="construction" class="text-center">
+            <div class="glass-container animate-on-load">
+                <h1 class="text-5xl md:text-6xl font-black text-white tracking-tighter">Setting the Field</h1>
+                <h2 class="text-2xl md:text-3xl font-bold text-white mt-4">This Page is Under Construction</h2>
+                <p class="text-gray-300 mt-4 max-w-sm mx-auto">
+                    Our developers are analyzing the data and setting the field for this new feature. Please wait until our dev figures it out!
+                </p>
+                <a href="index.html" class="mt-8 inline-block bg-white text-black font-bold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105">
+                    Return to the Pavilion
+                </a>
+            </div>
+        </section>
+    </main>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelector('.animate-on-load').classList.add('is-visible');
+        });
+    </script>
+</body>
+</html>
