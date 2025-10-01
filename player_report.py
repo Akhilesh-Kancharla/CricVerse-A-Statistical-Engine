@@ -98,7 +98,6 @@ def calculate_performance_metrics(total_runs, total_balls_faced, total_outs, tot
     Calculates derived metrics for the radar chart based on aggregated stats.
     """
     strike_rate = (total_runs / total_balls_faced * 100) if total_balls_faced > 0 else 0
-    # NOTE: 'average' calculation depends on 'total_outs', which is a proxy (total innings played).
     average = (total_runs / total_outs) if total_outs > 0 else total_runs
 
     power_hitting = min(100, (strike_rate / 180) * 100)
@@ -113,12 +112,15 @@ def calculate_performance_metrics(total_runs, total_balls_faced, total_outs, tot
         form = min(100, ((sr_ratio + avg_ratio) / 2) * 70)
 
     bowler_impact = min(100, (total_wickets / 50) * 100) if total_wickets > 0 else 0
+    
+    finishing = (power_hitting * 0.6) + (consistency * 0.4)
+    pressure_play = min(100, (average * 1.5) + (total_wickets * 0.5))
 
     return {
         'Consistency': round(consistency),
         'Power Hitting': round(power_hitting),
-        'Finishing': round(max(0, (consistency + power_hitting) / 2 - random.randint(5, 15))),
-        'Pressure Play': round(min(95, max(60, (average + total_wickets) * 1.2 + random.randint(-5, 5)))),
+        'Finishing': round(finishing),
+        'Pressure Play': round(pressure_play),
         'Form': round(form),
         'Bowler Impact': round(bowler_impact)
     }
@@ -145,13 +147,11 @@ def get_player_data(name):
 
         player_details = cursor.execute("SELECT * FROM players WHERE fullname = ?", (name,)).fetchone()
 
-        # --- Batting Stats Aggregation Query ---
-        # NOTE: The schema lacks a 'dismissal' column. We use COUNT(match_id) as a proxy for 'total_outs'.
-        # This assumes one dismissal per innings, which is not always true (e.g., 'not out').
         bat_summary = cursor.execute("""
             SELECT 
                 SUM(runs) as total_runs,
                 SUM(no_of_balls) as total_balls,
+                SUM(CASE WHEN dismissal_kind IS NOT NULL AND dismissal_kind != 'not out' THEN 1 ELSE 0 END) as total_outs,
                 COUNT(match_id) as total_innings, 
                 MAX(runs) as high_score, 
                 SUM(CASE WHEN runs >= 100 THEN 1 ELSE 0 END) as hundreds, 
@@ -164,7 +164,7 @@ def get_player_data(name):
 
         total_runs = bat_summary['total_runs'] or 0
         total_balls_faced = bat_summary['total_balls'] or 0
-        total_outs = bat_summary['total_innings'] or 0 # Using innings count as a proxy for outs
+        total_outs = bat_summary['total_outs'] or 0
         
         strike_rate = (total_runs / total_balls_faced * 100) if total_balls_faced > 0 else 0
         average = (total_runs / total_outs) if total_outs > 0 else total_runs
@@ -173,9 +173,9 @@ def get_player_data(name):
         bowl_summary = cursor.execute("""
             SELECT
                 SUM(wickets) as total_wickets,
-                SUM(runs_conceded) as total_runs_conceded,
-                SUM(CAST(overs AS REAL) * 6 + (CAST(overs AS REAL) * 10) % 10) as total_balls_bowled
-            FROM bowling_stats WHERE player_id = ?
+                SUM(runs_given) as total_runs_conceded,
+                SUM(balls_played) as total_balls_bowled
+            FROM bowling_stats WHERE player_id = ? 
         """, (player_identifier,)).fetchone()
 
         best_figures_row = cursor.execute("""
@@ -191,14 +191,12 @@ def get_player_data(name):
         economy = (total_runs_conceded / (total_balls_bowled / 6)) if total_balls_bowled > 0 else 0
         best_figures = f"{best_figures_row['wickets']}/{best_figures_row['runs_given']}" if best_figures_row and best_figures_row['wickets'] is not None else "N/A"
         
-        # --- Per-Season Batting Stats ---
-        # NOTE: Joins with master_match to get season from the match date.
         batting_season_rows = cursor.execute("""
             SELECT 
                 STRFTIME('%Y', m.date) as season,
                 SUM(bs.runs) as total_runs, 
                 SUM(bs.no_of_balls) as total_balls,
-                COUNT(bs.match_id) as total_innings
+                SUM(CASE WHEN bs.dismissal_kind IS NOT NULL AND bs.dismissal_kind != 'not out' THEN 1 ELSE 0 END) as seasonal_outs
             FROM batsman_stats bs
             JOIN master_match m ON bs.match_id = m.match_id
             WHERE bs.player_id = ? 
@@ -214,9 +212,9 @@ def get_player_data(name):
             SELECT 
                 STRFTIME('%Y', m.date) as season,
                 SUM(bo.wickets) as total_wickets,
-                SUM(bo.runs_conceded) as total_runs_conceded,
-                SUM(CAST(bo.overs AS REAL) * 6 + (CAST(bo.overs AS REAL) * 10) % 10) as total_balls_bowled
-            FROM bowling_stats bo
+                SUM(bo.runs_given) as total_runs_conceded,
+                SUM(bo.balls_played) as total_balls_bowled
+            FROM bowling_stats bo 
             JOIN master_match m ON bo.match_id = m.match_id
             WHERE bo.player_id = ? GROUP BY season ORDER BY season
         """, (player_identifier,)).fetchall()
@@ -227,16 +225,14 @@ def get_player_data(name):
             for row in bowling_season_rows
         }
         
-        # --- Get Player's Bowling Style (most frequent type) ---
-        # Use the style from the main player profile for consistency
         bowling_style = player_details['bowlingstyle'] if player_details and player_details['bowlingstyle'] else "N/A"
         if bowling_style in ('', 'N/A') and total_wickets > 0:
-             bowling_style = "Right-arm fast-medium" # Fallback for active bowlers
+             bowling_style = "Right-arm fast-medium" 
 
         latest_season_stats = {}
         if batting_season_rows:
             lsr = batting_season_rows[-1]
-            seasonal_outs = lsr['total_innings']
+            seasonal_outs = lsr['seasonal_outs']
             latest_season_stats = {
                 'strike_rate': (lsr['total_runs'] / lsr['total_balls'] * 100) if lsr['total_balls'] > 0 else 0,
                 'average': (lsr['total_runs'] / seasonal_outs) if seasonal_outs > 0 else lsr['total_runs']
@@ -244,7 +240,6 @@ def get_player_data(name):
         
         performance_snapshot = calculate_performance_metrics(total_runs, total_balls_faced, total_outs, total_wickets, latest_season_stats)
 
-        # --- Dismissal Types Aggregation ---
         dismissal_rows = cursor.execute("""
             SELECT dismissal_kind, COUNT(*) as count
             FROM batsman_stats
@@ -254,15 +249,12 @@ def get_player_data(name):
         """, (player_identifier,)).fetchall()
         dismissal_types = {row['dismissal_kind']: row['count'] for row in dismissal_rows}
 
-        # --- Final Data Assembly ---
-        # Ensure details object is safe to access even if player_details is None
         details_data = {
             "battingStyle": player_details['battingstyle'] if player_details else "N/A",
-            "bowlingStyle": bowling_style, # Use the determined bowling style
+            "bowlingStyle": bowling_style,
             "imagePath": player_details['image_path'] if player_details else None
         }
 
-        # Ensure batting object is safe, and include dismissalTypes (even if empty)
         batting_data = {
             "totalRuns": total_runs, "highScore": bat_summary['high_score'] or 0, "average": round(average, 2),
             "strikeRate": round(strike_rate, 2), "hundreds": bat_summary['hundreds'] or 0, "fifties": bat_summary['fifties'] or 0,

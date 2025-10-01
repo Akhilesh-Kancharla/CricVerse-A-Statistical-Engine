@@ -62,6 +62,36 @@ def get_venue_dashboard_data(venue_query):
             else:
                 field_first_wins += 1
 
+    # 4. Calculate Pace vs. Spin Wickets
+    # This requires a more complex query joining multiple tables.
+    # We need to link bowling_stats -> players_master -> players to get bowling style.
+    # For simplicity, we'll do this in steps.
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    
+    # This query gets the bowling style for every wicket taken at the venue.
+    # It joins through master_match, bowling_stats, players_master, and finally players.
+    cursor.execute("""
+        SELECT p.bowlingstyle
+        FROM master_match mm
+        JOIN bowling_stats bs ON mm.match_id = bs.match_id
+        JOIN players_master pm ON bs.player_id = pm.identifier
+        JOIN players p ON pm.name = p.fullname OR pm.name = (p.firstname || ' ' || p.lastname)
+        WHERE mm.venue = ? AND bs.wickets > 0 AND p.bowlingstyle IS NOT NULL
+    """, (venue_name,))
+    
+    bowling_styles = cursor.fetchall()
+    conn.close()
+
+    pace_wickets = 0
+    spin_wickets = 0
+    for style_row in bowling_styles:
+        style = (style_row['bowlingstyle'] or '').lower()
+        if 'fast' in style or 'pace' in style or 'seam' in style:
+            pace_wickets += 1
+        elif 'spin' in style or 'orthodox' in style or 'legbreak' in style or 'offbreak' in style or 'chinaman' in style:
+            spin_wickets += 1
+
     # 4. Calculate Average Scores by Season
     scores_by_season = {}
     for m in master_match:
@@ -98,10 +128,9 @@ def get_venue_dashboard_data(venue_query):
             "Bat First Wins": bat_first_wins,
             "Field First Wins": field_first_wins
         },
-        # NOTE: Bowling analysis data is mocked as it's not available in the provided DB schema.
         "bowlingAnalysis": {
-            "Pace Wickets": 68,
-            "Spin Wickets": 32
+            "Pace Wickets": pace_wickets,
+            "Spin Wickets": spin_wickets
         },
         "avgScoreBySeason": avg_1st_innings_season,
         "avgSecondInningsScoreBySeason": avg_2nd_innings_season

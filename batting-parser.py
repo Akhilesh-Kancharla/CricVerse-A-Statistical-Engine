@@ -94,12 +94,6 @@ def counter(innings):
 
         count+=dump['innings'][innings][a]['deliveries'][ball][ballname]['runs']['total']
         
-        
-        if batsman in team1dic:
-            team1dic[batsman][5]['balls']+=1
-        else:
-            team2dic[batsman][5]['balls']+=1
-
         #batsman runs
         if batsman in team1dic:
             team1dic[batsman][2]['runs']+=dump['innings'][innings][a]['deliveries'][ball][ballname]['runs']['batsman']
@@ -109,6 +103,7 @@ def counter(innings):
             #sixes
             if dump['innings'][innings][a]['deliveries'][ball][ballname]['runs']['batsman'] == 6:
                 team1dic[batsman][4]['sixes']+=1
+            team1dic[batsman][5]['balls']+=1 # Increment ball count only for the batsman on strike
         else:
             team2dic[batsman][2]['runs']+=dump['innings'][innings][a]['deliveries'][ball][ballname]['runs']['batsman']
             #fours
@@ -117,6 +112,7 @@ def counter(innings):
             #sixes
             if dump['innings'][innings][a]['deliveries'][ball][ballname]['runs']['batsman'] == 6:
                 team2dic[batsman][4]['sixes']+=1
+            team2dic[batsman][5]['balls']+=1 # Increment ball count only for the batsman on strike
         
         # Check for dismissals
         if 'wicket' in ball_list[ballname]:

@@ -93,9 +93,10 @@ def counter(innings):
     
     #actuall counter
     balcount=len(dump['innings'][innings][a]['deliveries'])
-    over=0 #to count the overs (for maiden over tracking)
-    maidenrun=0 #to count the runs in a maiden over if !=0 then it is not a maiden over
-    prevball='' #to add the over count of maidens to the bowler who made the maiden over (tracks the previous ball)
+    current_over = -1
+    runs_in_over = 0
+    bowler_of_over = None
+
     for ball in range(balcount):
         #getting the names of required properties from dump
         ball_list=dump['innings'][innings][a]['deliveries'][ball]
@@ -103,6 +104,21 @@ def counter(innings):
         batsman=dump['innings'][innings][a]['deliveries'][ball][ballname]['batsman']
         bowler=dump['innings'][innings][a]['deliveries'][ball][ballname]['bowler']
 
+        over_num = int(float(ballname))
+
+        # Maiden over logic: check if a new over has started
+        if over_num != current_over:
+            # If it's a new over, check if the *previous* one was a maiden
+            if current_over != -1 and runs_in_over == 0 and bowler_of_over:
+                if bowler_of_over in team1dic:
+                    team1dic[bowler_of_over][5]['maidens'] += 1
+                elif bowler_of_over in team2dic:
+                    team2dic[bowler_of_over][5]['maidens'] += 1
+            
+            # Reset for the new over
+            current_over = over_num
+            runs_in_over = 0
+            bowler_of_over = bowler
 
         count+=dump['innings'][innings][a]['deliveries'][ball][ballname]['runs']['total']
         
@@ -119,9 +135,11 @@ def counter(innings):
         #runs_given and balls_played
         if bowler in team1dic:
             team1dic[bowler][6]['runs_given']+=dump['innings'][innings][a]['deliveries'][ball][ballname]['runs']['batsman']
+            runs_in_over += dump['innings'][innings][a]['deliveries'][ball][ballname]['runs']['batsman']
             team1dic[bowler][4]['balls_played']+=1
         else:
             team2dic[bowler][6]['runs_given']+=dump['innings'][innings][a]['deliveries'][ball][ballname]['runs']['batsman']
+            runs_in_over += dump['innings'][innings][a]['deliveries'][ball][ballname]['runs']['batsman']
             team2dic[bowler][4]['balls_played']+=1
         
         #wides
@@ -145,25 +163,13 @@ def counter(innings):
         except(KeyError):
             pass
 
-        #maidens
-        if over != int(ballname):
-            over=int(ballname)
-            if maidenrun>0:
-                pass
-            else:
-                if pervball != '':
-                    if bowler in team1dic:
-                        team1dic[dump['innings'][innings][a]['deliveries'][ball-1][pervball]['bowler']][5]['maidens']+=1
-                    else:
-                        team2dic[dump['innings'][innings][a]['deliveries'][ball-1][pervball]['bowler']][5]['maidens']+=1
+    # After the loop, check if the very last over of the innings was a maiden
+    if current_over != -1 and runs_in_over == 0 and bowler_of_over:
+        if bowler_of_over in team1dic:
+            team1dic[bowler_of_over][5]['maidens'] += 1
+        elif bowler_of_over in team2dic:
+            team2dic[bowler_of_over][5]['maidens'] += 1
 
-            maidenrun=0
-            maidenrun+=dump['innings'][innings][a]['deliveries'][ball][ballname]['runs']['total']
-        else:
-            maidenrun+=dump['innings'][innings][a]['deliveries'][ball][ballname]['runs']['total']
-
-
-        pervball=ballname
     return count
 
 
