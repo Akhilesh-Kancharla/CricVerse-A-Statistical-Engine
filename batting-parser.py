@@ -21,7 +21,8 @@ def playerdic(team):
             {'runs':''},
             {'fours':''},
             {'sixes':''},
-            {'no_of_balls':''}
+            {'no_of_balls':''},
+            {'dismissal_kind': 'not out'} # Default to 'not out'
         ]
     return dic
 
@@ -34,10 +35,10 @@ def add_data(data):
     try:
         cursor.execute('''
             INSERT INTO batsman_stats (
-                match_id,player_id,runs,fours,sixes,no_of_balls
-            ) VALUES (?, ?, ?, ?, ? ,? )
+                match_id,player_id,runs,fours,sixes,no_of_balls,dismissal_kind
+            ) VALUES (?, ?, ?, ?, ?, ?, ?)
         ''', (
-            data[0], data[1], data[2], data[3], data[4], data[5]
+            data[0], data[1], data[2], data[3], data[4], data[5], data[6]
         ))
         conn.commit()
     except sqlite3.OperationalError as e:
@@ -50,7 +51,8 @@ def add_data(data):
                     runs INTEGER,
                     fours INTEGER,
                     sixes INTEGER,
-                    no_of_balls INTEGER,
+                    no_of_balls INTEGER, 
+                    dismissal_kind TEXT,
                     PRIMARY KEY (match_id, player_id)
                 )
             ''')
@@ -58,9 +60,8 @@ def add_data(data):
 
             # retry the insert
             cursor.execute('''
-                INSERT INTO batsman_stats (
-                    match_id, player_id, runs, fours, sixes, no_of_balls
-                ) VALUES (?, ?, ?, ?, ?, ?)
+                INSERT INTO batsman_stats (match_id, player_id, runs, fours, sixes, no_of_balls, dismissal_kind)
+                VALUES (?, ?, ?, ?, ?, ?, ?)
             ''', data)
             conn.commit()
         else:
@@ -116,6 +117,17 @@ def counter(innings):
             #sixes
             if dump['innings'][innings][a]['deliveries'][ball][ballname]['runs']['batsman'] == 6:
                 team2dic[batsman][4]['sixes']+=1
+        
+        # Check for dismissals
+        if 'wicket' in ball_list[ballname]:
+            wicket_info = ball_list[ballname]['wicket']
+            player_out = wicket_info['player_out']
+            kind = wicket_info['kind']
+            
+            if player_out in team1dic:
+                team1dic[player_out][6]['dismissal_kind'] = kind
+            elif player_out in team2dic:
+                team2dic[player_out][6]['dismissal_kind'] = kind
     
     return count
 
@@ -190,6 +202,7 @@ try:
                 data.append(team1dic[key][3]['fours'])
                 data.append(team1dic[key][4]['sixes'])
                 data.append(team1dic[key][5]['balls'])
+                data.append(team1dic[key][6]['dismissal_kind'])
 
                 
                 add_data(data)
@@ -204,6 +217,7 @@ try:
                 data.append(team2dic[key][3]['fours'])
                 data.append(team2dic[key][4]['sixes'])
                 data.append(team2dic[key][5]['balls'])
+                data.append(team2dic[key][6]['dismissal_kind'])
 
                 
                 add_data(data)

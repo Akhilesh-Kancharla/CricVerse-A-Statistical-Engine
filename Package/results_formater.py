@@ -71,16 +71,16 @@ class ResultsFormatter:
         print("-" * 80)
         
         for player_name, stats in sorted_players:
-            data = []
-
             batting_prs = f"{stats['batting_prs']:.1f}" if stats['batting_prs'] > 0 else "N/A"
             bowling_prs = f"{stats['bowling_prs']:.1f}" if stats['bowling_prs'] > 0 else "N/A"
             
-            data.append(player_name)
-            data.append(batting_prs)
-            data.append(bowling_prs)
-            data.append(f"{stats['batting_deliveries']:<10}")
-            data.append(f"{stats['bowling_deliveries']:<10}")
+            data = [
+                player_name,
+                stats['batting_prs'] if stats['batting_prs'] > 0 else None,
+                stats['bowling_prs'] if stats['bowling_prs'] > 0 else None,
+                stats['batting_deliveries'],
+                stats['bowling_deliveries']
+            ]
 
             ResultsFormatter.add_data(data)
 

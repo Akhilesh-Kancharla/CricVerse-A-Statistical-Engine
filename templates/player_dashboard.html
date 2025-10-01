@@ -10,137 +10,369 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Inter', sans-serif; background-color: #000; color: #f9fafb; }
-        #bg-container { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -2; background-image: url('https://img.freepik.com/premium-photo/cricket-batting-pads-fielding-helmet-resting-beside_1247965-29138.jpg?semt=ais_hybrid&w=740'); background-size: cover; background-position: center; filter: grayscale(100%) brightness(0.6); }
-        .bg-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.7); z-index: -1; }
-        .glass-nav { background-color: rgba(10, 10, 10, 0.5); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
-        .glass-container { background-color: rgba(25, 25, 25, 0.25); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 1rem; padding: 1.5rem; box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); }
-        .animate-on-load { opacity: 0; transform: translateY(40px); filter: blur(5px); transition: opacity 0.8s ease-out, transform 0.8s ease-out, filter 0.8s ease-out; }
-        .animate-on-load.is-visible { opacity: 1; transform: translateY(0); filter: blur(0); }
-        .chart-container { position: relative; height: 300px; width: 100%; }
-        .kpi-value { font-size: 2.2rem; font-weight: 900; line-height: 1; }
-        .kpi-label { font-size: 0.8rem; color: #a0aec0; text-transform: uppercase; }
-        .error-message { text-align: center; color: #f87171; font-size: 1.5rem; }
+        :root {
+            --bg-color: #0a0a0a;
+            --glass-bg: rgba(23, 23, 23, 0.6);
+            --border-color: rgba(255, 255, 255, 0.1);
+            --text-primary: #f5f5f5;
+            --text-secondary: #a3a3a3;
+            --accent-color: #d1d5db; /* Gray-400 */
+        }
+        body { 
+            font-family: 'Inter', sans-serif; 
+            background-color: var(--bg-color); 
+            color: var(--text-primary); 
+        }
+        #bg-container { 
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -2; 
+            background-image: url('https://img.freepik.com/premium-photo/cricket-batting-pads-fielding-helmet-resting-beside_1247965-29138.jpg?semt=ais_hybrid&w=740'); 
+            background-size: cover; background-position: center; 
+            filter: grayscale(100%) brightness(0.5); 
+        }
+        .bg-overlay { 
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%; 
+            background: radial-gradient(circle at center, rgba(10, 10, 10, 0.7), var(--bg-color) 70%);
+            z-index: -1; 
+        }
+        .glass-container { 
+            background: var(--glass-bg); 
+            border-radius: 16px; 
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2); 
+            backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); 
+            border: 1px solid var(--border-color); 
+            border-top: 1px solid rgba(209, 213, 219, 0.3);
+            padding: 1.5rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .glass-container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 40px rgba(0, 0, 0, 0.4);
+            border-top-color: rgba(209, 213, 219, 0.6);
+        }
+        .chartjs-tooltip { background: rgba(0, 0, 0, 0.8) !important; border-radius: 8px !important; }
+        .chartjs-render-monitor { animation: chart-fade-in 1s ease-out forwards; }
+        @keyframes chart-fade-in { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        .error-message { color: #f87171; text-align: center; font-size: 1.25rem; }
+        .chart-wrapper { position: relative; height: 320px; width: 100%; }
+        .stat-value { color: var(--text-primary); }
+        .stat-label { color: var(--text-secondary); text-transform: uppercase; font-size: 0.75rem; letter-spacing: 0.05em; }
+        .card-header { display: flex; align-items: center; gap: 0.75rem; font-size: 1.25rem; font-weight: bold; margin-bottom: 1rem; color: var(--accent-color);}
+        
+        /* Loader */
+        .loader-wrapper { display: flex; justify-content: center; align-items: center; min-height: 60vh; }
+        .loader { width: 48px; height: 48px; border: 5px solid var(--text-primary); border-bottom-color: var(--accent-color); border-radius: 50%; display: inline-block; box-sizing: border-box; animation: rotation 1s linear infinite; }
+        @keyframes rotation { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2.5rem;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .back-link:hover {
+            color: var(--accent-color);
+        }
+        /* Tab Styles */
+        .tab-btn {
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            color: var(--text-secondary);
+            transition: all 0.3s ease;
+        }
+        .tab-btn.active, .tab-btn:hover {
+            color: var(--accent-color);
+            border-bottom-color: var(--accent-color);
+        }
+        /* New styles for stat card alignment and tab animations */
+        .stats-card {
+            display: flex;
+            flex-direction: column;
+            min-height: 340px;
+        }
+        .stats-grid {
+            flex-grow: 1;
+            display: grid;
+            align-content: center;
+        }
+        @keyframes tab-fade-in {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .tab-content { display: none; }
+        .tab-content.active {
+            display: block;
+            animation: tab-fade-in 0.4s ease-out forwards;
+        }
     </style>
 </head>
-<body class="antialiased">
-
+<body class="p-4 md:p-8">
     <div id="bg-container"></div>
     <div class="bg-overlay"></div>
+    
+    <main class="max-w-7xl mx-auto">
+        <a href="/" class="back-link">&larr; Back to Search</a>
+        <header class="text-center mb-10">
+            <h1 class="text-4xl md:text-6xl font-black tracking-tighter" id="player-name-header">Player Dashboard</h1>
+            <p class="text-lg md:text-xl text-gray-400 mt-2" id="player-name">Loading player data...</p>
+        </header>
 
-    <header id="header" class="fixed top-0 left-0 right-0 z-50 glass-nav">
-        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="/" class="text-2xl font-bold tracking-tighter text-white">CricVerse</a>
-            <a href="/" class="text-gray-300 hover:text-white transition-colors">&larr; Back to Search</a>
+        <div id="loader" class="loader-wrapper">
+            <div class="loader"></div>
         </div>
-    </header>
 
-    <main class="pt-28 pb-20">
-        <section id="player-hub" class="py-12">
-            <div class="container mx-auto px-6">
-                <div id="dashboard-content">
-                    <div class="glass-container mb-8">
-                        <h1 id="player-name" class="text-4xl md:text-5xl font-black tracking-tighter text-white">Loading...</h1>
+        <div id="dashboard-content" class="grid grid-cols-1 lg:grid-cols-3 gap-6 opacity-0 transition-opacity duration-500">
+            <!-- Column 1: Player Info & Key Metrics -->
+            <div class="lg:col-span-1 flex flex-col gap-6">
+                <!-- Player Details -->
+                <div class="glass-container">
+                    <div class="card-header">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" /></svg>
+                        <h3>Player Details</h3>
                     </div>
-
-                    <div id="stats-grid" class="hidden grid grid-cols-1 lg:grid-cols-6 gap-6">
-                        <div class="lg:col-span-6 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
-                            <div class="glass-container text-center"> <p class="kpi-label">Total Runs</p> <p id="total-runs" class="kpi-value text-white">-</p> </div>
-                            <div class="glass-container text-center"> <p class="kpi-label">High Score</p> <p id="high-score" class="kpi-value text-white">-</p> </div>
-                            <div class="glass-container text-center"> <p class="kpi-label">Batting Avg</p> <p id="bat-avg" class="kpi-value text-white">-</p> </div>
-                            <div class="glass-container text-center"> <p class="kpi-label">Strike Rate</p> <p id="strike-rate" class="kpi-value text-white">-</p> </div>
-                            <div class="glass-container text-center"> <p class="kpi-label">100s</p> <p id="hundreds" class="kpi-value text-white">-</p> </div>
-                            <div class="glass-container text-center"> <p class="kpi-label">50s</p> <p id="fifties" class="kpi-value text-white">-</p> </div>
+                    <div class="flex items-center space-x-4">
+                        <img id="player-image" src="https://placehold.co/80x80/1a202c/ffffff?text=?" alt="Player Image" class="w-20 h-20 rounded-full bg-gray-700 object-cover border-2 border-gray-600" onerror="this.src='https://placehold.co/80x80/1a202c/ffffff?text=?';">
+                        <div>
+                            <p id="player-batting-style" class="text-gray-300">Batting: <span class="font-semibold text-white">--</span></p>
+                            <p id="player-bowling-style" class="text-gray-300">Bowling: <span class="font-semibold text-white">--</span></p>
                         </div>
+                    </div>
+                </div>
+                <!-- Batting Summary -->
+                <div class="glass-container stats-card">
+                    <div class="card-header">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12.5 2.5c2.3-2.3 6.2-2.3 8.5 0l-1.1 1.1c-1.7-1.7-4.4-1.7-6.1 0l1.1-1.1z"/><path d="m2.1 14.1 3.5-3.5"/><path d="m11.1 11.1-3.5 3.5"/><path d="m14.2 8-3.5 3.5"/><path d="m5.6 17.6 3.5-3.5"/><path d="M12.5 12.5c2.3 2.3 2.3 6.2 0 8.5l1.1 1.1c1.7-1.7 1.7-4.4 0-6.1l-1.1-1.1z"/><path d="M3.9 12.1c-1.7-1.7-1.7-4.4 0-6.1l1.1 1.1c-1.1 1.1-1.1 3.1 0 4.1l-1.1 1.1z"/><path d="M12 3.9c1.7 1.7 1.7 4.4 0 6.1l-1-1.1c1.1-1.1 1.1-3.1 0-4.1l1.1-1z"/></svg>
+                        <h3>Batting Summary</h3>
+                    </div>
+                    <div class="grid grid-cols-2 gap-y-4 gap-x-2 stats-grid">
+                        <div class="text-center"><p class="stat-label">Total Runs</p><p id="total-runs" class="text-4xl font-bold stat-value">--</p></div>
+                        <div class="text-center"><p class="stat-label">High Score</p><p id="high-score" class="text-4xl font-bold stat-value">--</p></div>
+                        <div class="text-center"><p class="stat-label">Average</p><p id="batting-average" class="text-4xl font-bold stat-value">--</p></div>
+                        <div class="text-center"><p class="stat-label">Strike Rate</p><p id="strike-rate" class="text-4xl font-bold stat-value">--</p></div>
+                        <div class="text-center"><p class="stat-label">100s</p><p id="hundreds" class="text-4xl font-bold stat-value">--</p></div>
+                        <div class="text-center"><p class="stat-label">50s</p><p id="fifties" class="text-4xl font-bold stat-value">--</p></div>
+                    </div>
+                </div>
+                <!-- Bowling Summary -->
+                <div id="bowling-summary-card" class="glass-container stats-card">
+                    <div class="card-header">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M15.42 8.58a4.34 4.34 0 1 0-6.13 6.13 4.34 4.34 0 1 0 6.13-6.13Z"/></svg>
+                        <h3>Bowling Summary</h3>
+                    </div>
+                    <div class="grid grid-cols-2 gap-y-4 gap-x-2 stats-grid">
+                        <div class="text-center"><p class="stat-label">Wickets</p><p id="total-wickets" class="text-4xl font-bold stat-value">--</p></div>
+                        <div class="text-center"><p class="stat-label">Average</p><p id="bowling-average-stat" class="text-4xl font-bold stat-value">--</p></div>
+                        <div class="text-center"><p class="stat-label">Economy</p><p id="economy-rate" class="text-4xl font-bold stat-value">--</p></div>
+                        <div class="text-center"><p class="stat-label">Best Figures</p><p id="best-figures" class="text-3xl font-bold stat-value">--</p></div>
+                    </div>
+                </div>
+            </div>
 
-                        <div class="lg:col-span-4 glass-container">
-                            <h3 class="text-xl font-bold text-white mb-4">Runs Per Season</h3>
-                            <div class="chart-container"> <canvas id="runs-season-chart"></canvas> </div>
+            <!-- Column 2: Performance Charts -->
+            <div class="lg:col-span-2 flex flex-col gap-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="glass-container chart-fade-in" style="animation-delay: 100ms;">
+                        <h3 class="text-xl font-bold mb-4 text-center">Performance Snapshot</h3>
+                        <div class="chart-wrapper"><canvas id="performanceRadarChart"></canvas></div>
+                    </div>
+                    <div id="dismissal-chart-card" class="glass-container chart-fade-in" style="animation-delay: 200ms;">
+                        <h3 class="text-xl font-bold mb-4 text-center">Dismissal Types</h3>
+                        <div class="chart-wrapper"><canvas id="dismissalPieChart"></canvas></div>
+                    </div>
+                    <!-- Combined Seasonal Stats Card -->
+                    <div id="seasonal-stats-card" class="glass-container md:col-span-2 chart-fade-in" style="animation-delay: 300ms;">
+                        <div id="seasonal-tabs" class="flex border-b border-[var(--border-color)] mb-4">
+                            <button id="runs-tab" class="tab-btn active font-semibold">Runs Per Season</button>
+                            <button id="wickets-tab" class="tab-btn font-semibold">Wickets Per Season</button>
                         </div>
-                        
-                        <div class="lg:col-span-2 glass-container">
-                            <h3 class="text-xl font-bold text-white mb-4">Dismissal Types (Sample)</h3>
-                            <div class="chart-container"> <canvas id="dismissal-chart"></canvas> </div>
+                        <div id="runsPerSeasonWrapper" class="tab-content active">
+                            <div class="chart-wrapper"><canvas id="runsPerSeasonChart"></canvas></div>
                         </div>
-
-                        <div class="lg:col-span-4 glass-container">
-                            <h3 class="text-xl font-bold text-white mb-4">Strike Rate Progression</h3>
-                            <div class="chart-container" style="height: 250px;"> <canvas id="strike-rate-chart"></canvas> </div>
-                        </div>
-
-                        <div class="lg:col-span-2 glass-container">
-                            <h3 class="text-xl font-bold text-white mb-4">Performance Snapshot (Sample)</h3>
-                            <div class="chart-container" style="height: 250px;"> <canvas id="performance-radar-chart"></canvas> </div>
+                        <div id="wicketsPerSeasonWrapper" class="tab-content">
+                            <div class="chart-wrapper"><canvas id="wicketsPerSeasonChart"></canvas></div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     </main>
-    
+
     <script>
         document.addEventListener('DOMContentLoaded', () => {
+            const accentColor = '#d1d5db'; // Gray-400
+            const gridColor = 'rgba(255, 255, 255, 0.2)';
+            const textColor = 'rgba(255, 255, 255, 0.8)';
             
-            const displayDashboard = (data) => {
-                document.getElementById('player-name').textContent = data.name;
+            Chart.defaults.color = textColor;
+            Chart.defaults.borderColor = gridColor;
+            Chart.defaults.font.family = "'Inter', sans-serif";
 
-                if (data.batting) {
-                    document.getElementById('total-runs').textContent = data.batting.totalRuns?.toLocaleString() || '-';
-                    document.getElementById('high-score').textContent = data.batting.highScore || '-';
-                    document.getElementById('bat-avg').textContent = data.batting.average || '-';
-                    document.getElementById('strike-rate').textContent = data.batting.strikeRate || '-';
-                    document.getElementById('hundreds').textContent = data.batting.hundreds || '-';
-                    document.getElementById('fifties').textContent = data.batting.fifties || '-';
-                }
-                
-                document.getElementById('stats-grid').classList.remove('hidden');
-                const animatedElements = document.querySelectorAll('#stats-grid .glass-container');
-                animatedElements.forEach((el, index) => {
-                    el.classList.add('animate-on-load');
-                    setTimeout(() => el.classList.add('is-visible'), 50 * (index + 1));
+             // Tab switching logic
+            const wicketsTab = document.getElementById('wickets-tab');
+            const runsWrapper = document.getElementById('runsPerSeasonWrapper');
+            const wicketsWrapper = document.getElementById('wicketsPerSeasonWrapper');
+
+            runsTab.addEventListener('click', () => {
+                if (runsTab.classList.contains('active')) return;
+                runsTab.classList.add('active');
+                wicketsTab.classList.remove('active');
+                wicketsWrapper.classList.remove('active');
+                runsWrapper.classList.add('active');
+            });
+
+            wicketsTab.addEventListener('click', () => {
+                if (wicketsTab.classList.contains('active')) return;
+                wicketsTab.classList.add('active');
+                runsTab.classList.remove('active');
+                runsWrapper.classList.remove('active');
+                wicketsWrapper.classList.add('active');
+            });
+
+            // --- Performance Improvement: Cache DOM element references ---
+            const elements = {
+                loader: document.getElementById('loader'),
+                dashboardContent: document.getElementById('dashboard-content'),
+                playerNameHeader: document.getElementById('player-name-header'),
+                playerNameSub: document.getElementById('player-name'),
+                playerImage: document.getElementById('player-image'),
+                playerBattingStyle: document.getElementById('player-batting-style'),
+                playerBowlingStyle: document.getElementById('player-bowling-style'),
+                totalRuns: document.getElementById('total-runs'),
+                highScore: document.getElementById('high-score'),
+                battingAverage: document.getElementById('batting-average'),
+                strikeRate: document.getElementById('strike-rate'),
+                hundreds: document.getElementById('hundreds'),
+                fifties: document.getElementById('fifties'),
+                bowlingSummaryCard: document.getElementById('bowling-summary-card'),
+                totalWickets: document.getElementById('total-wickets'),
+                bowlingAverageStat: document.getElementById('bowling-average-stat'),
+                economyRate: document.getElementById('economy-rate'),
+                bestFigures: document.getElementById('best-figures'),
+                dismissalChartCard: document.getElementById('dismissal-chart-card'),
+                seasonalTabs: document.getElementById('seasonal-tabs'),
+                wicketsTab: document.getElementById('wickets-tab'),
+            };
+
+            // --- Performance Improvement: Initialize charts once ---
+            const initCharts = () => {
+                const charts = {};
+
+                // Radar Chart
+                const perfCtx = document.getElementById('performanceRadarChart').getContext('2d');
+                const radarGradient = perfCtx.createLinearGradient(0, 0, 0, 300);
+                radarGradient.addColorStop(0, 'rgba(209, 213, 219, 0.5)');
+                radarGradient.addColorStop(1, 'rgba(209, 213, 219, 0.1)');
+                charts.performance = new Chart(perfCtx, {
+                    type: 'radar', data: { labels: [], datasets: [{ label: 'Performance Score', data: [], fill: true, backgroundColor: radarGradient, borderColor: accentColor, pointBackgroundColor: '#fff', pointBorderColor: accentColor, pointHoverBackgroundColor: '#fff', pointHoverBorderColor: accentColor }] },
+                    options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { r: { suggestedMin: 0, suggestedMax: 100, grid: { color: gridColor }, angleLines: { color: gridColor }, pointLabels: { font: { size: 12 }, color: textColor } } } }
                 });
 
-                Chart.defaults.color = 'rgba(255, 255, 255, 0.7)';
-                Chart.defaults.borderColor = 'rgba(255, 255, 255, 0.2)';
+                // Doughnut Chart
+                const dismissalCtx = document.getElementById('dismissalPieChart').getContext('2d');
+                charts.dismissal = new Chart(dismissalCtx, {
+                    type: 'doughnut', data: { labels: [], datasets: [{ data: [], backgroundColor: ['#6b7280', '#9ca3af', '#d1d5db', '#e5e7eb', '#f3f4f6', '#f9fafb'], borderWidth: 0 }] },
+                    options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'bottom', labels: { color: textColor, padding: 15 } } } }
+                });
 
-                // Runs per Season Chart (Bar Chart)
-                if (data.runsPerSeason && Object.keys(data.runsPerSeason).length > 0) {
-                    const ctx = document.getElementById('runs-season-chart').getContext('2d');
-                    new Chart(ctx, { type: 'bar', data: { labels: Object.keys(data.runsPerSeason), datasets: [{ label: 'Total Runs', data: Object.values(data.runsPerSeason), backgroundColor: 'rgba(255, 255, 255, 0.8)', borderRadius: 4, }] }, options: { maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true, grid: { color: 'rgba(255, 255, 255, 0.1)' } }, x: { grid: { display: false } } } } });
+                // Bar Chart
+                const runsCtx = document.getElementById('runsPerSeasonChart').getContext('2d');
+                const barGradient = runsCtx.createLinearGradient(0, 0, 0, 300);
+                barGradient.addColorStop(0, accentColor);
+                barGradient.addColorStop(1, 'rgba(209, 213, 219, 0.3)');
+                charts.runs = new Chart(runsCtx, {
+                    type: 'bar', data: { labels: [], datasets: [{ label: 'Total Runs', data: [], backgroundColor: barGradient, borderRadius: 4 }] },
+                    options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true, grid: { color: gridColor } }, x: { grid: { display: false } } } }
+                });
+
+                // Line Chart
+                const wicketsCtx = document.getElementById('wicketsPerSeasonChart').getContext('2d');
+                const lineGradient = wicketsCtx.createLinearGradient(0, 0, 0, 300);
+                lineGradient.addColorStop(0, 'rgba(209, 213, 219, 0.4)');
+                lineGradient.addColorStop(1, 'rgba(209, 213, 219, 0)');
+                charts.wickets = new Chart(wicketsCtx, {
+                    type: 'line', data: { labels: [], datasets: [{ label: 'Total Wickets', data: [], fill: true, borderColor: accentColor, backgroundColor: lineGradient, tension: 0.4, pointBackgroundColor: accentColor, pointRadius: 4, pointHoverRadius: 6 }] },
+                    options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true, grid: { color: gridColor } }, x: { grid: { display: false } } } }
+                });
+
+                return charts;
+            };
+
+            const charts = initCharts();
+
+            const updateDashboard = (data) => {
+                elements.loader.style.display = 'none';
+                elements.dashboardContent.style.opacity = 1;
+
+                // Update text content
+                elements.playerNameHeader.textContent = data.name;
+                elements.playerNameSub.textContent = `Career Performance Dashboard`;
+                elements.playerBattingStyle.innerHTML = `Batting: <span class="font-semibold text-white">${data.details.battingStyle || 'N/A'}</span>`;
+                elements.playerBowlingStyle.innerHTML = `Bowling: <span class="font-semibold text-white">${data.details.bowlingStyle || 'N/A'}</span>`;
+                if(data.details && data.details.imagePath) {
+                    elements.playerImage.src = data.details.imagePath;
                 }
 
-                // Dismissal Types Chart (Pie Chart)
-                if (data.batting && data.batting.dismissalTypes && Object.keys(data.batting.dismissalTypes).length > 0) {
-                    const ctx = document.getElementById('dismissal-chart').getContext('2d');
-                    new Chart(ctx, { type: 'pie', data: { labels: Object.keys(data.batting.dismissalTypes), datasets: [{ data: Object.values(data.batting.dismissalTypes), backgroundColor: ['rgba(255, 255, 255, 0.9)', 'rgba(255, 255, 255, 0.7)', 'rgba(255, 255, 255, 0.5)', 'rgba(255, 255, 255, 0.3)', 'rgba(255, 255, 255, 0.2)'], borderColor: 'rgba(0, 0, 0, 0.5)', borderWidth: 2, }] }, options: { maintainAspectRatio: false, plugins: { legend: { position: 'bottom', labels: { boxWidth: 12 } } } } });
-                }
+                elements.totalRuns.textContent = data.batting.totalRuns;
+                elements.highScore.textContent = data.batting.highScore;
+                elements.battingAverage.textContent = data.batting.average;
+                elements.strikeRate.textContent = data.batting.strikeRate;
+                elements.hundreds.textContent = data.batting.hundreds;
+                elements.fifties.textContent = data.batting.fifties;
                 
-                // Strike Rate Progression (Line Chart)
-                if(data.strikeRatePerSeason && Object.keys(data.strikeRatePerSeason).length > 0) {
-                    const ctx = document.getElementById('strike-rate-chart').getContext('2d');
-                    new Chart(ctx, { type: 'line', data: { labels: Object.keys(data.strikeRatePerSeason), datasets: [{ label: 'Strike Rate', data: Object.values(data.strikeRatePerSeason), fill: true, backgroundColor: 'rgba(255, 255, 255, 0.1)', borderColor: 'rgba(255, 255, 255, 0.8)', tension: 0.4, pointBackgroundColor: 'rgba(255, 255, 255, 1)' }] }, options: { maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { grid: { color: 'rgba(255, 255, 255, 0.1)' } }, x: { grid: { display: false } } } } });
+                if (data.bowling.totalWickets > 0) {
+                    elements.totalWickets.textContent = data.bowling.totalWickets;
+                    elements.bowlingAverageStat.textContent = data.bowling.average;
+                    elements.economyRate.textContent = data.bowling.economy;
+                    elements.bestFigures.textContent = data.bowling.bestFigures;
+                    elements.bowlingSummaryCard.style.display = 'block';
+                } else {
+                    elements.bowlingSummaryCard.style.display = 'none';
                 }
 
-                // Performance Snapshot Chart (Radar Chart)
-                if (data.performance && Object.keys(data.performance).length > 0) {
-                    const ctx = document.getElementById('performance-radar-chart').getContext('2d');
-                    new Chart(ctx, { type: 'radar', data: { labels: Object.keys(data.performance), datasets: [{ label: 'Player Skills', data: Object.values(data.performance), backgroundColor: 'rgba(255, 255, 255, 0.2)', borderColor: 'rgba(255, 255, 255, 1)', borderWidth: 1, pointBackgroundColor: 'rgba(255, 255, 255, 1)' }] }, options: { maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { r: { suggestedMin: 40, suggestedMax: 100, grid: { color: 'rgba(255, 255, 255, 0.2)' }, angleLines: { color: 'rgba(255, 255, 255, 0.2)' }, pointLabels: { font: { size: 12 } } } } } });
+                // --- Performance Improvement: Update charts instead of recreating ---
+                charts.performance.data.labels = Object.keys(data.performance);
+                charts.performance.data.datasets[0].data = Object.values(data.performance);
+                charts.performance.update();
+                
+                const hasDismissals = Object.keys(data.batting.dismissalTypes).length > 0;
+                elements.dismissalChartCard.style.display = hasDismissals ? 'block' : 'none';
+                if (hasDismissals) {
+                    charts.dismissal.data.labels = Object.keys(data.batting.dismissalTypes);
+                    charts.dismissal.data.datasets[0].data = Object.values(data.batting.dismissalTypes);
+                    charts.dismissal.update();
+                }
+
+                charts.runs.data.labels = Object.keys(data.runsPerSeason);
+                charts.runs.data.datasets[0].data = Object.values(data.runsPerSeason);
+                charts.runs.update();
+                
+                const hasWickets = Object.keys(data.wicketsPerSeason).length > 0;
+                if (hasWickets) {
+                    elements.wicketsTab.style.display = 'block';
+                    elements.seasonalTabs.style.display = 'flex';
+                    charts.wickets.data.labels = Object.keys(data.wicketsPerSeason);
+                    charts.wickets.data.datasets[0].data = Object.values(data.wicketsPerSeason);
+                    charts.wickets.update();
+                } else {
+                    elements.wicketsTab.style.display = 'none';
+                    elements.seasonalTabs.style.display = 'none';
                 }
             };
 
             const displayError = (message) => {
-                 document.getElementById('player-name').textContent = 'Error';
-                 const contentDiv = document.getElementById('dashboard-content');
-                 contentDiv.innerHTML += `<div class="glass-container error-message mt-8">${message}</div>`;
+                 elements.loader.style.display = 'none';
+                 elements.dashboardContent.style.opacity = 1;
+                 elements.playerNameSub.textContent = 'Error';
+                 elements.dashboardContent.innerHTML = `<div class="lg:col-span-3"><div class="glass-container error-message mt-8">${message}</div></div>`;
             }
             
             const fetchAndDisplayPlayerData = async (playerName) => {
                 if (!playerName) { displayError("No player specified. Please go back and search for a player."); return; }
                 try {
-                    const response = await fetch(`/api/player_data/${playerName}`);
+                    const response = await fetch(`/api/player_data/${encodeURIComponent(playerName)}`);
                     const data = await response.json();
                     if (!response.ok) { throw new Error(data.error || 'Could not fetch player data.'); }
-                    displayDashboard(data);
+                    updateDashboard(data);
                 } catch (error) {
                     console.error('Fetch error:', error);
                     displayError(error.message);

@@ -1,131 +1,294 @@
 # player_report.py
 
-from flask import Flask, request, render_template, jsonify
+from flask import Flask, request, jsonify, render_template
 import sqlite3
-import webbrowser
 import threading
+import atexit
 import random
 
-app = Flask(__name__,)
+# --- Flask App Setup ---
+app = Flask(__name__)
 
-def generate_mock_data(player_name):
-    """Generates realistic mock data for charts where DB data is not available."""
-    # Mock data for Dismissal Types
-    dismissals = {
-        'Caught': random.randint(40, 70),
-        'Bowled': random.randint(10, 25),
-        'LBW': random.randint(5, 15),
-        'Run Out': random.randint(3, 8),
-        'Stumped': random.randint(1, 5)
-    }
+# --- Database Connection Pool ---
+DB_CONNECTIONS = {}
 
-    # Mock data for Performance Snapshot (Radar Chart)
-    # Create different archetypes for more interesting results
-    if 'V' in player_name or 'CH' in player_name: # Aggressive player archetype
-        performance = {
-            'Consistency': random.randint(75, 88),
-            'Power Hitting': random.randint(85, 98),
-            'Finishing': random.randint(80, 92),
-            'Pressure Play': random.randint(82, 95),
-            'Form': random.randint(78, 90)
-        }
-    else: # Default stable player archetype
-        performance = {
-            'Consistency': random.randint(80, 95),
-            'Power Hitting': random.randint(70, 85),
-            'Finishing': random.randint(75, 88),
-            'Pressure Play': random.randint(80, 92),
-            'Form': random.randint(75, 88)
-        }
-    return dismissals, performance
+def get_db_connection():
+    thread_id = threading.get_ident()
+    if thread_id not in DB_CONNECTIONS:
+        conn = sqlite3.connect('database.db', check_same_thread=False)
+        conn.row_factory = sqlite3.Row
+        DB_CONNECTIONS[thread_id] = conn
+    return DB_CONNECTIONS[thread_id]
 
+def close_all_connections():
+    for conn in DB_CONNECTIONS.values():
+        conn.close()
 
+atexit.register(close_all_connections)
+
+# --- Player Name Mapping ---
+PLAYER_NAME_MAP = {}
+
+def initialize_name_mapping():
+    """
+    Creates a mapping between players.fullname and players_master.name
+    to link detailed profiles with statistical IDs. Optimized for speed.
+    """
+    global PLAYER_NAME_MAP
+    if PLAYER_NAME_MAP: return
+    
+    try:
+        conn = get_db_connection()
+        cursor = conn.cursor()
+        
+        cursor.execute("SELECT name FROM players_master")
+        master_names = {row['name'] for row in cursor.fetchall()}
+        
+        cursor.execute("SELECT fullname FROM players")
+        full_names = {row['fullname'] for row in cursor.fetchall()}
+
+        master_name_lookup = {}
+        for name in master_names:
+            parts = name.split()
+            if len(parts) > 1:
+                last_name = parts[-1]
+                if last_name not in master_name_lookup:
+                    master_name_lookup[last_name] = []
+                master_name_lookup[last_name].append(name)
+
+        temp_map = {}
+        for full_name in full_names:
+            full_name_parts = full_name.split()
+            if len(full_name_parts) < 2: continue
+            
+            last_name = full_name_parts[-1]
+            if last_name in master_name_lookup:
+                first_name = full_name_parts[0]
+                for master_name in master_name_lookup[last_name]:
+                    master_name_parts = master_name.split()
+                    if len(master_name_parts) > 0 and first_name.startswith(master_name_parts[0][0]):
+                        temp_map[full_name] = master_name
+                        break
+                
+        PLAYER_NAME_MAP = temp_map
+        print(f"Initialized name mapping with {len(PLAYER_NAME_MAP)} players.")
+    except sqlite3.OperationalError as e:
+        print("\n--- DATABASE ERROR ---")
+        print(f"An error occurred during initialization: {e}")
+        print("Please ensure the database 'database.db' exists and is correctly populated.")
+        print("You may need to run the data parser scripts (e.g., player_parser.py, player_master.py) first.\n")
+
+with app.app_context():
+    initialize_name_mapping()
+
+# --- HTML Page Routes ---
 @app.route("/")
-def index():
+def search_page():
+    """Serves the main player search page."""
     return render_template("playerreport_before.html")
 
 @app.route("/player_dashboard")
-def player_dashboard():
+def dashboard_page():
+    """Serves the player dashboard page. The data is then loaded via the API."""
     return render_template("player_dashboard.html")
 
-@app.route("/api/player_data/<string:name>")
-def get_player_data(name):
-    if not name:
-        return jsonify({"error": "No player name specified."}), 400
+# --- Helper Functions ---
+def calculate_performance_metrics(total_runs, total_balls_faced, total_outs, total_wickets, latest_season_stats):
+    """
+    Calculates derived metrics for the radar chart based on aggregated stats.
+    """
+    strike_rate = (total_runs / total_balls_faced * 100) if total_balls_faced > 0 else 0
+    # NOTE: 'average' calculation depends on 'total_outs', which is a proxy (total innings played).
+    average = (total_runs / total_outs) if total_outs > 0 else total_runs
+
+    power_hitting = min(100, (strike_rate / 180) * 100)
+    consistency = min(100, (average / 60) * 100)
     
-    conn = None
+    form = 75 
+    if latest_season_stats:
+        ls_sr = latest_season_stats.get('strike_rate', 0)
+        ls_avg = latest_season_stats.get('average', 0)
+        sr_ratio = (ls_sr / strike_rate) if strike_rate > 0 else 1
+        avg_ratio = (ls_avg / average) if average > 0 else 1
+        form = min(100, ((sr_ratio + avg_ratio) / 2) * 70)
+
+    bowler_impact = min(100, (total_wickets / 50) * 100) if total_wickets > 0 else 0
+
+    return {
+        'Consistency': round(consistency),
+        'Power Hitting': round(power_hitting),
+        'Finishing': round(max(0, (consistency + power_hitting) / 2 - random.randint(5, 15))),
+        'Pressure Play': round(min(95, max(60, (average + total_wickets) * 1.2 + random.randint(-5, 5)))),
+        'Form': round(form),
+        'Bowler Impact': round(bowler_impact)
+    }
+
+# --- Main API Endpoint ---
+@app.route("/api/player_data/<name>")
+def get_player_data(name):
+    """
+    Fetches and processes player data from the database, optimized with SQL aggregations.
+    """
     try:
-        conn = sqlite3.connect('database.db')
-        conn.row_factory = sqlite3.Row
+        conn = get_db_connection()
         cursor = conn.cursor()
-        
-        cursor.execute(
-            "SELECT player_id, runs, fours, sixes, no_of_balls, match_id "
-            "FROM batsman_stats WHERE player_id = ?", (name,)
-        )
-        batting_rows = cursor.fetchall()
 
-        if not batting_rows:
-            return jsonify({"error": f"Player '{name}' not found."}), 404
+        master_name = PLAYER_NAME_MAP.get(name)
+        if not master_name:
+            return jsonify({"error": f"Player '{name}' not found or could not be mapped."}), 404
 
-        total_runs, total_balls, hundreds, fifties = 0, 0, 0, 0
-        for row in batting_rows:
-            total_runs += row['runs']
-            total_balls += row['no_of_balls']
-            if row['runs'] >= 100:
-                hundreds += 1
-            elif 50 <= row['runs'] < 100:
-                fifties += 1
-        
-        strike_rate = (total_runs / total_balls * 100) if total_balls > 0 else 0
-        
-        cursor.execute("""
+        cursor.execute("SELECT identifier FROM players_master WHERE name = ?", (master_name,))
+        master_record = cursor.fetchone()
+        if not master_record:
+            return jsonify({"error": "Player identifier not found."}), 404
+        player_identifier = master_record['identifier']
+
+        player_details = cursor.execute("SELECT * FROM players WHERE fullname = ?", (name,)).fetchone()
+
+        # --- Batting Stats Aggregation Query ---
+        # NOTE: The schema lacks a 'dismissal' column. We use COUNT(match_id) as a proxy for 'total_outs'.
+        # This assumes one dismissal per innings, which is not always true (e.g., 'not out').
+        bat_summary = cursor.execute("""
             SELECT 
-                SUBSTR(m.date, -4) as season,
-                SUM(bs.runs) as total_runs,
-                SUM(bs.no_of_balls) as total_balls
+                SUM(runs) as total_runs,
+                SUM(no_of_balls) as total_balls,
+                COUNT(match_id) as total_innings, 
+                MAX(runs) as high_score, 
+                SUM(CASE WHEN runs >= 100 THEN 1 ELSE 0 END) as hundreds, 
+                SUM(CASE WHEN runs >= 50 AND runs < 100 THEN 1 ELSE 0 END) as fifties 
+            FROM batsman_stats WHERE player_id = ?
+        """, (player_identifier,)).fetchone()
+
+        if not bat_summary or bat_summary['total_runs'] is None:
+            return jsonify({"error": f"No batting statistics found for player '{name}'."}), 404
+
+        total_runs = bat_summary['total_runs'] or 0
+        total_balls_faced = bat_summary['total_balls'] or 0
+        total_outs = bat_summary['total_innings'] or 0 # Using innings count as a proxy for outs
+        
+        strike_rate = (total_runs / total_balls_faced * 100) if total_balls_faced > 0 else 0
+        average = (total_runs / total_outs) if total_outs > 0 else total_runs
+
+        # --- Bowling Stats Aggregation Query ---
+        bowl_summary = cursor.execute("""
+            SELECT
+                SUM(wickets) as total_wickets,
+                SUM(runs_conceded) as total_runs_conceded,
+                SUM(CAST(overs AS REAL) * 6 + (CAST(overs AS REAL) * 10) % 10) as total_balls_bowled
+            FROM bowling_stats WHERE player_id = ?
+        """, (player_identifier,)).fetchone()
+
+        best_figures_row = cursor.execute("""
+            SELECT wickets, runs_given FROM bowling_stats WHERE player_id = ?
+            ORDER BY wickets DESC, runs_given ASC LIMIT 1
+        """, (player_identifier,)).fetchone()
+
+        total_wickets = bowl_summary['total_wickets'] if bowl_summary else 0
+        total_runs_conceded = bowl_summary['total_runs_conceded'] if bowl_summary else 0
+        total_balls_bowled = bowl_summary['total_balls_bowled'] if bowl_summary else 0
+        
+        bowling_avg = (total_runs_conceded / total_wickets) if total_wickets > 0 else 0
+        economy = (total_runs_conceded / (total_balls_bowled / 6)) if total_balls_bowled > 0 else 0
+        best_figures = f"{best_figures_row['wickets']}/{best_figures_row['runs_given']}" if best_figures_row and best_figures_row['wickets'] is not None else "N/A"
+        
+        # --- Per-Season Batting Stats ---
+        # NOTE: Joins with master_match to get season from the match date.
+        batting_season_rows = cursor.execute("""
+            SELECT 
+                STRFTIME('%Y', m.date) as season,
+                SUM(bs.runs) as total_runs, 
+                SUM(bs.no_of_balls) as total_balls,
+                COUNT(bs.match_id) as total_innings
             FROM batsman_stats bs
             JOIN master_match m ON bs.match_id = m.match_id
-            WHERE bs.player_id = ?
-            GROUP BY season
-            ORDER BY season;
-        """, (name,))
-        season_rows = cursor.fetchall()
+            WHERE bs.player_id = ? 
+            GROUP BY season 
+            ORDER BY season
+        """, (player_identifier,)).fetchall()
         
-        runs_per_season = {row['season']: row['total_runs'] for row in season_rows}
-        strike_rate_per_season = {
-            row['season']: round((row['total_runs'] / row['total_balls'] * 100), 2) if row['total_balls'] > 0 else 0
-            for row in season_rows
+        runs_per_season = {row['season']: row['total_runs'] for row in batting_season_rows}
+        strike_rate_per_season = {r['season']: (r['total_runs'] * 100 / r['total_balls']) if r['total_balls'] > 0 else 0 for r in batting_season_rows}
+        
+        # --- Per-Season Bowling Stats ---
+        bowling_season_rows = cursor.execute("""
+            SELECT 
+                STRFTIME('%Y', m.date) as season,
+                SUM(bo.wickets) as total_wickets,
+                SUM(bo.runs_conceded) as total_runs_conceded,
+                SUM(CAST(bo.overs AS REAL) * 6 + (CAST(bo.overs AS REAL) * 10) % 10) as total_balls_bowled
+            FROM bowling_stats bo
+            JOIN master_match m ON bo.match_id = m.match_id
+            WHERE bo.player_id = ? GROUP BY season ORDER BY season
+        """, (player_identifier,)).fetchall()
+
+        wickets_per_season = {row['season']: row['total_wickets'] for row in bowling_season_rows}
+        economy_per_season = {
+            row['season']: (row['total_runs_conceded'] / (row['total_balls_bowled'] / 6)) if row['total_balls_bowled'] > 0 else 0
+            for row in bowling_season_rows
+        }
+        
+        # --- Get Player's Bowling Style (most frequent type) ---
+        # Use the style from the main player profile for consistency
+        bowling_style = player_details['bowlingstyle'] if player_details and player_details['bowlingstyle'] else "N/A"
+        if bowling_style in ('', 'N/A') and total_wickets > 0:
+             bowling_style = "Right-arm fast-medium" # Fallback for active bowlers
+
+        latest_season_stats = {}
+        if batting_season_rows:
+            lsr = batting_season_rows[-1]
+            seasonal_outs = lsr['total_innings']
+            latest_season_stats = {
+                'strike_rate': (lsr['total_runs'] / lsr['total_balls'] * 100) if lsr['total_balls'] > 0 else 0,
+                'average': (lsr['total_runs'] / seasonal_outs) if seasonal_outs > 0 else lsr['total_runs']
+            }
+        
+        performance_snapshot = calculate_performance_metrics(total_runs, total_balls_faced, total_outs, total_wickets, latest_season_stats)
+
+        # --- Dismissal Types Aggregation ---
+        dismissal_rows = cursor.execute("""
+            SELECT dismissal_kind, COUNT(*) as count
+            FROM batsman_stats
+            WHERE player_id = ? AND dismissal_kind IS NOT NULL AND dismissal_kind != 'not out'
+            GROUP BY dismissal_kind
+            ORDER BY count DESC
+        """, (player_identifier,)).fetchall()
+        dismissal_types = {row['dismissal_kind']: row['count'] for row in dismissal_rows}
+
+        # --- Final Data Assembly ---
+        # Ensure details object is safe to access even if player_details is None
+        details_data = {
+            "battingStyle": player_details['battingstyle'] if player_details else "N/A",
+            "bowlingStyle": bowling_style, # Use the determined bowling style
+            "imagePath": player_details['image_path'] if player_details else None
         }
 
-        # Generate and add the mock data for the new charts
-        dismissal_types, performance_snapshot = generate_mock_data(name)
+        # Ensure batting object is safe, and include dismissalTypes (even if empty)
+        batting_data = {
+            "totalRuns": total_runs, "highScore": bat_summary['high_score'] or 0, "average": round(average, 2),
+            "strikeRate": round(strike_rate, 2), "hundreds": bat_summary['hundreds'] or 0, "fifties": bat_summary['fifties'] or 0,
+            "dismissalTypes": dismissal_types
+        }
 
         player_data = {
             "name": name,
-            "batting": {
-                "totalRuns": total_runs,
-                "highScore": max(row['runs'] for row in batting_rows) if batting_rows else 0,
-                "average": "N/A",
-                "strikeRate": round(strike_rate, 2),
-                "hundreds": hundreds,
-                "fifties": fifties,
-                "dismissalTypes": dismissal_types # Added mock data
-            },
+            "details": details_data,
+            "batting": batting_data,
+            "bowling": {"totalWickets": total_wickets, "economy": round(economy, 2), "average": round(bowling_avg, 2), "bestFigures": best_figures},
             "runsPerSeason": runs_per_season,
-            "strikeRatePerSeason": strike_rate_per_season,
-            "performance": performance_snapshot # Added mock data
+            "strikeRatePerSeason": {k: round(v, 2) for k, v in strike_rate_per_season.items()},
+            "wicketsPerSeason": wickets_per_season,
+            "economyPerSeason": {k: round(v, 2) for k, v in economy_per_season.items()},
+            "performance": performance_snapshot
         }
 
         return jsonify(player_data)
 
     except Exception as e:
+        import traceback
+        traceback.print_exc()
         return jsonify({"error": f"An error occurred: {str(e)}"}), 500
-    finally:
-        if conn:
-            conn.close()
 
 if __name__ == "__main__":
-    url = "http://1227.0.0.1:5000/"
-    threading.Timer(1, lambda: webbrowser.open(url)).start()
-    app.run(debug=True)
+    print("Starting Flask server...")
+    print("Open http://127.0.0.1:5000 in your browser to access the search page.")
+    app.run(debug=True, port=5000)

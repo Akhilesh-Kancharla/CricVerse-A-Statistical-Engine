@@ -52,13 +52,12 @@ def get_venue_dashboard_data(venue_query):
     # 3. Calculate Toss Decision Outcomes
     bat_first_wins = 0
     field_first_wins = 0
-    for m in master_match:
-        # A team wins by batting first if their toss decision was 'bat' and they won,
-        # OR if their opponent's toss decision was 'field' and the opponent lost.
-        is_bat_first_win = (m['toss_desicion'] == 'bat' and m['toss_winner'] == m['winner']) or \
-                           (m['toss_desicion'] == 'field' and m['toss_winner'] != m['winner'])
-        if m['winner'] and 'tie' not in m['winner']:
-            if is_bat_first_win:
+    for match in master_match:
+        if match['winner'] and 'tie' not in match['winner']:
+            # Team batting first wins if they are the winner and chose to bat, OR the other team chose to field and lost.
+            won_batting_first = (match['toss_winner'] == match['winner'] and match['toss_desicion'] == 'bat') or \
+                                (match['toss_winner'] != match['winner'] and match['toss_desicion'] == 'field')
+            if won_batting_first:
                 bat_first_wins += 1
             else:
                 field_first_wins += 1
@@ -78,11 +77,11 @@ def get_venue_dashboard_data(venue_query):
 
     avg_1st_innings_season = {
         year: round(sum(data['first_innings']) / len(data['first_innings']))
-        for year, data in sorted(scores_by_season.items())
+        for year, data in sorted(scores_by_season.items()) if data['first_innings']
     }
     avg_2nd_innings_season = {
         year: round(sum(data['second_innings']) / len(data['second_innings']))
-        for year, data in sorted(scores_by_season.items())
+        for year, data in sorted(scores_by_season.items()) if data['second_innings']
     }
 
     # Assemble final data structure for the frontend
@@ -92,7 +91,7 @@ def get_venue_dashboard_data(venue_query):
             "avgFirstInnings": avg_first_innings,
             "avgSecondInnings": avg_second_innings,
             "highestScore": highest_score,
-            "master_matchPlayed": total_master_match
+            "matchesPlayed": total_master_match
         },
         "teamWins": dict(sorted(team_wins.items(), key=lambda item: item[1], reverse=True)),
         "tossDecision": {
@@ -139,4 +138,4 @@ if __name__ == "__main__":
     threading.Timer(1.25, lambda: webbrowser.open(url)).start()
     
     # Run the Flask app
-    app.run(debug=True, use_reloader=False)
+    app.run(debug=True, use_reloader=True)
