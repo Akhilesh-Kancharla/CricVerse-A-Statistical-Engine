@@ -1,13 +1,16 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CricVerse: Pressure Resistance Model</title>
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <title>CricVerse: Pressure Resistance Explorer</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: 'Inter', sans-serif;
@@ -24,7 +27,7 @@
             background-image: url('https://img.freepik.com/premium-photo/cricket-batting-pads-fielding-helmet-resting-beside_1247965-29138.jpg?semt=ais_hybrid&w=740');
             background-size: cover;
             background-position: center;
-            filter: grayscale(100%) brightness(0.6);
+            filter: grayscale(100%) brightness(0.5);
         }
         .bg-overlay {
             position: fixed;
@@ -32,229 +35,319 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-color: rgba(0, 0, 0, 0.6);
+            background-color: rgba(0, 0, 0, 0.7);
             z-index: -1;
         }
-        .glass-nav {
-            background-color: rgba(10, 10, 10, 0.5);
-            backdrop-filter: blur(12px);
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-        }
-        .glass-container {
-            background-color: rgba(25, 25, 25, 0.25);
-            backdrop-filter: blur(12px);
+        .glass-pane {
+            background-color: rgba(25, 25, 25, 0.4);
+            backdrop-filter: blur(20px);
             border: 1px solid rgba(255, 255, 255, 0.1);
             border-radius: 1rem;
-            padding: 2rem;
             box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            transition: all 0.3s ease;
         }
-        .animate-on-load {
+        .text-glow {
+            text-shadow: 0 0 8px rgba(59, 130, 246, 0.5), 0 0 20px rgba(59, 130, 246, 0.3);
+        }
+        /* Custom scrollbar */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: rgba(0,0,0,0.3); border-radius: 4px; }
+        ::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.2); border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: rgba(255, 255, 255, 0.4); }
+
+        .fade-in-up {
             opacity: 0;
-            transform: translateY(40px);
-            filter: blur(5px);
-            transition: opacity 0.8s ease-out, transform 0.8s ease-out, filter 0.8s ease-out;
+            transform: translateY(20px);
+            animation: fadeInUp 0.6s ease forwards;
         }
-        .animate-on-load.is-visible {
-            opacity: 1;
-            transform: translateY(0);
-            filter: blur(0);
-        }
-        .sortable {
-            cursor: pointer;
-            position: relative;
-            user-select: none;
-            transition: background-color 0.2s;
-        }
-        .sortable:hover {
-            background-color: rgba(255, 255, 255, 0.08);
-        }
-        .sortable .sort-arrow {
-            position: absolute;
-            right: 8px;
-            top: 50%;
-            transform: translateY(-50%);
-            opacity: 0.6;
-            transition: opacity 0.2s, transform 0.2s;
-        }
-        .sortable[data-sort-dir="desc"] .sort-arrow {
-            transform: translateY(-50%) rotate(180deg);
-        }
-        tbody tr {
-            transition: background-color 0.2s ease-in-out;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-        }
-        tbody tr:last-child {
-            border-bottom: none;
-        }
-        tbody tr:hover {
-            background-color: rgba(255, 255, 255, 0.05);
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
     </style>
 </head>
 <body class="antialiased">
-    
     <div id="bg-container"></div>
     <div class="bg-overlay"></div>
+    <div id="root"></div>
 
-    <header id="header" class="fixed top-0 left-0 right-0 z-50 glass-nav">
-        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="index.html" class="text-2xl font-bold tracking-tighter text-white">CricVerse</a>
-            <a href="index.html" class="text-gray-300 hover:text-white transition-colors">&larr; Back to Home</a>
-        </div>
-    </header>
+    <script type="text/babel">
+        const { useState, useEffect, useMemo, useRef } = React;
 
-    <main class="pt-32 pb-20">
-        <section id="prm-details" class="py-12 md:py-20">
-            <div class="container mx-auto px-6">
-                <div class="max-w-5xl mx-auto">
-                    <div class="text-center mb-12 animate-on-load">
-                        <h1 class="text-4xl md:text-5xl font-black tracking-tighter text-white">Pressure Resistance Model</h1>
-                        <p class="text-lg text-gray-400 max-w-3xl mx-auto mt-4">
-                            This model identifies players who thrive under pressure. The Pressure Resistance Score (PRS) is calculated by analyzing performance when the stakes are high—factoring in required run rate, balls left, and wickets in hand. A higher score indicates a more clutch player.
-                        </p>
+        const prmData = [
+            { id: 1, name: 'V Kohli', role: 'Batsman', batPrs: 92, bowlPrs: null, batBalls: 1250, bowlBalls: null },
+            { id: 2, name: 'YK Pathan', role: 'All-Rounder', batPrs: 85, bowlPrs: 65, batBalls: 880, bowlBalls: 450 },
+            { id: 3, name: 'YS Chahal', role: 'Bowler', batPrs: null, bowlPrs: 88, batBalls: null, bowlBalls: 910 },
+            { id: 4, name: 'UT Yadav', role: 'Bowler', batPrs: 45, bowlPrs: 78, batBalls: 150, bowlBalls: 820 },
+            { id: 5, name: 'Shubman Gill', role: 'Batsman', batPrs: 89, bowlPrs: null, batBalls: 950, bowlBalls: null },
+            { id: 6, name: 'SV Samson', role: 'Batsman', batPrs: 81, bowlPrs: null, batBalls: 780, bowlBalls: null },
+            { id: 7, name: 'TG Southee', role: 'Bowler', batPrs: 55, bowlPrs: 82, batBalls: 210, bowlBalls: 850 },
+            { id: 8, name: 'WP Saha', role: 'Batsman', batPrs: 75, bowlPrs: null, batBalls: 650, bowlBalls: null },
+            { id: 9, name: 'AB de Villiers', role: 'Batsman', batPrs: 95, bowlPrs: null, batBalls: 1100, bowlBalls: null },
+            { id: 10, name: 'CH Gayle', role: 'Batsman', batPrs: 91, bowlPrs: null, batBalls: 1300, bowlBalls: null },
+            { id: 11, name: 'MS Dhoni', role: 'Batsman', batPrs: 98, bowlPrs: null, batBalls: 1050, bowlBalls: null },
+            { id: 12, name: 'KA Pollard', role: 'All-Rounder', batPrs: 88, bowlPrs: 70, batBalls: 900, bowlBalls: 500 },
+            { id: 13, name: 'JJ Bumrah', role: 'Bowler', batPrs: null, bowlPrs: 96, batBalls: null, bowlBalls: 1150 },
+            { id: 14, name: 'SL Malinga', role: 'Bowler', batPrs: null, bowlPrs: 97, batBalls: null, bowlBalls: 1200 },
+            { id: 15, name: 'DJ Bravo', role: 'All-Rounder', batPrs: 70, bowlPrs: 85, batBalls: 550, bowlBalls: 1000 },
+            { id: 16, name: 'SP Narine', role: 'All-Rounder', batPrs: 60, bowlPrs: 91, batBalls: 400, bowlBalls: 1100 },
+            { id: 17, name: 'R Sharma', role: 'Batsman', batPrs: 88, bowlPrs: null, batBalls: 1180, bowlBalls: null },
+            { id: 18, name: 'S Raina', role: 'All-Rounder', batPrs: 86, bowlPrs: 60, batBalls: 920, bowlBalls: 300 },
+            { id: 19, name: 'G Gambhir', role: 'Batsman', batPrs: 82, bowlPrs: null, batBalls: 990, bowlBalls: null },
+            { id: 20, name: 'S Tendulkar', role: 'Batsman', batPrs: 94, bowlPrs: null, batBalls: 1500, bowlBalls: null },
+            { id: 21, name: 'A Kumble', role: 'Bowler', batPrs: null, bowlPrs: 90, batBalls: null, bowlBalls: 1300 },
+            { id: 22, name: 'Z Khan', role: 'Bowler', batPrs: null, bowlPrs: 87, batBalls: null, bowlBalls: 1050 },
+        ];
+
+        const fetchPlayersAPI = (filters) => {
+            return new Promise(resolve => {
+                setTimeout(() => {
+                    let filtered = [...prmData];
+                    if (filters.search) {
+                        filtered = filtered.filter(p => p.name.toLowerCase().includes(filters.search.toLowerCase()));
+                    }
+                    resolve(filtered);
+                }, 200);
+            });
+        };
+
+        const getArchetype = (player) => {
+            const { batPrs, bowlPrs, batBalls, bowlBalls } = player;
+            const totalExperience = (batBalls || 0) + (bowlBalls || 0);
+
+            if (batPrs > 90 && batPrs > (bowlPrs || 0)) return { type: "The Finisher", color: "bg-sky-500" };
+            if (bowlPrs > 90 && bowlPrs > (batPrs || 0)) return { type: "Death Specialist", color: "bg-red-500" };
+            if (batPrs > 80 && bowlPrs > 80) return { type: "Elite All-Rounder", color: "bg-emerald-500" };
+            if (batPrs > 70 && bowlPrs > 70) return { type: "Utility All-Rounder", color: "bg-green-500" };
+            if (totalExperience > 2000) return { type: "The Veteran", color: "bg-purple-500"};
+            return { type: "Developing Talent", color: "bg-gray-500"};
+        };
+        
+        const RadialGauge = ({ score, label, color, isWinner }) => {
+            const size = 120;
+            const strokeWidth = 12;
+            const radius = (size - strokeWidth) / 2;
+            const circumference = 2 * Math.PI * radius;
+            const offset = circumference - (score / 100) * circumference;
+
+            return (
+                <div className="flex flex-col items-center justify-center">
+                    <div className={`relative w-32 h-32 transition-transform duration-300 ${isWinner ? 'scale-110' : ''}`}>
+                        <svg className="w-full h-full" viewBox={`0 0 ${size} ${size}`}>
+                            <circle className="text-gray-700" stroke="currentColor" strokeWidth={strokeWidth} fill="transparent" r={radius} cx={size/2} cy={size/2} />
+                            <circle
+                                className={color}
+                                stroke="currentColor" strokeWidth={strokeWidth} strokeDasharray={circumference}
+                                strokeDashoffset={offset} strokeLinecap="round" fill="transparent"
+                                r={radius} cx={size/2} cy={size/2}
+                                style={{ transform: 'rotate(-90deg)', transformOrigin: '50% 50%', transition: 'stroke-dashoffset 0.8s ease-out, stroke 0.3s' }}
+                            />
+                        </svg>
+                        <span className={`absolute inset-0 flex items-center justify-center text-3xl font-bold transition-colors duration-300 ${isWinner ? 'text-white' : 'text-gray-300'}`}>{score || 0}</span>
                     </div>
+                    <p className="mt-2 text-sm font-semibold text-gray-300">{label}</p>
+                </div>
+            );
+        };
 
-                    <div class="glass-container animate-on-load" style="transition-delay: 150ms;">
-                        <div class="mb-6">
-                            <input type="text" id="player-search" class="w-full bg-gray-900/50 border border-gray-700 text-white text-sm rounded-lg focus:ring-white focus:border-white block p-3 placeholder-gray-400" placeholder="Search for a player...">
-                        </div>
-                        <div class="overflow-x-auto">
-                            <table class="w-full text-left text-gray-300">
-                                <thead class="text-xs text-white uppercase bg-white/5">
-                                    <tr>
-                                        <th scope="col" class="px-6 py-3 sortable" data-sort-dir="asc" data-column="0">Player Name <span class="sort-arrow">&darr;</span></th>
-                                        <th scope="col" class="px-6 py-3 text-center sortable" data-sort-dir="asc" data-column="1">Batting PRS <span class="sort-arrow">&darr;</span></th>
-                                        <th scope="col" class="px-6 py-3 text-center sortable" data-sort-dir="asc" data-column="2">Bowling PRS <span class="sort-arrow">&darr;</span></th>
-                                        <th scope="col" class="px-6 py-3 text-center sortable" data-sort-dir="asc" data-column="3">Balls Faced (Pressure) <span class="sort-arrow">&darr;</span></th>
-                                        <th scope="col" class="px-6 py-3 text-center sortable" data-sort-dir="asc" data-column="4">Balls Bowled (Pressure) <span class="sort-arrow">&darr;</span></th>
-                                    </tr>
-                                </thead>
-                                <tbody id="prm-table-body">
-                                    <!-- Rows will be dynamically inserted here by JavaScript -->
-                                </tbody>
-                            </table>
+        const FeaturedPlayer = ({ player, comparePlayer = null }) => {
+            if (!player) {
+                return (
+                    <div className="glass-pane w-full h-full flex items-center justify-center p-8 text-center min-h-[400px]">
+                        <div>
+                            <h2 className="text-2xl font-bold text-white">Select a Player</h2>
+                            <p className="text-gray-400 mt-2">Click a player to see their stats or toggle Compare Mode.</p>
                         </div>
                     </div>
+                );
+            }
 
-                    <div class="glass-container animate-on-load mt-12" style="transition-delay: 300ms;">
-                        <h2 class="text-2xl font-bold text-white mb-4">Understanding the Scores</h2>
-                        <div class="text-gray-300 space-y-4">
-                            <p><strong class="text-white">What is the Pressure Resistance Score (PRS)?</strong><br>The PRS is a specialized metric, scaled from 0 to 100, designed to measure a player's effectiveness and composure in high-stakes match situations. It moves beyond traditional averages to answer a critical question: "Who delivers when it matters most?" A high score indicates a player who not only maintains their performance under pressure but often elevates it, making them a reliable match-winner. Conversely, a lower score might suggest a player who struggles to make an impact when the game is on the line.</p>
-                            <p><strong class="text-white">How is the Score Calculated?</strong><br>Our model sifts through ball-by-ball data to identify specific "pressure scenarios." For a batsman, this could be the final overs of a tense run-chase with a high required run rate. For a bowler, this might involve bowling at the death or defending a small total against set batsmen. The algorithm then analyzes key performance indicators (KPIs) within these moments—such as strike rate and boundary frequency for batsmen, or economy rate and dot ball percentage for bowlers—and compares them against the player's baseline performance in non-pressure situations. The final score reflects how much better (or worse) a player performs when the pressure is on.</p>
-                             <p><strong class="text-white">How to Interpret and Use This Data</strong><br>This model provides a powerful lens for deeper analysis. For fantasy league managers, targeting players with a high PRS can be a game-changing strategy for captaincy choices in crucial matches. For analysts and fans, it helps identify underrated "clutch" players whose value isn't always captured by conventional stats. It allows you to look past a player's overall season average and see who truly has the mettle to perform in the moments that define a match.</p>
+            const archetype = getArchetype(player);
+            const compareArchetype = comparePlayer ? getArchetype(comparePlayer) : null;
+
+            const batWinner = comparePlayer ? ((player.batPrs || 0) > (comparePlayer.batPrs || 0) ? 'player1' : (player.batPrs || 0) < (comparePlayer.batPrs || 0) ? 'player2' : 'tie') : 'none';
+            const bowlWinner = comparePlayer ? ((player.bowlPrs || 0) > (comparePlayer.bowlPrs || 0) ? 'player1' : (player.bowlPrs || 0) < (comparePlayer.bowlPrs || 0) ? 'player2' : 'tie') : 'none';
+
+            const batColor = player.batPrs > 85 ? 'text-cyan-400' : player.batPrs > 70 ? 'text-green-400' : 'text-yellow-400';
+            const bowlColor = player.bowlPrs > 85 ? 'text-cyan-400' : player.bowlPrs > 70 ? 'text-green-400' : 'text-yellow-400';
+            
+            const compareBatColor = comparePlayer ? (comparePlayer.batPrs > 85 ? 'text-cyan-400' : comparePlayer.batPrs > 70 ? 'text-green-400' : 'text-yellow-400') : '';
+            const compareBowlColor = comparePlayer ? (comparePlayer.bowlPrs > 85 ? 'text-cyan-400' : comparePlayer.bowlPrs > 70 ? 'text-green-400' : 'text-yellow-400') : '';
+
+            return (
+                 <div className="glass-pane w-full h-full p-8 flex flex-col justify-between">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+                        {/* Player 1 Details */}
+                        <div className="text-center md:text-left">
+                            <h2 className="text-3xl lg:text-4xl font-black text-white text-glow tracking-tight">{player.name}</h2>
+                            <div className="flex items-center justify-center md:justify-start gap-2 mt-2">
+                                <span className={`px-3 py-1 text-xs font-semibold text-white rounded-full ${archetype.color}`}>{archetype.type}</span>
+                                <p className="text-md text-blue-300 font-semibold">{player.role}</p>
+                            </div>
+                        </div>
+                        {/* Player 2 Details or VS prompt */}
+                        <div className="text-center md:text-right">
+                             {comparePlayer ? (
+                                <>
+                                    <h2 className="text-3xl lg:text-4xl font-black text-white text-glow tracking-tight">{comparePlayer.name}</h2>
+                                    <div className="flex items-center justify-center md:justify-end gap-2 mt-2">
+                                        <span className={`px-3 py-1 text-xs font-semibold text-white rounded-full ${compareArchetype.color}`}>{compareArchetype.type}</span>
+                                        <p className="text-md text-blue-300 font-semibold">{comparePlayer.role}</p>
+                                    </div>
+                                </>
+                             ) : (
+                                <div className="hidden md:block text-gray-500">
+                                    <p className="font-bold text-lg">VS</p>
+                                    <p className="text-sm">Enable Compare Mode to select another player</p>
+                                </div>
+                             )}
+                        </div>
+                    </div>
+                    {/* Gauges */}
+                    <div className="grid grid-cols-2 gap-4 my-8">
+                        <div className="flex flex-col md:flex-row items-center justify-around gap-4">
+                            {player.batPrs !== null && <RadialGauge score={player.batPrs} label="Batting PRS" color={batColor} isWinner={batWinner === 'player1'} />}
+                            {player.bowlPrs !== null && <RadialGauge score={player.bowlPrs} label="Bowling PRS" color={bowlColor} isWinner={bowlWinner === 'player1'} />}
+                        </div>
+                         <div className="flex flex-col md:flex-row items-center justify-around gap-4 border-l border-white/10">
+                            {comparePlayer ? (
+                                <>
+                                    {comparePlayer.batPrs !== null && <RadialGauge score={comparePlayer.batPrs} label="Batting PRS" color={compareBatColor} isWinner={batWinner === 'player2'}/>}
+                                    {comparePlayer.bowlPrs !== null && <RadialGauge score={comparePlayer.bowlPrs} label="Bowling PRS" color={compareBowlColor} isWinner={bowlWinner === 'player2'}/>}
+                                </>
+                            ) : null}
+                        </div>
+                    </div>
+                    {/* Stats */}
+                    <div className="grid grid-cols-2 gap-4 text-center text-sm glass-pane bg-black/20 p-4">
+                         <div className="border-r border-white/10">
+                             <p className="text-gray-400">Pressure Balls Faced</p>
+                             <p className="font-bold text-xl text-white">{player.batBalls || 'N/A'}</p>
+                             <p className="text-gray-400 mt-2">Pressure Balls Bowled</p>
+                             <p className="font-bold text-xl text-white">{player.bowlBalls || 'N/A'}</p>
+                         </div>
+                         <div>
+                             <p className="text-gray-400">Pressure Balls Faced</p>
+                             <p className="font-bold text-xl text-white">{comparePlayer ? comparePlayer.batBalls || 'N/A' : '-'}</p>
+                             <p className="text-gray-400 mt-2">Pressure Balls Bowled</p>
+                             <p className="font-bold text-xl text-white">{comparePlayer ? comparePlayer.bowlBalls || 'N/A' : '-'}</p>
+                         </div>
+                     </div>
+                 </div>
+            );
+        };
+        
+        const PlayerCard = ({ player, onSelect, isSelected }) => {
+            const roleColor = player.role === 'Batsman' ? 'border-blue-500' : player.role === 'Bowler' ? 'border-red-500' : 'border-green-500';
+            return (
+                <div 
+                    onClick={() => onSelect(player)}
+                    className={`p-4 glass-pane flex items-center justify-between hover:border-blue-400 transition-all duration-200 cursor-pointer rounded-lg ${roleColor} border-l-4 ${isSelected ? 'bg-blue-500/30 border-blue-400' : 'border-transparent'}`}
+                >
+                    <div className="flex-grow">
+                        <p className="font-bold text-white truncate">{player.name}</p>
+                        <p className="text-xs text-gray-400">{player.role}</p>
+                    </div>
+                     <div className="flex gap-4 text-xs">
+                        <div className="text-center w-12">
+                            <p className="text-gray-400">BAT</p>
+                            <p className="font-semibold text-lg text-white">{player.batPrs || '-'}</p>
+                        </div>
+                        <div className="text-center w-12">
+                            <p className="text-gray-400">BOWL</p>
+                            <p className="font-semibold text-lg text-white">{player.bowlPrs || '-'}</p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-    </main>
-    
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            // Data extracted from database.db
-            const prmData = [
-                { name: 'V Kohli', batPrs: 92, bowlPrs: null, batBalls: 1250, bowlBalls: null },
-                { name: 'YK Pathan', batPrs: 85, bowlPrs: 65, batBalls: 880, bowlBalls: 450 },
-                { name: 'YS Chahal', batPrs: null, bowlPrs: 88, batBalls: null, bowlBalls: 910 },
-                { name: 'UT Yadav', batPrs: 45, bowlPrs: 78, batBalls: 150, bowlBalls: 820 },
-                { name: 'Shubman Gill', batPrs: 89, bowlPrs: null, batBalls: 950, bowlBalls: null },
-                { name: 'SV Samson', batPrs: 81, bowlPrs: null, batBalls: 780, bowlBalls: null },
-                { name: 'TG Southee', batPrs: 55, bowlPrs: 82, batBalls: 210, bowlBalls: 850 },
-                { name: 'WP Saha', batPrs: 75, bowlPrs: null, batBalls: 650, bowlBalls: null },
-                { name: 'AB de Villiers', batPrs: 95, bowlPrs: null, batBalls: 1100, bowlBalls: null },
-                { name: 'CH Gayle', batPrs: 91, bowlPrs: null, batBalls: 1300, bowlBalls: null },
-                { name: 'MS Dhoni', batPrs: 98, bowlPrs: null, batBalls: 1050, bowlBalls: null },
-                { name: 'KA Pollard', batPrs: 88, bowlPrs: 70, batBalls: 900, bowlBalls: 500 },
-                { name: 'JJ Bumrah', batPrs: null, bowlPrs: 96, batBalls: null, bowlBalls: 1150 },
-                { name: 'SL Malinga', batPrs: null, bowlPrs: 97, batBalls: null, bowlBalls: 1200 },
-                { name: 'DJ Bravo', batPrs: 70, bowlPrs: 85, batBalls: 550, bowlBalls: 1000 },
-                { name: 'SP Narine', batPrs: 60, bowlPrs: 91, batBalls: 400, bowlBalls: 1100 }
-            ];
+            );
+        };
+        
+        const App = () => {
+            const [players, setPlayers] = useState([]);
+            const [loading, setLoading] = useState(true);
+            const [comparisonPlayers, setComparisonPlayers] = useState([]);
+            const [isCompareMode, setCompareMode] = useState(false);
+            const [search, setSearch] = useState('');
 
-            const tableBody = document.getElementById('prm-table-body');
-            
-            const populateTable = (data) => {
-                tableBody.innerHTML = ''; // Clear existing rows
-                data.forEach(player => {
-                    const row = document.createElement('tr');
-                    row.innerHTML = `
-                        <td class="px-6 py-4 font-medium text-white">${player.name}</td>
-                        <td class="px-6 py-4 text-center">${player.batPrs !== null ? player.batPrs : '-'}</td>
-                        <td class="px-6 py-4 text-center">${player.bowlPrs !== null ? player.bowlPrs : '-'}</td>
-                        <td class="px-6 py-4 text-center">${player.batBalls !== null ? player.batBalls : '-'}</td>
-                        <td class="px-6 py-4 text-center">${player.bowlBalls !== null ? player.bowlBalls : '-'}</td>
-                    `;
-                    tableBody.appendChild(row);
-                });
-            };
-
-            populateTable(prmData);
-
-            const animatedElements = document.querySelectorAll('.animate-on-load');
-            setTimeout(() => {
-                animatedElements.forEach(el => {
-                    el.classList.add('is-visible');
-                });
-            }, 100);
-
-            const searchInput = document.getElementById('player-search');
-            
-            const filterTable = () => {
-                const filter = searchInput.value.toLowerCase();
-                const rows = tableBody.getElementsByTagName('tr');
-                for (let i = 0; i < rows.length; i++) {
-                    let cells = rows[i].getElementsByTagName('td');
-                    let playerName = cells[0].textContent || cells[0].innerText;
-                    if (playerName.toLowerCase().indexOf(filter) > -1) {
-                        rows[i].style.display = "";
-                    } else {
-                        rows[i].style.display = "none";
+            useEffect(() => {
+                setLoading(true);
+                fetchPlayersAPI({ search }).then(data => {
+                    setPlayers(data);
+                    if (comparisonPlayers.length === 0 && data.length > 0) {
+                        setComparisonPlayers([data.find(p => p.name === 'MS Dhoni') || data[0]]);
                     }
+                    setLoading(false);
+                });
+            }, [search]);
+            
+            const handlePlayerSelect = (player) => {
+                if (isCompareMode) {
+                    setComparisonPlayers(prev => {
+                        if (prev.find(p => p.id === player.id)) return prev; // Already selected
+                        const newSelection = [...prev, player];
+                        return newSelection.slice(-2); // Keep only the last 2 selected
+                    });
+                } else {
+                    setComparisonPlayers([player]);
+                }
+            };
+            
+            const toggleCompareMode = () => {
+                setCompareMode(!isCompareMode);
+                if (isCompareMode && comparisonPlayers.length > 1) {
+                    setComparisonPlayers([comparisonPlayers[0]]); // Keep only the first player when exiting compare mode
                 }
             };
 
-            searchInput.addEventListener('keyup', filterTable);
+            const selectedIds = useMemo(() => new Set(comparisonPlayers.map(p => p.id)), [comparisonPlayers]);
 
-            const sortTable = (columnIndex) => {
-                const header = document.querySelector(`.sortable[data-column='${columnIndex}']`);
-                const sortDir = header.getAttribute('data-sort-dir');
-                const isAsc = sortDir === 'asc';
-                const rowsArray = Array.from(tableBody.getElementsByTagName('tr'));
-
-                rowsArray.sort((rowA, rowB) => {
-                    const cellA = rowA.getElementsByTagName('td')[columnIndex].innerText.trim();
-                    const cellB = rowB.getElementsByTagName('td')[columnIndex].innerText.trim();
-
-                    const valA = isNaN(parseFloat(cellA)) || cellA === '-' ? (isAsc ? -Infinity : Infinity) : parseFloat(cellA);
-                    const valB = isNaN(parseFloat(cellB)) || cellB === '-' ? (isAsc ? -Infinity : Infinity) : parseFloat(cellB);
+            return (
+                <div className="min-h-screen p-6 md:p-12 flex flex-col">
+                    <header className="text-center mb-12 fade-in-up">
+                        <h1 className="text-4xl md:text-5xl font-black tracking-tighter text-white">Pressure Resistance Explorer</h1>
+                        <p className="text-lg text-gray-400 max-w-3xl mx-auto mt-2">
+                           Select one player for an overview, or activate Compare Mode to see two players head-to-head.
+                        </p>
+                    </header>
                     
-                    if (columnIndex === 0) { // Player name column
-                         return cellA.localeCompare(cellB) * (isAsc ? 1 : -1);
-                    } else { // Numeric columns
-                        if (valA > valB) return isAsc ? 1 : -1;
-                        if (valA < valB) return isAsc ? -1 : 1;
-                        return 0;
-                    }
-                });
-                
-                rowsArray.forEach(row => tableBody.appendChild(row));
+                    <main className="flex-grow flex flex-col gap-12">
+                        <div className="fade-in-up" style={{animationDelay: '150ms'}}>
+                             <FeaturedPlayer player={comparisonPlayers[0]} comparePlayer={comparisonPlayers[1]} />
+                        </div>
+                        <div className="flex flex-col gap-4 fade-in-up" style={{animationDelay: '300ms'}}>
+                             <div className="flex gap-4">
+                                <input
+                                    type="text" value={search} onChange={(e) => setSearch(e.target.value)}
+                                    placeholder="Search players..."
+                                    className="w-full bg-black/30 glass-pane border-transparent focus:border-blue-500 focus:ring-0 rounded-lg p-3 placeholder-gray-400"
+                                />
+                                 <button onClick={toggleCompareMode} className={`px-4 py-2 rounded-lg font-semibold transition-colors ${isCompareMode ? 'bg-blue-600 text-white' : 'bg-white/10 hover:bg-white/20'}`}>
+                                     {isCompareMode ? 'Comparing' : 'Compare'}
+                                 </button>
+                             </div>
+                            <div className="glass-pane flex-grow p-6">
+                               {loading ? ( <div className="text-center py-10 text-gray-400">Loading...</div> ) : (
+                                   <div className="space-y-3 max-h-[40vh] overflow-y-auto pr-2">
+                                       {players.map(player => (
+                                           <PlayerCard 
+                                               key={player.id} player={player} onSelect={handlePlayerSelect}
+                                               isSelected={selectedIds.has(player.id)}
+                                           />
+                                       ))}
+                                   </div>
+                               )}
+                            </div>
+                        </div>
+                    </main>
+                </div>
+            );
+        };
 
-                document.querySelectorAll('.sortable').forEach(h => {
-                    if (h !== header) {
-                        h.setAttribute('data-sort-dir', 'asc');
-                    }
-                });
-                header.setAttribute('data-sort-dir', isAsc ? 'desc' : 'asc');
-            };
-
-            document.querySelectorAll('.sortable').forEach(header => {
-                header.addEventListener('click', () => {
-                    sortTable(header.getAttribute('data-column'));
-                });
-            });
-        });
+        const container = document.getElementById('root');
+        const root = ReactDOM.createRoot(container);
+        root.render(<App />);
     </script>
 </body>
 </html>
-
-
