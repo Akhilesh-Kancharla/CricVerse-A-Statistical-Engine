@@ -8,10 +8,10 @@
     <!-- Application Structure Plan: A creative 404 error page that maintains brand consistency. The structure is simple: a full-screen background with a central, focused "glass" container delivering the error message in a theme-appropriate, cricket-centric way. The primary goal is to handle a user error gracefully and provide a clear path back to the homepage. -->
     <!-- Visualization & Content Choices: Report Info -> N/A (Error Page). Goal -> Inform the user of a broken link creatively. Viz/Presentation Method -> Large typography and a clear call-to-action button within a glassmorphism container. The messaging uses cricket terminology ("Stumped") to be memorable and on-brand. Interaction -> A single button to navigate home. Library/Method -> Vanilla JS for animations; Tailwind CSS for styling. -->
     <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="{{ url_for('static', filename='js/page404.js') }}"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/page404.css') }}" rel="stylesheet">
     <style>
         body {
             font-family: 'Inter', sans-serif;
@@ -25,7 +25,7 @@
             width: 100%;
             height: 100%;
             z-index: -2;
-            background-image: url('https://img.freepik.com/premium-photo/cricket-batting-pads-fielding-helmet-resting-beside_1247965-29138.jpg?semt=ais_hybrid&w=740');
+            background-image: url("{{ url_for('static', filename='images/bg.jpg') }}");
             background-size: cover;
             background-position: center;
             filter: grayscale(100%) brightness(0.5);
