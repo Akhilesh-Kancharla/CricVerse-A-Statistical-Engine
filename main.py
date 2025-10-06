@@ -73,7 +73,7 @@ def index():
 @app.route("/player-report")
 def player_search_page():
     """Serves the main player search page."""
-    return render_template("playerreport_before.html")
+    return render_template("player-search.html")
 
 @app.route("/player_dashboard")
 def player_dashboard_page():
@@ -314,7 +314,7 @@ def get_prm_data():
 @app.route("/venue-report")
 def venue_search_page():
     """Renders the main search page."""
-    return render_template("venue_before.html")
+    return render_template("venue-search.html")
 
 @app.route("/report")
 def venue_report():
