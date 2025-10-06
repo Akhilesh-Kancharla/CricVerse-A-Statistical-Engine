@@ -3,7 +3,7 @@ import csv
 
 # --- Configuration ---
 DB_FILE = "database.db"
-CSV_FILE = "names.csv"
+CSV_FILE = "Data/names.csv"
 
 def create_players_master_table():
     """

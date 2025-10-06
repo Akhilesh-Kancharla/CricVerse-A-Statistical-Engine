@@ -3,7 +3,7 @@ import yaml
 import os
 
 # Specify the target directory (replace with the full path of your directory)
-target_directory = 'Matches'
+target_directory = 'Data/Matches'
 
 #reads the files safely
 def read(address):

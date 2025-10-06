@@ -56,7 +56,7 @@ def main():
     )
     
     args = parser.parse_args()
-    args.path = "Matches"
+    args.path = "Data/Matches"
     # Find YAML files
     yaml_files = find_yaml_files(args.path)
     

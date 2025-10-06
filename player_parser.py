@@ -3,7 +3,7 @@ import yaml
 
 # --- Configuration ---
 DB_FILE = "database.db"
-YAML_FILE = "player.yaml"
+YAML_FILE = "Data/player.yaml"
 
 def create_players_table():
     """
