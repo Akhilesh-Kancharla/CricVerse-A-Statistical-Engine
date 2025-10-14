@@ -16,7 +16,6 @@ Table of contents
 - Contributing & license
 
 ## 📂 Project Structure
-- Replaced with a more complete and accurate layout that reflects files present in the repository
 ```
 CricVerse/
 ├── main.py                          # Flask application + API endpoints (web UI & APIs)
