@@ -451,7 +451,5 @@ def page_not_found(e):
     """Serves the 404 page."""
     return render_template('page404.html'), 404
 
-if __name__ == "__main__":
-    url = "http://127.0.0.1:5000"
-    threading.Timer(1.25, lambda: webbrowser.open(url)).start()
-    app.run(debug=True, use_reloader=True, port=5000)
+# The Flask app instance 'app' is the entry point Vercel needs.
+# The server is started by Vercel's environment, so no need for app.run() here.
