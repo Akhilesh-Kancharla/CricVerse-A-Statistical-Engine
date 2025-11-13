@@ -1,14 +1,11 @@
 import sqlite3
-import threading
-import webbrowser
 from flask import Flask, request, jsonify, render_template, redirect, url_for, g
 
 # --- Flask App Setup ---
 app = Flask(__name__)
 
 # --- Database Connection Management (Idiomatic Flask Pattern) ---
-# This is the new, recommended way to handle connections.
-# It ensures one connection is opened per request and closed automatically.
+# Ensures one connection is opened per request and closed automatically.
 
 def get_db_connection():
     """
@@ -16,6 +13,7 @@ def get_db_connection():
     current application context.
     """
     if 'db' not in g:
+        # check_same_thread=False is crucial for multi-threaded environments like Vercel serverless functions.
         g.db = sqlite3.connect('database.db', check_same_thread=False)
         g.db.row_factory = sqlite3.Row
     return g.db
@@ -34,11 +32,14 @@ def initialize_name_mapping():
     """
     Creates a mapping between players.fullname and players_master.name
     by performing an optimized join in the database.
+    This runs lazily—only once per process instance, when first called.
     """
     global PLAYER_NAME_MAP
-    if PLAYER_NAME_MAP: return
+    if PLAYER_NAME_MAP: 
+        return
 
     try:
+        # This connection is created when the function is called during a request
         conn = get_db_connection()
         cursor = conn.cursor()
 
@@ -54,14 +55,13 @@ def initialize_name_mapping():
         print(f"Initialized name mapping with {len(PLAYER_NAME_MAP)} players.")
 
     except sqlite3.OperationalError as e:
+        # Vercel will likely still crash if the file is missing, but this handles simple errors gracefully.
         print("\n--- DATABASE ERROR ---")
         print(f"An error occurred during initialization: {e}")
-        print("Please ensure the database 'database.db' exists and is correctly populated.")
-        print("You may need to run the data parser scripts first.\n")
+        print("Please ensure the database 'database.db' exists and is correctly populated and committed to Git.\n")
+    except Exception as e:
+        print(f"General error during initialization: {e}")
 
-# Run initialization within the application context
-#with app.app_context():
-#    initialize_name_mapping()
 
 # --- Main Page ---
 @app.route("/")
@@ -117,6 +117,9 @@ def get_player_data(name):
     """
     Fetches and processes player data from the database, optimized with SQL aggregations.
     """
+    # *** LAZY INITIALIZATION ADDED HERE ***
+    initialize_name_mapping() 
+    
     try:
         conn = get_db_connection()
         cursor = conn.cursor()
@@ -276,6 +279,9 @@ def get_prm_data():
     API endpoint to fetch Pressure Resistance Model (PRM) data from the database.
     Supports searching by player name and dynamically assigns a role.
     """
+    # *** LAZY INITIALIZATION ADDED HERE ***
+    initialize_name_mapping() 
+    
     try:
         conn = get_db_connection()
         cursor = conn.cursor()
@@ -333,6 +339,8 @@ def get_venue_dashboard_data(venue_query):
     """
     Fetches and processes all data for a given venue to populate the dashboard.
     """
+    # NOTE: initialize_name_mapping is not needed here as this function doesn't use PLAYER_NAME_MAP
+    
     conn = get_db_connection()
     
     cursor = conn.cursor()
@@ -340,7 +348,6 @@ def get_venue_dashboard_data(venue_query):
     result = cursor.fetchone()
     
     if not result:
-        # No need to close the connection here; Flask's teardown will handle it.
         return None
 
     venue_name = result['venue']
@@ -386,8 +393,7 @@ def get_venue_dashboard_data(venue_query):
     """, (venue_name,))
     
     bowling_styles = cursor.fetchall()
-    # <<-- THE PROBLEMATIC conn.close() LINE WAS REMOVED FROM HERE -->>
-
+    
     pace_wickets = 0
     spin_wickets = 0
     for style_row in bowling_styles:
@@ -450,6 +456,3 @@ def under_construction():
 def page_not_found(e):
     """Serves the 404 page."""
     return render_template('page404.html'), 404
-
-# The Flask app instance 'app' is the entry point Vercel needs.
-# The server is started by Vercel's environment, so no need for app.run() here.
