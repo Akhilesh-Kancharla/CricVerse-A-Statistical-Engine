@@ -60,8 +60,8 @@ def initialize_name_mapping():
         print("You may need to run the data parser scripts first.\n")
 
 # Run initialization within the application context
-with app.app_context():
-    initialize_name_mapping()
+#with app.app_context():
+#    initialize_name_mapping()
 
 # --- Main Page ---
 @app.route("/")
