@@ -1,4 +1,5 @@
 import sqlite3
+import os  # <--- ADDED: Essential for finding the database path on Vercel
 from flask import Flask, request, jsonify, render_template, redirect, url_for, g
 
 # --- Flask App Setup ---
@@ -9,12 +10,20 @@ app = Flask(__name__)
 
 def get_db_connection():
     """
-    Opens a new database connection if there is none yet for the
-    current application context.
+    Opens a new database connection using an ABSOLUTE PATH.
+    This fixes the issue where Vercel creates a new empty DB because it
+    cannot find the file in the current working directory.
     """
     if 'db' not in g:
-        # check_same_thread=False is crucial for multi-threaded environments like Vercel serverless functions.
-        g.db = sqlite3.connect('database.db', check_same_thread=False)
+        # 1. Get the directory where main.py is located
+        base_dir = os.path.dirname(os.path.abspath(__file__))
+        
+        # 2. Construct the full path to database.db
+        db_path = os.path.join(base_dir, 'database.db')
+
+        # 3. Connect using the full path
+        # check_same_thread=False is crucial for Vercel serverless functions.
+        g.db = sqlite3.connect(db_path, check_same_thread=False)
         g.db.row_factory = sqlite3.Row
     return g.db
 
